@@ -2,12 +2,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<?php include("includes/head-tag-contents.php");?>
+	<?php include("includes/head-tag.php");?>
 </head>
 <body>
 
-<?php include("includes/design-top.php");?>
-<?php include("includes/navigation.php");?>
+<?php include("includes/header.php");?>
+<?php include("includes/nav.php");?>
 <main>
 <section class="content">
   <div class="full-bleed cool-photo">
