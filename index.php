@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php include("includes/a_config.php");?>
 <!DOCTYPE html>
 <html>
@@ -19,3 +20,13 @@
 
 </body>
 </html>
+=======
+<?php
+
+echo "Hola mundo";
+echo "Ey";
+echo "Adrian";
+
+
+?>
+>>>>>>> parent of 5179e3c... actualización
