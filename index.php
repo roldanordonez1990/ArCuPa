@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php include("includes/a_config.php");?>
 <!DOCTYPE html>
 <html>
@@ -21,6 +22,8 @@
 </body>
 </html>
 =======
+=======
+>>>>>>> parent of 5179e3c... actualización
 <?php
 
 echo "Hola mundo";
@@ -28,5 +31,9 @@ echo "Ey";
 echo "Adrian";
 
 
+<<<<<<< HEAD
+?>
+>>>>>>> parent of 5179e3c... actualización
+=======
 ?>
 >>>>>>> parent of 5179e3c... actualización
