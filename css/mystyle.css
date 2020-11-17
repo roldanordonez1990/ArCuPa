@@ -1,11 +1,5 @@
-.header {
-  background: #AFE6FA;
-  color: white;
-  padding: 0.625em; }
+.bg-dark {
+  background-color: #AFE6FA !important; }
 
-.header .container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap; }
+header {
+  background-color: #AFE6FA; }
