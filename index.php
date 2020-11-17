@@ -5,6 +5,7 @@
 	<?php include("includes/MetaTags.php");?>
 </head>
 <body>
+<div class="container">
 
 <?php include("includes/header.php");?>
 <?php include("includes/navbar.php");?>
@@ -19,6 +20,6 @@
 </main>
 
 <?php include("includes/footer.php");?>
-
+</div>
 </body>
 </html>
