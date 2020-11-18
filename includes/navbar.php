@@ -17,10 +17,8 @@
       <li class="nav-item">
         <a class="nav-link" href="#">Disabled</a>
       </li>
-      <li class="nav item">
-          <!--Búsqueda-->
-  <div class="ml-auto"> 
-  <form class="form-inline" action="">
+      <li class="nav item ">
+  <form class="form-inline d-lg-none" action="">
     <input class="form-control m-2" type="text" placeholder="Search">
     <button class="btn btn-success fas fa-search" type="submit"></button>
   </form>
