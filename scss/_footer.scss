@@ -10,3 +10,16 @@ footer{
         
     
 }
+
+a:hover{
+        color: white;
+      }
+
+.iconos{
+        display: flex;
+        justify-content: center;
+}
+
+.rrss:hover {
+-webkit-transform:scale(1.2);transform:scale(1.2);
+}
