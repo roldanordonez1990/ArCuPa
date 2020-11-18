@@ -1,8 +1,12 @@
-header{
-    background-color:$color1;
+header {
+    background-color: $color1;
     width: 100%;
 }
-header nav a img{
+header nav a img {
     width: 75px;
-    
+}
+@media only screen and (max-width: 600px) {
+    header {
+        display: none;
+    }
 }
