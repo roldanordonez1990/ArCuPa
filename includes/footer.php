@@ -44,7 +44,7 @@
 
   <!-- Copyright -->
   <div class="text-center">
-     www.ArCupa.es - Servicio Web Meteorológico Oficial
+     www.arcupa.es - Servicio Web Meteorológico Oficial
     
   </div>
   <div class="text-center py-3">© 2020 Copyright:
