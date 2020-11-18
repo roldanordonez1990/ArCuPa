@@ -1,5 +1,12 @@
 .bg-dark {
   background-color: #AFE6FA !important; }
 
+.btn-success {
+  background-color: #F5B41B !important; }
+
 header {
-  background-color: #AFE6FA; }
+  background-color: #AFE6FA;
+  width: 100%; }
+
+header nav a img {
+  width: 75px; }

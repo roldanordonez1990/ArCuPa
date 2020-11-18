@@ -5,7 +5,7 @@
 	<?php include("includes/MetaTags.php");?>
 </head>
 <body>
-<div class="container">
+<div class="container-fluid p-0">
 
 <?php include("includes/header.php");?>
 <?php include("includes/navbar.php");?>
