@@ -1,0 +1,12 @@
+.bg-dark {
+    background-color: $color1 !important;
+}
+.btn-success {
+    background-color: $color4 !important;
+    border-color: black !important;
+    &.hover{
+        border-color: 7px solid #000000 !important;
+    }
+
+    //box-shadow: 2px 2px 2px rgba(255, 0, 0, 0.25) !important;
+}
