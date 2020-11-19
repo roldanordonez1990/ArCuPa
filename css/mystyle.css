@@ -11,7 +11,9 @@
   flex-wrap: wrap; }
 
 img {
-  width: 100px;
+  width: 100px; }
+
+.icono {
   display: flex;
   justify-content: center;
   align-items: center; }
