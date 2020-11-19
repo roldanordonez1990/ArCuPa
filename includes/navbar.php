@@ -1,11 +1,11 @@
-<nav class="navbar navbar-expand-lg navbar-dark primary-color">
+<nav class="navbar navbar-expand-md navbar-dark primary-color">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <a class="nav-link text-center d-lg-none"> <img src="../media/images/logoFinal.png" alt="Logo"></a>
+    <a class="nav-link text-center d-md-none"> <img src="../media/images/logoFinal.png" alt="Logo"></a>
 
-    <button type="button" class="btn btn-success d-lg-none" data-toggle="modal" data-target="#logoutModal"><i
+    <button type="button" class="btn btn-success d-md-none" data-toggle="modal" data-target="#logoutModal"><i
             class="fas fa-user pr-2"></i></button>
     <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
@@ -46,7 +46,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav w-100 justify-content-center">
             <li class="nav-item">
-                <form class="d-lg-none icono" action="">
+                <form class="d-md-none icono" action="">
                     <input class="form-control m-2" type="text" placeholder="Search">
                     <button class="btn btn-success fas fa-search" type="submit"></button>
                 </form>
