@@ -1,5 +1,5 @@
 <!-- Footer -->
-<footer class="">
+<footer class="fixed">
 
   <!-- Footer Elements -->
   <div class="container">
@@ -10,27 +10,27 @@
       <!-- Grid column -->
       <div class="col-sm-12 py-4"> <!--con la clase py obtenemos el alto del div-->
       
-        <div class="iconos mb-4">
+        <div class="iconos mb-2">
 
           <!-- Facebook -->
           <a href="" class="rrss">
-            <i class="fab fa-facebook-f fa-lg mr-5 mt-1 fa-3x"> </i>
+            <i class="fab fa-facebook-f fa-lg mr-4 mt-1 fa-2x"> </i>
           </a>
           <!-- Twitter -->
           <a href="" class="rrss">
-            <i class="fab fa-twitter fa-lg mr-5 mt-1 fa-3x"> </i>
+            <i class="fab fa-twitter fa-lg mr-4 mt-1 fa-2x"> </i>
           </a>
           <!--Instagram-->
           <a href="" class="rrss">
-            <i class="fab fa-instagram fa-lg mr-5 mt-1 fa-3x"> </i>
+            <i class="fab fa-instagram fa-lg mr-4 mt-1 fa-2x"> </i>
           </a>
            <!--YouTube-->
            <a href="" class="rrss">
-           <i class="fab fa-youtube fa-lg mr-5 mt-1 fa-3x"></i>
+           <i class="fab fa-youtube fa-lg mr-4 mt-1 fa-2x"></i>
           </a>
           <!--Google-->
           <a href="" class="rrss">
-          <i class="fab fa-google-plus-g fa-lg mr-5 mt-1 fa-3x"></i>
+          <i class="fab fa-google-plus-g fa-lg mr-4 mt-1 fa-2x"></i>
           </a>
         </div>
       </div>
