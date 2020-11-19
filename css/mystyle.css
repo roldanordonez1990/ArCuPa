@@ -1,3 +1,23 @@
+
+.bg-dark {
+  background-color: #AFE6FA !important; }
+
+.btn-success {
+  background-color: #F5B41B !important;
+  border-color: black !important; }
+  .btn-success.hover {
+    border-color: 7px solid #000000 !important; }
+
+header {
+  background-color: #AFE6FA;
+  width: 100%; }
+
+header nav a img {
+  width: 75px; }
+
+body {
+  background-image: url("../media/images/fondo.jpg") !important; }
+
 .header {
   background: #AFE6FA;
   color: white;
@@ -35,3 +55,4 @@ a {
 div {
   font-family: 'Gotu', sans-serif;
   font-size: 14px; }
+
