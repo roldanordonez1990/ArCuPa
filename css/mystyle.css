@@ -10,6 +10,12 @@
   align-items: center;
   flex-wrap: wrap; }
 
+img {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
 footer {
   position: fixed;
   left: 0;

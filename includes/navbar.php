@@ -6,11 +6,8 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav w-100 justify-content-center">
-        <li class="nav item d-lg-none">
-          <!-- Logo -->
-          <a class="nav-link" href="../index.php">
+        <li class="nav item d-lg-none rounded">
                 <img src="../media/images/logoFinal.png" alt="Logo">
-            </a>
         </li>
    
           <li class="nav-item ">
