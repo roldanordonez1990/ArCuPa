@@ -10,7 +10,7 @@
       <!-- Grid column -->
       <div class="col-sm-12 py-4"> <!--con la clase py obtenemos el alto del div-->
       
-        <div class="iconos mb-2">
+        <div class="iconos mb-2 ml-4">
 
           <!-- Facebook -->
           <a href="" class="rrss">
