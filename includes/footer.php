@@ -14,23 +14,23 @@
 
           <!-- Facebook -->
           <a href="" class="rrss">
-            <i class="fab fa-facebook-f fa-lg mr-4 mt-1 fa-4x"> </i>
+            <i class="fab fa-facebook-f fa-lg mr-5 mt-1 fa-3x"> </i>
           </a>
           <!-- Twitter -->
           <a href="" class="rrss">
-            <i class="fab fa-twitter fa-lg mr-4 mt-1 fa-4x"> </i>
+            <i class="fab fa-twitter fa-lg mr-5 mt-1 fa-3x"> </i>
           </a>
           <!--Instagram-->
           <a href="" class="rrss">
-            <i class="fab fa-instagram fa-lg mr-4 mt-1 fa-4x"> </i>
+            <i class="fab fa-instagram fa-lg mr-5 mt-1 fa-3x"> </i>
           </a>
            <!--YouTube-->
            <a href="" class="rrss">
-           <i class="fab fa-youtube fa-lg mr-4 mt-1 fa-4x"></i>
+           <i class="fab fa-youtube fa-lg mr-5 mt-1 fa-3x"></i>
           </a>
           <!--Google-->
           <a href="" class="rrss">
-          <i class="fab fa-google-plus-g fa-lg mr-4 mt-1 fa-4x"></i>
+          <i class="fab fa-google-plus-g fa-lg mr-5 mt-1 fa-3x"></i>
           </a>
         </div>
       </div>
