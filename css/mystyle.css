@@ -2,9 +2,10 @@
   background-color: #AFE6FA !important; }
 
 .btn-success {
-  background-color: #F5B41B !important; }
-  .btn-success.focus {
-    border: 7px solid #000000 !important; }
+  background-color: #F5B41B !important;
+  border-color: black !important; }
+  .btn-success.hover {
+    border-color: 7px solid #000000 !important; }
 
 header {
   background-color: #AFE6FA;
@@ -13,6 +14,5 @@ header {
 header nav a img {
   width: 75px; }
 
-@media only screen and (max-width: 600px) {
-  header {
-    display: none; } }
+body {
+  background-image: url("../media/images/fondo.jpg") !important; }
