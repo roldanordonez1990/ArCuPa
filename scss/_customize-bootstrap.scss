@@ -4,7 +4,10 @@
 .btn-success {
     background-color: $color4 !important;
     border-color: black !important;
-    &.hover{
+    &:active{
+        background-color: $color4 !important;
+    }
+    &:hover{
         border-color: 7px solid #000000 !important;
     }
 

@@ -9,9 +9,9 @@
         <div class="ml-auto">
             <form class="form-inline" action="">
                 <input class="form-control m-2" type="text" placeholder="Buscar">
-                <button class="btn btn-success m-2" type="submit"><i class="fas fa-search p-1"></i></button>
+                <button class="btn btn-success py-2 px-3" type="submit"><i class="fas fa-search"></i></button>
                 <!--<a class="btn btn-outline-white btn-outline m-2" href="#"><i class="fa fa-user"></i> Login </a>-->
-                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#logoutModal"><i
+                <button type="button" class="btn btn-success py-2 px-3" data-toggle="modal" data-target="#logoutModal"><i
                         class="fas fa-user pr-2"></i>Login</button>
                 <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
                     aria-hidden="true">

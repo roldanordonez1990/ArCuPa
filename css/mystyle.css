@@ -1,11 +1,12 @@
-
 .bg-dark {
   background-color: #AFE6FA !important; }
 
 .btn-success {
   background-color: #F5B41B !important;
   border-color: black !important; }
-  .btn-success.hover {
+  .btn-success:active {
+    background-color: #F5B41B !important; }
+  .btn-success:hover {
     border-color: 7px solid #000000 !important; }
 
 header {
@@ -14,21 +15,6 @@ header {
 
 header nav a img {
   width: 75px; }
-
-body {
-  background-image: url("../media/images/fondo.jpg") !important; }
-
-.header {
-  background: #AFE6FA;
-  color: white;
-  padding: 0.625em; }
-
-.header .container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap; }
 
 img {
   width: 80px; }
@@ -64,3 +50,5 @@ div {
   font-family: 'Gotu', sans-serif;
   font-size: 14px; }
 
+body {
+  background-image: url("../media/images/fondo.jpg") !important; }
