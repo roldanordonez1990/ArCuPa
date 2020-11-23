@@ -52,22 +52,74 @@
                 </form>
             </li>
             <li class="nav-item ">
-                <a class="nav-link" href="#">Servicios</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Servicios</button>
+                    <div class="dropdown-content">
+                        <a href="#"><div class="dropdown">
+                    <button class="dropbtn">Observación</button>
+                    <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div></a>
+                        <a href="#"><div class="dropdown">
+                    <button class="dropbtn">Predicción</button>
+                    <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div></a>
+                    </div>
+                </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Mapas</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Mapas</button>
+                    <div class="dropdown-content">
+                        <a href="#">Frentes</a>
+                        <a href="#">Temperatura</a>
+                        <a href="#">Precipitación</a>
+                    </div>
+                </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Multimedia</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Multimedia</button>
+                    <div class="dropdown-content">
+                        <a href="#">Nubes y cielos</a>
+                        <a href="#">Videos</a>
+                        <a href="#">Paisajes</a>
+                    </div>
+                </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link " href="#">Avisos</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Avisos</button>
+                    <div class="dropdown-content">
+                        <a href="#">Nacionales</a>
+                        <a href="#">CCAA</a>
+                    </div>
+                </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link " href="#">Noticias</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Noticias</button>
+                    <div class="dropdown-content">
+                        <a href="#">Nacionales</a>
+                        <a href="#">Provinciales</a>
+                        <a href="#">Locales</a>
+                    </div>
+                </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link " href="#">Contactos</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Contacto</button>
+                    <div class="dropdown-content">
+                        <a href="#">Contactanos</a>
+                    </div>
+                </div>
             </li>
         </ul>
 
