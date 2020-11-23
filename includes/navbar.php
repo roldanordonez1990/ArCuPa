@@ -43,7 +43,7 @@
     </div>
 
 
-    <div class="collapse navbar-collapse" id="navbarNav">
+    <div class="collapse navbar-collapse bgcolor " id="navbarNav">
         <ul class="navbar-nav w-100 justify-content-center">
             <li class="nav-item">
                 <form class="d-lg-none icono" action="">
@@ -52,16 +52,22 @@
                 </form>
             </li>
             <li class="nav-item ">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#">Servicios <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#">Mapas</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link" href="#">Multimedia</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link " href="#">Disabled</a>
+                <a class="nav-link " href="#">Avisos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="#">Noticias</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="#">Contactos</a>
             </li>
         </ul>
 
