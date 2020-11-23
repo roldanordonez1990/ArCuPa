@@ -4,10 +4,8 @@
 .btn-warning {
   background-color: #F5B41B !important;
   border-color: black !important; }
-  .btn-warning:focus {
-    background-color: #F5B41B !important; }
 
-input:focus {
+#input_login input:focus {
   border: none !important;
   box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem #f5b41b !important; }
 
@@ -54,7 +52,7 @@ div {
 
 #login {
   background: linear-gradient(#AFE6FA, #25A1D1, #0054A5) !important;
-  display: fixed; }
+  display: block; }
 
 .login-block {
   float: left;
@@ -119,6 +117,10 @@ div {
   background: #F5B41B;
   color: #000;
   font-weight: 600; }
+
+#input_login:focus {
+  border: none !important;
+  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem #f5b41b !important; }
 
 body {
   background-image: url("../media/images/fondo.jpg") !important; }

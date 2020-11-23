@@ -4,14 +4,8 @@
 .btn-warning {
     background-color: $color4 !important;
     border-color: black !important;
-    &:active{
-        
-    }
-    &:focus{
-        background-color: $color4 !important;
-    }
 }
-input:focus{
+#input_login input:focus{
     border: none !important;
     box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgb(245, 180, 27) !important;
 }

@@ -1,6 +1,6 @@
 #login {
     background: linear-gradient($color1, $color2, $color3) !important;
-    display: fixed;
+    display: block;
 }
 
 .login-block {
@@ -69,4 +69,8 @@
     background: $color4;
     color: #000;
     font-weight: 600;
+}
+#input_login:focus {
+    border: none !important;
+    box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgb(245, 180, 27) !important;
 }
