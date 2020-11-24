@@ -43,85 +43,112 @@
     </div>
 
 
-    <div class="collapse navbar-collapse bgcolor " id="navbarNav">
+    <div class="collapse navbar-collapse " id="navbarNav">
         <ul class="navbar-nav w-100 justify-content-center">
-            <li class="nav-item">
-                <form class="d-lg-none icono" action="">
-                    <input class="form-control m-2" type="text" placeholder="Search">
-                    <button class="btn btn-success fas fa-search" type="submit"></button>
-                </form>
-            </li>
-            <li class="nav-item ">
                 <div class="dropdown">
-                    <button class="dropbtn">Servicios</button>
-                    <div class="dropdown-content">
-                        <a href="#"><div class="dropdown">
-                    <button class="dropbtn">Observación</button>
-                    <div class="dropdown-content">
-                        <a href="#">Link 1</a>
-                        <a href="#">Link 2</a>
-                        <a href="#">Link 3</a>
-                    </div>
-                </div></a>
-                        <a href="#"><div class="dropdown">
-                    <button class="dropbtn">Predicción</button>
-                    <div class="dropdown-content">
-                        <a href="#">Link 1</a>
-                        <a href="#">Link 2</a>
-                        <a href="#">Link 3</a>
-                    </div>
-                </div></a>
-                    </div>
+                    <button class="btn btn-dropdown-toggle" type="button" id="dropdownMenu1"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <label>Servicios</label>
+                    </button>
+                    <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+                        <li class="dropdown-submenu">
+                        <a class="test" tabindex="-1" href="#"><label>Observación</label> <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-submenu">
+                                <li class="dropdown-item"><a href="#"><label>Radar</label></a></li>
+                                <li class="dropdown-item"><a href="#"><label>Satélite</label></a></li>
+                                <li class="dropdown-item"><a href="#"><label>Rayos</label></a></li>
+                                <li class="dropdown-item"><a href="#"><label>Masas de aire</label></a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item" tabindex="-1" href="#"><label>Predicción</label><span class="caret"></a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-submenu">
+                                <li class="dropdown-item"><a href="#"><label>Municipio</label></a></li>
+                                <li class="dropdown-item"><a href="#"><label>Provincia</label></a></li>
+                                <li class="dropdown-item"><a href="#"><label>CCAA</label></a></li>
+                            </ul>
+                        </li>
+                    </ul>
                 </div>
-            </li>
-            <li class="nav-item">
+
+
                 <div class="dropdown">
-                    <button class="dropbtn">Mapas</button>
-                    <div class="dropdown-content">
-                        <a href="#">Frentes</a>
-                        <a href="#">Temperatura</a>
-                        <a href="#">Precipitación</a>
-                    </div>
+                    <button class="btn btn-dropdown-toggle" type="button" id="dropdownMenu1"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <label>Mapas</label>
+                    </button>
+                    <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item" tabindex="-1" href="#"><label>Frentes</label></a>
+                            <a class="dropdown-item" tabindex="-1" href="#"><label>Temperatura</label></a>
+                            <a class="dropdown-item" tabindex="-1" href="#"><label>Precipitación</label></a>
+                        </li>
+                    </ul>
                 </div>
-            </li>
-            <li class="nav-item">
+
                 <div class="dropdown">
-                    <button class="dropbtn">Multimedia</button>
-                    <div class="dropdown-content">
-                        <a href="#">Nubes y cielos</a>
-                        <a href="#">Videos</a>
-                        <a href="#">Paisajes</a>
-                    </div>
+                    <button class="btn btn-dropdown-toggle" type="button" id="dropdownMenu1"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <label>Multimedia</label>
+                    </button>
+                    <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item" tabindex="-1" href="#"><label>Nubes y cielos</label></a>
+                            <a class="dropdown-item" tabindex="-1" href="#"><label>Vídeos</label></a>
+                            <a class="dropdown-item" tabindex="-1" href="#"><label>Paisajes</label></a>
+                        </li>
+                    </ul>
                 </div>
-            </li>
-            <li class="nav-item">
+
                 <div class="dropdown">
-                    <button class="dropbtn">Avisos</button>
-                    <div class="dropdown-content">
-                        <a href="#">Nacionales</a>
-                        <a href="#">CCAA</a>
-                    </div>
+                    <button class="btn btn-dropdown-toggle" type="button" id="dropdownMenu1"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <label>Avisos</label>
+                    </button>
+                    <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item" tabindex="-1" href="#"><label>Nacionales</label></a>
+                            <a class="dropdown-item" tabindex="-1" href="#"><label>CCAA</label></a>
+                        </li>
+                    </ul>
                 </div>
-            </li>
-            <li class="nav-item">
+
+
                 <div class="dropdown">
-                    <button class="dropbtn">Noticias</button>
-                    <div class="dropdown-content">
-                        <a href="#">Nacionales</a>
-                        <a href="#">Provinciales</a>
-                        <a href="#">Locales</a>
-                    </div>
+                    <button class="btn btn-dropdown-toggle" type="button" id="dropdownMenu1"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <label>Noticias</label>
+                    </button>
+                    <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item" tabindex="-1" href="#"><label>Nacionales</label></a>
+                            <a class="dropdown-item" tabindex="-1" href="#"><label>Provinciales</label></a>
+                            <a class="dropdown-item" tabindex="-1" href="#"><label>Locales</label></a>
+                        </li>
+                    </ul>
                 </div>
-            </li>
-            <li class="nav-item">
+
                 <div class="dropdown">
-                    <button class="dropbtn">Contacto</button>
-                    <div class="dropdown-content">
-                        <a href="#">Contactanos</a>
-                    </div>
+                    <button class="btn btn-dropdown-toggle" type="button" id="dropdownMenu1"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <label>Contacto</label>
+                    </button>
+                    <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item" tabindex="-1" href="#"><label>Contáctanos</label></a>
+                        </li>
+                    </ul>
                 </div>
-            </li>
-        </ul>
+
+
+
+
+
+
+            
+
 
     </div>
 </nav>
