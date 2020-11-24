@@ -37,6 +37,22 @@ label {
   font-size: 0px;
   line-height: 0px; }
 
+.dropdown-item {
+  color: white !important; }
+
+.sub-dropdown-item:after {
+  transform: rotate(-90deg);
+  vertical-align: 0.2em; }
+
+.myDropdown {
+  top: auto;
+  left: 95%;
+  margin-top: -2em;
+  color: white !important; }
+
+.navbar-center {
+  margin: auto; }
+
 footer {
   position: fixed;
   left: 0;
