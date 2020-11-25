@@ -43,12 +43,12 @@
   <!-- Footer Elements -->
 
   <!-- Copyright -->
-  <div class="text-center">
+  <div class="footer text-center">
      www.arcupa.es - Servicio Web Meteorológico Oficial
     
   </div>
-  <div class="text-center py-3">© 2020 Copyright:
-    <a href="">Términos Legales/Legal Termns</a>
+  <div class="footer text-center py-3">© 2020 Copyright:
+    <a class="footer" href="">Términos Legales/Legal Termns</a>
   </div>
   <!-- Copyright -->
 

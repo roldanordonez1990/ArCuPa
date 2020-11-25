@@ -29,7 +29,12 @@ a{
 -webkit-transform:scale(1.2);transform:scale(1.2);
 }
 
-div{
+div .footer{
+ font-family:  'Gotu', sans-serif;
+ font-size: 14px;
+}
+
+a .footer{
  font-family:  'Gotu', sans-serif;
  font-size: 14px;
 }
