@@ -76,5 +76,8 @@ p#descripciones {
   font-family: 'Gotu', sans-serif;
   font-size: 14px; }
 
+img.esquinaMultimedia {
+  height: 50%; }
+
 body {
   background-image: url("../media/images/fondo.jpg") !important; }
