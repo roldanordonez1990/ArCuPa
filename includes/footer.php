@@ -13,23 +13,23 @@
         <div class="iconos mb-2 ml-4">
 
           <!-- Facebook -->
-          <a href="" class="rrss">
+          <a href="" class="rrss icono">
             <i class="fab fa-facebook-f fa-lg mr-4 mt-1 fa-2x"> </i>
           </a>
           <!-- Twitter -->
-          <a href="" class="rrss">
+          <a href="" class="rrss icono">
             <i class="fab fa-twitter fa-lg mr-4 mt-1 fa-2x"> </i>
           </a>
           <!--Instagram-->
-          <a href="" class="rrss">
+          <a href="" class="rrss icono">
             <i class="fab fa-instagram fa-lg mr-4 mt-1 fa-2x"> </i>
           </a>
            <!--YouTube-->
-           <a href="" class="rrss">
+           <a href="" class="rrss icono">
            <i class="fab fa-youtube fa-lg mr-4 mt-1 fa-2x"></i>
           </a>
           <!--Google-->
-          <a href="" class="rrss">
+          <a href="" class="rrss icono">
           <i class="fab fa-google-plus-g fa-lg mr-4 mt-1 fa-2x"></i>
           </a>
         </div>
@@ -43,14 +43,12 @@
   <!-- Footer Elements -->
 
   <!-- Copyright -->
-  <div class="footer text-center">
+  <div class="footer icono text-center">
      www.arcupa.es - Servicio Web Meteorológico Oficial
-    
   </div>
   <div class="footer text-center py-3">© 2020 Copyright:
-    <a class="footer" href="">Términos Legales/Legal Termns</a>
+    <a class="footer icono" href="">Términos Legales/Legal Termns</a>
   </div>
   <!-- Copyright -->
-
 </footer>
 <!-- Footer -->
