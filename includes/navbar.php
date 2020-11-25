@@ -9,78 +9,82 @@
             class="fas fa-user pr-2"></i></button>
     <div class="collapse navbar-collapse" id="navbarsExample06">
         <ul class="navbar-nav navbar-center">
-            <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" data-toggle="dropdown">Servicios</a>
-                <div class="dropdown-menu" aria-labelledby="dropdown06">
-                    <a class="dropdown-item dropdown-toggle sub-dropdown-item" 
-                        data-toggle="dropdown" >Observación</a>
-                    <div class="dropdown-menu myDropdown" > <a class="dropdown-item"
-                            href="#">Radar</a> <a class="dropdown-item" href="#">Satélite</a> <a class="dropdown-item"
-                            href="#">Rayos</a> <a class="dropdown-item" href="#">Masas</a> 
-                    </div>
-                        
-                    <a class="dropdown-item dropdown-toggle sub-dropdown-item" data-toggle="dropdown" >Predicción</a>
-                    <div class="dropdown-menu myDropdown"> <a class="dropdown-item"
-                            href="#">Provincias</a> <a class="dropdown-item" href="#">Municipios</a> <a class="dropdown-item"
-                            href="#">CCAA</a>
-                    </div>
+            <li class="nav-item dropdown">
+                    <div class="dropdown">
+                    <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" id="dropdown06" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false"><label>Mapas</label></a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-submenu ">
+                                <a class="test" tabindex="-1" href="#"><label>Observación</label> <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a tabindex="-1" href="#"><label>Radar</label></a></li>
+                                    <li><a tabindex="-1" href="#"><label>Satélite</label></a></li>
+                                    <li><a tabindex="-1" href="#"><label>Rayos</label></a></li>
+                                    <li><a tabindex="-1" href="#"><label>Masas</label></a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu">
+                                <a class="test" tabindex="-1" href="#"><label>Predicción </label><span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a tabindex="-1" href="#"><label>Provincias</label></a></li>
+                                    <li><a tabindex="-1" href="#"><label>Municipios</label></a></li>
+                                    <li><a tabindex="-1" href="#"><label>CCAA</label></a></li>
+                                </ul>
+                            </li>
+                        </ul>
                     
-                </div>
-                
-            </li>
-            <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle"
-                    id="dropdown06" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mapas</a>
-                <div class="dropdown-menu" aria-labelledby="dropdown06">
-                    <a class="dropdown-item " 
-                        id="dropdown07" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Frentes</a>
-                        <a class="dropdown-item " 
-                        id="dropdown07" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Temperaturas</a>
-                        <a class="dropdown-item " 
-                        id="dropdown07" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Precipitación</a>
-                </div>
-            </li>
-            <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" 
-                    id="dropdown06" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Multimedia</a>
-                <div class="dropdown-menu" aria-labelledby="dropdown06">
-                    <a class="dropdown-item "
-                        id="dropdown07" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Nubes y cielos</a>
-                        <a class="dropdown-item "
-                        id="dropdown07" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Videos</a>
-                        <a class="dropdown-item " 
-                        id="dropdown07" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Paisajes</a>
-                </div>
-            </li>
-            <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" 
-                    id="dropdown06" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Avisos</a>
-                <div class="dropdown-menu" aria-labelledby="dropdown06">
-                    <a class="dropdown-item "
-                        id="dropdown07" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Nacionales</a>
-                        <a class="dropdown-item "
-                        id="dropdown07" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CCAA</a>
-                        <a class="dropdown-item " 
-                        id="dropdown07" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Precipitación</a>
-                </div>
-            </li>
-            <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" 
-                    id="dropdown06" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Noticias</a>
-                <div class="dropdown-menu" aria-labelledby="dropdown06">
-                    <a class="dropdown-item "
-                        id="dropdown07" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Nacionales</a>
-                        <a class="dropdown-item "
-                        id="dropdown07" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Provinciales</a>
-                        <a class="dropdown-item " 
-                        id="dropdown07" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Locales</a>
-                </div>
-            </li>
-            <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" 
-                    id="dropdown06" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Contacto</a>
-                <div class="dropdown-menu" aria-labelledby="dropdown06">
-                    <a class="dropdown-item "
-                        id="dropdown07" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Contáctanos</a>
 
+            </li>
+            <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" id="dropdown06" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false"><label>Mapas</label></a>
+                <div class="dropdown-menu" aria-labelledby="dropdown06">
+                    <a class="dropdown-item " id="dropdown07" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">Frentes</a>
+                    <a class="dropdown-item " id="dropdown07" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">Temperaturas</a>
+                    <a class="dropdown-item " id="dropdown07" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">Precipitación</a>
                 </div>
             </li>
-            
-            
+            <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" id="dropdown06" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false"><label>Multimedia</label></a>
+                <div class="dropdown-menu" aria-labelledby="dropdown06">
+                    <a class="dropdown-item " id="dropdown07" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">Nubes y cielos</a>
+                    <a class="dropdown-item " id="dropdown07" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">Videos</a>
+                    <a class="dropdown-item " id="dropdown07" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">Paisajes</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" id="dropdown06" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false"><label>Avisos</label></a>
+                <div class="dropdown-menu" aria-labelledby="dropdown06">
+                    <a class="dropdown-item " id="dropdown07" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">Nacionales</a>
+                    <a class="dropdown-item " id="dropdown07" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">CCAA</a>
+                    <a class="dropdown-item " id="dropdown07" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">Precipitación</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" id="dropdown06" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false"><label>Noticias</label></a>
+                <div class="dropdown-menu" aria-labelledby="dropdown06">
+                    <a class="dropdown-item " id="dropdown07" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">Nacionales</a>
+                    <a class="dropdown-item " id="dropdown07" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">Provinciales</a>
+                    <a class="dropdown-item " id="dropdown07" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">Locales</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" id="dropdown06" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false"><label>Contacto</label></a>
+
+            </li>
+
+
         </ul>
 
     </div>
@@ -99,3 +103,13 @@
 
 </div>
 </nav>
+
+<script>
+$(document).ready(function(){
+  $('.dropdown-submenu a.test').on("click", function(e){
+    $(this).next('ul').toggle();
+    e.stopPropagation();
+    e.preventDefault();
+  });
+});
+</script>

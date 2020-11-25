@@ -50,6 +50,11 @@ label {
   margin-top: -2em;
   color: white !important; }
 
+@media screen and (max-width: 1198px) {
+  .myDropdown {
+    padding: 2em 2em 0;
+    background: #0054A5; } }
+
 .navbar-center {
   margin: auto; }
 
