@@ -57,7 +57,7 @@ a.icono {
     text-decoration: none; }
 
 .contenedorImagen {
-  width: auto; }
+  width: 100%; }
 
 .titulosPrincipal {
   font-family: 'Gotu', sans-serif;
