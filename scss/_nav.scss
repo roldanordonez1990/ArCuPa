@@ -21,17 +21,7 @@ nav{
   color: white !important;
 }
 
-    .caret{
-        width:0px;
-        height:0px;
-        margin-left: 2px;
-        vertical-align: middle;
-        border-bottom:4px solid transparent;  /* izquierda flecha */
-        border-top:4px solid transparent; /* derecha flecha */
-        border-left:4px solid black; /* base flecha y color*/
-        font-size:0px;
-        line-height:0px;
-    }
+  
     .dropdown-item{
         color: white !important;
     }
@@ -61,3 +51,17 @@ nav{
      
       }
 
+      .dropdown-item:hover{
+        background-color:  #0054A5 !important;
+      }
+
+
+      .dropdown-submenu {
+        position: relative;
+      }
+      
+      .dropdown-submenu .dropdown-menu {
+        top: 0;
+        left: 100%;
+        margin-top: -1px;
+      }

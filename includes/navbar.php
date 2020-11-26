@@ -8,34 +8,41 @@
     <a class="btn btn-login py-2 px-3 d-lg-none" href="login.php"><i class="fa fa-user"></i></a>
     <div class="collapse navbar-collapse" id="navbarsExample06">
         <ul class="navbar-nav navbar-center">
-            <li class="nav-item dropdown">
-                <div class="dropdown">
-            <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" id="dropdown06" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false"><label>Mapas</label></a>
-                <ul class="dropdown-menu backgroundcolor">
-                    <li class="dropdown-submenu ">
-                        <a class="nav-link dropdown-toggle" id="dropdown06" data-toggle="dropdown" aria-haspopup="true"
-                            aria-expanded="false"><label>Observación</label></a>
-                        <ul class="dropdown-menu backgroundcolor">
-                            <li><a tabindex="-1" href="#"><label class="colorLetra">Radar</label></a></li>
-                            <li><a tabindex="-1" href="#"><label class="colorLetra">Satélite</label></a></li>
-                            <li><a tabindex="-1" href="#"><label class="colorLetra">Rayos</label></a></li>
-                            <li><a tabindex="-1" href="#"><label class="colorLetra">Masas</label></a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown-submenu">
-                        <a class="nav-link dropdown-toggle" id="dropdown06" data-toggle="dropdown" aria-haspopup="true"
-                            aria-expanded="false"><label>Predicción</label></a>
-                        <ul class="dropdown-menu backgroundcolor">
-                            <li><a tabindex="-1" href="#"><label class="colorLetra">Provincias</label></a></li>
-                            <li><a tabindex="-1" href="#"><label class="colorLetra">Municipios</label></a></li>
-                            <li><a tabindex="-1" href="#"><label class="colorLetra">CCAA</label></a></li>
-                        </ul>
-                    </li>
-                </ul>
+            <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="https://example.com"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Servicios</a>
+                <div class="dropdown-menu backgroundcolor">
+                    <a class="dropdown-item dropdown-toggle sub-dropdown-item" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Observación</a>
+                    <div class="dropdown-menu myDropdown backgroundcolor"> <a class="dropdown-item" href="#">Radar</a>
+                        <a class="dropdown-item" href="#">Satélite</a> <a class="dropdown-item" href="#">Rayos</a> <a
+                            class="dropdown-item" href="#">Masas de aire</a>
 
 
+
+                    </div>
+                    </a>
+                    <a class="dropdown-item dropdown-toggle sub-dropdown-item" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Predicción</a>
+                    <div class="dropdown-menu myDropdown backgroundcolor"> <a class="dropdown-item" href="#">1</a>
+                        <a class="dropdown-item" href="#">2</a> <a class="dropdown-item" href="#">3</a> 
+
+
+
+                    </div>
+                    </a>
+
+
+
+
+                    </a>
+
+
+
+                </div>
             </li>
+
+
+
             <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" id="dropdown06" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false"><label>Mapas</label></a>
                 <div class="dropdown-menu backgroundcolor" aria-labelledby="dropdown06">
@@ -80,8 +87,8 @@
                         aria-expanded="false">Locales</a>
                 </div>
             </li>
-            <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" id="dropdown06" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false"><label>Contacto</label></a>
+            <li class="nav-item dropdown"> <a class="nav-link" id="dropdown06" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false"><label>Contactanos</label></a>
 
             </li>
 
