@@ -12,12 +12,12 @@ footer{
 }
 
 a{
-  color: #AFE6FA;
-&:hover{
-        color: #F5B41B;
-        text-decoration: none;
+        color: #AFE6FA;
+        &:hover{
+                color: #F5B41B;
+                text-decoration: none;
         }
-}
+      }
 
 
 .iconos{
