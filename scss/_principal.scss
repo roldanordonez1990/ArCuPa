@@ -1,0 +1,28 @@
+.contenedorImagen{
+    width: 100%;
+}
+
+.titulosPrincipal{
+    font-family:  'Gotu', sans-serif;
+    font-size: 17px;
+    color: $color3;
+}
+
+a.enlaceCiudades{
+    color: $color3;
+    font-family:  'Gotu', sans-serif;
+    font-size: 14px;
+  &:hover{
+          color: #F5B41B;
+          text-decoration: none;
+          }
+  }
+
+  p#descripciones{
+    font-family:  'Gotu', sans-serif;
+    font-size: 14px;
+  }
+
+img.esquinaMultimedia{
+  height: 50%;
+}

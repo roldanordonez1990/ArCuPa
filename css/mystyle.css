@@ -16,28 +16,72 @@ header {
 header nav a img {
   width: 75px; }
 
-img {
-  width: 80px; }
-
 .icono {
   display: flex;
   justify-content: center;
   align-items: center; }
 
+nav {
+  background-color: #0054A5; }
+
+
+img {
+  width: 80px; }
+
+label {
+  color: white !important; }
+
+.caret {
+  width: 0px;
+  height: 0px;
+  margin-left: 2px;
+  vertical-align: middle;
+  border-bottom: 4px solid transparent;
+  /* izquierda flecha */
+  border-top: 4px solid transparent;
+  /* derecha flecha */
+  border-left: 4px solid black;
+  /* base flecha y color*/
+  font-size: 0px;
+  line-height: 0px; }
+
+.dropdown-item {
+  color: white !important; }
+
+.sub-dropdown-item:after {
+  transform: rotate(-90deg);
+  vertical-align: 0.2em; }
+
+.myDropdown {
+  top: auto;
+  left: 95%;
+  margin-top: -2em;
+  color: white !important; }
+
+@media screen and (max-width: 1198px) {
+  .myDropdown {
+    padding: 2em 2em 0;
+    background: #0054A5; } }
+
+.navbar-center {
+  margin: auto; }
+
+
 footer {
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
   background-color: #0054A5;
   color: white; }
 
-a {
-  color: #AFE6FA; }
-  a:hover {
-    color: #F5B41B;
-    text-decoration: none; }
-
+/*
+  color: #AFE6FA;
+&:hover{
+        color: #F5B41B;
+        text-decoration: none;
+        }
+}
+*/
 .iconos {
   display: flex;
   justify-content: center; }
@@ -46,9 +90,36 @@ a {
   -webkit-transform: scale(1.2);
   transform: scale(1.2); }
 
-div {
+div .footer {
   font-family: 'Gotu', sans-serif;
   font-size: 14px; }
+
+a.footer {
+  font-family: 'Gotu', sans-serif;
+  font-size: 13px; }
+
+a.icono {
+  color: #AFE6FA; }
+  a.icono:hover {
+    color: #F5B41B;
+    text-decoration: none; }
+
+.contenedorImagen {
+  width: 100%; }
+
+.titulosPrincipal {
+  font-family: 'Gotu', sans-serif;
+  font-size: 17px;
+  color: #0054A5; }
+
+a.enlaceCiudades {
+  color: #0054A5;
+  font-family: 'Gotu', sans-serif;
+  font-size: 14px; }
+  a.enlaceCiudades:hover {
+    color: #F5B41B;
+    text-decoration: none; }
+
 
 #login {
   background-size: cover;
@@ -133,4 +204,14 @@ div {
   box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem #f5b41b !important; }
 
 .fondoPrincipal {
+
+p#descripciones {
+  font-family: 'Gotu', sans-serif;
+  font-size: 14px; }
+
+img.esquinaMultimedia {
+  height: 50%; }
+
+body {
+
   background-image: url("../media/images/fondo.jpg") !important; }
