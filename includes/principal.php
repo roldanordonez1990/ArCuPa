@@ -8,7 +8,7 @@
                 <div><img class="contenedorImagen img-fluid d-block pr-5 mt-2" src="../media/images/mapa.jpg"></div>
             </div>
             
-        </div>
+        </div>    
         <div class="col-sm-4">
             <div class="row mt-4">
                     <div class="titulosPrincipal font-weight-bold col-sm-12 border rounded text-center border-primary">Descripción</div>  
