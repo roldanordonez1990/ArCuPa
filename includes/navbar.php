@@ -9,36 +9,28 @@
     <div class="collapse navbar-collapse" id="navbarsExample06">
         <ul class="navbar-nav navbar-center">
             <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="https://example.com"
-                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Servicios</a>
-                <div class="dropdown-menu backgroundcolor">
-                    <a class="dropdown-item dropdown-toggle sub-dropdown-item" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">Observación</a>
-                    <div class="dropdown-menu myDropdown backgroundcolor"> <a class="dropdown-item" href="#">Radar</a>
-                        <a class="dropdown-item" href="#">Satélite</a> <a class="dropdown-item" href="#">Rayos</a> <a
-                            class="dropdown-item" href="#">Masas de aire</a>
-
-
-
-                    </div>
-                    </a>
-                    <a class="dropdown-item dropdown-toggle sub-dropdown-item" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">Predicción</a>
-                    <div class="dropdown-menu myDropdown backgroundcolor"> <a class="dropdown-item" href="#">1</a>
-                        <a class="dropdown-item" href="#">2</a> <a class="dropdown-item" href="#">3</a> 
-
-
-
-                    </div>
-                    </a>
-
-
-
-
-                    </a>
-
-
-
-                </div>
+                    data-toggle="dropdown">Servicios</a>
+                <ul class="dropdown-menu multi-level backgroundcolor">
+                    <li class="dropdown-submenu">
+                    <a class="dropdown-item test colorLetra dropdown-toggle" href="#">Observación</a>
+                        <ul class="dropdown-menu backgroundcolor ">
+                            <li class="dropdown-submenu">
+                            <a class="dropdown-item ">Radar</a>
+                            <a class="dropdown-item ">Satélite</a>
+                            <a class="dropdown-item ">Rayos</a>
+                            <a class="dropdown-item ">Masas de aire</a>
+                        </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                        <a class="dropdown-item test colorLetra dropdown-toggle" href="#">Predicción</a>
+                        <ul class="dropdown-menu backgroundcolor">
+                            <li class="dropdown-submenu">
+                            <a class="dropdown-item ">Municipio</a>
+                            <a class="dropdown-item ">Provincias</a>
+                            <a class="dropdown-item ">CCAA</a>
+                        </ul>
+                    </li>
+                </ul>
             </li>
 
 
