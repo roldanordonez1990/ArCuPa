@@ -1,11 +1,13 @@
 .bg-dark {
   background-color: #AFE6FA !important; }
 
-.btn-success {
+.btn-warning {
   background-color: #F5B41B !important;
   border-color: black !important; }
-  .btn-success.hover {
-    border-color: 7px solid #000000 !important; }
+
+#input_login input:focus {
+  border: none !important;
+  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem #f5b41b !important; }
 
 header {
   background-color: #AFE6FA;
@@ -21,6 +23,7 @@ header nav a img {
 
 nav {
   background-color: #0054A5; }
+
 
 img {
   width: 80px; }
@@ -117,6 +120,91 @@ a.enlaceCiudades {
     color: #F5B41B;
     text-decoration: none; }
 
+
+#login {
+  background-size: cover;
+  border: 1px solid black;
+  min-height: 100%; }
+
+.logo {
+  background: linear-gradient(#0054A5, #25A1D1, #AFE6FA) no-repeat !important;
+  width: 100%;
+  align-items: center;
+  border-radius: 10px 10px 0 0; }
+
+.logo a img {
+  display: block;
+  margin: auto; }
+
+.login-block {
+  float: left;
+  width: 100%;
+  padding: 4% 5%;
+  font-family: "Gotu", sans-serif; }
+
+.banner-sec {
+  background: url(https://www.nationalgeographic.com.es/medio/2019/05/13/nubes-lenticulares_f03d9980_1200x800.jpg) no-repeat left bottom;
+  background-size: cover;
+  min-height: 500px;
+  border-radius: 0 0 10px 0;
+  padding: 0; }
+
+#formulario_login {
+  background: #fff;
+  border-radius: 10px; }
+
+.carousel-inner {
+  border-radius: 0 10px 10px 0; }
+
+.carousel-caption {
+  text-align: left;
+  left: 5%; }
+
+.login-sec {
+  padding: 50px 30px;
+  position: relative; }
+
+.login-sec .copy-text {
+  position: absolute;
+  width: 80%;
+  bottom: 20px;
+  font-size: 13px;
+  text-align: center; }
+
+.login-sec .copy-text i {
+  color: #25A1D1; }
+
+.login-sec .copy-text a {
+  color: #25A1D1; }
+
+.login-sec h2 {
+  margin-bottom: 30px;
+  font-weight: 800;
+  font-size: 30px;
+  color: #25A1D1; }
+
+.login-sec h2:after {
+  content: " ";
+  width: 100px;
+  height: 5px;
+  background: #F5B41B;
+  display: block;
+  margin-top: 20px;
+  border-radius: 3px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.btn-login {
+  background: #F5B41B;
+  color: #000;
+  font-weight: 600; }
+
+#input_login:focus {
+  border: none !important;
+  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem #f5b41b !important; }
+
+.fondoPrincipal {
+
 p#descripciones {
   font-family: 'Gotu', sans-serif;
   font-size: 14px; }
@@ -125,4 +213,5 @@ img.esquinaMultimedia {
   height: 50%; }
 
 body {
+
   background-image: url("../media/images/fondo.jpg") !important; }

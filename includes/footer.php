@@ -32,6 +32,7 @@
           <a href="" class="rrss icono">
           <i class="fab fa-google-plus-g fa-lg mr-4 mt-1 fa-2x"></i>
           </a>
+          
         </div>
       </div>
       <!-- Grid column -->

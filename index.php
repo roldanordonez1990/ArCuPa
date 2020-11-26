@@ -6,7 +6,7 @@
     <?php include("includes/MetaTags.php");?>
 </head>
 
-<body>
+<body class="fondoPrincipal">
     <div class="container-fluid p-0">
 
         <?php include("includes/header.php");?>
