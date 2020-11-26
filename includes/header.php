@@ -9,8 +9,8 @@
         <div class="ml-auto">
             <form class="form-inline" action="">
                 <input class="form-control m-2" type="text" placeholder="Buscar">
-                <button class="btn btn-warning py-2 px-3" type="submit"><i class="fas fa-search"></i></button>
-                <a class="btn btn-warning py-2 px-3" href="login.php"><i class="fa fa-user"></i> Login </a>
+                <button class="btn btn-login py-2 px-3 mr-2" type="submit"><i class="fas fa-search"></i></button>
+                <a class="btn btn-login py-2 px-3" href="login.php"><i class="fa fa-user"></i> Login </a>
             </form>
         </div>
     </nav>

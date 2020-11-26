@@ -6,7 +6,6 @@
 }
 .logo {
     background: linear-gradient($color3, $color2, $color1) no-repeat !important;
-
     width: 100%;
     align-items: center;
     border-radius: 10px 10px 0 0;
@@ -14,6 +13,7 @@
 .logo a img {
     display: block;
     margin: auto;
+    width: 5em;
 }
 
 .login-block {
@@ -80,8 +80,9 @@
 }
 .btn-login {
     background: $color4;
-    color: #000;
+    color:lighten($color: #000000, $amount: 10%) ;
     font-weight: 600;
+    box-shadow: none !important;
 }
 #input_login:focus {
     border: none !important;

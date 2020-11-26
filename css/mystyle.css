@@ -118,7 +118,8 @@ a.icono {
 
 .logo a img {
   display: block;
-  margin: auto; }
+  margin: auto;
+  width: 5em; }
 
 .login-block {
   float: left;
@@ -180,8 +181,9 @@ a.icono {
 
 .btn-login {
   background: #F5B41B;
-  color: #000;
-  font-weight: 600; }
+  color: #1a1a1a;
+  font-weight: 600;
+  box-shadow: none !important; }
 
 #input_login:focus {
   border: none !important;

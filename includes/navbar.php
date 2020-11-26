@@ -5,8 +5,7 @@
         aria-controls="navbarsExample06" aria-expanded="false" aria-label="Toggle navigation"> <span
             class="navbar-toggler-icon"></span> </button>
     <a class="nav-link text-center d-lg-none"> <img class="imagen" src="../media/images/logoFinal.png" alt="Logo"></a>
-    <button type="button" class="btn btn-warning d-lg-none" data-toggle="modal" data-target="#logoutModal"><i
-            class="fas fa-user pr-2"></i></button>
+    <a class="btn btn-login py-2 px-3 d-lg-none" href="login.php"><i class="fa fa-user"></i></a>
     <div class="collapse navbar-collapse" id="navbarsExample06">
         <ul class="navbar-nav navbar-center">
             <li class="nav-item dropdown">

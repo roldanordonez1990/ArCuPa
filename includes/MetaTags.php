@@ -11,24 +11,19 @@
 
 <!--Tipografía-->
 <link href="https://fonts.googleapis.com/css2?family=Gotu&family=Laila:wght@300&display=swap" rel="stylesheet">
-<!-- Bootstrap core CSS -->
-<link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-<!-- Material Design Bootstrap -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.18.0/css/mdb.min.css" rel="stylesheet">
+<!-- CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
-
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
-    type="text/css">
-<!--Tipografía-->
-<link href="https://fonts.googleapis.com/css2?family=Gotu&family=Laila:wght@300&display=swap" rel="stylesheet">
-
-<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-
+<!-- jQuery and JS bundle w/ Popper.js -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+</script>
+<!-- FontAwesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
 <link rel="stylesheet" href="css/mystyle.css">
-
