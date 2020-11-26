@@ -10,29 +10,31 @@
     <div class="collapse navbar-collapse" id="navbarsExample06">
         <ul class="navbar-nav navbar-center">
             <li class="nav-item dropdown">
-                    <div class="dropdown">
-                    <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" id="dropdown06" data-toggle="dropdown"
+                <div class="dropdown">
+            <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" id="dropdown06" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false"><label>Mapas</label></a>
+                <ul class="dropdown-menu">
+                    <li class="dropdown-submenu ">
+                        <a class="nav-link dropdown-toggle" id="dropdown06" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false"><label>Observación</label></a>
                         <ul class="dropdown-menu">
-                            <li class="dropdown-submenu ">
-                                <a class="test" tabindex="-1" href="#"><label>Observación</label> <span class="caret"></span></a>
-                                <ul class="dropdown-menu">
-                                    <li><a tabindex="-1" href="#"><label>Radar</label></a></li>
-                                    <li><a tabindex="-1" href="#"><label>Satélite</label></a></li>
-                                    <li><a tabindex="-1" href="#"><label>Rayos</label></a></li>
-                                    <li><a tabindex="-1" href="#"><label>Masas</label></a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown-submenu">
-                                <a class="test" tabindex="-1" href="#"><label>Predicción </label><span class="caret"></span></a>
-                                <ul class="dropdown-menu">
-                                    <li><a tabindex="-1" href="#"><label>Provincias</label></a></li>
-                                    <li><a tabindex="-1" href="#"><label>Municipios</label></a></li>
-                                    <li><a tabindex="-1" href="#"><label>CCAA</label></a></li>
-                                </ul>
-                            </li>
+                            <li><a tabindex="-1" href="#"><label>Radar</label></a></li>
+                            <li><a tabindex="-1" href="#"><label>Satélite</label></a></li>
+                            <li><a tabindex="-1" href="#"><label>Rayos</label></a></li>
+                            <li><a tabindex="-1" href="#"><label>Masas</label></a></li>
                         </ul>
-                    
+                    </li>
+                    <li class="dropdown-submenu">
+                        <a class="nav-link dropdown-toggle" id="dropdown06" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false"><label>Predicción</label></a>
+                        <ul class="dropdown-menu">
+                            <li><a tabindex="-1" href="#"><label>Provincias</label></a></li>
+                            <li><a tabindex="-1" href="#"><label>Municipios</label></a></li>
+                            <li><a tabindex="-1" href="#"><label>CCAA</label></a></li>
+                        </ul>
+                    </li>
+                </ul>
+
 
             </li>
             <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" id="dropdown06" data-toggle="dropdown"
@@ -105,11 +107,11 @@
 </nav>
 
 <script>
-$(document).ready(function(){
-  $('.dropdown-submenu a.test').on("click", function(e){
-    $(this).next('ul').toggle();
-    e.stopPropagation();
-    e.preventDefault();
-  });
+$(document).ready(function() {
+    $('.dropdown-submenu a.test').on("click", function(e) {
+        $(this).next('ul').toggle();
+        e.stopPropagation();
+        e.preventDefault();
+    });
 });
 </script>
