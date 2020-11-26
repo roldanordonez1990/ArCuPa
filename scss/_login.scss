@@ -1,6 +1,7 @@
 #login {
-    background: linear-gradient($color1, $color2, $color3) !important;
-    display: block;
+    background: linear-gradient($color1, $color2, $color3) no-repeat !important;
+    background-size:cover;
+    min-height: 100%;
 }
 
 .login-block {

@@ -51,8 +51,9 @@ div {
   font-size: 14px; }
 
 #login {
-  background: linear-gradient(#AFE6FA, #25A1D1, #0054A5) !important;
-  display: block; }
+  background: linear-gradient(#AFE6FA, #25A1D1, #0054A5) no-repeat !important;
+  background-size: cover;
+  min-height: 100%; }
 
 .login-block {
   float: left;
@@ -122,5 +123,5 @@ div {
   border: none !important;
   box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem #f5b41b !important; }
 
-body {
+.fondoPrincipal {
   background-image: url("../media/images/fondo.jpg") !important; }
