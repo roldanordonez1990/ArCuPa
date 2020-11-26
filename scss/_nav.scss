@@ -1,9 +1,50 @@
-img {
+nav{
+    background-color: $color3;
+}
+img  {
     width: 80px;
     
 }
-.icono{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+label {
+  color: white !important;
+}  
+
+    .caret{
+        width:0px;
+        height:0px;
+        margin-left: 2px;
+        vertical-align: middle;
+        border-bottom:4px solid transparent;  /* izquierda flecha */
+        border-top:4px solid transparent; /* derecha flecha */
+        border-left:4px solid black; /* base flecha y color*/
+        font-size:0px;
+        line-height:0px;
+    }
+    .dropdown-item{
+        color: white !important;
+    }
+    .sub-dropdown-item:after {
+        transform: rotate(-90deg);
+        vertical-align: 0.2em;
+        
+      }
+      .myDropdown {
+        top: auto;
+        left: 95%;
+        margin-top: -2em;
+        color: white !important;
+      }
+
+      @media screen and (max-width: 1198px) {
+        .myDropdown {
+          padding: 2em 2em 0;
+          background: #0054A5;
+        }
+      }
+      
+          
+      .navbar-center {
+
+        margin: auto;
+     
+      }
