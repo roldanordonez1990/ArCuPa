@@ -51,27 +51,36 @@ div {
   font-size: 14px; }
 
 #login {
-  background: linear-gradient(#AFE6FA, #25A1D1, #0054A5) no-repeat !important;
   background-size: cover;
+  border: 1px solid black;
   min-height: 100%; }
+
+.logo {
+  background: linear-gradient(#0054A5, #25A1D1, #AFE6FA) no-repeat !important;
+  width: 100%;
+  align-items: center;
+  border-radius: 10px 10px 0 0; }
+
+.logo a img {
+  display: block;
+  margin: auto; }
 
 .login-block {
   float: left;
   width: 100%;
-  padding: 7.2% 5%;
+  padding: 4% 5%;
   font-family: "Gotu", sans-serif; }
 
 .banner-sec {
   background: url(https://www.nationalgeographic.com.es/medio/2019/05/13/nubes-lenticulares_f03d9980_1200x800.jpg) no-repeat left bottom;
   background-size: cover;
   min-height: 500px;
-  border-radius: 0 10px 10px 0;
+  border-radius: 0 0 10px 0;
   padding: 0; }
 
 #formulario_login {
   background: #fff;
-  border-radius: 10px;
-  box-shadow: 15px 20px 0px rgba(0, 0, 0, 0.1); }
+  border-radius: 10px; }
 
 .carousel-inner {
   border-radius: 0 10px 10px 0; }

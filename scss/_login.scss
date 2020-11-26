@@ -1,14 +1,26 @@
 #login {
-    background: linear-gradient($color1, $color2, $color3) no-repeat !important;
-    background-size:cover;
+    //background: linear-gradient($color3, $color2, $color1) no-repeat !important;
+    background-size: cover;
+    border: 1px solid black;
     min-height: 100%;
+}
+.logo {
+    background: linear-gradient($color3, $color2, $color1) no-repeat !important;
+
+    width: 100%;
+    align-items: center;
+    border-radius: 10px 10px 0 0;
+}
+.logo a img {
+    display: block;
+    margin: auto;
 }
 
 .login-block {
     //background: linear-gradient(to bottom, $color1, $color3);
     float: left;
     width: 100%;
-    padding: 7.2% 5%;
+    padding: 4% 5%;
     font-family: "Gotu", sans-serif;
 }
 .banner-sec {
@@ -16,14 +28,14 @@
         no-repeat left bottom;
     background-size: cover;
     min-height: 500px;
-    border-radius: 0 10px 10px 0;
+    border-radius: 0 0 10px 0;
     padding: 0;
 }
 #formulario_login {
     //background: linear-gradient(to bottom, $color1, $color3);
     background: #fff;
     border-radius: 10px;
-    box-shadow: 15px 20px 0px rgba(0, 0, 0, 0.1);
+    //box-shadow: 15px 20px 0px rgba(0, 0, 0, 0.1);
 }
 .carousel-inner {
     border-radius: 0 10px 10px 0;

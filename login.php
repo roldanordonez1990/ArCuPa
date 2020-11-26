@@ -6,11 +6,17 @@
     <?php include("includes/MetaTags.php");?>
 </head>
 
-<body id="login">
+<body class="fondoPrincipal" id="login">
     <main>
         <section class="login-block">
-            <div class="container" id="formulario_login">
+            <div class="container shadow-lg" id="formulario_login">
+                
                 <div class="row">
+                <nav class="logo aling-items-center p-2">
+                    <a class="" href="../index.php">
+                        <img src="../media/images/logoFinal.png" alt="Logo">
+                    </a>
+                </nav>
                     <div class="col-md-4 login-sec">
                         <h2 class="text-center">Iniciar Sesión</h2>
                         <form class="login-form" action="index.php">
