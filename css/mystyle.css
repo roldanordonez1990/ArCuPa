@@ -24,11 +24,13 @@ header nav a img {
 nav {
   background-color: #0054A5; }
 
-
-img {
+.imagen {
   width: 80px; }
 
-label {
+.backgroundcolor {
+  background-color: #0054A5 !important; }
+
+.colorLetra {
   color: white !important; }
 
 .caret {
@@ -66,7 +68,6 @@ label {
 .navbar-center {
   margin: auto; }
 
-
 footer {
   left: 0;
   bottom: 0;
@@ -103,23 +104,6 @@ a.icono {
   a.icono:hover {
     color: #F5B41B;
     text-decoration: none; }
-
-.contenedorImagen {
-  width: 100%; }
-
-.titulosPrincipal {
-  font-family: 'Gotu', sans-serif;
-  font-size: 17px;
-  color: #0054A5; }
-
-a.enlaceCiudades {
-  color: #0054A5;
-  font-family: 'Gotu', sans-serif;
-  font-size: 14px; }
-  a.enlaceCiudades:hover {
-    color: #F5B41B;
-    text-decoration: none; }
-
 
 #login {
   background-size: cover;
@@ -203,7 +187,21 @@ a.enlaceCiudades {
   border: none !important;
   box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem #f5b41b !important; }
 
-.fondoPrincipal {
+.contenedorImagen {
+  width: 100%; }
+
+.titulosPrincipal {
+  font-family: 'Gotu', sans-serif;
+  font-size: 17px;
+  color: #0054A5; }
+
+a.enlaceCiudades {
+  color: #0054A5;
+  font-family: 'Gotu', sans-serif;
+  font-size: 14px; }
+  a.enlaceCiudades:hover {
+    color: #F5B41B;
+    text-decoration: none; }
 
 p#descripciones {
   font-family: 'Gotu', sans-serif;
@@ -212,6 +210,5 @@ p#descripciones {
 img.esquinaMultimedia {
   height: 50%; }
 
-body {
-
+.fondoPrincipal {
   background-image: url("../media/images/fondo.jpg") !important; }
