@@ -6,7 +6,7 @@
     <?php include("includes/MetaTags.php");?>
 </head>
 
-<body>
+<body class="fondoPrincipal">
     <div class="container-fluid p-0">
 
         <?php include("includes/header.php");?>
@@ -15,9 +15,7 @@
 
         <main>
             <section class="content">
-                <div class="full-bleed cool-photo">
-
-                </div>
+            <?php include("includes/principal.php");?>
             </section>
         </main>
 

@@ -12,9 +12,7 @@
 
 <main>
 <section class="content">
-  <div class="full-bleed cool-photo">
-  
-  </div>
+<?php include("includes/principal.php");?>
 </section>
 </main>
 

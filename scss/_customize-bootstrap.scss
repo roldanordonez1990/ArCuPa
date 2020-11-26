@@ -1,12 +1,11 @@
 .bg-dark {
     background-color: $color1 !important;
 }
-.btn-success {
+.btn-warning {
     background-color: $color4 !important;
     border-color: black !important;
-    &.hover{
-        border-color: 7px solid #000000 !important;
-    }
-
-    //box-shadow: 2px 2px 2px rgba(255, 0, 0, 0.25) !important;
+}
+#input_login input:focus{
+    border: none !important;
+    box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgb(245, 180, 27) !important;
 }
