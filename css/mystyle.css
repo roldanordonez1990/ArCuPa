@@ -195,7 +195,8 @@ a.icono {
 .titulosPrincipal {
   font-family: 'Gotu', sans-serif;
   font-size: 17px;
-  color: #0054A5; }
+  color: #0054A5;
+  text-shadow: 0.1em 0.1em 0.3em #AFE6FA; }
 
 a.enlaceCiudades {
   color: #0054A5;
@@ -207,10 +208,39 @@ a.enlaceCiudades {
 
 p#descripciones {
   font-family: 'Gotu', sans-serif;
-  font-size: 14px; }
+  font-size: 14px;
+  color: #0054A5; }
 
 img.esquinaMultimedia {
   height: 50%; }
+
+.visi {
+  background-color: white;
+  opacity: 70%; }
+
+ul#noNeeded {
+  list-style-type: none; }
+
+.letraPrincipal {
+  font-family: 'Gotu', sans-serif;
+  color: #0054A5; }
+
+.multiImagen {
+  width: 100%; }
+
+/*
+.rotar{
+  position: relative;
+  transition: width 3s, height 3s, transform 3s;
+}
+
+.rotar:hover {
+  transform: rotate(180deg);
+}
+*/
+.multi:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1); }
 
 .fondoPrincipal {
   background-image: url("../media/images/fondo.jpg") !important; }
