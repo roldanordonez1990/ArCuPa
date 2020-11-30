@@ -44,7 +44,7 @@
                         aria-expanded="false">Precipitación</a>
                 </div>
             </li>
-            <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" id="dropdown06" data-toggle="dropdown"
+            <li class="nav-item dropdown"> <a  class="nav-link dropdown-toggle" id="dropdown06" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false"><label>Multimedia</label></a>
                 <div class="dropdown-menu backgroundcolor" aria-labelledby="dropdown06">
                     <a class="dropdown-item " id="dropdown07" data-toggle="dropdown" aria-haspopup="true"
