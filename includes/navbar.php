@@ -47,8 +47,7 @@
             <li class="nav-item dropdown"> <a  class="nav-link dropdown-toggle" id="dropdown06" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false"><label>Multimedia</label></a>
                 <div class="dropdown-menu backgroundcolor" aria-labelledby="dropdown06">
-                    <a class="dropdown-item " id="dropdown07" data-toggle="dropdown" aria-haspopup="true"
-                        aria-expanded="false">Nubes y cielos</a>
+                    <a href="../nubes.php" class="dropdown-item " >Nubes y cielos</a>
                     <a class="dropdown-item " id="dropdown07" data-toggle="dropdown" aria-haspopup="true"
                         aria-expanded="false">Videos</a>
                     <a class="dropdown-item " id="dropdown07" data-toggle="dropdown" aria-haspopup="true"
