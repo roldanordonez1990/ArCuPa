@@ -35,9 +35,22 @@ img.esquinaMultimedia{
   opacity: 70%;
 }
 
-ul#noNeeded { 
-  list-style-type: none; 
+a.noNeeded { 
+  color: $color3;
+ text-decoration: none;
+ &:hover{
+  color: #F5B41B;
+  text-decoration: none;
+  }
  
+}
+
+th.thColor{
+  color: $color3;
+}
+
+td.tdColor{
+  color: $color3;
 }
 
 .letraPrincipal{
@@ -62,4 +75,12 @@ ul#noNeeded {
 */
 .multi:hover {
   -webkit-transform:scale(1.1);transform:scale(1.1);
+  }
+
+  .medidasTabla{
+    width: 100%;
+  }
+
+  .iconos{
+   color: $color2;
   }
