@@ -231,5 +231,8 @@ img {
   align-items: center;
   /*width:90%;*/ }
 
+.video-fluid {
+  height: 40em !important; }
+
 .fondoPrincipal {
   background-image: url("../media/images/fondo.jpg") !important; }
