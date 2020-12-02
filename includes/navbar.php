@@ -17,6 +17,7 @@
                                 <a href="../satelite.php" class="dropdown-item">Satélite</a>
                                 <a href="../rayos.php" class="dropdown-item">Rayos</a>
                                 <a href="../masasdeaire.php" class="dropdown-item">Masas de aire</a>
+                            </li>
                         </ul>
                     </li>
                     <li class="dropdown-submenu">
@@ -26,6 +27,7 @@
                                 <a href="../municipio.php" class="dropdown-item">Municipio</a>
                                 <a href="../provincias.php" class="dropdown-item">Provincias</a>
                                 <a href="../ccaa.php" class="dropdown-item">CCAA</a>
+                            </li>
                         </ul>
                     </li>
                 </ul>
@@ -100,12 +102,12 @@
 
 <script>
 $('.dropdown-menu a.dropdown-toggle').on('click', function(e) {
-  if (!$(this).next().hasClass('show')) {
-    $(this).parents('.dropdown-menu').first().find('.show').removeClass("show");
-  }
-  var $subMenu = $(this).next(".dropdown-menu");
-  $subMenu.toggleClass('show');
+    if (!$(this).next().hasClass('show')) {
+        $(this).parents('.dropdown-menu').first().find('.show').removeClass("show");
+    }
+    var $subMenu = $(this).next(".dropdown-menu");
+    $subMenu.toggleClass('show');
 
-  return false;
+    return false;
 });
 </script>
