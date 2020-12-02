@@ -18,7 +18,7 @@
                     <h1>Videos</h1>
             </div>
         <!-- Carousel row -->
-        <div class="row">
+            <div class="swiper-container mb-5">
 	                <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2">
 	                	<!-- Carousel -->
 	                	<div id="carousel-example" class="carousel slide">
@@ -30,17 +30,17 @@
 	       					<div class="carousel-inner">
 	       						<div class="carousel-item active">
 	       							<div class="embed-responsive embed-responsive-16by9">
-	       								<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6hgVihWjK2c?rel=0" allowfullscreen></iframe>
+	       								<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/YQKuVcz-XTw" allowfullscreen></iframe>
 	       							</div>
 	       						</div>
 	       						<div class="carousel-item">
 	       							<div class="embed-responsive embed-responsive-16by9">
-	       								<iframe class="embed-responsive-item" src="https://player.vimeo.com/video/84910153?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;color=ffffff" allowfullscreen></iframe>
+	       								<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/7Aq1GWfRiGk" allowfullscreen></iframe>
 	       							</div>
 	       						</div>
 	       						<div class="carousel-item">
 	       							<div class="embed-responsive embed-responsive-16by9">
-	       								<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/oiKj0Z_Xnjc" allowfullscreen></iframe>
+	       								<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/G43hcGTodEk" allowfullscreen></iframe>
 	       							</div>
 	       						</div>
 	       					</div>
@@ -55,9 +55,29 @@
 	       				</div>
 	                	<!-- End carousel -->
 	                </div>
-	            </div>
+                </div>
+            
             
         </main>
+
+        <script>
+            var swiper = new Swiper('.swiper-container', {
+                pagination: '.swiper-pagination',
+                effect: 'coverflow',
+                grabCursor: true,
+                centeredSlides: true,
+                spaceBetween: 0,
+                autoplayDisableOnInteraction: false,
+                slidesPerView: 4,
+                coverflow: {
+                    rotate: 30,
+                    stretch: 0,
+                    depth: 100,
+                    modifier: 1,
+                    slideShadows: true
+                }
+            });
+            </script>
 
         <?php include("includes/footer.php");?>
     </div>

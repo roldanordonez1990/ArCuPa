@@ -16,16 +16,16 @@
         <main>
 
             <div class="titulosPrincipal text-center p-3">
-                    <h1>Nubes y Cielos</h1>
+                    <h1>Paisajes</h1>
             </div>
             <!-- Swiper -->
             <div class="swiper-container ">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide"><img src="../media/images/clouds.jpg" /></div>
-                    <div class="swiper-slide"><img src="../media/images/montañas.jpg" /></div>
-                    <div class="swiper-slide"><img src="../media/images/lightning.jpg" /></div>
-                    <div class="swiper-slide"><img src="../media/images/clouds-2.jpg" /></div>
-                    <div class="swiper-slide"><img src="../media/images/sunset.jpg" /></div>
+                    <div class="swiper-slide"><img src="../media/images/arbol.jpg" /></div>
+                    <div class="swiper-slide"><img src="../media/images/bosque.jpg" /></div>
+                    <div class="swiper-slide"><img src="../media/images/otoño.jpg" /></div>
+                    <div class="swiper-slide"><img src="../media/images/puente.jpg" /></div>
+                    <div class="swiper-slide"><img src="../media/images/natura.jpg" /></div>
                 </div>
                 <!-- Add Pagination -->
                 <div class="swiper-pagination"></div>
