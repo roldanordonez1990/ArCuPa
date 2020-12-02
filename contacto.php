@@ -47,9 +47,9 @@
             </div>
             <div class="col-sm-6 p-3">
                 <div class="row mt-4 ">
-                    <div class="titulosPrincipal font-weight-bold col-sm-12 text-center border-primary">
+                    <div class=" titulosPrincipal font-weight-bold col-sm-12 text-center border-primary">
                         Contacto</div>
-                    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate
+                    <p class="text-center w-responsive mx-auto mb-5" id="descripciones">Do you have any questions? Please do not hesitate
                         to contact us directly. Our team will come back to you within
                         a matter of hours to help you.</p>
 
