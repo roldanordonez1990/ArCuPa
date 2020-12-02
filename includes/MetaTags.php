@@ -7,7 +7,7 @@
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width">
-
+<link rel="shortcut icon" href="../media/images/logoFinal.png">
 
 <!--Tipografía-->
 <link href="https://fonts.googleapis.com/css2?family=Gotu&family=Laila:wght@300&display=swap" rel="stylesheet">
