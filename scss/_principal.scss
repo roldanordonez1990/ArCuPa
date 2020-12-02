@@ -6,6 +6,7 @@
     font-family:  'Gotu', sans-serif;
     font-size: 17px;
     color: $color3;
+    text-shadow: 0.1em 0.1em 0.3em $color1
 }
 
 a.enlaceCiudades{
@@ -21,8 +22,65 @@ a.enlaceCiudades{
   p#descripciones{
     font-family:  'Gotu', sans-serif;
     font-size: 14px;
+    color: $color3;
   }
+
 
 img.esquinaMultimedia{
   height: 50%;
 }
+
+.visi{
+  background-color: white;
+  opacity: 70%;
+}
+
+a.noNeeded { 
+  color: $color3;
+ text-decoration: none;
+ &:hover{
+  color: #F5B41B;
+  text-decoration: none;
+  }
+ 
+}
+
+th.thColor{
+  color: $color3;
+}
+
+td.tdColor{
+  color: $color3;
+}
+
+.letraPrincipal{
+  font-family:  'Gotu', sans-serif;
+  color: $color3;
+  //text-decoration: underline;
+}
+
+.multiImagen{
+  width: 100%;
+}
+
+/*
+.rotar{
+  position: relative;
+  transition: width 3s, height 3s, transform 3s;
+}
+
+.rotar:hover {
+  transform: rotate(180deg);
+}
+*/
+.multi:hover {
+  -webkit-transform:scale(1.1);transform:scale(1.1);
+  }
+
+  .medidasTabla{
+    width: 100%;
+  }
+
+  .iconos{
+   color: $color2;
+  }
