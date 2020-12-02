@@ -29,7 +29,7 @@
                         <div class="d-none d-lg-block titulosPrincipal font-weight-bold col-sm-12 text-center">
                             Descripción</div>
                         <div
-                            class="d-none d-lg-block contenedorImagen col-sm-12 border visi rounded text-center border-primary mt-1">
+                            class="d-none d-lg-block contenedorImagen col-sm-12 border visi rounded text-center border-primary mt-1 shadow-lg p-3 mb-5 rounded">
                             <p id="descripciones">Pequeña introducción explicativa del contenido de los mapas mostrados
                                 a la izquierda y enlaces hacia la información meteorológica detallada de las principales
                                 ciudades andaluzas y españolas</p>
