@@ -99,11 +99,13 @@
 </nav>
 
 <script>
-$(document).ready(function() {
-    $('.dropdown-submenu a.test').on("click", function(e) {
-        $(this).next('ul').toggle();
-        e.stopPropagation();
-        e.preventDefault();
-    });
+$('.dropdown-menu a.dropdown-toggle').on('click', function(e) {
+  if (!$(this).next().hasClass('show')) {
+    $(this).parents('.dropdown-menu').first().find('.show').removeClass("show");
+  }
+  var $subMenu = $(this).next(".dropdown-menu");
+  $subMenu.toggleClass('show');
+
+  return false;
 });
 </script>
