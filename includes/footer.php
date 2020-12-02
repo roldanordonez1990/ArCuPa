@@ -49,7 +49,7 @@
         www.arcupa.es - Servicio Web Meteorológico Oficial
     </div>
     <div class="footer text-center py-3">© 2020 Copyright:
-        <a class="footer icono" href="">Términos Legales/Legal Termns</a>
+        <a class="footer icono" href="../terminosLegales.php">Términos Legales/Legal Termns</a>
     </div>
     <!-- Copyright -->
 </footer>
