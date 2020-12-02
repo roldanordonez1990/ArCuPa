@@ -81,7 +81,13 @@
 
             </li>
 
-
+            
+            <li class="nav-item dropdown d-md-none">
+            <form class="form-inline">
+                <input class="form-control m-6 " type="text" placeholder="Buscar">
+                <button class="btn btn-login ml-2 " type="submit"><i class="fas fa-search"></i></button>
+            </form>
+            </li>
         </ul>
 
     </div>
