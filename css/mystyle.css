@@ -187,7 +187,8 @@ a.icono {
 .titulosPrincipal {
   font-family: 'Gotu', sans-serif;
   font-size: 17px;
-  color: #0054A5; }
+  color: #0054A5;
+  text-shadow: 0.1em 0.1em 0.3em #AFE6FA; }
 
 a.enlaceCiudades {
   color: #0054A5;
@@ -199,10 +200,12 @@ a.enlaceCiudades {
 
 p#descripciones {
   font-family: 'Gotu', sans-serif;
-  font-size: 14px; }
+  font-size: 14px;
+  color: #0054A5; }
 
 img.esquinaMultimedia {
   height: 50%; }
+
 
 .map-responsive {
   overflow: hidden;
@@ -225,6 +228,51 @@ img.esquinaMultimedia {
 .opaco {
   opacity: 75%;
   border: 1px solid #0054A5 !important; }
+=======
+.visi {
+  background-color: white;
+  opacity: 70%; }
+
+a.noNeeded {
+  color: #0054A5;
+  text-decoration: none; }
+  a.noNeeded:hover {
+    color: #F5B41B;
+    text-decoration: none; }
+
+th.thColor {
+  color: #0054A5; }
+
+td.tdColor {
+  color: #0054A5; }
+
+.letraPrincipal {
+  font-family: 'Gotu', sans-serif;
+  color: #0054A5; }
+
+.multiImagen {
+  width: 100%; }
+
+/*
+.rotar{
+  position: relative;
+  transition: width 3s, height 3s, transform 3s;
+}
+
+.rotar:hover {
+  transform: rotate(180deg);
+}
+*/
+.multi:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1); }
+
+.medidasTabla {
+  width: 100%; }
+
+.iconos {
+  color: #25A1D1; }
+
 
 .fondoPrincipal {
   background-image: url("../media/images/fondo.jpg") !important; }
