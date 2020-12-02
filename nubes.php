@@ -22,7 +22,7 @@
             <div class="swiper-container ">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide"><img src="../media/images/clouds.jpg" /></div>
-                    <div class="swiper-slide"><img src="../media/images/montañas.jpg" /></div>
+                    <div class="swiper-slide"><img src="../media/images/ireland.jpg" /></div>
                     <div class="swiper-slide"><img src="../media/images/lightning.jpg" /></div>
                     <div class="swiper-slide"><img src="../media/images/clouds-2.jpg" /></div>
                     <div class="swiper-slide"><img src="../media/images/sunset.jpg" /></div>
