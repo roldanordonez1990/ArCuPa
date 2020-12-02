@@ -112,7 +112,7 @@
                     <div class="d-none d-lg-block titulosPrincipal font-weight-bold col-sm-12 text-center">Descripción</div>  
                     <div class="d-none d-lg-block contenedorImagen col-sm-12 visi border rounded text-center border-primary" >
                         <p id="descripciones">Pequeña introducción explicativa del contenido de los mapas mostrados a la izquierda y enlaces hacia la información meteorológica detallada de las principales ciudades andaluzas y españolas</p>
-                        <table class="medidasTabla ">
+                        <table class="medidasTabla">
                                 <tr>
                                 <td>
                             <div class="iconos"><i class="col-sm-4 fas fa-globe"></i></div>
