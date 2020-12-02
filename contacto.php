@@ -60,7 +60,7 @@
                                 <div class="col-md-12 mb-4">
                                     <div class="md-form mb-0" id="input_login">
                                         <label for="name" class="titulosPrincipal">Nombre</label>
-                                        <input type="text" id="name" name="name" class="form-control">
+                                        <input type="text" id="name" name="name" class="form-control opaco">
 
                                     </div>
                                 </div>
@@ -69,7 +69,7 @@
                                 <div class="col-md-12  mb-4">
                                     <div class="md-form mb-0" id="input_login">
                                         <label for="email" class="titulosPrincipal">Correo Electrónico</label>
-                                        <input type="text" id="email" name="email" class="form-control">
+                                        <input type="text" id="email" name="email" class="form-control opaco">
 
                                     </div>
                                 </div>
@@ -79,8 +79,8 @@
                             <div class="row">
                                 <div class="col-md-12  mb-4">
                                     <div class="md-form mb-0" id="input_login">
-                                        <label for="subject" class="titulosPrincipal">Asunto</label>
-                                        <input type="text" id="subject" name="subject" class="form-control">
+                                        <label for="subject" class="titulosPrincipal">Asunto</label> 
+                                        <input type="text" id="subject" name="subject" class="form-control opaco">
 
                                     </div>
                                 </div>
@@ -93,7 +93,7 @@
                                     <div class="md-form">
                                         <label for="message" class="titulosPrincipal">Mensaje</label>
                                         <textarea type="text" id="message" name="message" rows="5"
-                                            class="form-control area"></textarea>
+                                            class="form-control area opaco"></textarea>
                                     </div>
 
                                 </div>
