@@ -1,0 +1,22 @@
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 52.8%;
+    position: relative;
+    height: 0;
+}
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border: 2px solid $color3;
+}
+.area:focus {
+    border: none !important;
+    box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgb(245, 180, 27) !important;
+}
+.opaco{
+    opacity: 75%;
+    border: 1px solid $color3 !important;
+}
