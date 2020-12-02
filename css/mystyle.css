@@ -206,29 +206,6 @@ p#descripciones {
 img.esquinaMultimedia {
   height: 50%; }
 
-
-.map-responsive {
-  overflow: hidden;
-  padding-bottom: 52.8%;
-  position: relative;
-  height: 0; }
-
-.map-responsive iframe {
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  border: 2px solid #0054A5; }
-
-.area:focus {
-  border: none !important;
-  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem #f5b41b !important; }
-
-.opaco {
-  opacity: 75%;
-  border: 1px solid #0054A5 !important; }
-=======
 .visi {
   background-color: white;
   opacity: 70%; }
@@ -273,6 +250,27 @@ td.tdColor {
 .iconos {
   color: #25A1D1; }
 
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 52.8%;
+  position: relative;
+  height: 0; }
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  border: 2px solid #0054A5; }
+
+.area:focus {
+  border: none !important;
+  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem #f5b41b !important; }
+
+.opaco {
+  opacity: 75%;
+  border: 1px solid #0054A5 !important; }
 
 .fondoPrincipal {
   background-image: url("../media/images/fondo.jpg") !important; }
