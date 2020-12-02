@@ -15,7 +15,7 @@
 
         <main>
             <section class="content">
-            <?php include("includes/principal.php");?>
+            <?php include("includes/principal.php");?>          
             </section>
         </main>
 

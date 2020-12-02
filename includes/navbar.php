@@ -44,11 +44,10 @@
                         aria-expanded="false">Precipitación</a>
                 </div>
             </li>
-            <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" id="dropdown06" data-toggle="dropdown"
+            <li class="nav-item dropdown"> <a  class="nav-link dropdown-toggle" id="dropdown06" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false"><label>Multimedia</label></a>
                 <div class="dropdown-menu backgroundcolor" aria-labelledby="dropdown06">
-                    <a class="dropdown-item " id="dropdown07" data-toggle="dropdown" aria-haspopup="true"
-                        aria-expanded="false">Nubes y cielos</a>
+                    <a href="../nubes.php" class="dropdown-item " >Nubes y cielos</a>
                     <a class="dropdown-item " id="dropdown07" data-toggle="dropdown" aria-haspopup="true"
                         aria-expanded="false">Videos</a>
                     <a class="dropdown-item " id="dropdown07" data-toggle="dropdown" aria-haspopup="true"
@@ -82,7 +81,13 @@
 
             </li>
 
-
+            
+            <li class="nav-item dropdown d-md-none">
+            <form class="form-inline">
+                <input class="form-control m-6 " type="text" placeholder="Buscar">
+                <button class="btn btn-login ml-2 " type="submit"><i class="fas fa-search"></i></button>
+            </form>
+            </li>
         </ul>
 
     </div>
