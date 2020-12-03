@@ -18,7 +18,7 @@
                 <div class="col-sm-8">
                     <div class="row mt-4">
                         <div class="titulosPrincipal font-weight-bold col-sm-12 text-left">Predicción por comunidades</div>
-                        <div><img class="contenedorImagen img-fluid d-block pr-5 ml-3 mb-5"
+                        <div><img class="contenedorImagen img-fluid d-block pr-5 ml-3 mb-5 mt-1"
                                 src="../media/images/comunidad.png">
                         </div>  
                     </div>

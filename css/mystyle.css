@@ -22,7 +22,11 @@ header nav a img {
   align-items: center; }
 
 nav {
-  background-color: #0054A5; }
+  background-color: #0054A5;
+  font-family: 'Gotu', sans-serif !important;
+  font-size: 18px !important;
+  font-weight: bold;
+  color: #AFE6FA !important; }
 
 .imagen {
   width: 80px; }
@@ -31,7 +35,7 @@ nav {
   background-color: #0054A5 !important; }
 
 .dropdown-item {
-  color: white !important; }
+  background-color: #0054A5 !important; }
 
 .sub-dropdown-item:after {
   transform: rotate(-90deg);
@@ -40,14 +44,10 @@ nav {
 .myDropdown {
   top: auto;
   left: 95%;
-  margin-top: -2em;
-  color: white !important; }
+  margin-top: -2em; }
 
 .navbar-center {
   margin: auto; }
-
-.dropdown-item {
-  background-color: #0054A5 !important; }
 
 .dropdown-item:hover {
   background-color: #0054A5 !important; }

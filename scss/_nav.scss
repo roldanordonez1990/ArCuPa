@@ -7,7 +7,14 @@
 
 nav{
     background-color: $color3;
+    font-family:  'Gotu', sans-serif !important;
+    font-size: 18px !important;
+    font-weight: bold;
+    color: $color1 !important;
 }
+
+
+
 .imagen  {  
     width: 80px;
     
@@ -18,10 +25,9 @@ nav{
 }
 
 
-
-  
     .dropdown-item{
-        color: white !important;
+       
+        background-color:  #0054A5 !important;
     }
     .sub-dropdown-item:after {
         transform: rotate(-90deg);
@@ -32,7 +38,6 @@ nav{
         top: auto;
         left: 95%;
         margin-top: -2em;
-        color: white !important;
       }
 
    
@@ -44,12 +49,11 @@ nav{
      
       }
       
-      .dropdown-item{
-        background-color:  #0054A5 !important;
-      }
+   
 
       .dropdown-item:hover{
         background-color:  #0054A5 !important;
+        
       }
 
 

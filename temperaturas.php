@@ -22,7 +22,7 @@
             <div class="row mt-4">
                 <div class="titulosPrincipal font-weight-bold col-sm-12 text-left">Mapa actual de temperatura
                      en España</div>
-                <div class=""><img class="contenedorImagen img-fluid d-block pr-5 mt-1 ml-3 mb-5" src="../media/images/temperatura.jpg">
+                <div class=""><img class="contenedorImagen img-fluid d-block pr-5 mt-1 ml-3 mb-5 mt-1" src="../media/images/temperatura.jpg">
                 </div>
             </div>
 
