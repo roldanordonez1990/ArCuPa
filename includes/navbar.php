@@ -6,7 +6,7 @@
     <a class="btn btn-login py-2 px-3 d-md-none" href="login.php"><i class="fa fa-user"></i></a>
     <div class="collapse navbar-collapse" id="navbarsExample06">
         <ul class="navbar-nav navbar-center">
-            <li class="nav-item dropdown pr-3"> <a class="nav-link dropdown-toggle" href="https://example.com"
+            <li class="nav-item dropdown pr-3"> <a class="colorLetra nav-link dropdown-toggle " href="https://example.com"
                     data-toggle="dropdown">SERVICIOS</a>
                 <ul class="dropdown-menu multi-level backgroundcolor">
                     <li class="dropdown-submenu">
@@ -35,7 +35,7 @@
 
 
 
-            <li class="nav-item dropdown pr-3"> <a class="nav-link dropdown-toggle" id="dropdown06" data-toggle="dropdown"
+            <li class="nav-item dropdown pr-3"> <a class="nav-link dropdown-toggle colorLetra" id="dropdown06" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false"><label>MAPAS</label></a>
                 <div class="dropdown-menu backgroundcolor" aria-labelledby="dropdown06">
                     <a href="../frentes.php" class="dropdown-item">FRENTES</a>
@@ -43,7 +43,7 @@
                     <a href="../precipitacion.php" class="dropdown-item">PRECIPITACIÓN</a>
                 </div>
             </li>
-            <li class="nav-item dropdown pr-3"> <a class="nav-link dropdown-toggle" id="dropdown06" data-toggle="dropdown"
+            <li class="nav-item dropdown pr-3"> <a class="nav-link dropdown-toggle colorLetra" id="dropdown06" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false"><label>MULTIMEDIA</label></a>
                 <div class="dropdown-menu backgroundcolor" aria-labelledby="dropdown06">
                     <a href="../nubes.php" class="dropdown-item">NUBES Y CIELOS</a>
@@ -51,7 +51,7 @@
                     <a href="../paisajes.php" class="dropdown-item">PAISAJES</a>
                 </div>
             </li>
-            <li class="nav-item dropdown pr-3"> <a class="nav-link dropdown-toggle" id="dropdown06" data-toggle="dropdown"
+            <li class="nav-item dropdown pr-3"> <a class="nav-link dropdown-toggle colorLetra" id="dropdown06" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false"><label>AVISOS</label></a>
                 <div class="dropdown-menu backgroundcolor" aria-labelledby="dropdown06">
                     <a href="../avisosNacionales.php" class="dropdown-item">NACIONALES</a>
@@ -59,7 +59,7 @@
                     <a href="../avisosPrecipitacion.php" class="dropdown-item">PRECIPITACIÓN</a>
                 </div>
             </li>
-            <li class="nav-item dropdown pr-3"> <a class="nav-link dropdown-toggle" id="dropdown06" data-toggle="dropdown"
+            <li class="nav-item dropdown pr-3"> <a class="nav-link dropdown-toggle colorLetra" id="dropdown06" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false"><label>NOTICIAS</label></a>
                 <div class="dropdown-menu backgroundcolor" aria-labelledby="dropdown06">
                     <a href="../noticiasNacionales.php" class="dropdown-item">NACIONALES</a>
@@ -67,7 +67,7 @@
                     <a href="../noticiasLocales.php" class="dropdown-item">LOCALES</a>
                 </div>
             </li>
-            <li class="nav-item dropdown pr-3"> <a class="nav-link" href="../contacto.php"><label>CONTÁCTANOS</label></a>
+            <li class="nav-item dropdown pr-3"> <a class="nav-link colorLetra" href="../contacto.php"><label>CONTÁCTANOS</label></a>
             </li>
 
 

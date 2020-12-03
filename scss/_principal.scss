@@ -14,7 +14,7 @@ a.enlaceCiudades{
     font-family:  'Gotu', sans-serif;
     font-size: 14px;
   &:hover{
-          color: #F5B41B;
+          color: $color4;
           text-decoration: none;
           }
   }
@@ -39,7 +39,7 @@ a.noNeeded {
   color: $color3;
  text-decoration: none;
  &:hover{
-  color: #F5B41B;
+  color: $color4;
   text-decoration: none;
   }
  

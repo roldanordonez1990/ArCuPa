@@ -23,19 +23,24 @@ header nav a img {
 
 nav {
   background-color: #0054A5;
-  font-family: 'Gotu', sans-serif !important;
+  font-family: "Gotu", sans-serif !important;
   font-size: 18px !important;
-  font-weight: bold;
   color: #AFE6FA !important; }
+
+a.colorLetra {
+  color: #AFE6FA !important; }
+  a.colorLetra:active {
+    color: #F5B41B; }
 
 .imagen {
   width: 80px; }
 
 .backgroundcolor {
-  background-color: #0054A5 !important; }
+  background-color: #0054a5 !important; }
 
 .dropdown-item {
-  background-color: #0054A5 !important; }
+  background-color: #0054a5 !important;
+  color: #AFE6FA !important; }
 
 .sub-dropdown-item:after {
   transform: rotate(-90deg);
@@ -50,7 +55,7 @@ nav {
   margin: auto; }
 
 .dropdown-item:hover {
-  background-color: #0054A5 !important; }
+  background-color: #0054a5 !important; }
 
 .dropdown-submenu {
   position: relative; }
@@ -85,11 +90,11 @@ footer {
 
 div .footer {
   font-family: 'Gotu', sans-serif;
-  font-size: 14px; }
+  font-size: 18px; }
 
 a.footer {
   font-family: 'Gotu', sans-serif;
-  font-size: 13px; }
+  font-size: 14px; }
 
 a.icono {
   color: #AFE6FA; }
@@ -145,7 +150,7 @@ a.icono {
   position: absolute;
   width: 80%;
   bottom: 20px;
-  font-size: 13px;
+  font-size: 14px;
   text-align: center; }
 
 .login-sec .copy-text i {
@@ -186,7 +191,7 @@ a.icono {
 
 .titulosPrincipal {
   font-family: 'Gotu', sans-serif;
-  font-size: 17px;
+  font-size: 18px;
   color: #0054A5;
   text-shadow: 0.1em 0.1em 0.3em #AFE6FA; }
 
