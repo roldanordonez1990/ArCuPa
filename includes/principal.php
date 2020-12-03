@@ -102,7 +102,7 @@
 
         <div class="col-sm-8">
             <div class="row mt-4">
-                <div class="titulosPrincipal font-weight-bold col-sm-6 text-left">Climograma actualizado de tu municipio</div>
+                <div class="titulosPrincipal font-weight-bold col-sm-12 text-left">Climograma actualizado de tu municipio</div>
                 <div><img class="img-fluid d-block pr-5 mt-1" src="../media/images/climograma.png"></div> 
             </div>
             
