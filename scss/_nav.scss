@@ -7,7 +7,19 @@
 
 nav{
     background-color: $color3;
+<<<<<<< HEAD
+    font-family:  'Gotu', sans-serif;
+    font-size: 18px;
+=======
+    font-family:  'Gotu', sans-serif !important;
+    font-size: 18px !important;
+    font-weight: bold;
+    color: $color1 !important;
+>>>>>>> 94c5327601bb2c6099a96761fba0c5afcd31fc7b
 }
+
+
+
 .imagen  {  
     width: 80px;
     
@@ -18,10 +30,9 @@ nav{
 }
 
 
-
-  
     .dropdown-item{
-        color: white !important;
+       
+        background-color:  #0054A5 !important;
     }
     .sub-dropdown-item:after {
         transform: rotate(-90deg);
@@ -32,7 +43,6 @@ nav{
         top: auto;
         left: 95%;
         margin-top: -2em;
-        color: white !important;
       }
 
    
@@ -44,12 +54,11 @@ nav{
      
       }
       
-      .dropdown-item{
-        background-color:  #0054A5 !important;
-      }
+   
 
       .dropdown-item:hover{
         background-color:  #0054A5 !important;
+        
       }
 
 
