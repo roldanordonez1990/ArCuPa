@@ -37,6 +37,7 @@ img.esquinaMultimedia{
 
 a.noNeeded { 
   color: $color3;
+  font-family:  'Gotu', sans-serif;
  text-decoration: none;
  &:hover{
   color: $color4;
@@ -47,10 +48,12 @@ a.noNeeded {
 
 th.thColor{
   color: $color3;
+  font-family:  'Gotu', sans-serif;
 }
 
 td.tdColor{
   color: $color3;
+  font-family:  'Gotu', sans-serif;
 }
 
 .letraPrincipal{
@@ -63,6 +66,9 @@ td.tdColor{
   width: 100%;
 }
 
+.fondoThead{
+  background-color: $color4 !important;
+}
 /*
 .rotar{
   position: relative;

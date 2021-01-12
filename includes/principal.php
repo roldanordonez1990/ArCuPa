@@ -36,7 +36,7 @@
                             <th class="thColor">Probabilidad</th>
                         </tr>
                         <tr>
-                            <td><a class="noNeeded" href="">Córdona</a></td>
+                            <td><a class="noNeeded" href="">Córdoba</a></td>
                             <td class="tdColor">30ºC</td>
                             <td class="tdColor">1%</td>
                         </tr>
@@ -139,7 +139,7 @@
                             <th class="thColor">Probabilidad</th>
                         </tr>
                         <tr>
-                            <td><a class="noNeeded" href="">Córdona</a></td>
+                            <td><a class="noNeeded" href="">Córdoba</a></td>
                             <td class="tdColor">30ºC</td>
                             <td class="tdColor">1%</td>
                         </tr>
