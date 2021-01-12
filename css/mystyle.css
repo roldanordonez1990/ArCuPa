@@ -217,16 +217,19 @@ img.esquinaMultimedia {
 
 a.noNeeded {
   color: #0054A5;
+  font-family: 'Gotu', sans-serif;
   text-decoration: none; }
   a.noNeeded:hover {
     color: #F5B41B;
     text-decoration: none; }
 
 th.thColor {
-  color: #0054A5; }
+  color: #0054A5;
+  font-family: 'Gotu', sans-serif; }
 
 td.tdColor {
-  color: #0054A5; }
+  color: #0054A5;
+  font-family: 'Gotu', sans-serif; }
 
 .letraPrincipal {
   font-family: 'Gotu', sans-serif;
@@ -234,6 +237,9 @@ td.tdColor {
 
 .multiImagen {
   width: 100%; }
+
+.fondoThead {
+  background-color: #F5B41B !important; }
 
 /*
 .rotar{
