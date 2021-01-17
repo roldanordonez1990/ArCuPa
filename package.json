@@ -9,6 +9,9 @@
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^4.5.3",
+    "gulp": "^4.0.2",
+    "gulp-less": "^4.0.1",
+    "gulp-sass": "^4.1.0",
     "node-php-server": "^0.1.2"
   },
   "devDependencies": {},
