@@ -27,31 +27,28 @@
                                         <div class="single-blog-post mb-50 wow fadeInUp">
                                             <!-- Post Thumb -->
                                             <div class="blog-post-thumb mb-50" id="n1">
-                                                <img class="img" src="../media/images/noticias/NieveCabra.jpg" alt="">
+                                                <img class="img" src="../media/images/noticias/NieveRenfe.jpg" alt="">
                                             </div>
                                             <!-- Post Title -->
-                                            <h1 class="titulosPrincipal">Los últimos coletazos de Filomena tiñen de
-                                                blanco la sierra de Cabra</h1>
+                                            <h1 class="titulosPrincipal">Renfe suspende el tráfico ferroviario con
+                                                Madrid</h1>
                                             <!-- Post Meta -->
                                             <div class="letra1">
                                                 <p>Por Adrian Osuna | Marzo 18, 2020</p>
                                             </div>
                                             <!-- Post Excerpt -->
-                                            <p>La zona de la Sierra de Cabra, a unos 1.200 metros de altitud, ha vuelto
-                                                a recibir la visita de la nieve por tercera vez en pocas semanas. Los
-                                                alrededores del Santuario de la Virgen de la Sierra han mantenido
-                                                durante la jornada una delicada capa blanca, que se ha mantenido estable
-                                                gracias a las bajas temperaturas, de entre uno y dos grados centígrados,
-                                                e incluso de la caída de nieve granulada en algunos momentos de la
-                                                mañana.</p>
+                                            <p>El tráfico ferroviario en Madrid está interrumpido. Adif, la compañía
+                                                pública propietaria de las infraestructuras ferroviarias, anuncia que
+                                                desde las 05.26 horas de la madrugada del sábado “se ha suspendido
+                                                temporalmente toda la circulación desde y hacia Madrid tanto por ancho
+                                                convencional como ancho estándar o de alta velocidad y para todo tipo de
+                                                servicios de viajeros (cercanías y media y larga distancia) y
+                                                mercancías” debido al avance del temporal.</p>
 
-                                            <p>A medida que han ido pasando las horas las zonas como el Picacho de
-                                                Cabra se han ido llenando de gente, desde los fotógrafos dispuestos a
-                                                recoger las mejores instantáneas de unos campos bañados de blanco por la
-                                                nevada hasta familias completas, dispuestas a disfrutar de tan poco
-                                                habitual paisaje, tirar unas bolas de nieve, construir un muñeco o
-                                                lanzarse pendiente abajo con un tríneo, como puede verse en nuestra
-                                                galería de fotos.</p>
+                                            <p>“Durante toda la noche se han estado realizando labores de limpieza en
+                                                determinadas estaciones y agujas pero el temporal, con ventisca añadida,
+                                                es de tal intensidad que los trabajos resultan infructuosos al poco
+                                                tiempo”, explica Adif en una nota.</p>
                                             <!-- Read More btn -->
                                             <!--<a href="" class="btn btn-login mt-15">Leer Mas</a>-->
                                         </div>
@@ -62,25 +59,32 @@
                                         <div class="single-blog-post mb-50 wow fadeInUp">
                                             <!-- Post Thumb -->
                                             <div class="blog-post-thumb mb-50" id="n2">
-                                                <img class="img" src="../media/images/noticias/LluviaSemanaSanta.jpg"
+                                                <img class="img" src="../media/images/noticias/ViaVerdeLucena.jpg"
                                                     alt="">
                                             </div>
                                             <!-- Post Title -->
-                                            <h1 class="titulosPrincipal">Posibles lluvias en Semana Santa</h1>
+                                            <h1 class="titulosPrincipal">La Red de Senderos de Lucena fomentará el uso
+                                                turístico y deportivo del patrimonio natural del municipio</h1>
                                             <!-- Post Meta -->
                                             <div class="letra1">
                                                 <p>Por Arturo Vicente | Marzo 18, 2020</p>
                                             </div>
                                             <!-- Post Excerpt -->
-                                            <p>Aunque aún es pronto para contar con previsiones certeras sobre el tiempo
-                                                que nos espera de cara a los próximos días, los datos de los que se
-                                                dispone hasta el momento apuntan a una Semana Santa con tiempo revuelto
-                                                e intermitentemente pasada por agua.</p>
+                                            <p>Así, en Lucena los itinerarios elegidos son los Senderos de la
+                                                Sierrezuela (circular, de 10,3 kilómetros), Sierra de Araceli (circular,
+                                                11 kilómetros) y Cerro Malabrigo (lineal, con 6,7 kilómetros). En Jauja,
+                                                el proyecto comenzaría por el Sendero de Malpasillo (lineal, 2,4
+                                                kilómetros) y en las Navas por el Sendero Cerro de las Puertas (circular
+                                                de 5 kilómetros). A esta oferta inicial, se incorporan otros dos
+                                                senderos –el de la Encina Milenaria y el Puente Povedano— ya ejecutados
+                                                por la Mancomunidad de la Subbética y homologados para la práctica del
+                                                cicloturismo.</p>
 
-                                            <p>Aunque en los próximos días, a medida que se acerque la fecha, se
-                                                afinarán las predicciones, la Agencia Estatal de Meteorología (AEMET)
-                                                anuncia una alta probabilidad de lluvia durante el primer fin de semana,
-                                                del 18 al 20 de marzo "aunque serían débiles en general".</p>
+                                            <p>El Ayuntamiento de Lucena, con esta iniciativa, pretende fomentar el
+                                                patrimonio natural del municipio para su uso tanto turístico como
+                                                deportivo, aprovechando la amplia red de caminos públicos municipales y
+                                                vías pecuarias que componen las vías de comunicación de dominio público
+                                                de su término municipal.</p>
                                             <!-- Read More btn -->
                                             <!--<a href="" class="btn btn-login mt-15">Leer Mas</a>-->
                                         </div>
@@ -91,25 +95,25 @@
                                         <div class="single-blog-post mb-50 wow fadeInUp">
                                             <!-- Post Thumb -->
                                             <div class="blog-post-thumb mb-50" id="n3">
-                                                <img class="img" src="../media/images/noticias/EncinaRute.jpg" alt="">
+                                                <img class="img" src="../media/images/noticias/Lince.jpg" alt="">
                                             </div>
                                             <!-- Post Title -->
-                                            <h1 class="titulosPrincipal">Quinto lugar para la encina milenaria de Rute
-                                                en el concurso de árbol del año de España</h1>
+                                            <h1 class="titulosPrincipal">La Junta libera cinco linces en 2020 para
+                                                facilitar el intercambio genético y reforzar la población</h1>
                                             <!-- Post Meta -->
                                             <div class="letra1">
                                                 <p>Por Francisco Roldán | Marzo 18, 2020</p>
                                             </div>
                                             <!-- Post Excerpt -->
-                                            <p>Finalmente ha sido otra encina, la carrasca milenaria de Lecina, la
-                                                elegida árbol del año de España y pasará a la selección del Árbol
-                                                Europeo de 2021. Selección en la que participaba la encina milenaria de
-                                                Rute que se ha quedado en quinto lugar, entro los doce árboles
-                                                monumentales seleccionados para esta edición. Los resultados de la
-                                                votación de Árbol del Año en España han colocado como ganadora, con
-                                                9.920 votos, a la carrasca de Lecina, de la Sierra de Guara de Huesca.
-                                                Mientras que la encina milenaria de Rute, en la comarca de la Subbética
-                                                cordobesa ha conseguido 2.242 votos.</p>
+                                            <p>La Junta de Andalucía ha liberado, a lo largo del año pasado, cinco
+                                                ejemplares de lince ibérico en distintas zonas de expansión y
+                                                reintroducción de la especie de la comunidad. En concreto, se han
+                                                soltado cuatro machos y una hembra en varios puntos de Sierra Morena,
+                                                como la comarca del Guadalmellato y el valle del río Guarrizas, pese a
+                                                las limitaciones obligadas por la crisis sanitaria del covid-19.</p>
+                                            <p>Su liberación se produjo el pasado 22 de diciembre en Montoro (Córdoba),
+                                                con el objetivo de prevenir la endogamia y reforzar la población en el
+                                                área de expansión de Sierra Morena.</p>
                                             <!-- Read More btn -->
                                             <!--<a href="" class="btn btn-login mt-15">Leer Mas</a>-->
                                         </div>
@@ -157,34 +161,34 @@
                                         <!-- Single Latest Blog Post -->
                                         <div class="single-latest-blog-post d-flex mb-30">
                                             <div class="latest-blog-post-thumb">
-                                                <img class="img" src="../media/images/noticias/NieveCabra.jpg" alt="">
+                                                <img class="img" src="../media/images/noticias/NieveRenfe.jpg" alt="">
                                             </div>
                                             <div class="latest-blog-post-content">
                                                 <a href="#n1" class="post-title">
-                                                    <h6 class="">Filomena por Cabra</h6>
+                                                    <h6 class="">Renfe corta vías</h6>
                                                 </a>
                                                 <p class="letra1">March 18, 2018</p>
                                             </div>
                                         </div>
                                         <div class="single-latest-blog-post d-flex mb-30">
                                             <div class="latest-blog-post-thumb">
-                                                <img class="img" src="../media/images/noticias/LluviaSemanaSanta.jpg"
+                                                <img class="img" src="../media/images/noticias/ViaVerdeLucena.jpg"
                                                     alt="">
                                             </div>
                                             <div class="latest-blog-post-content">
                                                 <a href="#n2" class="post-title">
-                                                    <h6 class="">Lluvias en Semana Santa</h6>
+                                                    <h6 class="">Red de Senderos</h6>
                                                 </a>
                                                 <p class="letra1">March 18, 2018</p>
                                             </div>
                                         </div>
                                         <div class="single-latest-blog-post d-flex mb-30">
                                             <div class="latest-blog-post-thumb">
-                                                <img class="img" src="../media/images/noticias/EncinaRute.jpg" alt="">
+                                                <img class="img" src="../media/images/noticias/Lince.jpg" alt="">
                                             </div>
                                             <div class="latest-blog-post-content">
                                                 <a href="#n3" class="post-title">
-                                                    <h6 class="">Quinto lugar para Rute</h6>
+                                                    <h6 class="">Sueltas de Lince Iberico</h6>
                                                 </a>
                                                 <p class="letra1">March 18, 2018</p>
                                             </div>
