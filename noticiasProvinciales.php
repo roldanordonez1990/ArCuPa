@@ -26,7 +26,7 @@
                                     <div class="col-12">
                                         <div class="single-blog-post mb-50 wow fadeInUp">
                                             <!-- Post Thumb -->
-                                            <div class="blog-post-thumb mb-50">
+                                            <div class="blog-post-thumb mb-50" id="n1">
                                                 <img class="img" src="../media/images/noticias/NieveCabra.jpg" alt="">
                                             </div>
                                             <!-- Post Title -->
@@ -61,7 +61,7 @@
                                     <div class="col-12">
                                         <div class="single-blog-post mb-50 wow fadeInUp">
                                             <!-- Post Thumb -->
-                                            <div class="blog-post-thumb mb-50">
+                                            <div class="blog-post-thumb mb-50" id="n2">
                                                 <img class="img" src="../media/images/noticias/LluviaSemanaSanta.jpg"
                                                     alt="">
                                             </div>
@@ -90,7 +90,7 @@
                                     <div class="col-12">
                                         <div class="single-blog-post mb-50 wow fadeInUp">
                                             <!-- Post Thumb -->
-                                            <div class="blog-post-thumb mb-50">
+                                            <div class="blog-post-thumb mb-50" id="n3">
                                                 <img class="img" src="../media/images/noticias/EncinaRute.jpg" alt="">
                                             </div>
                                             <!-- Post Title -->
@@ -119,9 +119,8 @@
                                     <div class="col-12">
                                         <div class="single-blog-post mb-50 wow fadeInUp">
                                             <!-- Post Thumb -->
-                                            <div class="blog-post-thumb mb-50">
-                                                <img class="img" src="../media/images/noticias/NieveOlivos.jpg"
-                                                    alt="">
+                                            <div class="blog-post-thumb mb-50" id="n4">
+                                                <img class="img" src="../media/images/noticias/NieveOlivos.jpg" alt="">
                                             </div>
                                             <!-- Post Title -->
                                             <h1 class="titulosPrincipal">Las heladas de Filomena destrozan parte de la
@@ -161,21 +160,22 @@
                                                 <img class="img" src="../media/images/noticias/NieveCabra.jpg" alt="">
                                             </div>
                                             <div class="latest-blog-post-content">
-                                                <a href="#" class="post-title">
+                                                <a href="#n1" class="post-title">
                                                     <h6 class="">Filomena por Cabra</h6>
                                                 </a>
-                                                <a href="#" class="letra1">March 18, 2018</a>
+                                                <p class="letra1">March 18, 2018</p>
                                             </div>
                                         </div>
                                         <div class="single-latest-blog-post d-flex mb-30">
                                             <div class="latest-blog-post-thumb">
-                                                <img class="img" src="../media/images/noticias/LluviaSemanaSanta.jpg" alt="">
+                                                <img class="img" src="../media/images/noticias/LluviaSemanaSanta.jpg"
+                                                    alt="">
                                             </div>
                                             <div class="latest-blog-post-content">
-                                                <a href="#" class="post-title">
+                                                <a href="#n2" class="post-title">
                                                     <h6 class="">Lluvias en Semana Santa</h6>
                                                 </a>
-                                                <a href="#" class="letra1">Marzo 18, 2018</a>
+                                                <p class="letra1">March 18, 2018</p>
                                             </div>
                                         </div>
                                         <div class="single-latest-blog-post d-flex mb-30">
@@ -183,10 +183,10 @@
                                                 <img class="img" src="../media/images/noticias/EncinaRute.jpg" alt="">
                                             </div>
                                             <div class="latest-blog-post-content">
-                                                <a href="#" class="post-title">
+                                                <a href="#n3" class="post-title">
                                                     <h6 class="">Quinto lugar para Rute</h6>
                                                 </a>
-                                                <a href="#" class="letra1">Marzo 18, 2018</a>
+                                                <p class="letra1">March 18, 2018</p>
                                             </div>
                                         </div>
                                         <div class="single-latest-blog-post d-flex mb-30">
@@ -194,10 +194,10 @@
                                                 <img class="img" src="../media/images/noticias/NieveOlivos.jpg" alt="">
                                             </div>
                                             <div class="latest-blog-post-content">
-                                                <a href="#" class="post-title">
+                                                <a href="#n4" class="post-title">
                                                     <h6 class="">Perdida de Cosechas</h6>
                                                 </a>
-                                                <a href="#" class="letra1">Marzo 18, 2018</a>
+                                                <p class="letra1">March 18, 2018</p>
                                             </div>
                                         </div>
                                 </div>
@@ -212,6 +212,16 @@
 
         <?php include("includes/footer.php");?>
     </div>
+
+    <script>
+    $(window).scroll(function() {
+        var scrollTop = $(window).scrollTop();
+        if (scrollTop <= 337)
+            $('.academy-blog-sidebar').css('top', 337 - scrollTop);
+        else
+            $('.academy-blog-sidebar').css('top', 0);
+    });
+    </script>
 </body>
 
 </html>
