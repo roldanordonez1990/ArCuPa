@@ -90,3 +90,8 @@ td.tdColor{
   .iconos{
    color: $color2;
   }
+
+  .tooltip-inner {
+    background-color: $color4 !important;
+    color: $color3 !important;
+  }
