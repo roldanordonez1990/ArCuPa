@@ -37,7 +37,7 @@
                         <div class="map-responsive">
                             <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3169.1079326361796!2d-4.478559526218057!3d37.410923698224856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6d77336192ab19%3A0x13417153fad2ce31!2sIES%20Marqu%C3%A9s%20de%20Comares!5e0!3m2!1ses!2ses!4v1606821248497!5m2!1ses!2ses"
-                                allowfullscreen="" ></iframe>
+                                allowfullscreen=""></iframe>
                         </div>
                         <!--Google Maps-->
 
@@ -49,9 +49,8 @@
                 <div class="row mt-4 ">
                     <div class=" titulosPrincipal font-weight-bold col-sm-12 text-center border-primary">
                         Contacto</div>
-                    <p class="text-center w-responsive mx-auto mb-5" id="descripciones">Do you have any questions? Please do not hesitate
-                        to contact us directly. Our team will come back to you within
-                        a matter of hours to help you.</p>
+                    <p class="text-center w-responsive mx-auto mb-5" id="descripciones">¿Tiene usted alguna pregunta o duda? Por
+                        favor no dudes para contactarnos directamente. Nuestro equipo se comunicará contigo en cuestión de horas para ayudarte. Muchas gracias por ayudar a mejorar muestros servicios.</p>
 
                     <div class="col-md-12 mb-md-0 mb-5">
                         <form id="contact-form" name="contact-form" action="" method="POST">
@@ -79,7 +78,7 @@
                             <div class="row">
                                 <div class="col-md-12  mb-4">
                                     <div class="md-form mb-0" id="input_login">
-                                        <label for="subject" class="titulosPrincipal">Asunto</label> 
+                                        <label for="subject" class="titulosPrincipal">Asunto</label>
                                         <input type="text" id="subject" name="subject" class="form-control opaco">
 
                                     </div>
