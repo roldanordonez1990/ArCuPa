@@ -69,6 +69,10 @@
             </li>
             <li class="nav-item dropdown pr-3"> <a class="nav-link colorLetra" href="../contacto.php"><label>CONTÁCTANOS</label></a>
             </li>
+            </li>
+            <li class="nav-item dropdown pr-3"> <a class="nav-link colorLetra" href="../juegos.php"><label>JUEGOS</label></a>
+            </li>
+            
 
 
             <li class="nav-item dropdown d-md-none">
