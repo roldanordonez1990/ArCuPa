@@ -27,31 +27,29 @@
                                         <div class="single-blog-post mb-50 wow fadeInUp">
                                             <!-- Post Thumb -->
                                             <div class="blog-post-thumb mb-50" id="n1">
-                                                <img class="img" src="../media/images/noticias/NieveCabra.jpg" alt="">
+                                                <img class="img" src="../media/images/noticias/Covid.jpg" alt="">
                                             </div>
                                             <!-- Post Title -->
-                                            <h1 class="titulosPrincipal">Los últimos coletazos de Filomena tiñen de
-                                                blanco la sierra de Cabra</h1>
+                                            <h1 class="titulosPrincipal">España registra un nuevo récord de contagios
+                                                por covid: 41.576</h1>
                                             <!-- Post Meta -->
                                             <div class="letra1">
                                                 <p>Por Adrian Osuna | Marzo 18, 2020</p>
                                             </div>
                                             <!-- Post Excerpt -->
-                                            <p>La zona de la Sierra de Cabra, a unos 1.200 metros de altitud, ha vuelto
-                                                a recibir la visita de la nieve por tercera vez en pocas semanas. Los
-                                                alrededores del Santuario de la Virgen de la Sierra han mantenido
-                                                durante la jornada una delicada capa blanca, que se ha mantenido estable
-                                                gracias a las bajas temperaturas, de entre uno y dos grados centígrados,
-                                                e incluso de la caída de nieve granulada en algunos momentos de la
-                                                mañana.</p>
+                                            <p>Sanidad ha notificado este miércoles, con datos procedentes de las
+                                                comunidades autónomas, 41.576 nuevos casos de coronavirus, lo que supone
+                                                un nuevo récord de contagios desde el comienzo de la pandemia. De hecho,
+                                                el récord se alcanzó el pasado 15 de enero, cuando se comunicaron 40.197
+                                                nuevas infecciones. De todos ellos, 18.500 han sido diagnosticados en
+                                                las últimas 24 horas, frente a los 15.578 registrados el martes. La
+                                                cifra global de personas infectadas de covid-19 desde el comienzo de la
+                                                pandemia se sitúa en las 2.412.318.</p>
 
-                                            <p>A medida que han ido pasando las horas las zonas como el Picacho de
-                                                Cabra se han ido llenando de gente, desde los fotógrafos dispuestos a
-                                                recoger las mejores instantáneas de unos campos bañados de blanco por la
-                                                nevada hasta familias completas, dispuestas a disfrutar de tan poco
-                                                habitual paisaje, tirar unas bolas de nieve, construir un muñeco o
-                                                lanzarse pendiente abajo con un tríneo, como puede verse en nuestra
-                                                galería de fotos.</p>
+                                            <p>Respecto a los fallecidos por covid-19, este miércoles se han notificado
+                                                464 más, de los cuales 1.146 se han registrado en la última semana. Esto
+                                                hace que la cifra global de muertos por coronavirus en España se eleve a
+                                                las 54.637 personas.</p>
                                             <!-- Read More btn -->
                                             <!--<a href="" class="btn btn-login mt-15">Leer Mas</a>-->
                                         </div>
@@ -62,25 +60,26 @@
                                         <div class="single-blog-post mb-50 wow fadeInUp">
                                             <!-- Post Thumb -->
                                             <div class="blog-post-thumb mb-50" id="n2">
-                                                <img class="img" src="../media/images/noticias/LluviaSemanaSanta.jpg"
-                                                    alt="">
+                                                <img class="img" src="../media/images/noticias/Borrasca.jpg" alt="">
                                             </div>
                                             <!-- Post Title -->
-                                            <h1 class="titulosPrincipal">Posibles lluvias en Semana Santa</h1>
+                                            <h1 class="titulosPrincipal">Así afectará la borrasca Gaetan a España este
+                                                miércoles</h1>
                                             <!-- Post Meta -->
                                             <div class="letra1">
                                                 <p>Por Arturo Vicente | Marzo 18, 2020</p>
                                             </div>
                                             <!-- Post Excerpt -->
-                                            <p>Aunque aún es pronto para contar con previsiones certeras sobre el tiempo
-                                                que nos espera de cara a los próximos días, los datos de los que se
-                                                dispone hasta el momento apuntan a una Semana Santa con tiempo revuelto
-                                                e intermitentemente pasada por agua.</p>
+                                            <p>La Borrasca atlántica Gaetan mantiene este miércoles once comunidades en
+                                                alerta por lluvias, temporal marítimo, deshielo y fuerte viento, con
+                                                especial incidencia en Asturias, Navarra, Galicia y Cantabria donde se
+                                                prevén rachas de hasta 130 kilómetros por hora.</p>
 
-                                            <p>Aunque en los próximos días, a medida que se acerque la fecha, se
-                                                afinarán las predicciones, la Agencia Estatal de Meteorología (AEMET)
-                                                anuncia una alta probabilidad de lluvia durante el primer fin de semana,
-                                                del 18 al 20 de marzo "aunque serían débiles en general".</p>
+                                            <p>La borrasca afectará con intensidad a Galicia donde persiste el aviso
+                                                naranja por temporal marítimo en las provincias de A coruña y Pontevedra
+                                                donde se espera viento del sur o suroeste fuerza 8 y olas entre los 5-6
+                                                metros mar adentro, mientras que en Lugo hay nivel naranja por rachas de
+                                                100 kilómetros por hora.</p>
                                             <!-- Read More btn -->
                                             <!--<a href="" class="btn btn-login mt-15">Leer Mas</a>-->
                                         </div>
@@ -91,25 +90,26 @@
                                         <div class="single-blog-post mb-50 wow fadeInUp">
                                             <!-- Post Thumb -->
                                             <div class="blog-post-thumb mb-50" id="n3">
-                                                <img class="img" src="../media/images/noticias/EncinaRute.jpg" alt="">
+                                                <img class="img" src="../media/images/noticias/Meteorito.jpg" alt="">
                                             </div>
                                             <!-- Post Title -->
-                                            <h1 class="titulosPrincipal">Quinto lugar para la encina milenaria de Rute
-                                                en el concurso de árbol del año de España</h1>
+                                            <h1 class="titulosPrincipal">Otra bola de fuego sobrevuela España: esta se
+                                                ha hecho visible en el sur del país... y viajaba a 104.000 km/hora</h1>
                                             <!-- Post Meta -->
                                             <div class="letra1">
                                                 <p>Por Francisco Roldán | Marzo 18, 2020</p>
                                             </div>
                                             <!-- Post Excerpt -->
-                                            <p>Finalmente ha sido otra encina, la carrasca milenaria de Lecina, la
-                                                elegida árbol del año de España y pasará a la selección del Árbol
-                                                Europeo de 2021. Selección en la que participaba la encina milenaria de
-                                                Rute que se ha quedado en quinto lugar, entro los doce árboles
-                                                monumentales seleccionados para esta edición. Los resultados de la
-                                                votación de Árbol del Año en España han colocado como ganadora, con
-                                                9.920 votos, a la carrasca de Lecina, de la Sierra de Guara de Huesca.
-                                                Mientras que la encina milenaria de Rute, en la comarca de la Subbética
-                                                cordobesa ha conseguido 2.242 votos.</p>
+                                            <p>Los detectores del proyecto SMART, del Instituto de Astrofísica de
+                                                Andalucía (IAA-CSIC), desde los observatorios astronómicos de Calar Alto
+                                                (Almería), Sevilla, Sierra Nevada y La Hita (Toledo) han registrado el
+                                                paso de una bola de fuego sobre el centro y sur peninsular a 104.000
+                                                kilómetros/hora.</p>
+                                            <p>Los detectores del proyecto SMART operan en el marco de la Red de Bólidos
+                                                y Meteoros del Suroeste de Europa (SWEMN), que tiene como objetivo
+                                                monitorizar continuamente el cielo con el fin de registrar y estudiar el
+                                                impacto contra la atmósfera terrestre de rocas procedentes de distintos
+                                                objetos del Sistema Solar. </p>
                                             <!-- Read More btn -->
                                             <!--<a href="" class="btn btn-login mt-15">Leer Mas</a>-->
                                         </div>
@@ -120,25 +120,28 @@
                                         <div class="single-blog-post mb-50 wow fadeInUp">
                                             <!-- Post Thumb -->
                                             <div class="blog-post-thumb mb-50" id="n4">
-                                                <img class="img" src="../media/images/noticias/NieveOlivos.jpg" alt="">
+                                                <img class="img" src="../media/images/noticias/molina.jpg" alt="">
                                             </div>
                                             <!-- Post Title -->
-                                            <h1 class="titulosPrincipal">Las heladas de Filomena destrozan parte de la
-                                                cosecha.</h1>
+                                            <h1 class="titulosPrincipal">Los récords de frío en 100 lugares de España
+                                            </h1>
                                             <!-- Post Meta -->
                                             <div class="letra1">
                                                 <p>Por Adrián Osuna | Marzo 18, 2020</p>
                                             </div>
                                             <!-- Post Excerpt -->
-                                            <p>El paso de Filomena no ha sido del todo agradable para el sector agrario.
-                                                Depende de las zonas donde ha actuado la borrasca ha causado graves
-                                                daños en la cosecha de la aceiutuna que algunos agricultores han llegado
-                                                a perder el 40% de la cosecha por las nevadas y las heladas en sus
-                                                terrenos.</p>
-                                            <p>Todo este daño causado por la borrasca puede influir en el precio del
-                                                aceite del proximo año. Los agricultores trabajan sin para para intentar
-                                                salvar el año, pero es verdad que el paso de Filomena ha complicado un
-                                                poco dicha tarea.</p>
+                                            <p>La ola de frío que ha dejado tras de sí la borrasca Filomena hizo tiritar
+                                                numerosas ciudades españolas, en especial la noche del pasado martes. En
+                                                tres de ellas, más que nunca desde que hay registros: Madrid, Toledo y
+                                                Teruel.</p>
+                                            <p>Las temperaturas más bajas de la jornada dejaron helado a Molina de
+                                                Aragón (Guadalajara), con -25,2ºC, pero aun así la población ha conocido
+                                                noches más frías: en enero de 1952 llegó a registrar -28,2ºC. También
+                                                las ha vivido peores la estación de Albacete-Los Llanos, que este martes
+                                                se apuntó -14ºC, porque en 1971 llegó a los -24ºC. En Calamocha
+                                                (Teruel), por más gélida que fue la madrugada del martes (-20ºC), aún
+                                                vivieron otra peor un día de Navidad de hace 20 años: el termómetro bajó
+                                                hasta los -21,3ºC.</p>
                                             <!-- Read More btn -->
                                             <!--<a href="" class="btn btn-login mt-15">Leer Mas</a>-->
                                         </div>
@@ -157,47 +160,47 @@
                                         <!-- Single Latest Blog Post -->
                                         <div class="single-latest-blog-post d-flex mb-30">
                                             <div class="latest-blog-post-thumb">
-                                                <img class="img" src="../media/images/noticias/NieveCabra.jpg" alt="">
+                                                <img class="img" src="../media/images/noticias/Covid.jpg" alt="">
                                             </div>
                                             <div class="latest-blog-post-content">
                                                 <a href="#n1" class="post-title">
-                                                    <h6 class="">Filomena por Cabra</h6>
+                                                    <h6 class="">Récord de Contagios</h6>
                                                 </a>
-                                                <p class="letra1">March 18, 2018</p>
+                                                <p class="letra1">Marzo 18, 2018</p>
                                             </div>
                                         </div>
                                         <div class="single-latest-blog-post d-flex mb-30">
                                             <div class="latest-blog-post-thumb">
-                                                <img class="img" src="../media/images/noticias/LluviaSemanaSanta.jpg"
+                                                <img class="img" src="../media/images/noticias/Borrasca.jpg"
                                                     alt="">
                                             </div>
                                             <div class="latest-blog-post-content">
                                                 <a href="#n2" class="post-title">
-                                                    <h6 class="">Lluvias en Semana Santa</h6>
+                                                    <h6 class="">Borrasca Gaetan</h6>
                                                 </a>
-                                                <p class="letra1">March 18, 2018</p>
+                                                <p class="letra1">Marzo 18, 2018</p>
                                             </div>
                                         </div>
                                         <div class="single-latest-blog-post d-flex mb-30">
                                             <div class="latest-blog-post-thumb">
-                                                <img class="img" src="../media/images/noticias/EncinaRute.jpg" alt="">
+                                                <img class="img" src="../media/images/noticias/Meteorito.jpg" alt="">
                                             </div>
                                             <div class="latest-blog-post-content">
                                                 <a href="#n3" class="post-title">
-                                                    <h6 class="">Quinto lugar para Rute</h6>
+                                                    <h6 class="">Bola de fuego en Andalucía</h6>
                                                 </a>
-                                                <p class="letra1">March 18, 2018</p>
+                                                <p class="letra1">Marzo 18, 2018</p>
                                             </div>
                                         </div>
                                         <div class="single-latest-blog-post d-flex mb-30">
                                             <div class="latest-blog-post-thumb">
-                                                <img class="img" src="../media/images/noticias/NieveOlivos.jpg" alt="">
+                                                <img class="img" src="../media/images/noticias/molina.jpg" alt="">
                                             </div>
                                             <div class="latest-blog-post-content">
                                                 <a href="#n4" class="post-title">
-                                                    <h6 class="">Perdida de Cosechas</h6>
+                                                    <h6 class="">Récords de Frío</h6>
                                                 </a>
-                                                <p class="letra1">March 18, 2018</p>
+                                                <p class="letra1">Marzo 18, 2018</p>
                                             </div>
                                         </div>
                                 </div>
@@ -216,7 +219,7 @@
     <script>
     $(window).scroll(function() {
         var scrollTop = $(window).scrollTop();
-        if (scrollTop <= 337)
+        if (scrollTop <= 337 )
             $('.academy-blog-sidebar').css('top', 337 - scrollTop);
         else
             $('.academy-blog-sidebar').css('top', 0);

@@ -19,16 +19,13 @@
                     <div class="titulosPrincipal font-weight-bold col-sm-12 text-center border-primary mr-3">
                         Conócenos</div>
                     <div class="col-sm-12">
-                        <p class="mb-4 text-justify" id="descripciones">Lorem ipsum dolor sit amet, consectetur
-                            adipiscing elit, sed
-                            do
-                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                            irure
-                            dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                            Excepteur
-                            sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                            laborum.</p>
+                        <p class="mb-4 text-justify" id="descripciones">Llevamos más de 5 años dedicándonos a la
+                            meteorología. Durante estos años, hemos mejorado y crecido mucho. Actualmente nuestras
+                            predicciones se ofrecen en toda España.</p>
+                        <p class="mb-4 text-justify" id="descripciones">No cabe duda de que ElGranizo se ha convertido en
+                            uno de los proyectos líderes sobre información meteorológica a nivel nacional. Así lo
+                            demuestran todos los profesionales, aficionados a la meteorología y todas las personas
+                            alrededor del pais que confían en nosotros diariamente.</p>
                     </div>
                 </div>
                 <div class="row mt-4">
@@ -49,8 +46,10 @@
                 <div class="row mt-4 ">
                     <div class=" titulosPrincipal font-weight-bold col-sm-12 text-center border-primary">
                         Contacto</div>
-                    <p class="text-center w-responsive mx-auto mb-5" id="descripciones">¿Tiene usted alguna pregunta o duda? Por
-                        favor no dudes para contactarnos directamente. Nuestro equipo se comunicará contigo en cuestión de horas para ayudarte. Muchas gracias por ayudar a mejorar muestros servicios.</p>
+                    <p class="text-center w-responsive mx-auto mb-5" id="descripciones">¿Tiene usted alguna pregunta o
+                        duda? Por
+                        favor no dudes para contactarnos directamente. Nuestro equipo se comunicará contigo en cuestión
+                        de horas para ayudarte. Muchas gracias por ayudar a mejorar muestros servicios.</p>
 
                     <div class="col-md-12 mb-md-0 mb-5">
                         <form id="contact-form" name="contact-form" action="" method="POST">
