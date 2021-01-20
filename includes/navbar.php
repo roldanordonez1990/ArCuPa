@@ -44,8 +44,9 @@
                     aria-haspopup="true" aria-expanded="false"><label>MULTIMEDIA</label></a>
                 <div class="dropdown-menu backgroundcolor" aria-labelledby="dropdown06">
                     <a href="../nubes.php" class="dropdown-item">NUBES Y CIELOS</a>
-                    <a href="../videos.php" class="dropdown-item">VIDEOS</a>
                     <a href="../paisajes.php" class="dropdown-item">PAISAJES</a>
+                    <a href="../videos.php" class="dropdown-item">VIDEOS</a>
+                
                 </div>
             </li>
             <li class="nav-item dropdown pr-3"> <a class="nav-link dropdown-toggle colorLetra" id="dropdown06" data-toggle="dropdown"
