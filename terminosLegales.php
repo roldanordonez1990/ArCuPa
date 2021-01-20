@@ -291,9 +291,11 @@
                     <p id="descripciones">
                         Todo el material audiovisual de esta página pertenece a sus respectivos propietarios,
                         reservándose
-                        ellos el derecho y uso comercial de los mismos. Cualquier persona puede utilizar el material
-                        creado
-                        por nosotros siempre que se acredite y enlace con nuestra página.
+                        ellos el derecho y uso comercial de los mismos. El contenido audiovisual no podrá ser utilizado
+                        por cualquier persona ajena a dicho propietario, excluyendo aquel que esté exsento de copyright. Las fotografías y vídeos que aparecen en esta
+                        Web, tienen el permiso de los usuarios de ser publicadas por <strong>Arcupa</strong>.
+
+
                     </p>
                     <table class="table">
                         <thead class="fondoThead">
@@ -308,27 +310,34 @@
                             <tr>
                                 <td class="text-center tdColor">Index</td>
                                 <td class="text-center tdColor">Unknown</td>
-                                <td class="text-center tdColor">Reconocimiento-NoComercial-SinObraDerivada CC BY-NC-ND</td>
+                                <td class="text-center tdColor">Reconocimiento-NoComercial-SinObraDerivada CC BY-NC-ND
+                                </td>
                             </tr>
                             <tr>
                                 <td class="text-center tdColor">Mapas</td>
                                 <td class="text-center tdColor">Unknown</td>
-                                <td class="text-center tdColor">Reconocimiento-NoComercial-SinObraDerivada CC BY-NC-ND</td>
+                                <td class="text-center tdColor">Reconocimiento-NoComercial-SinObraDerivada CC BY-NC-ND
+                                </td>
                             </tr>
                             <tr>
                                 <td class="text-center tdColor">Multimedia</td>
-                                <td class="text-center tdColor">Unknown</td>
-                                <td class="text-center tdColor">Reconocimiento-NoComercial-SinObraDerivada CC BY-NC-ND</td>
+                                <td class="text-center tdColor"><a class="noNeeded"
+                                        href="https://pixabay.com/es/">https://pixabay.com/es/</a></td>
+                                <td class="text-center tdColor">Reconocimiento
+                                    CC BY
+                                </td>
                             </tr>
                             <tr>
                                 <td class="text-center tdColor">Avisos</td>
                                 <td class="text-center tdColor">Unknown</td>
-                                <td class="text-center tdColor">Reconocimiento-NoComercial-SinObraDerivada CC BY-NC-ND</td>
+                                <td class="text-center tdColor">Reconocimiento-NoComercial-SinObraDerivada CC BY-NC-ND
+                                </td>
                             </tr>
                             <tr>
                                 <td class="text-center tdColor">Contacto</td>
                                 <td class="text-center tdColor">Unknown</td>
-                                <td class="text-center tdColor">Reconocimiento-NoComercial-SinObraDerivada CC BY-NC-ND</td>
+                                <td class="text-center tdColor">Reconocimiento-NoComercial-SinObraDerivada CC BY-NC-ND
+                                </td>
                             </tr>
                         </tbody>
                     </table>
