@@ -261,6 +261,10 @@ td.tdColor {
 .iconos {
   color: #25A1D1; }
 
+.tooltip-inner {
+  background-color: #F5B41B !important;
+  color: #0054A5 !important; }
+
 img {
   max-height: 100%; }
 
