@@ -304,20 +304,18 @@ img {
   opacity: .9; }
 
 button {
-  background: #25A1D1;
-  border: 0;
   color: #F5B41B;
-  border-radius: 3px;
-  padding-top: 5px; }
+  background-color: #0054A5;
+  border: 0; }
 
 button:hover {
   cursor: pointer; }
 
 #seek-bar {
-  width: 360px; }
+  width: 400px; }
 
 #volume-bar {
-  width: 60px; }
+  width: 100px; }
 
 .map-responsive {
   overflow: hidden;

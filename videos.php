@@ -28,7 +28,12 @@
 	       						<li data-target="#carousel-example" data-slide-to="1"></li>
 	       					</ol>
 	       					<div class="carousel-inner">
-	       						<div class="carousel-item active">
+							   <div class="carousel-item active">
+								   <div id="video-container">
+	       								<iframe width="640" height="365" src="../media/videos/2.mp4" allowfullscreen></iframe>
+	       							</div>
+	       						</div>
+	       						<div class="carousel-item">
 								   <div id="video-container">
 										<video id="video" width="640" height="365">
 										<source src="../media/videos/1.mp4" type="video/mp4">
@@ -38,18 +43,13 @@
 										</p>
 										</video>
 										<div id="video-controls">
-											<button type="button" id="play-pause" class="play">Play</button>
+											<button type="button"id="play-pause" onclick="myFunction(this)"  class="fas fa-play" class="play"></button>
 											<input type="range" id="seek-bar" value="0">
-											<button type="button" id="mute">Mute</button>
+											<button type="button"onclick="sound(this)" class="fas fa-volume-up" id="mute"></button>
 											<input type="range" id="volume-bar" min="0" max="1" step="0.1" value="1">
-											<button type="button" id="full-screen">Full-Screen</button>
+											<button type="button" id="full-screen" class="fas fa-expand"></button>
 										</div>
 									</div>
-	       						</div>
-	       						<div class="carousel-item">
-								   <div id="video-container">
-	       								<iframe width="640" height="365" src="../media/videos/2.mp4" allowfullscreen></iframe>
-	       							</div>
 	       						</div>
 	       					</div>
 	       				</div>
@@ -87,14 +87,15 @@
 					// Play the video
 					video.play();
 
-					// Update the button text to 'Pause'
-					playButton.innerHTML = "Pause";
+
+				
+					
 				} else {
 					// Pause the video
 					video.pause();
 
-					// Update the button text to 'Play'
-					playButton.innerHTML = "Play";
+
+			
 				}
 			});
 
@@ -105,14 +106,12 @@
 					// Mute the video
 					video.muted = true;
 
-					// Update the button text
-					muteButton.innerHTML = "Unmute";
+					
 				} else {
 					// Unmute the video
 					video.muted = false;
 
-					// Update the button text
-					muteButton.innerHTML = "Mute";
+					
 				}
 			});
 
@@ -165,6 +164,27 @@
 			});
 			}
 
+
+			function myFunction(x) {
+				
+				if (video.paused == true) {
+				 x.classList.replace("fa-pause","fa-play");
+				}else{
+					x.classList.replace("fa-play","fa-pause");
+				}
+				
+			}
+
+
+			function sound(x) {
+				
+				if(video.muted == false){
+					x.classList.replace("fa-volume-off","fa-volume-up");
+				}else{
+					x.classList.replace("fa-volume-up","fa-volume-off");
+				}
+				
+			}
 	</script>
 </body>
 
