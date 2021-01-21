@@ -32,9 +32,6 @@
                     </li>
                 </ul>
             </li>
-
-
-
             <li class="nav-item dropdown pr-3"> <a class="nav-link dropdown-toggle colorLetra" id="dropdown06" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false"><label>MAPAS</label></a>
                 <div class="dropdown-menu backgroundcolor" aria-labelledby="dropdown06">
@@ -47,8 +44,9 @@
                     aria-haspopup="true" aria-expanded="false"><label>MULTIMEDIA</label></a>
                 <div class="dropdown-menu backgroundcolor" aria-labelledby="dropdown06">
                     <a href="../nubes.php" class="dropdown-item">NUBES Y CIELOS</a>
-                    <a href="../videos.php" class="dropdown-item">VIDEOS</a>
                     <a href="../paisajes.php" class="dropdown-item">PAISAJES</a>
+                    <a href="../videos.php" class="dropdown-item">VIDEOS</a>
+                
                 </div>
             </li>
             <li class="nav-item dropdown pr-3"> <a class="nav-link dropdown-toggle colorLetra" id="dropdown06" data-toggle="dropdown"
@@ -72,9 +70,6 @@
             </li>
             <li class="nav-item dropdown pr-3"> <a class="nav-link colorLetra" href="../juegos.php"><label>JUEGOS</label></a>
             </li>
-            
-
-
             <li class="nav-item dropdown d-md-none">
                 <form class="form-inline">
                     <div class="input-group mb-3">
@@ -92,15 +87,6 @@
 
 </div>
 </nav>
-
-
-
-
-
-
-
-
-
 </div>
 </nav>
 
@@ -116,8 +102,6 @@ $('.dropdown-menu a.dropdown-toggle').on('click', function(e) {
   $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function(e) {
     $('.dropdown-submenu .show').removeClass("show");
   });
-
-
   return false;
 });
 </script>

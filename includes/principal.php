@@ -214,7 +214,7 @@
                 proporciona la <a class="noNeeded" href="https://openweathermap.org/api">API openweathermap</a> en su versión gratuita. Con ello, los datos se actualizarán en tiempo
                 real cada vez que el usuario visite nuestra Web o recargue la página. Los datos más utilizados serán la
                 temperatura, probabilidad de precipitación, humedad y viento. Todo esto se acompañará de iconos
-                multimedia que aportarán información. Además, en la Web aparecerá contenido multimedia el cual será aportado por los propios usuarios. Para cualquier duda o pregunta, no dude en ponerse en <a class="noNeeded" href="../contacto.php ">contacto</a> con nosotros.</p>
+                multimedia que aportarán información. Además, en la Web aparecerá un contenido especial multimedia, que será compartido por los propios usuarios. Para cualquier duda o pregunta, no dude en ponerse en <a class="noNeeded" href="../contacto.php ">contacto</a> con nosotros.</p>
         </div>
 
         <div class="col-lg-4">
@@ -223,15 +223,21 @@
             </div>
             <div class="row">
                 <div class="col-4">
-                    <div class="multi"><a href=""><img src="../media/images/nube.png"></div>
+                    <div class="multi " ><a href="./nubes.php"><img data-toggle="tooltip" data-placement="top" title="Nubes y Cielos" src="../media/images/nubemulti.jpg"></div>
                 </div>
                 <div class="col-4">
-                    <div class="multi"><a href=""><img src="../media/images/paisajemulti.jpg"></a></div>
+                    <div class="multi"><a href="./paisajes.php"><img data-toggle="tooltip" data-placement="bottom" title="Paisajes" src="../media/images/paisajemulti.jpg"></a></div>
                 </div>
                 <div class="col-4">
-                    <div class="multi"><a href=""><img src="../media/images/nube.png"></a></div>
+                    <div class="multi"><a href="./videos.php"><img data-toggle="tooltip" data-placement="top" title="Vídeos" src="../media/images/videomulti.jpg"></a></div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+<script>
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();   
+});
+</script>

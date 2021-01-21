@@ -309,14 +309,16 @@
                         <tbody>
                             <tr>
                                 <td class="text-center tdColor">Index</td>
-                                <td class="text-center tdColor">Unknown</td>
-                                <td class="text-center tdColor">Reconocimiento-NoComercial-SinObraDerivada CC BY-NC-ND
+                                <td class="text-center tdColor"><a class="noNeeded" href="http://www.aemet.es/es/portada">Aemet</a></td>
+                                <td class="text-center tdColor">Reconocimiento
+                                    CC BY
                                 </td>
                             </tr>
                             <tr>
                                 <td class="text-center tdColor">Mapas</td>
-                                <td class="text-center tdColor">Unknown</td>
-                                <td class="text-center tdColor">Reconocimiento-NoComercial-SinObraDerivada CC BY-NC-ND
+                                <td class="text-center tdColor"><a class="noNeeded" href="http://www.aemet.es/es/portada">Aemet</a></td>
+                                <td class="text-center tdColor">Reconocimiento
+                                    CC BY
                                 </td>
                             </tr>
                             <tr>
@@ -329,14 +331,17 @@
                             </tr>
                             <tr>
                                 <td class="text-center tdColor">Avisos</td>
-                                <td class="text-center tdColor">Unknown</td>
-                                <td class="text-center tdColor">Reconocimiento-NoComercial-SinObraDerivada CC BY-NC-ND
+                                <td class="text-center tdColor"><a class="noNeeded" href="http://www.aemet.es/es/portada">Aemet</a></td>
+                                <td class="text-center tdColor">Reconocimiento
+                                    CC BY
                                 </td>
                             </tr>
                             <tr>
                                 <td class="text-center tdColor">Contacto</td>
-                                <td class="text-center tdColor">Unknown</td>
-                                <td class="text-center tdColor">Reconocimiento-NoComercial-SinObraDerivada CC BY-NC-ND
+                                <td class="text-center tdColor"><a class="noNeeded"
+                                        href="https://www.google.es/maps/preview">https://www.google.es/maps/preview</a></td>
+                                <td class="text-center tdColor">Reconocimiento
+                                    CC BY
                                 </td>
                             </tr>
                         </tbody>
