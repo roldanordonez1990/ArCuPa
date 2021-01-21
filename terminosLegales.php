@@ -188,8 +188,6 @@
                     </p>
                     <div class="titulosPrincipal font-weight-bold">Propiedad intelectual e industrial</div>
                     <p id="descripciones">
-                        Todos los derechos están reservados.
-
                         Todo acceso a este sitio Web está sujeto a las siguientes condiciones: la reproducción,
                         almacenaje permanente y la difusión de los contenidos o cualquier otro uso que tenga finalidad
                         pública o comercial queda expresamente prohibida sin el consentimiento previo expreso y por
