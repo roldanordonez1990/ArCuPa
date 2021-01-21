@@ -54,7 +54,7 @@
                 <div class="card" style="width:400px">
                     <img class="card-img-top" src="media/images/JuegoTiempo.png" alt="Card image" style="width:100%">
                     <div class="card-body">
-                        <h4 class="card-title titulosPrincipal font-weight-bold text-center">Destruye Nubes</h4>
+                        <h4 class="card-title titulosPrincipal font-weight-bold text-center">Space-Clouds</h4>
                         <p class="card-text text-justify" id="descripciones">Es un videojuego muy rápido basado en el famoso Space-Invaders en el cual el objetivo es intentar que no destruyan tu pararayos y acabar con todas las nubes. ¡Suerte!
                         </p>
                     </div>
