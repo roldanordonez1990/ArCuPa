@@ -1,6 +1,7 @@
 body {
     background: #ccc;
     color: #333;
+    background-image: url("../../../media/images/fondo.jpg"); 
     font: 14px 'Arial',sans-serif;
     text-align: center;
 }
@@ -13,5 +14,7 @@ div.contenedor {
 div.juego canvas {
     box-shadow: 0 0 30px #000;
 }
+
+
 
 
