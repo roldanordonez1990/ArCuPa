@@ -19,8 +19,8 @@
                 <div class="card" style="width:400px">
                     <img class="card-img-top" src="img_avatar1.png" alt="Card image" style="width:100%">
                     <div class="card-body">
-                        <h4 class="card-title text-center">nombre juego</h4>
-                        <p class="card-text text-justify">descripcion
+                        <h4 class="card-title text-center titulosPrincipal">nombre juego</h4>
+                        <p class="card-text text-justify" id="descripciones">descripcion
                         </p>
                         <a href="#" class="btn btn-login">Jugar</a>
                     </div>
@@ -30,8 +30,8 @@
                 <div class="card" style="width:400px">
                     <img class="card-img-top" src="img_avatar1.png" alt="Card image" style="width:100%">
                     <div class="card-body">
-                        <h4 class="card-title text-center">nombre juego</h4>
-                        <p class="card-text text-justify">descripcion
+                        <h4 class="card-title text-center titulosPrincipal">nombre juego</h4>
+                        <p class="card-text text-justify" id="descripciones">descripcion
                         </p>
                         <a href="#" class="btn btn-login">Jugar</a>
                     </div>
@@ -41,10 +41,10 @@
                 <div class="card" style="width:400px">
                     <img class="card-img-top" src="media/images/JuegoTiempo.png" alt="Card image" style="width:100%">
                     <div class="card-body">
-                        <h4 class="card-title text-center centrado">Destruye Nubes</h4>
-                        <p class="card-text text-justify">Es un videojuego muy rapido que consta en que no te den los rayos que caen de las nubes y destruyas las nubes.
+                        <h4 class="card-title text-center titulosPrincipal">Destruye Nubes</h4>
+                        <p class="card-text text-justify" id="descripciones">Es un videojuego muy rapido que consta en que no te den los rayos que caen de las nubes y destruyas las nubes.
                         </p>
-                        <a href="juegos/Adrian/index.html" class="btn btn-login centrado">Jugar</a>
+                        <a href="juegos/Adrian/index.html" class="btn btn-login">Jugar</a>
                     </div>
                 </div>
             </div>
