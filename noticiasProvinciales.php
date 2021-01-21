@@ -124,25 +124,25 @@
                                         <div class="single-blog-post mb-50 wow fadeInUp">
                                             <!-- Post Thumb -->
                                             <div class="blog-post-thumb mb-50" id="n4">
-                                                <img class="img" src="../media/images/noticias/NieveOlivos.jpg" alt="">
+                                                <img class="img" src="../media/images/noticias/DesarrolloRural.jpg" alt="">
                                             </div>
                                             <!-- Post Title -->
-                                            <h1 class="titulosPrincipal">Las heladas de Filomena destrozan parte de la
-                                                cosecha.</h1>
+                                            <h1 class="titulosPrincipal">La comarca de Sierra Morena de Córdoba recibe
+                                                346.000 euros para fomentar el desarrollo rural</h1>
                                             <!-- Post Meta -->
                                             <div class="letra1">
                                                 <p>Por Adrián Osuna | Marzo 18, 2020</p>
                                             </div>
                                             <!-- Post Excerpt -->
-                                            <p>El paso de Filomena no ha sido del todo agradable para el sector agrario.
-                                                Depende de las zonas donde ha actuado la borrasca ha causado graves
-                                                daños en la cosecha de la aceiutuna que algunos agricultores han llegado
-                                                a perder el 40% de la cosecha por las nevadas y las heladas en sus
-                                                terrenos.</p>
-                                            <p>Todo este daño causado por la borrasca puede influir en el precio del
-                                                aceite del proximo año. Los agricultores trabajan sin para para intentar
-                                                salvar el año, pero es verdad que el paso de Filomena ha complicado un
-                                                poco dicha tarea.</p>
+                                            <p>La Junta de Andalucía ha concedido una ayuda de 346.699 euros destinada a
+                                                fomentar el desarrollo rural en la comarca de Sierra Morena, según ha
+                                                señalado la delegada de Agricultura, Ganadería y Pesca, Araceli Cabello.
+                                            </p>
+                                            <p>Los proyectos aprobados tienen como objetivo la mejora de la caseta
+                                                municipal de Espiel, mejoras en la casa de la cultura de Hornachuelos,
+                                                la mejora ambiental de espacios públicos en Montoro y la mejora en la
+                                                instalación del alumbrado público para ahorro y eficiencia energética en
+                                                Villaviciosa de Córdoba.</p>
                                             <!-- Read More btn -->
                                             <!--<a href="" class="btn btn-login mt-15">Leer Mas</a>-->
                                         </div>
@@ -167,7 +167,7 @@
                                                 <a href="#n1" class="post-title">
                                                     <h6 class="">Renfe corta vías</h6>
                                                 </a>
-                                                <p class="letra1">March 18, 2018</p>
+                                                <p class="letra1">Marzo 18, 2018</p>
                                             </div>
                                         </div>
                                         <div class="single-latest-blog-post d-flex mb-30">
@@ -179,7 +179,7 @@
                                                 <a href="#n2" class="post-title">
                                                     <h6 class="">Red de Senderos</h6>
                                                 </a>
-                                                <p class="letra1">March 18, 2018</p>
+                                                <p class="letra1">Marzo 18, 2018</p>
                                             </div>
                                         </div>
                                         <div class="single-latest-blog-post d-flex mb-30">
@@ -190,18 +190,18 @@
                                                 <a href="#n3" class="post-title">
                                                     <h6 class="">Sueltas de Lince Iberico</h6>
                                                 </a>
-                                                <p class="letra1">March 18, 2018</p>
+                                                <p class="letra1">Marzo 18, 2018</p>
                                             </div>
                                         </div>
                                         <div class="single-latest-blog-post d-flex mb-30">
                                             <div class="latest-blog-post-thumb">
-                                                <img class="img" src="../media/images/noticias/NieveOlivos.jpg" alt="">
+                                                <img class="img" src="../media/images/noticias/DesarrolloRural.jpg" alt="">
                                             </div>
                                             <div class="latest-blog-post-content">
                                                 <a href="#n4" class="post-title">
-                                                    <h6 class="">Perdida de Cosechas</h6>
+                                                    <h6 class="">Desarrollo Rural</h6>
                                                 </a>
-                                                <p class="letra1">March 18, 2018</p>
+                                                <p class="letra1">Marzo 18, 2018</p>
                                             </div>
                                         </div>
                                 </div>

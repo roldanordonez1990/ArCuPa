@@ -349,6 +349,9 @@ button:hover {
   opacity: 75%;
   border: 1px solid #0054A5 !important; }
 
+.centrado {
+  align-items: center; }
+
 ul,
 ol {
   margin: 0; }

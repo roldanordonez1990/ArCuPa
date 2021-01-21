@@ -163,7 +163,7 @@
                                                 <a href="#n1" class="post-title">
                                                     <h6 class="">Filomena por Cabra</h6>
                                                 </a>
-                                                <p class="letra1">March 18, 2018</p>
+                                                <p class="letra1">Marzo 18, 2018</p>
                                             </div>
                                         </div>
                                         <div class="single-latest-blog-post d-flex mb-30">
@@ -175,7 +175,7 @@
                                                 <a href="#n2" class="post-title">
                                                     <h6 class="">Lluvias en Semana Santa</h6>
                                                 </a>
-                                                <p class="letra1">March 18, 2018</p>
+                                                <p class="letra1">Marzo 18, 2018</p>
                                             </div>
                                         </div>
                                         <div class="single-latest-blog-post d-flex mb-30">
@@ -186,7 +186,7 @@
                                                 <a href="#n3" class="post-title">
                                                     <h6 class="">Quinto lugar para Rute</h6>
                                                 </a>
-                                                <p class="letra1">March 18, 2018</p>
+                                                <p class="letra1">Marzo 18, 2018</p>
                                             </div>
                                         </div>
                                         <div class="single-latest-blog-post d-flex mb-30">
@@ -197,7 +197,7 @@
                                                 <a href="#n4" class="post-title">
                                                     <h6 class="">Perdida de Cosechas</h6>
                                                 </a>
-                                                <p class="letra1">March 18, 2018</p>
+                                                <p class="letra1">Marzo 18, 2018</p>
                                             </div>
                                         </div>
                                 </div>
