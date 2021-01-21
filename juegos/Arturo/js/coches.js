@@ -31,10 +31,13 @@ var game = (function () {
 
 
 
+    
+
     /**
      * Función de inicialización del juego. Esta es la función principal, la que se llama desde el código html.
      * Se encarga de inicializar las variables globales necesarias para el juego
      */
+      
     function init() {
         // Lo primero es comenzar a cargar las imágenes
         preloadImages();
@@ -47,11 +50,16 @@ var game = (function () {
         // asignar colores y pintar primitivas, imágenes, textos, etc.
         ctx = canvas.getContext("2d");
 
-        // Empezamos el primer frame
-        gameLoop();
 
         
     }
+
+    $(document).ready(function () {
+        $("#empezar").click(function () {
+            // Empezamos el primer frame
+            gameLoop();
+        });
+    });
 
 
     function drawScore() {
