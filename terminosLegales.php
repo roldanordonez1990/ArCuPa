@@ -290,62 +290,70 @@
                         Todo el material audiovisual de esta página pertenece a sus respectivos propietarios,
                         reservándose
                         ellos el derecho y uso comercial de los mismos. El contenido audiovisual no podrá ser utilizado
-                        por cualquier persona ajena a dicho propietario, excluyendo aquel que esté exsento de copyright. Las fotografías y vídeos que aparecen en esta
+                        por cualquier persona ajena a dicho propietario, excluyendo aquel que esté exsento de copyright.
+                        Las fotografías y vídeos que aparecen en esta
                         Web, tienen el permiso de los usuarios de ser publicadas por <strong>Arcupa</strong>.
-
-
                     </p>
-                    <table class="table">
-                        <thead class="fondoThead">
-                            <tr class="text-center">
-                                <th class="thColor">Página en la que aparece el recurso</th>
-                                <th class="thColor">Fuente de procedencia</th>
-                                <th class="thColor">Términos de licencia Creative Commons</th>
-
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td class="text-center tdColor">Index</td>
-                                <td class="text-center tdColor"><a class="noNeeded" href="http://www.aemet.es/es/portada">Aemet</a></td>
-                                <td class="text-center tdColor">Reconocimiento
-                                    CC BY
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="text-center tdColor">Mapas</td>
-                                <td class="text-center tdColor"><a class="noNeeded" href="http://www.aemet.es/es/portada">Aemet</a></td>
-                                <td class="text-center tdColor">Reconocimiento
-                                    CC BY
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="text-center tdColor">Multimedia</td>
-                                <td class="text-center tdColor"><a class="noNeeded"
-                                        href="https://pixabay.com/es/">https://pixabay.com/es/</a></td>
-                                <td class="text-center tdColor">Reconocimiento
-                                    CC BY
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="text-center tdColor">Avisos</td>
-                                <td class="text-center tdColor"><a class="noNeeded" href="http://www.aemet.es/es/portada">Aemet</a></td>
-                                <td class="text-center tdColor">Reconocimiento
-                                    CC BY
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="text-center tdColor">Contacto</td>
-                                <td class="text-center tdColor"><a class="noNeeded"
-                                        href="https://www.google.es/maps/preview">https://www.google.es/maps/preview</a></td>
-                                <td class="text-center tdColor">Reconocimiento
-                                    CC BY
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
                 </div>
             </div>
+            <div class="row d-none d-md-block">
+                <div class="col">
+                <table class="table table-striped">
+                    <thead class="fondoThead">
+                        <tr class="text-center">
+                            <th class="thColor">Página en la que aparece el recurso</th>
+                            <th class="thColor">Fuente de procedencia</th>
+                            <th class="thColor">Términos de licencia Creative Commons</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="text-center tdColor">Index</td>
+                            <td class="text-center tdColor"><a class="noNeeded"
+                                    href="http://www.aemet.es/es/portada">Aemet</a></td>
+                            <td class="text-center tdColor">Reconocimiento
+                                CC BY
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center tdColor">Mapas</td>
+                            <td class="text-center tdColor"><a class="noNeeded"
+                                    href="http://www.aemet.es/es/portada">Aemet</a></td>
+                            <td class="text-center tdColor">Reconocimiento
+                                CC BY
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center tdColor">Multimedia</td>
+                            <td class="text-center tdColor"><a class="noNeeded"
+                                    href="https://pixabay.com/es/">https://pixabay.com/es/</a></td>
+                            <td class="text-center tdColor">Reconocimiento
+                                CC BY
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center tdColor">Avisos</td>
+                            <td class="text-center tdColor"><a class="noNeeded"
+                                    href="http://www.aemet.es/es/portada">Aemet</a></td>
+                            <td class="text-center tdColor">Reconocimiento
+                                CC BY
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center tdColor">Contacto</td>
+                            <td class="text-center tdColor"><a class="noNeeded"
+                                    href="https://www.google.es/maps/preview">https://www.google.es/maps/preview</a>
+                            </td>
+                            <td class="text-center tdColor">Reconocimiento
+                                CC BY
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                </div>
+            </div>
+
             <br>
             <div class="row mb-3">
                 <div class="col-sm-3"></div>
