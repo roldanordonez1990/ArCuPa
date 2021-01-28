@@ -3,6 +3,7 @@
 <?php if ($CURRENT_PAGE == "Index") {?>
 <meta name="description" content="" />
 <meta name="keywords" content="" />
+<meta name="google-site-verification" content="OkrkB0EnRbu6nWgSDsGaoj_E7WF-Whj8gjw4HQlui-8" />
 <?php }?>
 
 <meta charset="UTF-8">
