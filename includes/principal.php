@@ -217,18 +217,18 @@
                 multimedia que aportarán información. Además, en la Web aparecerá un contenido especial multimedia, que será compartido por los propios usuarios. Para cualquier duda o pregunta, no dude en ponerse en <a class="noNeeded" href="../contacto.php ">contacto</a> con nosotros.</p>
         </div>
 
-        <div class="col-lg-4">
+        <div class="col-sm-4 d-none d-lg-block">
             <div class="row mb-2">
                 <div class="titulosPrincipal font-weight-bold col-sm-12 text-center mt-3">Multimedia</div>
             </div>
             <div class="row">
-                <div class="col-4">
+                <div class="col-lg-4">
                     <div class="multi " ><a href="./nubes.php"><img data-toggle="tooltip" data-placement="top" title="Nubes y Cielos" src="../media/images/nubemulti.jpg"></div>
                 </div>
-                <div class="col-4">
+                <div class="col-lg-4">
                     <div class="multi"><a href="./paisajes.php"><img data-toggle="tooltip" data-placement="bottom" title="Paisajes" src="../media/images/paisajemulti.jpg"></a></div>
                 </div>
-                <div class="col-4">
+                <div class="col-lg-4">
                     <div class="multi"><a href="./videos.php"><img data-toggle="tooltip" data-placement="top" title="Vídeos" src="../media/images/videomulti.jpg"></a></div>
                 </div>
             </div>
