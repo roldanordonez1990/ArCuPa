@@ -214,7 +214,7 @@
                 proporciona la <a class="noNeeded" href="https://openweathermap.org/api">API openweathermap</a> en su versión gratuita. Con ello, los datos se actualizarán en tiempo
                 real cada vez que el usuario visite nuestra Web o recargue la página. Los datos más utilizados serán la
                 temperatura, probabilidad de precipitación, humedad y viento. Todo esto se acompañará de iconos
-                multimedia que aportarán información. Además, en la Web aparecerá un contenido especial multimedia, que será compartido por los propios usuarios. Para cualquier duda o pregunta, no dude en ponerse en <a class="noNeeded" href="../contacto.php ">contacto</a> con nosotros.</p>
+                multimedia que aportarán información. Además en la Web aparecerá un contenido especial multimedia, que será compartido por los propios usuarios. Para cualquier duda o pregunta, no dude en ponerse en <a class="noNeeded" href="../contacto.php ">contacto</a> con nosotros.</p>
         </div>
 
         <div class="col-sm-4 d-none d-lg-block">
