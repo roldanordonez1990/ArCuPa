@@ -206,7 +206,8 @@ a.enlaceCiudades {
 p#descripciones {
   font-family: 'Gotu', sans-serif;
   font-size: 14px;
-  color: #0054A5; }
+  color: #0054A5;
+  text-align: justify; }
 
 img.esquinaMultimedia {
   height: 50%; }
@@ -350,6 +351,7 @@ button:hover {
   border: 1px solid #0054A5 !important; }
 
 .centrado {
+  display: flex;
   align-items: center; }
 
 ul,
