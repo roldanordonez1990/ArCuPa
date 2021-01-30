@@ -1,0 +1,41 @@
+
+.inputTitulo{
+color: $color3;
+width: 45%;
+
+
+}
+.marcoNoticia:focus{
+    outline: none !important;
+}
+.noticiaNueva{
+  
+    text-align: center;
+}
+
+.border-primary{
+   border-color: $color3 !important;
+  
+}
+
+.nombreBotonPublicar{
+   font-family: $tipografia-general;
+}
+
+.textinput {
+   
+    
+    border: 1px solid grey;
+}
+
+.subir{
+    padding: 5px 10px;
+    background: $color2;
+    color:#fff;
+    border:0px solid #fff;
+}
+ 
+.subir:hover{
+    color:#fff;
+    background: $color4;
+}
