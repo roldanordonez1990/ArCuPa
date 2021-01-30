@@ -10,6 +10,6 @@
 			break;
 		default:
 			$CURRENT_PAGE = "Index";
-			$PAGE_TITLE = "Welcome to my homepage!";
+			$PAGE_TITLE = "El Granizo Web Meteorológica Nacional";
 	}
 ?>
