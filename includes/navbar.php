@@ -2,7 +2,7 @@
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample06"
         aria-controls="navbarsExample06" aria-expanded="false" aria-label="Toggle navigation"> <span
             class="navbar-toggler-icon"></span> </button>
-    <a class="nav-link text-center d-md-none"> <img class="imagen" src="../media/images/logoFinal.png" alt="Logo"></a>
+    <a class="nav-link text-center d-md-none" href="./index.php"> <img class="imagen" src="../media/images/logoFinal.png" alt="Logo"></a>
     <a class="btn btn-login py-2 px-3 d-md-none" href="login.php"><i class="fa fa-user"></i></a>
     <div class="collapse navbar-collapse" id="navbarsExample06">
         <ul class="navbar-nav navbar-center">
