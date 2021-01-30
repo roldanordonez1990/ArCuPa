@@ -70,7 +70,9 @@ footer {
   bottom: 0;
   width: 100%;
   background-color: #0054A5;
-  color: white; }
+  color: white;
+  bottom: 0;
+  position: relative; }
 
 /*
   color: #AFE6FA;
@@ -750,6 +752,35 @@ ol li {
   display: block;
   padding: 12px;
   text-decoration: none; }
+
+.inputTitulo {
+  color: #0054A5;
+  width: 45%; }
+
+.marcoNoticia:focus {
+  outline: none !important; }
+
+.noticiaNueva {
+  text-align: center; }
+
+.border-primary {
+  border-color: #0054A5 !important; }
+
+.nombreBotonPublicar {
+  font-family: "Gotu", sans-serif; }
+
+.textinput {
+  border: 1px solid grey; }
+
+.subir {
+  padding: 5px 10px;
+  background: #25A1D1;
+  color: #fff;
+  border: 0px solid #fff; }
+
+.subir:hover {
+  color: #fff;
+  background: #F5B41B; }
 
 .fondoPrincipal {
   background-image: url("../media/images/fondo.jpg") !important; }

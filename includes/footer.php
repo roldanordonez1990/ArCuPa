@@ -26,7 +26,7 @@
                         <i class="fab fa-instagram fa-lg mr-4 mt-1 fa-2x"> </i>
                     </a>
                     <!--YouTube-->
-                    <a href="" class="rrss icono">
+                    <a href="noticiasNueva.php" class="rrss icono">
                         <i class="fab fa-youtube fa-lg mr-4 mt-1 fa-2x"></i>
                     </a>
                     <!--Google-->
