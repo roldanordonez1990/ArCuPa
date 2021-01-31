@@ -1,4 +1,3 @@
-<?php $PAGE_TITLE = "El granizo"; ?>
 <title><?php print $PAGE_TITLE;?></title>
 
 <?php if ($CURRENT_PAGE == "Index") {?>

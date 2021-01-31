@@ -14,7 +14,6 @@
 			break;									
 		default:
 			$CURRENT_PAGE = "Index";
-			$PAGE_TITLE = "ElGranizo - Web de Meteorología";
 			$PAGE_TITLE = "El Granizo";
 
 	}
