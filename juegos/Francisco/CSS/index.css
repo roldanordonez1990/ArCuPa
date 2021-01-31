@@ -3,21 +3,25 @@ body {
     background-image: url("../../../media/images/fondo.jpg"); 
     font: 14px 'Arial',sans-serif;
     text-align: center;
+    
 }
 
 div.contenedor {
     width: 100%;
-    
+    text-align: center;
     margin: 0 auto;
+    
 }
 
 
 div.juego canvas {
     box-shadow: 0 0 30px rgb(43, 34, 34);
     background-color:#03bafc;
+   
+
+   
     
 }
-
 
 #show {
     background-color: rgba(235, 107, 102, 0.664);
@@ -46,28 +50,19 @@ div.juego canvas {
 
 .snow {
     top:10px;
-    left:10px;
-    position:absolute;
-    z-index:200;
+    left:700px;
+    right: 335px;
+    position: fixed;;
+    z-index:10;
     color:#fff;
    
     
 }
-body {
-    background-color:grey;
-}
 
-#site {
-    width:800px;
-    height:800px;
-    margin:0 auto;
-    position:relative;
-    overflow:hidden;
-}
+
 
 #snowflakes {
-    position: relative;
-    left: 21%;
-    width: 789px;
+  
+    width: 799px;
     height: 529px;
 }
