@@ -1,9 +1,11 @@
 <title><?php print $PAGE_TITLE;?></title>
 
 <?php if ($CURRENT_PAGE == "Index") {?>
-<meta name="description" content="" />
+<meta name="description" content="El granizo es tu servicio meterológico web por excelencia, puedes ver aquí el tiempo de tu municipio." />
 <meta name="keywords" content="" />
 <meta name="google-site-verification" content="OkrkB0EnRbu6nWgSDsGaoj_E7WF-Whj8gjw4HQlui-8" />
+
+
 <?php }?>
 
 <meta charset="UTF-8">
