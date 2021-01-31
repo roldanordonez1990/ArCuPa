@@ -2,16 +2,16 @@
 	switch ($_SERVER["SCRIPT_NAME"]) {
 		case "/login.php":
 			$CURRENT_PAGE = "Login"; 
-			$PAGE_TITLE = "Iniciar Sesión";
+			$PAGE_TITLE = "ElGranizo";
 			break;
 		case "/contacto.php":
 			$CURRENT_PAGE = "Contacto"; 
-			$PAGE_TITLE = "Contáctanos";
+			$PAGE_TITLE = "ElGranizo";
 			break;
 		case "/juegos.php":
 			$CURRENT_PAGE = "Juegos"; 
-			$PAGE_TITLE = "Juegos";
-			break;											
+			$PAGE_TITLE = "El Granizo";
+			break;									
 		default:
 			$CURRENT_PAGE = "Index";
 			$PAGE_TITLE = "ElGranizo - Web de Meteorología";
