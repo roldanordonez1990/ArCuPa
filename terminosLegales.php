@@ -359,7 +359,7 @@
                 <div class="col-sm-3"></div>
                 <div class="col-sm-3"></div>
                 <div class="col-sm-3"></div>
-                <div class="titulosPrincipal font-weight-bold col-sm-3 text-right">Enero 2021</div>
+                <div class="titulosPrincipal d-none d-md-block font-weight-bold col-sm-3 text-right">Enero 2021</div>
             </div>
         </div>
 
