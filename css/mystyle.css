@@ -755,7 +755,7 @@ ol li {
 
 .inputTitulo {
   color: #0054A5;
-  width: 45%; }
+  width: 44%; }
 
 .marcoNoticia:focus {
   outline: none !important; }
@@ -781,6 +781,12 @@ ol li {
 .subir:hover {
   color: #fff;
   background: #F5B41B; }
+
+textarea {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 60%; }
 
 .fondoPrincipal {
   background-image: url("../media/images/fondo.jpg") !important; }

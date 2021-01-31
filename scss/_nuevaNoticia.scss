@@ -1,7 +1,7 @@
 
 .inputTitulo{
 color: $color3;
-width: 45%;
+width: 44%;
 
 
 }
@@ -38,4 +38,12 @@ width: 45%;
 .subir:hover{
     color:#fff;
     background: $color4;
+}
+
+textarea {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    width: 60%;
 }
