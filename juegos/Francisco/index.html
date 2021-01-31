@@ -21,18 +21,18 @@
         });
         </script>
 </head>
-<body style="overflow:hidden">
-    <class class="contenedor">
-        <div class="juego">
-          <div id="snowflakes">
+<body>
+    <div id="snowflakes" class="contenedor">
+        <div  class="juego">
             <canvas id="canvas" width="799" height="529"></canvas>
-          </div>
         </div>
-    </class>
-      </br>
-          <button id="show" onload="init()">Start Game</button>
-          <button id="refrescar">Refrescar</button>
-          <button type="submit" id="salir" onclick="window.location.href='/juegos.php'">Salir del juego</button>
     </div>
+   
+      <p>
+            <button id="show" onload="init()">Start Game</button>
+            <button id="refrescar">Refrescar</button>
+            <button type="submit" id="salir" onclick="window.location.href='/juegos.php'">Salir del juego</button>
+      </p>
+  </div>
 </body>
 </html>

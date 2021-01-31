@@ -334,7 +334,7 @@ function jquerysnow() {
             opacity : "0",
             
 
-        }, 2000, function(){
+        }, 3000, function(){
             $(this).remove();
             //jquerysnow();
         });

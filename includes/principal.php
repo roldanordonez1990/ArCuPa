@@ -208,7 +208,7 @@
     </div>
 
     <div class="row mb-4">
-        <div class="col-lg-8">
+        <div class="col-sm-8">
             <p class="mt-3" id="descripciones">El cometido de <strong>Arcupa</strong> es el de ofrecer información
                 meteorológica al usuario. El contenido en forma de datos ofrecido en todas los apartados de esta Web lo
                 proporciona la <a class="noNeeded" href="https://openweathermap.org/api">API openweathermap</a> en su versión gratuita. Con ello, los datos se actualizarán en tiempo
