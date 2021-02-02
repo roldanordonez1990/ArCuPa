@@ -64,11 +64,8 @@
                             <div class="form-group" id="input_login">
                                 <label for="exampleInputEmail1" class="text-uppercase">Teléfono</label>
                                 <input type="text" class="form-control" placeholder="">
-
                             </div>
                         
-
-
                             <div class="form-check">
                                 <label class="form-check-label">
                                     <input type="checkbox" class="form-check-input">

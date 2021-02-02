@@ -16,6 +16,18 @@ header {
 header nav a img {
   width: 75px; }
 
+.image-circle {
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%; }
+
+.colorLogin {
+  color: #0054A5; }
+  .colorLogin:hover {
+    text-decoration: none; }
+
 .icono {
   display: flex;
   justify-content: center;
