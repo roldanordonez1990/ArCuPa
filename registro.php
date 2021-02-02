@@ -17,63 +17,68 @@
                         <img src="../media/images/logoFinal.png" alt="Logo">
                     </a>
                 </nav>
-                    <div class="col-sm-12 login-sec">
+                    <div class="col login-sec">
                         <h2 class="text-center">Registro</h2>
                         <form class="login-form" action="index.php">
-                            <div class="form-group" id="input_login">
+                        <div class="row ">
+                            <div class="col form-group" id="input_login">
                                 <label for="exampleInputEmail1" class="text-uppercase">Usuario</label>
-                                <input type="text" class="form-control" placeholder="">
+                                <input type="text" class="form-control" placeholder="" required>
 
                             </div>
-                            <div class="form-group" id="input_login">
+                            <div class="col form-group" id="input_login">
                                 <label for="exampleInputPassword1" class="text-uppercase">Contraseña</label>
-                                <input type="password" class="form-control" placeholder="">
+                                <input type="password" class="form-control" placeholder=""  minlength="8" maxlength="40" required>
                             </div>
+                        </div>
                     
-    
-                            <div class="row-sm-4 login-sec">
+                        <div class="row ">
+                            <div class="col">
                                 <div class="form-group" id="input_login">
                                     <label for="exampleInputEmail1" class="text-uppercase">Nombre</label>
-                                    <input type="text" class="form-control" placeholder="">
+                                    <input type="text" class="form-control" placeholder="" required>
                                 </div>
+                           
                             </div>
-                            <div class="row-sm-4 login-sec">
+                            <div class="col">
                                 <div class="form-group" id="input_login">
                                     <label for="exampleInputEmail1" class="text-uppercase">Primer apellido</label>
-                                    <input type="text" class="form-control" placeholder="">
+                                    <input type="text" class="form-control" placeholder="" required>
                                 </div>
                             </div>
-                            <div class="row-sm-4 login-sec">
+                    
+                            <div class="col">
                                 <div class="form-group" id="input_login">
                                     <label for="exampleInputEmail1" class="text-uppercase">Segundo apellido</label>
-                                    <input type="text" class="form-control" placeholder="">
+                                    <input type="text" class="form-control" placeholder="" required>
 
                                 </div>
                             </div>
-                           
-                            <div class="form-group" id="input_login">
+                        </div>
+
+                       
+                        <div class="row ">
+                            <div class="col form-group" id="input_login">
                                 <label for="exampleInputEmail1" class="text-uppercase">Fecha de Nacimiento</label>
-                                <input type="text" class="form-control" placeholder="">
+                                <input type="date" class="form-control" placeholder="" required>
 
                             </div>
-                            <div class="form-group" id="input_login">
+                            <div class="col form-group" id="input_login">
                                 <label for="exampleInputEmail1" class="text-uppercase">País</label>
-                                <input type="text" class="form-control" placeholder="">
+                                <input type="text" class="form-control" placeholder="" required>
 
                             </div>
-                            <div class="form-group" id="input_login">
+                            <div class="col form-group" id="input_login">
                                 <label for="exampleInputEmail1" class="text-uppercase">Teléfono</label>
-                                <input type="text" class="form-control" placeholder="">
+                                <input type="text" class="form-control" placeholder="" required>
                             </div>
+                        </div>
                         
                             <div class="form-check">
-                                <label class="form-check-label">
-                                    <input type="checkbox" class="form-check-input">
-                                    <small>Recuérdame</small>
-                                </label>
                                 <button type="submit" class="btn btn-login float-right">Enviar</button>
                             </div>
 
+                        
                         </form>
                         <div class="copy-text">© 2020 Copyright: ArCuPa</div>
                     </div>
