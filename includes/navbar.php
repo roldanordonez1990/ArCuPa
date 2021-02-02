@@ -2,12 +2,25 @@
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample06"
         aria-controls="navbarsExample06" aria-expanded="false" aria-label="Toggle navigation"> <span
             class="navbar-toggler-icon"></span> </button>
-    <a class="nav-link text-center d-md-none"> <img class="imagen" src="../media/images/logoFinal.png" alt="Logo"></a>
-    <a class="btn btn-login py-2 px-3 d-md-none" href="login.php"><i class="fa fa-user"></i></a>
+    <a class="nav-link text-center d-md-none" href="./index.php"> <img class="imagen"
+            src="../media/images/logoFinal.png" alt="Logo"></a>
+
+    <?php
+        if(!isset($_SESSION['access_token']))
+        {
+        echo '<a class="btn btn-login py-2 px-3 d-md-none" href="login.php"><i class="fa fa-user"></i></a>';
+        }else{
+            if  ($login_button == '')
+            {
+                echo '<a href="logout.php"><img src="'.$_SESSION["user_image"].'" class="image-circle d-md-none"/></a>';
+            }
+        }
+    ?>
+
     <div class="collapse navbar-collapse" id="navbarsExample06">
         <ul class="navbar-nav navbar-center">
-            <li class="nav-item dropdown pr-3"> <a class="colorLetra nav-link dropdown-toggle " href="https://example.com"
-                    data-toggle="dropdown">SERVICIOS</a>
+            <li class="nav-item dropdown pr-3"> <a class="colorLetra nav-link dropdown-toggle "
+                    href="https://example.com" data-toggle="dropdown">SERVICIOS</a>
                 <ul class="dropdown-menu multi-level backgroundcolor">
                     <li class="dropdown-submenu">
                         <a class="dropdown-item test colorLetra dropdown-toggle" href="#">OBSERVACIÓN</a>
@@ -32,43 +45,45 @@
                     </li>
                 </ul>
             </li>
-            <li class="nav-item dropdown pr-3"> <a class="nav-link dropdown-toggle colorLetra" id="dropdown06" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false"><label>MAPAS</label></a>
+            <li class="nav-item dropdown pr-3"> <a class="nav-link dropdown-toggle colorLetra" id="dropdown06"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><label>MAPAS</label></a>
                 <div class="dropdown-menu backgroundcolor" aria-labelledby="dropdown06">
                     <a href="../frentes.php" class="dropdown-item">FRENTES</a>
                     <a href="../temperaturas.php" class="dropdown-item">TEMPERATURAS</a>
                     <a href="../precipitacion.php" class="dropdown-item">PRECIPITACIÓN</a>
                 </div>
             </li>
-            <li class="nav-item dropdown pr-3"> <a class="nav-link dropdown-toggle colorLetra" id="dropdown06" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false"><label>MULTIMEDIA</label></a>
+            <li class="nav-item dropdown pr-3"> <a class="nav-link dropdown-toggle colorLetra" id="dropdown06"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><label>MULTIMEDIA</label></a>
                 <div class="dropdown-menu backgroundcolor" aria-labelledby="dropdown06">
                     <a href="../nubes.php" class="dropdown-item">NUBES Y CIELOS</a>
                     <a href="../paisajes.php" class="dropdown-item">PAISAJES</a>
                     <a href="../videos.php" class="dropdown-item">VIDEOS</a>
-                
+
                 </div>
             </li>
-            <li class="nav-item dropdown pr-3"> <a class="nav-link dropdown-toggle colorLetra" id="dropdown06" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false"><label>AVISOS</label></a>
+            <li class="nav-item dropdown pr-3"> <a class="nav-link dropdown-toggle colorLetra" id="dropdown06"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><label>AVISOS</label></a>
                 <div class="dropdown-menu backgroundcolor" aria-labelledby="dropdown06">
                     <a href="../avisosNacionales.php" class="dropdown-item">NACIONALES</a>
                     <a href="../avisosccaa.php" class="dropdown-item">CCAA</a>
                     <a href="../avisosPrecipitacion.php" class="dropdown-item">PRECIPITACIÓN</a>
                 </div>
             </li>
-            <li class="nav-item dropdown pr-3"> <a class="nav-link dropdown-toggle colorLetra" id="dropdown06" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false"><label>NOTICIAS</label></a>
+            <li class="nav-item dropdown pr-3"> <a class="nav-link dropdown-toggle colorLetra" id="dropdown06"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><label>NOTICIAS</label></a>
                 <div class="dropdown-menu backgroundcolor" aria-labelledby="dropdown06">
                     <a href="../noticiasNacionales.php" class="dropdown-item">NACIONALES</a>
                     <a href="../noticiasProvinciales.php" class="dropdown-item">PROVINCIALES</a>
                     <a href="../noticiasLocales.php" class="dropdown-item">LOCALES</a>
                 </div>
             </li>
-            <li class="nav-item dropdown pr-3"> <a class="nav-link colorLetra" href="../contacto.php"><label>CONTÁCTANOS</label></a>
+            <li class="nav-item dropdown pr-3"> <a class="nav-link colorLetra"
+                    href="../contacto.php"><label>CONTÁCTANOS</label></a>
             </li>
             </li>
-            <li class="nav-item dropdown pr-3"> <a class="nav-link colorLetra" href="../juegos.php"><label>JUEGOS</label></a>
+            <li class="d-none d-md-block nav-item dropdown pr-3"> <a class="nav-link colorLetra"
+                    href="../juegos.php"><label>JUEGOS</label></a>
             </li>
             <li class="nav-item dropdown d-md-none">
                 <form class="form-inline">
@@ -92,16 +107,16 @@
 
 <script>
 $('.dropdown-menu a.dropdown-toggle').on('click', function(e) {
-  if (!$(this).next().hasClass('show')) {
-    $(this).parents('.dropdown-menu').first().find('.show').removeClass("show");
-  }
-  var $subMenu = $(this).next(".dropdown-menu");
-  $subMenu.toggleClass('show');
+    if (!$(this).next().hasClass('show')) {
+        $(this).parents('.dropdown-menu').first().find('.show').removeClass("show");
+    }
+    var $subMenu = $(this).next(".dropdown-menu");
+    $subMenu.toggleClass('show');
 
 
-  $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function(e) {
-    $('.dropdown-submenu .show').removeClass("show");
-  });
-  return false;
+    $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function(e) {
+        $('.dropdown-submenu .show').removeClass("show");
+    });
+    return false;
 });
 </script>

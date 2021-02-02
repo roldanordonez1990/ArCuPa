@@ -1,8 +1,11 @@
 <title><?php print $PAGE_TITLE;?></title>
 
 <?php if ($CURRENT_PAGE == "Index") {?>
-<meta name="description" content="" />
+<meta name="description" content="El granizo es tu servicio meterológico web por excelencia, puedes ver aquí el tiempo de tu municipio." />
 <meta name="keywords" content="" />
+<meta name="google-site-verification" content="OkrkB0EnRbu6nWgSDsGaoj_E7WF-Whj8gjw4HQlui-8" />
+
+
 <?php }?>
 
 <meta charset="UTF-8">
@@ -18,6 +21,8 @@
 
 
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 <!-- jQuery and JS bundle w/ Popper.js -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

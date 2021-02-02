@@ -23,6 +23,7 @@ a.enlaceCiudades{
     font-family:  'Gotu', sans-serif;
     font-size: 14px;
     color: $color3;
+    text-align: justify;
   }
 
 
@@ -89,4 +90,9 @@ td.tdColor{
 
   .iconos{
    color: $color2;
+  }
+
+  .tooltip-inner {
+    background-color: $color4 !important;
+    color: $color3 !important;
   }

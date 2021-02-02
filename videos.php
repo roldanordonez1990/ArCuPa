@@ -16,54 +16,35 @@
         <main class="container">
         <div class="titulosPrincipal text-center p-3">
                     <h1>Videos</h1>
-            </div>
+            
 			
-        <!-- Carousel row -->
-            <div class="swiper-container mb-5">
-	                <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2">
-	                	<!-- Carousel -->
-	                	<div id="carousel-example" class="carousel slide ">
-	       					<ol class="carousel-indicators">
-	       						<li data-target="#carousel-example" data-slide-to="0" class="active"></li>
-	       						<li data-target="#carousel-example" data-slide-to="1"></li>
-	       					</ol>
-	       					<div class="carousel-inner">
-							   <div class="carousel-item active">
-								   <div id="video-container">
-	       								<iframe width="640" height="365" src="../media/videos/2.mp4" allowfullscreen></iframe>
-	       							</div>
-	       						</div>
-	       						<div class="carousel-item">
-								   <div id="video-container">
-										<video id="video" width="640" height="365">
-										<source src="../media/videos/1.mp4" type="video/mp4">
-										<p>
-											Your browser doesn't support HTML5 video.
-											<a href="../media/videos/1.mp4">Download</a> the video instead.
-										</p>
-										</video>
-										<div id="video-controls">
-											<button type="button"id="play-pause" onclick="myFunction(this)"  class="fas fa-play" class="play"></button>
-											<input type="range" id="seek-bar" value="0">
-											<button type="button"onclick="sound(this)" class="fas fa-volume-up" id="mute"></button>
-											<input type="range" id="volume-bar" min="0" max="1" step="0.1" value="1">
-											<button type="button" id="full-screen" class="fas fa-expand"></button>
-										</div>
-									</div>
-	       						</div>
-	       					</div>
-	       				</div>
-	                	<!-- End carousel -->
-	                </div>
-            </div>
-            
-            
+			<div class="d-flex justify-content-center">
+				<div id="video-container" class="embed-responsive embed-responsive-16by9 w-75">
+					<video id="video" class="embed-resposive-item">
+					<source src="../media/videos/1.mp4" type="video/mp4">
+					<p>
+						Your browser doesn't support HTML5 video.
+						<a href="videos/mikethefrog.mp4">Download</a> the video instead.
+					</p>
+					</video>
+					<div id="video-controls" class="embed-resposive-item container">
+						<button type="button"id="play-pause" onclick="myFunction(this)"  class="fas fa-play" class="play"></button>
+						<input type="range" id="seek-bar" value="0">
+						<button type="button"onclick="sound(this)" class="fas fa-volume-up" id="mute"></button>
+						<input type="range" id="volume-bar" min="0" max="1" step="0.1" value="1">
+						<button type="button" id="full-screen" class="fas fa-expand"></button>
+					</div>
+				</div>
+		
+			</div>
+	    </div>
         </main>
 
         
 
-        <?php include("includes/footer.php");?>
     </div>
+
+
 
 
 	<script>
@@ -186,6 +167,9 @@
 				
 			}
 	</script>
+
+	
+<?php include("includes/footer.php");?>
 </body>
 
 </html>

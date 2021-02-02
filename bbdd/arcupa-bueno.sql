@@ -64,8 +64,10 @@ CREATE TABLE IF NOT EXISTS `usuarios` (
 -- Volcado de datos para la tabla `usuarios`
 --
 
+
 INSERT INTO `usuarios` (`id`, `username`, `password`, `nombre`, `apellido`, `fecha_nacimiento`, `pais`, `telefono`) VALUES
 (1, 'meteoarcupa@gmail.com', '4acbb3c7e78cd269882a55cafcd727ab', 'ArCuPa', 'El Granizo', '2000-01-01', 'España', 123456789);
+
 
 --
 -- Restricciones para tablas volcadas
