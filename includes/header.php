@@ -23,7 +23,7 @@
                     {
                         echo '<a class="colorLogin pr-3">'.$_SESSION['user_first_name'].' '.$_SESSION['user_last_name'].'<a>';
                         echo '<a href="registro.php"><button type="button" class="btn btn-secondary mr-3"><i class="fas fa-users-cog"></i></button></a>';
-                        echo '<a href="logout.php"><button type="button" class="btn btn-danger"><i class="fas fa-sign-out-alt"></i></button></a>';
+                        echo '<a href="logout.php"><button type="button" class="btn btn-danger">Salir</i></button></a>';
                     } 
                 }	
                     
