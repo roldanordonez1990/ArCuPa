@@ -17,17 +17,15 @@
        
         if (isset($_POST['enviar'])) {
                 $usuario = new Usuarios();
-                $usuario->nuevoUsuario($_POST['usuario'], $_POST['pass'], $_POST['nombre'], $_POST['apellido'], $_POST['fechaNac'], $_POST['pais'], $_POST['telefono'])
+                $usuario->nuevoUsuario($_POST['usuario'], $_POST['pass'], $_POST['nombre'], $_POST['apellido'], $_POST['fechaNac'], $_POST['pais'], $_POST['telefono']);
                 ControladorUsuarios::insertUsuario($usuario);
                 ?>
         <div class="alert alert-success text-center">
             <strong>Usuario creado correctamente</strong> 
         </div>
-        <?php
-            } else {
-                echo 'ERROR al crear el usuario';
+        <?php 
             }
-        }
+        
         ?>
 
 
@@ -45,7 +43,7 @@
                 </nav>
                     <div class="col login-sec">
                         <h2 class="text-center">Registro</h2>
-                        <form class="login-form" action="index.php">
+                        <form class="login-form" action="" method="post">
                         <div class="row ">
                             <div class="col form-group" id="input_login">
                                 <label for="exampleInputEmail1" class="text-uppercase">Usuario</label>
@@ -87,9 +85,6 @@
                                 <label for="exampleInputEmail1" class="text-uppercase">Fecha de Nacimiento</label>
 
                                 <input type="date" name="fechaNac" class="form-control" placeholder="" required>
-
-                                <input type="date" class="form-control" placeholder="" required>
-
 
                             </div>
                             <div class="col form-group" id="input_login">

@@ -10,8 +10,9 @@ Class ControladorUsuarios {
         try{
             $conex = new Conexion();
            
-            $conex->exec("INSERT INTO usuarios (username, password, nombre, apellido, fecha_nacimiento, pais, telefono) VALUES('$n->username', '$n->password', '$n->nombre', '$n->apellido', '$n->fecha_nacimiento', '$n->pais', '$n->telefono')");
-            
+            $conex->exec("INSERT INTO usuarios (username, pass, nombre, apellido, fecha_nacimiento, pais, telefono) VALUES('$n->username', '$n->password', '$n->nombre', '$n->apellido', '$n->fecha_nacimiento', '$n->pais', '$n->telefono')");
+
+
         }catch(PDOException $ex){
             
             die('error con la base de datos');
