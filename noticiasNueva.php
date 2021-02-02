@@ -15,6 +15,7 @@
         require_once 'controller/controladorNoticias.php';
        
         if (isset($_POST['publicar'])) {
+           if($_POST['tituloNoticia'] != null && $_POST['contenido'] != null){
             $bandera = false;
             $fechaActual = date('Y-m-d');
             if (is_uploaded_file($_FILES['imagen']['tmp_name'])) {
@@ -26,13 +27,24 @@
                 ControladorNoticias::insertNoticia($noticia);
                 ?>
         <div class="alert alert-success text-center">
-            <strong>Tu noticia ha sido publicada correctamente</strong> 
+            <strong>Tu noticia ha sido publicada correctamente</strong>
         </div>
         <?php
-
-            } else {
-                echo 'ERROR al cargar la imagen';
+           } else {
+            ?>
+        <div class="alert alert-danger text-center">
+            <strong>No has añadido ninguna imagen</strong>
+        </div>
+        <?php
             }
+
+        }else{
+            ?>
+        <div class="alert alert-danger text-center">
+            <strong>Ha ocurrido un error. Debes añadir contenido a todos los campos</strong>
+        </div>
+        <?php
+        }
         }
         ?>
 
