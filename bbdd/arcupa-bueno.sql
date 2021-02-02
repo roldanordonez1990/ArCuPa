@@ -52,8 +52,7 @@ CREATE TABLE IF NOT EXISTS `usuarios` (
   `username` varchar(45) NOT NULL,
   `password` varchar(45) NOT NULL,
   `nombre` varchar(45) NOT NULL,
-  `apellido1` varchar(45) NOT NULL,
-  `apellido2` varchar(45) NOT NULL,
+  `apellido` varchar(45) NOT NULL,
   `fecha_nacimiento` date NOT NULL,
   `pais` varchar(45) NOT NULL,
   `telefono` int(11) NOT NULL,
@@ -65,8 +64,10 @@ CREATE TABLE IF NOT EXISTS `usuarios` (
 -- Volcado de datos para la tabla `usuarios`
 --
 
-INSERT INTO `usuarios` (`id`, `username`, `password`, `nombre`, `apellido1`, `apellido2`, `fecha_nacimiento`, `pais`, `telefono`) VALUES
-(1, 'meteoarcupa@gmail.com', '4acbb3c7e78cd269882a55cafcd727ab', 'ArCuPa', 'El', 'Granizo', '2000-01-01', 'España', 123456789);
+
+INSERT INTO `usuarios` (`id`, `username`, `password`, `nombre`, `apellido`, `fecha_nacimiento`, `pais`, `telefono`) VALUES
+(1, 'meteoarcupa@gmail.com', '4acbb3c7e78cd269882a55cafcd727ab', 'ArCuPa', 'El Granizo', '2000-01-01', 'España', 123456789);
+
 
 --
 -- Restricciones para tablas volcadas

@@ -7,6 +7,32 @@
 </head>
 
 <body class="fondoPrincipal" id="login">
+
+
+
+<?php include("includes/header.php");?>
+        <?php include("includes/navbar.php");?>
+        <?php 
+        require_once 'controller/controladorUsuarios.php';
+       
+        if (isset($_POST['enviar'])) {
+                $usuario = new Usuarios();
+                $usuario->nuevoUsuario($_POST['usuario'], $_POST['pass'], $_POST['nombre'], $_POST['apellido'], $_POST['fechaNac'], $_POST['pais'], $_POST['telefono'])
+                ControladorUsuarios::insertUsuario($usuario);
+                ?>
+        <div class="alert alert-success text-center">
+            <strong>Usuario creado correctamente</strong> 
+        </div>
+        <?php
+            } else {
+                echo 'ERROR al crear el usuario';
+            }
+        }
+        ?>
+
+
+
+
     <main>
         <section class="login-block">
             <div class="container shadow-lg" id="formulario_login">
@@ -23,12 +49,16 @@
                         <div class="row ">
                             <div class="col form-group" id="input_login">
                                 <label for="exampleInputEmail1" class="text-uppercase">Usuario</label>
-                                <input type="text" class="form-control" placeholder="" required>
+
+                                <input type="text" name="usuario" class="form-control" placeholder="" required>
+
 
                             </div>
                             <div class="col form-group" id="input_login">
                                 <label for="exampleInputPassword1" class="text-uppercase">Contraseña</label>
-                                <input type="password" class="form-control" placeholder=""  minlength="8" maxlength="40" required>
+
+                                <input type="password" name="pass" class="form-control" placeholder=""  minlength="8" maxlength="40" required>
+
                             </div>
                         </div>
                     
@@ -36,22 +66,17 @@
                             <div class="col">
                                 <div class="form-group" id="input_login">
                                     <label for="exampleInputEmail1" class="text-uppercase">Nombre</label>
-                                    <input type="text" class="form-control" placeholder="" required>
+
+                                    <input type="text" name="nombre" class="form-control" placeholder="" required>
+
                                 </div>
                            
                             </div>
                             <div class="col">
                                 <div class="form-group" id="input_login">
-                                    <label for="exampleInputEmail1" class="text-uppercase">Primer apellido</label>
-                                    <input type="text" class="form-control" placeholder="" required>
-                                </div>
-                            </div>
-                    
-                            <div class="col">
-                                <div class="form-group" id="input_login">
-                                    <label for="exampleInputEmail1" class="text-uppercase">Segundo apellido</label>
-                                    <input type="text" class="form-control" placeholder="" required>
-
+                                    <label for="exampleInputEmail1" class="text-uppercase">Apellido</label>
+                                    <input type="text" name="apellido" class="form-control" placeholder="" required>
+                              
                                 </div>
                             </div>
                         </div>
@@ -60,22 +85,31 @@
                         <div class="row ">
                             <div class="col form-group" id="input_login">
                                 <label for="exampleInputEmail1" class="text-uppercase">Fecha de Nacimiento</label>
+
+                                <input type="date" name="fechaNac" class="form-control" placeholder="" required>
+
                                 <input type="date" class="form-control" placeholder="" required>
+
 
                             </div>
                             <div class="col form-group" id="input_login">
                                 <label for="exampleInputEmail1" class="text-uppercase">País</label>
-                                <input type="text" class="form-control" placeholder="" required>
+
+                                <input type="text" name="pais" class="form-control" placeholder="" required>
+
 
                             </div>
                             <div class="col form-group" id="input_login">
                                 <label for="exampleInputEmail1" class="text-uppercase">Teléfono</label>
-                                <input type="text" class="form-control" placeholder="" required>
+
+                                <input type="text" name="telefono" class="form-control" placeholder="" required>
                             </div>
                         </div>
+
                         
                             <div class="form-check">
-                                <button type="submit" class="btn btn-login float-right">Enviar</button>
+                                <button name="enviar" type="submit" class="btn btn-login float-right">Enviar</button>
+
                             </div>
 
                         

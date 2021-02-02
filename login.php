@@ -44,11 +44,16 @@ if(!isset($_SESSION['access_token']))
                                 <label class="form-check-label">
                                     <input type="checkbox" class="form-check-input">
                                     <small>Recuérdame</small>
-                                </label>
+                                    
+                                </label> 
                                 <button type="submit" class="btn btn-login float-right">Enviar</button>
                             </div>
+
                             <br>
                             <hr>
+
+                           
+
                             <div class="float-right">
                                 <?php
                                 echo $login_button;
@@ -56,7 +61,14 @@ if(!isset($_SESSION['access_token']))
                             </div>
 
 
+
                         </form>
+
+                        <button class="btn btn-login mt-1 float-right" onclick="window.location.href='registro.php'">Registrarse</button>
+
+                     
+                
+                      
                         <div class="copy-text">© 2020 Copyright: ArCuPa</div>
                     </div>
                     <div class="col-md-8 banner-sec d-none d-md-block d-lg-block">
