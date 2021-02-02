@@ -12,7 +12,7 @@
 
 <main>
 <section class="content">
-<?php include("includes/principal.php");?>
+Este es el registro
 </section>
 </main>
 

@@ -5,3 +5,17 @@ header {
 header nav a img {
     width: 75px;
 }
+.image-circle {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.colorLogin{
+    color: $color3;
+    &:hover{
+       text-decoration: none; 
+    }
+    
+}

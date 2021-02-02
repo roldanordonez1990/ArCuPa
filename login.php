@@ -1,8 +1,12 @@
 <?php 
 
-include("includes/a_config.php");
-
-
+include_once "includes/a_config.php";
+//This is for check user has login into system by using Google account, if User not login into system then it will execute if block of code and make code for display Login link for Login using Google account.
+if(!isset($_SESSION['access_token']))
+{
+ //Create a URL to obtain user authorization
+ $login_button = '<a href="'.$google_client->createAuthUrl().'"><button type="button" class="btn btn-login">Iniciar Sesion con Google</button></a>';
+}
 ?>
 <!DOCTYPE html>
 <html>
@@ -43,6 +47,14 @@ include("includes/a_config.php");
                                 </label>
                                 <button type="submit" class="btn btn-login float-right">Enviar</button>
                             </div>
+                            <br>
+                            <hr>
+                            <div class="float-right">
+                                <?php
+                                echo $login_button;
+                                ?>
+                            </div>
+
 
                         </form>
                         <div class="copy-text">© 2020 Copyright: ArCuPa</div>
