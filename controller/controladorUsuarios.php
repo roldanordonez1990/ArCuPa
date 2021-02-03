@@ -5,12 +5,14 @@ require_once 'model/Usuarios.php';
 
 Class ControladorUsuarios {
 
-    public static function insertUsuario(usuario $n){
+    public static function insertUsuario(Usuarios $n){
 
         try{
             $conex = new Conexion();
+
+            $pass = md5($n->password);
            
-            $conex->exec("INSERT INTO usuarios (username, pass, nombre, apellido, fecha_nacimiento, pais, telefono) VALUES('$n->username', '$n->password', '$n->nombre', '$n->apellido', '$n->fecha_nacimiento', '$n->pais', '$n->telefono')");
+            $conex->exec("INSERT INTO usuarios (username, password, nombre, apellido, fecha_nacimiento, pais, telefono) VALUES('$n->username', '$pass', '$n->nombre', '$n->apellido', '$n->fecha_nacimiento', '$n->pais', '$n->telefono')");
 
 
         }catch(PDOException $ex){

@@ -3,7 +3,7 @@
 class Usuarios {
 
     public $username;
-    public $pass;
+    public $password;
     public $nombre;
     public $apellido;
     public $fecha_nacimiento;
