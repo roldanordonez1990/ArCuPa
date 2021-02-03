@@ -17,6 +17,7 @@
        
         if (isset($_POST['enviar'])) {
                 $usuario = new Usuarios();
+                
                 $usuario->nuevoUsuario($_POST['usuario'], $_POST['password'], $_POST['nombre'], $_POST['apellido'], $_POST['fechaNac'], $_POST['pais'], $_POST['telefono']);
                 ControladorUsuarios::insertUsuario($usuario);
                 ?>

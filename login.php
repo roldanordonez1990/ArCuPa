@@ -52,7 +52,6 @@ if(!isset($_SESSION['access_token']))
                             <br>
                             <hr>
 
-                           
 
                             <div class="float-right">
                                 <?php

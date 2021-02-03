@@ -36,6 +36,7 @@ CREATE TABLE IF NOT EXISTS `noticias` (
   `id_autor` int(11) NOT NULL,
   `fecha` date NOT NULL,
   `contenido` varchar(9999) NOT NULL,
+  `tipo` varchar(30) NOT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `idnoticias_UNIQUE` (`id`),
   KEY `idAutor_idx` (`id_autor`)
