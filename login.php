@@ -60,13 +60,7 @@ if(!isset($_SESSION['access_token']))
                                 ?>
                             </div>
 
-
-
-                        </form>
-
-                        <button class="btn btn-login mt-1 float-right" onclick="window.location.href='registro.php'">Registrarse</button>
-
-                     
+                        </form>  
                 
                       
                         <div class="copy-text">© 2020 Copyright: ArCuPa</div>

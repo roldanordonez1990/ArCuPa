@@ -17,7 +17,7 @@
        
         if (isset($_POST['enviar'])) {
                 $usuario = new Usuarios();
-                $usuario->nuevoUsuario($_POST['usuario'], $_POST['pass'], $_POST['nombre'], $_POST['apellido'], $_POST['fechaNac'], $_POST['pais'], $_POST['telefono']);
+                $usuario->nuevoUsuario($_POST['usuario'], $_POST['password'], $_POST['nombre'], $_POST['apellido'], $_POST['fechaNac'], $_POST['pais'], $_POST['telefono']);
                 ControladorUsuarios::insertUsuario($usuario);
                 ?>
         <div class="alert alert-success text-center">
@@ -48,14 +48,14 @@
                             <div class="col form-group" id="input_login">
                                 <label for="exampleInputEmail1" class="text-uppercase">Usuario</label>
 
-                                <input type="text" name="usuario" class="form-control" placeholder="" required>
+                                <input type="email" name="usuario" class="form-control" placeholder="" required>
 
 
                             </div>
                             <div class="col form-group" id="input_login">
                                 <label for="exampleInputPassword1" class="text-uppercase">Contraseña</label>
 
-                                <input type="password" name="pass" class="form-control" placeholder=""  minlength="8" maxlength="40" required>
+                                <input type="password" name="password" class="form-control" placeholder=""  minlength="8" maxlength="40" required>
 
                             </div>
                         </div>
@@ -97,7 +97,7 @@
                             <div class="col form-group" id="input_login">
                                 <label for="exampleInputEmail1" class="text-uppercase">Teléfono</label>
 
-                                <input type="text" name="telefono" class="form-control" placeholder="" required>
+                                <input type="number" name="telefono" class="form-control" placeholder="" required>
                             </div>
                         </div>
 
