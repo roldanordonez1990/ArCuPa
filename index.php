@@ -58,6 +58,7 @@ if(isset($_GET["code"]))
 </head>
 
 <body class="fondoPrincipal">
+<?php echo $_SERVER['SERVER_NAME'];?>
     <div class="container-fluid p-0">
 
         <?php include("includes/header.php");?>
