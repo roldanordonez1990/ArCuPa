@@ -81,8 +81,11 @@
             <li class="nav-item dropdown pr-3"> <a class="nav-link colorLetra"
                     href="../contacto.php"><label>CONTÁCTANOS</label></a>
             </li>
+            <li class="d-sm-block d-lg-none d-md-none nav-item dropdown pr-3"> <a class="nav-link colorLetra"
+                    href="../registro.php"><label>ADMINISTRAR USUARIOS</label></a>
             </li>
-            <li class="d-none d-md-block nav-item dropdown pr-3"> <a class="nav-link colorLetra"
+            </li>
+            <li class="d-sm-none d-lg-block d-md-none  nav-item dropdown pr-3"> <a class="nav-link colorLetra"
                     href="../juegos.php"><label>JUEGOS</label></a>
             </li>
             <li class="nav-item dropdown d-md-none">
