@@ -27,7 +27,7 @@
                 ControladorNoticias::insertNoticia($noticia);
                 ?>
         <div class="alert alert-success text-center">
-            <strong>Tu noticia ha sido publicada correctamente</strong>
+            <strong>Tu noticia ha sido editada correctamente</strong>
         </div>
         <?php
            } else {
@@ -51,7 +51,7 @@
 
         <div class="container p-0">
             <div class="row">
-                <div class="col-12 titulosPrincipal font-weight-bold text-center mt-3 mb-3">Nueva Noticia</div>
+                <div class="col-12 titulosPrincipal font-weight-bold text-center mt-3 mb-3">Editor de Noticias</div>
             </div>
             <div class="row">
                 <div class="col-12">

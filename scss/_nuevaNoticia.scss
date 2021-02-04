@@ -3,8 +3,27 @@
 color: $color3;
 width: 44%;
 
-
 }
+.inputTitulo::placeholder{
+    
+    font-family: $tipografia-general;
+}
+
+.inputText::placeholder{
+    font-family: $tipografia-general;
+}
+
+.tiposNoticia{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: $tipografia-general;
+}
+
+
+
 .marcoNoticia:focus{
     outline: none !important;
 }
@@ -24,7 +43,6 @@ width: 44%;
 
 .textinput {
    
-    
     border: 1px solid grey;
 }
 
@@ -46,4 +64,19 @@ textarea {
     box-sizing: border-box;
 
     width: 60%;
+}
+
+
+#autorYfecha{
+    font-size: 14px;
+    color: $color3;
+    text-align: justify;
+    font-family: $tipografia-general;
+}
+hr#noticiaHr {border: 0 ; border-top: 4px double $color1; width: 100%;}
+
+.fondoCardMenu{
+    background-color: #f5f5f5;
+    width: 100%;
+    
 }
