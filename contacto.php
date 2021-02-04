@@ -22,7 +22,8 @@
                         <p class="mb-4 text-justify" id="descripciones">Llevamos más de 5 años dedicándonos a la
                             meteorología. Durante estos años, hemos mejorado y crecido mucho. Actualmente nuestras
                             predicciones se ofrecen en toda España.</p>
-                        <p class="mb-4 text-justify" id="descripciones">No cabe duda de que ElGranizo se ha convertido en
+                        <p class="mb-4 text-justify" id="descripciones">No cabe duda de que ElGranizo se ha convertido
+                            en
                             uno de los proyectos líderes sobre información meteorológica a nivel nacional. Así lo
                             demuestran todos los profesionales, aficionados a la meteorología y todas las personas
                             alrededor del pais que confían en nosotros diariamente.</p>
@@ -58,7 +59,7 @@
                                 <div class="col-md-12 mb-4">
                                     <div class="md-form mb-0" id="input_login">
                                         <label for="name" class="titulosPrincipal">Nombre</label>
-                                        <input type="text" id="name" name="name" class="form-control opaco">
+                                        <input type="text" id="name" name="name" class="form-control opaco" required>
 
                                     </div>
                                 </div>
@@ -67,7 +68,7 @@
                                 <div class="col-md-12  mb-4">
                                     <div class="md-form mb-0" id="input_login">
                                         <label for="email" class="titulosPrincipal">Correo Electrónico</label>
-                                        <input type="text" id="email" name="email" class="form-control opaco">
+                                        <input type="text" id="email" name="email" class="form-control opaco" required>
 
                                     </div>
                                 </div>
@@ -78,7 +79,8 @@
                                 <div class="col-md-12  mb-4">
                                     <div class="md-form mb-0" id="input_login">
                                         <label for="subject" class="titulosPrincipal">Asunto</label>
-                                        <input type="text" id="subject" name="subject" class="form-control opaco">
+                                        <input type="text" id="subject" name="subject" class="form-control opaco"
+                                            required>
 
                                     </div>
                                 </div>
@@ -91,18 +93,16 @@
                                     <div class="md-form">
                                         <label for="message" class="titulosPrincipal">Mensaje</label>
                                         <textarea type="text" id="message" name="message" rows="5"
-                                            class="form-control area opaco"></textarea>
+                                            class="form-control area opaco" required></textarea>
                                     </div>
 
                                 </div>
                             </div>
+                            <div class="text-center text-md-right m-3">
+                                <input class="btn btn-login" type="submit" name="enviar" value="Enviar">
+                            </div>
 
                         </form>
-
-                        <div class="text-center text-md-right m-3">
-                            <a class="btn btn-login">Enviar</a>
-                        </div>
-                        <div class="status"></div>
                     </div>
 
                 </div>
