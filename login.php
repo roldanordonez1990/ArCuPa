@@ -14,7 +14,6 @@ if (isset($_POST["enviar"])) {
     $pass = md5($_POST["contraseña"]);
     if ($usuario == null) {
         $_SESSION["bloqueadoNormal"] = "Usuario o Contraseña incorrectos";
-        echo "hola";
     }else {
         if($usuario->password == $pass){
             $_SESSION['user_email_address'] = $usuario->username;
@@ -23,8 +22,6 @@ if (isset($_POST["enviar"])) {
             header('location:index.php');
         }else{
             $_SESSION["bloqueadoNormal"] = "Usuario o Contraseña incorrectos";
-            echo "Correo: ".$usuario->username . ' // Contraseña Usuario: ' . $usuario->password . "// Contraseña Input: " . $pass;
-            
         }
     }
 }
