@@ -6,12 +6,9 @@
     <?php include("includes/MetaTags.php");?>
 </head>
 
-<body class="fondoPrincipal" id="login">
-
-
-
+<body class="fondoPrincipal">
 <?php include("includes/header.php");?>
-        <?php include("includes/navbar.php");?>
+<?php include("includes/navbar.php");?>
         <?php 
         require_once 'controller/controladorUsuarios.php';
        
@@ -28,10 +25,6 @@
             }
         
         ?>
-
-
-
-
     <main>
         <section class="login-block">
             <div class="container shadow-lg" id="formulario_login">
@@ -107,13 +100,6 @@
             </div>
         </section>
     </main>
-
-    <div class="container">
-  
-</div>
-
-
-
     <script>
         (function() {
         'use strict';
@@ -131,6 +117,7 @@
         }, false);
         })();
 </script>
+</div>
 </body>
 
 </html>
