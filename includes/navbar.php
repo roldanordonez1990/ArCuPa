@@ -81,11 +81,19 @@
             <li class="nav-item dropdown pr-3"> <a class="nav-link colorLetra"
                     href="../contacto.php"><label>CONTÁCTANOS</label></a>
             </li>
-            <li class="d-sm-block d-lg-none d-md-none nav-item dropdown pr-3"> <a class="nav-link colorLetra"
-                    href="../registro.php"><label>ADMINISTRAR USUARIOS</label></a>
-            </li>
-            </li>
-            <li class="d-sm-none d-lg-block d-md-none  nav-item dropdown pr-3"> <a class="nav-link colorLetra"
+            <?php
+            if(isset($_SESSION["user_email_address"])){
+            ?>
+
+                <li class="d-sm-block d-lg-none d-md-none nav-item dropdown pr-3"> <a class="nav-link colorLetra"
+                        href="../registro.php"><label>ADMINISTRAR USUARIOS</label></a>
+                </li>
+            
+            <?php
+            }
+            ?>
+
+            <li class="d-none d-lg-block  nav-item dropdown pr-3"> <a class="nav-link colorLetra"
                     href="../juegos.php"><label>JUEGOS</label></a>
             </li>
             <li class="nav-item dropdown d-md-none">
