@@ -23,6 +23,25 @@ Class ControladorUsuarios {
        
         unset($conex);
     }
+    public static function buscarUsuario($email) {
+        try {
+            $conex = new Conexion();
+            $result = $conex->prepare("SELECT * FROM usuarios WHERE username=?");
+            $result->bindParam(1, $email);
+            $result->execute();
+            if ($result->rowCount()) {
+                $registro = $result->fetchObject();
+                $c = new Usuarios($registro->username, $registro->password, $registro->nombre, $registro->apellido, $registro->fecha_nacimiento, $registro->pais, $registro->telefono);
+
+                return $c;
+            }
+            unset($result);
+            unset($conex);
+        } catch (PDOException $ex) {
+            $errores[] = $exc->getMessage();
+        }
+        unset($conex);
+    }
 
  
 
