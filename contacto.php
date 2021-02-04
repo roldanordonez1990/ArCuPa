@@ -6,7 +6,7 @@
     <?php include("includes/MetaTags.php");?>
 </head>
 
-<body class="fondoPrincipal">
+<body onload="GenerateCaptcha();" class="fondoPrincipal">
 
     <?php include("includes/header.php");?>
     <?php include("includes/navbar.php");?>
@@ -99,9 +99,11 @@
                                 </div>
                             </div>
                             <div class="text-center text-md-right m-3">
-                                <input class="btn btn-login" type="submit" name="enviar" value="Enviar">
+                                <input type="text" id="txtCaptcha" readonly style="text-align: center; border: none; font-weight: bold; font-family: Modern" />
+                                <input type="button" class="btn btn-login" id="btnrefresh" value="Refrescar"  onclick="GenerateCaptcha();">
+                                <input type="text" id="txtCompare"/>
+                                <input id="brnValid" class="btn btn-login" type="submit" value="Enviar" disabled >
                             </div>
-
                         </form>
                     </div>
 
@@ -111,6 +113,41 @@
 
             </div>
         </div>
+
+        <script type="text/javascript">
+            /* Function to Generat Captcha */
+            function GenerateCaptcha() {
+            var chr1 = Math.ceil(Math.random() * 9)+ '';
+            var chr2 = Math.ceil(Math.random() * 9)+ '';
+            var chr3 = Math.ceil(Math.random() * 9)+ '';
+            var chr4 = Math.ceil(Math.random() * 9)+ '';
+            var chr5 = Math.ceil(Math.random() * 9)+ '';
+            var chr6 = Math.ceil(Math.random() * 9)+ '';
+            var chr7 = Math.ceil(Math.random() * 9)+ '';
+            
+            var captchaCode = chr1 + ' ' + chr2 + ' ' + chr3 + ' ' + chr4 + ' ' + chr5 + ' '+ chr6 + ' ' + chr7;
+            document.getElementById("txtCaptcha").value = captchaCode
+            }
+        
+            /* Remove spaces from Captcha Code */
+            function removeSpaces(string) {
+            return string.split(' ').join('');
+            }
+
+            setInterval(() => {
+                
+            var str1 = removeSpaces(document.getElementById('txtCaptcha').value);
+            var str2 = removeSpaces(document.getElementById('txtCompare').value);
+            
+            if (str1 == str2){
+                $("#brnValid").removeAttr("disabled");
+            } else{
+                $("#brnValid").attr("disabled", true);
+            }
+            
+       
+        }, 1000);
+        </script>
     </main>
 
     <?php include("includes/footer.php");?>
