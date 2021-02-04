@@ -10,6 +10,11 @@ if(isset($_GET["code"]))
  //This condition will check there is any error occur during geting authentication token. If there is no any error occur then it will execute if block of code/
  if(!isset($token['error']))
  {
+
+
+
+
+
   //Set the access token used for requests
   $google_client->setAccessToken($token['access_token']);
 
