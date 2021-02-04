@@ -13,7 +13,7 @@ class Usuarios {
     
     function __construct($username="", $pass="", $nombre="", $apellido="", $fecha_nacimiento="", $pais="", $telefono="") { 
         $this->username = $username;
-        $this->pass = $pass;
+        $this->password = $pass;
         $this->nombre = $nombre;
         $this->apellido = $apellido;
         $this->fecha_nacimiento = $fecha_nacimiento;
@@ -23,7 +23,7 @@ class Usuarios {
     
        function nuevoUsuario($username, $pass, $nombre, $apellido, $fecha_nacimiento, $pais, $telefono) {
         $this->username = $username;
-        $this->pass = $pass;
+        $this->password = $pass;
         $this->nombre = $nombre;
         $this->apellido = $apellido;
         $this->fecha_nacimiento = $fecha_nacimiento;

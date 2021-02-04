@@ -1,5 +1,6 @@
 <?php 
 include("includes/a_config.php");
+require_once 'controller/controladorUsuarios.php';
 
 //This $_GET["code"] variable value received after user has login into their Google Account redirct to PHP script then this variable value has been received
 if(isset($_GET["code"]))
@@ -10,11 +11,6 @@ if(isset($_GET["code"]))
  //This condition will check there is any error occur during geting authentication token. If there is no any error occur then it will execute if block of code/
  if(!isset($token['error']))
  {
-
-
-
-
-
   //Set the access token used for requests
   $google_client->setAccessToken($token['access_token']);
 
@@ -26,6 +22,15 @@ if(isset($_GET["code"]))
 
   //Get user profile data from google
   $data = $google_service->userinfo->get();
+
+  $usuario = ControladorUsuarios::buscarUsuario($data['email']);
+  if($usuario == null){
+      $google_client->revokeToken();
+      session_destroy();
+      session_start();
+      $_SESSION["bloqueado"] = "Usted no tiene permisos para Iniciar Sesión";
+      header('location:login.php');
+  }else{
 
   //Below you can find Get profile data and store into $_SESSION variable
   if(!empty($data['given_name']))
@@ -53,7 +58,7 @@ if(isset($_GET["code"]))
    $_SESSION['user_image'] = $data['picture'];
   }
  }
-}
+}}
 ?>
 <!DOCTYPE html>
 <html>
@@ -71,7 +76,7 @@ if(isset($_GET["code"]))
 
         <main>
             <section class="content">
-            <?php include("includes/principal.php");?>          
+                <?php include("includes/principal.php");?>
             </section>
         </main>
 
