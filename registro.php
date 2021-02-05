@@ -1,4 +1,10 @@
-<?php include("includes/a_config.php");?>
+<?php include("includes/a_config.php");
+
+if(!isset($_SESSION['user_email_address'])){
+    header('location:index.php');
+}
+
+?>
 <!DOCTYPE html>
 <html>
 
