@@ -93,7 +93,8 @@ if (isset($_POST["enviar"])) {
 
                             <div>
                                 <a class="bt-google" href="<?php echo $google_client->createAuthUrl(); ?>">
-                                    <div class="btn-google border d-flex align-items-center py-1 rounded mx-auto my-1 p-2">
+                                    <div
+                                        class="btn-google border d-flex align-items-center py-1 rounded mx-auto my-1 p-2">
                                         <div class="ml-2">
                                             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="18px"
                                                 height="18px" viewBox="0 0 48 48" class="abcRioButtonSvg">
