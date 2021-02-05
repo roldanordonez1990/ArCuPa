@@ -30,10 +30,13 @@ if(isset($_POST['delete'])){
 
                     <div class="col-sm-8">
                         <?php
+                        
                         foreach($n as $values){
 
                         ?>
+                      
                         <div class="card anchoCar mt-5 mb-3">
+                            <?php echo  $values->id?>
                             <div class="card-body fondoCard shadow-lg">
                                 <img id="<?php echo $numero++; ?>" class="card-img-top"
                                     src="<?php echo $values->imagen;?>" style="width:100%">
@@ -44,14 +47,24 @@ if(isset($_POST['delete'])){
                                 <hr id="noticiaHr">
                                 <p class="card-text" id="descripciones"><?php echo $values->contenido;?></p>
                                 <div class="row">
-                                    <div class="col-9">
-                                        <a href="noticiasNueva.php"><button class="btn"><i class="far fa-plus-square"></i></button></a>
+                                    <div class="col-10">
+                                        <a href="noticiasNueva.php"><button class="btn"><i
+                                                    class="far fa-plus-square"></i></button></a>
                                     </div>
-                                    <div class="col-3">
-                                        <form action="" class="form-inline" method="post">
-                                            <button class="btn"><i class="far fa-edit"></i></button>
-                                            <button name="delete" value="<?php echo $values->titulo;?>" class="btn"><i class="fas fa-trash-alt"></i></button>
+                                    <div class="col-1 p-1">
+
+                                        <form action="noticiasEdit.php" class="form-inline" method="post">
+                                            <button type="submit" name="edit" value="<?php echo $values->id;?>" class="btn">
+                                            <i class="far fa-edit"></i></button>
+                                           
                                         </form>
+                                    </div>
+                                    <div class="col-1 p-1">
+                                        <form action="" class="form-inline" method="post">
+                                            <button name="delete" value="<?php echo $values->titulo;?>" class="btn">
+                                            <i class="fas fa-trash-alt"></i></button>
+                                        </form>
+
                                     </div>
                                 </div>
                             </div>

@@ -17,7 +17,7 @@
         if (isset($_POST['publicar'])) {
            if($_POST['tituloNoticia'] != null && $_POST['contenido'] != null){
             $bandera = false;
-            $fechaActual = date('Y-m-d');
+            $fechaActual = date('Y-m-d | h:i:s');
             if (is_uploaded_file($_FILES['imagen']['tmp_name'])) {
                 $noticia = new Noticias();
                 $fich_unic = time() . "-" . $_FILES['imagen']['name'];
@@ -25,6 +25,7 @@
                 move_uploaded_file($_FILES['imagen']['tmp_name'], $ruta);
                 $noticia->nuevaNoticia($ruta, $_POST['tituloNoticia'], 1, $fechaActual, $_POST['contenido'], $_POST['tipos']);
                 ControladorNoticias::insertNoticia($noticia);
+
                 ?>
         <div class="alert alert-success text-center">
             <strong>Tu noticia ha sido publicada correctamente</strong>
