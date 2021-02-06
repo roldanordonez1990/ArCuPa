@@ -25,7 +25,13 @@ if(isset($_POST['delete'])){
         <div class="container-fluid p-0">
 
             <?php include("includes/header.php");?>
-            <?php include("includes/navbar.php");?>
+            <?php include("includes/navbar.php");
+            
+            if($n != null){
+            
+            
+            ?>
+
             <div class="container">
                 <div class="row">
 
@@ -122,7 +128,8 @@ if(isset($_POST['delete'])){
                         <div class="d-none d-lg-block academy-blog-sidebar mr-3">
                             <div class="card mt-5">
                                 <div class="card-body fondoCardMenu shadow-lg">
-                                    <div class="titulosPrincipal font-weight-bold text-center">Noticias Nacionales
+                                    <div class="titulosPrincipal font-weight-bold text-center mb-4">Noticias
+                                        Locales
                                     </div>
                                     <?php
                                     $numero = 0;
@@ -144,6 +151,21 @@ if(isset($_POST['delete'])){
                     </div>
                 </div>
             </div>
+            <?php
+            }else{
+                ?>
+            <div class="alert alert-danger text-center">
+                <strong>No hay noticias disponibles en este momento</strong>
+            </div>
+            <div class="text-center">
+                <label class="letraPrincipal">
+                    Añade una nueva noticia
+                </label>
+                <a href="noticiasNueva.php"><button class="btn"><i class="far fa-plus-square"></i></button></a>
+            </div>
+            <?php
+            }
+            ?>
 
     </main>
 
