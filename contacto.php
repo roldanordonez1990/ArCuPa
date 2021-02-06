@@ -51,15 +51,55 @@
                         favor no dudes para contactarnos directamente. Nuestro equipo se comunicará contigo en cuestión
                         de horas para ayudarte. Muchas gracias por ayudar a mejorar muestros servicios.</p>
 
-                    <div class="col-md-12 mb-md-0 mb-5">
-                        <form id="contact-form" name="contact-form" action="" method="POST">
 
+                    <div class="col-md-12 mb-md-0 mb-5">
+                    <?php
+                        if (isset($_POST['code'])) {
+
+
+                            ?>
+                            <script type="text/javascript"> 
+                                alert('GeeksforGeeks!'); 
+                            </script> 
+                            
+                            <script>
+                            
+                            setInterval(() => {
+
+                                console.log("hola");
+                
+                                var str1 = removeSpaces(document.getElementById('txtCaptcha').value);
+                                var str2 = removeSpaces(document.getElementById('txtCompare').value);
+                                
+                                if (str1 == str2){
+                                    <?php $disabled = "enabled"; ?>
+                                } else{
+                                    <?php $disabled = "disabled"; ?>
+                                }
+                               
+        
+                                
+                            });
+
+                            </script> 
+
+                            <?php
+
+                        $_SESSION['captcha'] = mt_rand(10000, 99999);
+                        }
+                        ?>  
+
+                        <form id="contact-form" name="contact-form" action="index.php" method="POST">
                             <div class="row">
                                 <div class="col-md-12 mb-4">
                                     <div class="md-form mb-0" id="input_login">
                                         <label for="name" class="titulosPrincipal">Nombre</label>
+<<<<<<< Updated upstream
                                         <input type="text" id="name" name="name" class="form-control opaco">
 
+=======
+                                        <input type="text" id="name" name="name" class="form-control opaco" required>
+>>>>>>> Stashed changes
                                     </div>
                                 </div>
                             </div>
@@ -67,8 +107,12 @@
                                 <div class="col-md-12  mb-4">
                                     <div class="md-form mb-0" id="input_login">
                                         <label for="email" class="titulosPrincipal">Correo Electrónico</label>
+<<<<<<< Updated upstream
                                         <input type="text" id="email" name="email" class="form-control opaco">
 
+=======
+                                        <input type="text" id="email" name="email" class="form-control opaco" required>
+>>>>>>> Stashed changes
                                     </div>
                                 </div>
 
@@ -78,25 +122,42 @@
                                 <div class="col-md-12  mb-4">
                                     <div class="md-form mb-0" id="input_login">
                                         <label for="subject" class="titulosPrincipal">Asunto</label>
+<<<<<<< Updated upstream
                                         <input type="text" id="subject" name="subject" class="form-control opaco">
 
+=======
+                                        <input type="text" id="subject" name="subject" class="form-control opaco"
+                                            required>
+>>>>>>> Stashed changes
                                     </div>
                                 </div>
                             </div>
 
                             <div class="row">
-
                                 <div class="col-md-12  mb-4">
-
                                     <div class="md-form">
                                         <label for="message" class="titulosPrincipal">Mensaje</label>
                                         <textarea type="text" id="message" name="message" rows="5"
                                             class="form-control area opaco"></textarea>
                                     </div>
-
                                 </div>
+<<<<<<< Updated upstream
                             </div>
 
+=======
+                            </div>  
+
+                            <div class="text-center text-md-right m-3">
+                            <?php $disabled = "disabled";?>
+                            <div class="row">
+                                <div class="col">
+                                <p><?php echo $_SESSION['captcha']; ?></p>
+                                </div>
+                                <div class="col">
+                                <p><input type="text" name="code" /> <input id="brnValid" class="btn btn-login" type="submit" value="Enviar" <?php echo $disabled?>/>
+                                </div>
+                            </div>
+>>>>>>> Stashed changes
                         </form>
 
                         <div class="text-center text-md-right m-3">
@@ -104,11 +165,8 @@
                         </div>
                         <div class="status"></div>
                     </div>
-
                 </div>
-
                 </section>
-
             </div>
         </div>
     </main>
