@@ -2,7 +2,7 @@
 
 require_once 'conexion.php';
 require_once 'model/Noticias.php';
-
+require_once 'model/Usuarios.php';
 Class ControladorNoticias {
 
     public static function insertNoticia(Noticias $n){
@@ -21,10 +21,10 @@ Class ControladorNoticias {
         unset($conex);
     }
 
-    public static function deleteNoticias($titulo){
+    public static function deleteNoticias($id){
         try{
             $conex = new Conexion();
-            $conex->exec("DELETE from noticias WHERE titulo ='$titulo'");
+            $conex->exec("DELETE from noticias WHERE id ='$id'");
         }catch(PDOException $ex){
 
             die('error con la base de datos');
@@ -70,20 +70,6 @@ Class ControladorNoticias {
         unset($conex);
     }
 
-    public static function modificarNoticia2($imagen, $titulo, $id_autor, $fecha, $contenido, $tipo) {
-        try {
-            $conex = new Conexion();
-            $conex->exec("UPDATE noticias SET imagen='$imagen', titulo='$titulo', id_autor='$id_autor', contenido='$contenido' , tipo='$tipo' WHERE fecha='$fecha'");
-            
-        } catch (PDOException $ex) {
-           
-            die('error con la base de datos');
-            //mata el programa
-        }
-        unset($conex);
-    }
-
-
     public static function buscarNoticia($id) {
         try {
             $conex = new Conexion();
@@ -95,6 +81,21 @@ Class ControladorNoticias {
                 return $n;
             } else
                 return false;
+        } catch (PDOException $ex) {
+          
+            die('error con la base de datos' . $ex->getMessage());
+        }
+        unset($result);
+        unset($conex);
+    }
+
+    public static function getAutorNoLogueado($id_autor, $id_noticia) {
+        try {
+            $conex = new Conexion();
+            $result = $conex->query("SELECT u.nombre, u.apellido FROM usuarios as u, noticias as n where n.id_autor=u.id and n.id_autor='$id_autor' and n.id='$id_noticia'");
+         
+            return $result;
+          
         } catch (PDOException $ex) {
           
             die('error con la base de datos' . $ex->getMessage());

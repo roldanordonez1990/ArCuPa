@@ -37,3 +37,9 @@
 
     <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css'>
 <link rel="stylesheet" href="css/mystyle.css">
+
+
+<link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
+
+   <!-- Include the Quill library -->
+	<script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>

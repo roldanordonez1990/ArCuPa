@@ -2,6 +2,7 @@
 
 require_once 'conexion.php';
 require_once 'model/Usuarios.php';
+require_once 'model/Noticias.php';
 
 Class ControladorUsuarios {
 
@@ -31,7 +32,7 @@ Class ControladorUsuarios {
             $result->execute();
             if ($result->rowCount()) {
                 $registro = $result->fetchObject();
-                $c = new Usuarios($registro->username, $registro->password, $registro->nombre, $registro->apellido, $registro->fecha_nacimiento, $registro->pais, $registro->telefono);
+                $c = new Usuarios($registro->id, $registro->username, $registro->password, $registro->nombre, $registro->apellido, $registro->fecha_nacimiento, $registro->pais, $registro->telefono);
 
                 return $c;
             }
@@ -43,8 +44,23 @@ Class ControladorUsuarios {
         unset($conex);
     }
 
- 
 
+    public static function getNombreYapellido($id) {
+        try {
+            $conex = new Conexion();
+            $result = $conex->query("SELECT u.nombre, u.apellido FROM usuarios as u, noticias as n WHERE u.id='$id' limit 1");
+           
+            return $result;
+           
+        } catch (PDOException $ex) {
+          
+            die('error con la base de datos' . $ex->getMessage());
+        }
+        unset($result);
+        unset($conex);
+    }
 }
+
+
 
 ?>
