@@ -28,7 +28,9 @@ width: 44%;
     outline: none !important;
 }
 .noticiaNueva{
-  
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
@@ -58,15 +60,6 @@ width: 44%;
     background: $color4;
 }
 
-textarea {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-
-    width: 60%;
-}
-
-
 #autorYfecha{
     font-size: 14px;
     color: $color3;
@@ -80,3 +73,13 @@ hr#noticiaHr {border: 0 ; border-top: 4px double $color1; width: 100%;}
     width: 100%;
     
 }
+
+#cojones{
+    width: 60%;
+}
+
+#editor{
+    height: 289px;
+    width: auto;
+}
+

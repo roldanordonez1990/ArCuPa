@@ -1,10 +1,11 @@
 <?php include("includes/a_config.php");
   require_once 'controller/controladorNoticias.php';
+  require_once 'controller/controladorUsuarios.php';
   $tipos = "Provinciales";
   $n = ControladorNoticias::getNoticias($tipos);
+
   $numero = 0;
- 
- 
+
 if(isset($_POST['delete'])){
     ControladorNoticias::deleteNoticias($_POST['delete']);
     header('location:noticiasProvinciales.php');
@@ -29,29 +30,85 @@ if(isset($_POST['delete'])){
                 <div class="row">
 
                     <div class="col-sm-8">
+
                         <?php
+                       
                         foreach($n as $values){
 
                         ?>
+
                         <div class="card anchoCar mt-5 mb-3">
+
                             <div class="card-body fondoCard shadow-lg">
                                 <img id="<?php echo $numero++; ?>" class="card-img-top"
                                     src="<?php echo $values->imagen;?>" style="width:100%">
                                 <h4 class="card-title titulosPrincipal font-weight-bold text-center mt-2">
                                     <?php echo $values->titulo;?></h4>
-                                <p class="card-text mt-2" id="autorYfecha">Por <?php echo $values->id_autor;?> |
+                                <?php 
+                                
+                                if(isset($_SESSION['user_email_address'])){
+                                    $u1 = ControladorUsuarios::buscarUsuario($_SESSION['user_email_address']);
+                                    $idUsuario = $u1->id;
+                                    $u = ControladorUsuarios::getNombreYapellido($idUsuario);
+                                
+                    
+                                                        if($u->rowCount()){
+
+                                                        while($row = $u->fetchObject()){
+                                                            ?>
+                                <p class="card-text mt-2" id="autorYfecha">Por
+                                    <?php echo $row->nombre; echo " "; echo $row->apellido; ?> |
                                     <?php echo $values->fecha;?></p>
+                                <?php
+                                                        }
+                                                        }
+                                                    }else{
+                                                       
+
+                                                        $p = ControladorNoticias::getAutorNoLogueado($values->id_autor, $values->id);
+                                                        if($p->rowCount()){
+
+                                                            while($row = $p->fetchObject()){
+                                                                ?>
+                                <p class="card-text mt-2" id="autorYfecha">Por
+                                    <?php echo $row->nombre." ".$row->apellido; ?> |
+                                    <?php echo $values->fecha;?></p>
+                                <?php
+                                                            }
+                                                        }
+                                                        ?>
+
+
+
+                                <?php
+                                                    }
+                                                    ?>
                                 <hr id="noticiaHr">
                                 <p class="card-text" id="descripciones"><?php echo $values->contenido;?></p>
                                 <div class="row">
-                                    <div class="col-9">
-                                    <a href="noticiasNueva.php"><button class="btn"><i class="far fa-plus-square"></i></button></a>
+                                    <div class="col-10">
+                                        <?php if(isset($_SESSION['user_email_address'])){
+                                            ?>
+                                        <a href="noticiasNueva.php"><button class="btn"><i
+                                                    class="far fa-plus-square"></i></button></a>
                                     </div>
-                                    <div class="col-3">
-                                        <form action="" class="form-inline" method="post">
-                                            <button class="btn"><i class="far fa-edit"></i></button>
-                                            <button name="delete" value="<?php echo $values->titulo;?>" class="btn"><i class="fas fa-trash-alt"></i></button>
+                                    <div class="col-1 p-1">
+
+                                        <form action="noticiasEdit.php" class="form-inline" method="post">
+                                            <button type="submit" name="edit" value="<?php echo $values->id;?>"
+                                                class="btn">
+                                                <i class="far fa-edit"></i></button>
                                         </form>
+                                    </div>
+                                    <div class="col-1 p-1">
+                                        <form action="" class="form-inline" method="post">
+                                            <button name="delete" value="<?php echo $values->id;?>" class="btn">
+                                                <i class="fas fa-trash-alt"></i></button>
+                                        </form>
+                                        <?php
+                                        
+                                    }
+                                        ?>
                                     </div>
                                 </div>
                             </div>
@@ -65,7 +122,7 @@ if(isset($_POST['delete'])){
                         <div class="d-none d-lg-block academy-blog-sidebar mr-3">
                             <div class="card mt-5">
                                 <div class="card-body fondoCardMenu shadow-lg">
-                                    <div class="titulosPrincipal font-weight-bold text-center">Noticias Provinciales
+                                    <div class="titulosPrincipal font-weight-bold text-center">Noticias Nacionales
                                     </div>
                                     <?php
                                     $numero = 0;

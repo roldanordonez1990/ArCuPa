@@ -1,7 +1,7 @@
 <?php
 
 class Usuarios {
-
+    public $id;
     public $username;
     public $password;
     public $nombre;
@@ -11,7 +11,8 @@ class Usuarios {
     public $telefono;
     
     
-    function __construct($username="", $pass="", $nombre="", $apellido="", $fecha_nacimiento="", $pais="", $telefono="") { 
+    function __construct($id="", $username="", $pass="", $nombre="", $apellido="", $fecha_nacimiento="", $pais="", $telefono="") { 
+        $this->id = $id;
         $this->username = $username;
         $this->password = $pass;
         $this->nombre = $nombre;
