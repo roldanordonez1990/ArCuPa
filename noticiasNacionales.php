@@ -156,6 +156,9 @@ if(isset($_POST['delete'])){
             <div class="alert alert-danger text-center">
                 <strong>No hay noticias disponibles en este momento</strong>
             </div>
+            <?php
+            if(isset($_SESSION['user_email_address'])){
+                ?>
             <div class="text-center">
                 <label class="letraPrincipal">
                     Añade una nueva noticia
@@ -163,6 +166,7 @@ if(isset($_POST['delete'])){
                 <a href="noticiasNueva.php"><button class="btn"><i class="far fa-plus-square"></i></button></a>
             </div>
             <?php
+            }
             }
             ?>
 
