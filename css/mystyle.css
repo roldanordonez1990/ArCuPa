@@ -1,3 +1,7 @@
+html, body {
+  max-width: 100% !important;
+  overflow-x: hidden !important; }
+
 .bg-dark {
   background-color: #AFE6FA !important; }
 

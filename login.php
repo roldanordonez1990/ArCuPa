@@ -19,6 +19,7 @@ if (isset($_POST["enviar"])) {
             $_SESSION['user_email_address'] = $usuario->username;
             $_SESSION['user_first_name'] = $usuario->nombre;
             $_SESSION['user_last_name'] = $usuario->apellido;
+            $_SESSION['imagenUsu'] = "https://c0.klipartz.com/pngpicture/385/1000/gratis-png-iconos-de-computadora-persona-login-anonimo.png";
             header('location:index.php');
         }else{
             $_SESSION["bloqueadoNormal"] = "Usuario o Contraseña incorrectos";
