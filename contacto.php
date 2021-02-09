@@ -54,12 +54,71 @@
 
                     <div class="col-md-12 mb-md-0 mb-5">
                     <?php
-            
+                        $_SESSION['captchacode']="";
+                        for($i=0;$i<4;$i++){
+                        $random[1]=rand(48,57);
+                        $random[2]=rand(65,90);
+                        $random[3]=rand(97,122);
+                        $chose=rand(1,3);
+                        $_SESSION['captchacode'].=chr($random[$chose]);
+                        }
+
+                        ?>
+    
+
+                        <?php $visibilidad = "none" ; ?>
+
+                        <?php $visibilidadincorrecto = "none"; ?>
+
+
+                        
+                            <?php
+                            if(isset($_POST["enviar"])){
+                                if($_POST['captchaclient'] == $_POST['captchaserver']){
+                                    
+                                     $visibilidad = "block" ;
+                                     $visibilidadincorrecto = "none";
+
+                                     ?>
+
+                                    <script type="text/javascript">
+                                       $(document).ready(function() {
+                                            $('#captcha').modal('show');
+                                        });
+                                    </script>   
+
+
+
+
+                                    <?php
+                                }else{
+                                    
+                                    $visibilidad = "none" ;
+                                    $visibilidadincorrecto = "block";
+
+                                    ?>
+
+
+                                    
+                                    <script type="text/javascript">
+                                       $(document).ready(function() {
+                                            $('#captcha').modal('show');
+                                        });
+                                    </script>   
+
+                                 
+
+                                        <?php
+                                    
+                                    
+                                }
+
+                            }
                             ?>
                        
 
 
-                        <form id="contact-form" name="contact-form" action="" method="POST">
+                        <form id="contact-form" name="contact-form" action=""  method="POST">
                             <div class="row">
                                 <div class="col-md-12 mb-4">
                                     <div class="md-form mb-0" id="input_login">
@@ -102,21 +161,6 @@
                         <a href="#" data-toggle="modal" data-target="#captcha">
                         <button class="float-right btn btn-login">Verificar</button>
 
-
-                        <?php
-
-                        if (isset($_POST['submit'])) {
-                            if ($_POST['captcha'] == $_SESSION['cap_code']) {
-                                // Captcha verification is Correct. Do something here!
-                                echo '<p>El captcha introducido es correcto</p>';
-                            }
-                            else {
-                                // Captcha verification is wrong. Take other action
-                                echo '<p>El captcha introducido no es correcto</p>';
-                            }
-                        }  ?>
-                        
-
                       
 
                         <div class="modal" id="captcha" role="dialog">
@@ -129,22 +173,56 @@
                                         </button>
                                     </div>
                                     <div class="modal-body">
-                                    <input type="text" name="captcha" id="captcha" maxlength="6" size="6"/>
-                                    <img src="captcha.php"/>
+                                    <div class="verificado" style="display:<?php  echo $visibilidad?>;" id="verificado">
+                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130.2 130.2">
+                                    <circle class="path circle" fill="none" stroke="#73AF55" stroke-width="6" stroke-miterlimit="10" cx="65.1" cy="65.1" r="62.1"/>
+                                    <polyline class="path check" fill="none" stroke="#73AF55" stroke-width="6" stroke-linecap="round" stroke-miterlimit="10" points="100.2,40.2 51.5,88.8 29.8,67.5 "/>
+                                    </svg>
+                                    <p class="success">Verificado!</p>
                                     </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secundary" data-dismiss="modal">Cancelar</button>
-                                        <a href=""><button type="button" class="btn btn-danger" >Cerrar Sesión</button></a>
+                                    
+                                    <div class="incorrecto"  style="display:<?php  echo $visibilidadincorrecto?>;">
+                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130.2 130.2">
+                                    <circle class="path circle" fill="none" stroke="#D06079" stroke-width="6" stroke-miterlimit="10" cx="65.1" cy="65.1" r="62.1"/>
+                                    <line class="path line" fill="none" stroke="#D06079" stroke-width="6" stroke-linecap="round" stroke-miterlimit="10" x1="34.4" y1="37.9" x2="95.8" y2="92.3"/>
+                                    <line class="path line" fill="none" stroke="#D06079" stroke-width="6" stroke-linecap="round" stroke-miterlimit="10" x1="95.8" y1="38" x2="34.4" y2="92.2"/>
+                                    </svg>
+                                    <p class="error">Incorrecto!</p>
                                     </div>
-                                    </div>
+                                      
+    
+                                        <div class="row lg-6 d-flex justify-content-center">
+                                            <img width="200px" height="80" src="captcha-img.php">
+                                        </div>
+
+                                        <input type="hidden" value="<?php echo $_SESSION['captchacode']; ?>" name="captchaserver">
+
+                                    
+
+                                        </div>
+                                        <div class="modal-footer">
+                                        <div class="row ">
+                                            <input type="text" style="width: 300px;" name="captchaclient"></div>
+                                            <input type="submit" class="btn btn-login" name="enviar" value="enviar" id="submitButton" >
+                                        </div>
+                                        </div>
+                                        </div>
+                                   
                                 </div>
 
                                 
                             </div>
+                          
 
                              
 
                         </form>
+
+                 
+
+    
+
+                      
                     </div>
                 </div>
                 </section>
