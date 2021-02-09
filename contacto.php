@@ -57,44 +57,9 @@
             
                             ?>
                        
-                            <script>
-
-                             /* Remove spaces from Captcha Code */
-                            function removeSpaces(string) {
-                            return string.split(' ').join('');
-                            }
-                            
-                            setInterval(() => {
 
 
-                                var str1 = removeSpaces(document.getElementById('txtCaptcha').value);
-                                var str2 = removeSpaces(document.getElementById('txtCompare').value);
-
-
-                                if (str1 == str2){
-                                  
-                                    
-                                    $("#brnValid").removeAttr("disabled");
-                                   
-                                } else{
-
-                                  
-                                    $("#brnValid").attr("disabled", true);
-                                }
-                               
-
-                            });
-
-                            </script> 
-
-                            <?php
-
-                        $_SESSION['captcha'] = mt_rand(10000, 99999);
-                        
-                        ?>  
-        
-
-                        <form id="contact-form" name="contact-form" action="index.php" method="POST">
+                        <form id="contact-form" name="contact-form" action="" method="POST">
                             <div class="row">
                                 <div class="col-md-12 mb-4">
                                     <div class="md-form mb-0" id="input_login">
@@ -130,23 +95,61 @@
                                         <textarea type="text" id="message" name="message" rows="5"
                                             class="form-control area opaco"></textarea>
                                     </div>
-                                </div>
+                                </div> 
                             </div>  
 
-                            <div class="text-center text-md-right m-3">
-                            <div class="row">
-                                <div class="col">
-                                <input type="text" id="txtCaptcha" value="<?php echo $_SESSION['captcha']; ?>" readonly style="text-align: center; border: none; font-weight: bold; font-family: Modern" />
+
+                        <a href="#" data-toggle="modal" data-target="#captcha">
+                        <button class="float-right btn btn-login">Verificar</button>
+
+
+                        <?php
+
+                        if (isset($_POST['submit'])) {
+                            if ($_POST['captcha'] == $_SESSION['cap_code']) {
+                                // Captcha verification is Correct. Do something here!
+                                echo '<p>El captcha introducido es correcto</p>';
+                            }
+                            else {
+                                // Captcha verification is wrong. Take other action
+                                echo '<p>El captcha introducido no es correcto</p>';
+                            }
+                        }  ?>
+                        
+
+                      
+
+                        <div class="modal" id="captcha" role="dialog">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                    <div class="modal-header">
+                                        <a><h5 class="modal-title text-center">Verifica el captcha</h5></a>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                    <input type="text" name="captcha" id="captcha" maxlength="6" size="6"/>
+                                    <img src="captcha.php"/>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secundary" data-dismiss="modal">Cancelar</button>
+                                        <a href=""><button type="button" class="btn btn-danger" >Cerrar Sesión</button></a>
+                                    </div>
+                                    </div>
                                 </div>
-                                <div class="col">
-                                <input type="text" id="txtCompare" name="code" /> <input id="brnValid" class="btn btn-login" type="submit" value="Enviar" disabled />
-                                </div>
+
+                                
                             </div>
+
+                             
+
                         </form>
                     </div>
                 </div>
                 </section>
             </div>
+
         </div>
     </main>
 
@@ -155,3 +158,5 @@
 </body>
 
 </html>
+                            
+           
