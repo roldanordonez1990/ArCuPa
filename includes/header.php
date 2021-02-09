@@ -15,14 +15,19 @@
                 {
                  echo '<a class="btn btn-login py-2 px-3" href="login.php"><i class="fa fa-user"></i> Login </a>';
                 }else{
-                    if  ($login_button == '' && isset($_SESSION["user_image"]))
+                    if  ($login_button == '' && isset($_SESSION["user_image"]) || isset($_SESSION["imagenUsu"]) )
                     {
-                        echo '<img src="'.$_SESSION["user_image"].'" class="image-circle"/>';
+                        if(isset($_SESSION["user_image"])){
+                            echo '<img src="'.$_SESSION["user_image"].'" class="image-circle"/>';
+                        }else{
+                            echo '<img src="'.$_SESSION["imagenUsu"].'" class="image-circle"/>';
+                        }
+                        
                     }if  ($login_button == '')
                     {
                         echo '<a class="colorLogin pr-3">'.$_SESSION['user_first_name'].' '.$_SESSION['user_last_name'].'<a>';
                         echo '<a href="registro.php"><button type="button" class="btn btn-secondary mr-3"><i class="fas fa-users-cog"></i></button></a>';
-                        echo '<a href="logout.php"><button type="button" class="btn btn-danger">Salir</i></button></a>';
+                        echo '<a href="#" data-toggle="modal" data-target="#cerrarSesion"><button type="button" class="btn btn-danger">Salir</i></button></a>';
                     } 
                 }	
                     
