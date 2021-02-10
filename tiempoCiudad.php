@@ -38,7 +38,7 @@
 
             ?>
             <div class="titulosPrincipal font-weight-bold mt-3">El tiempo en tu ciudad</div>
-            <div class="card mt-2 mb-3" style="width:68%">
+            <div class="card mt-2 mb-3" style="width:69%">
                 <div class="row">
                     <div class="col-sm-4">
                         <p class="ml-2 mt-1 text-center" id="descripciones">El tiempo en</p>
@@ -47,7 +47,7 @@
                             <?php echo $_POST['buscarCiudad'];?></h2>
                         <div class="ml-2 mt-1 text-center" id="descripciones"><?php echo $fechaActual = date('Y-m-d');?>
                         </div>
-                        <img src="http://openweathermap.org/img/wn/<?php echo $tiempo->weather[0]->icon;?>.png"
+                        <img src="http://openweathermap.org/img/wn/<?php echo $tiempo->weather[0]->icon;?>@4x.png"
                             class="meteoIcono ml-5" alt="alt" />
                         </p>
                     </div>
