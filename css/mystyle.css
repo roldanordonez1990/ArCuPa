@@ -379,61 +379,77 @@ button:hover {
   display: flex;
   align-items: center; }
 
-svg {
-  width: 100px;
+.captcha-wrong {
+  color: red; }
+
+.captcha-success {
+  color: #05c90f; }
+
+.marked {
+  background-color: royalblue !important; }
+
+.patternDrow {
+  position: absolute;
+  z-index: 100;
+  margin-left: 5%;
+  text-align: center; }
+
+.main-form {
+  width: 40rem;
+  padding: 3rem 2rem;
+  box-shadow: 0 0 1rem 0.1rem rgba(0, 0, 0, 0.1);
+  border-radius: .5rem; }
+
+.captcha-container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 8rem);
+  grid-auto-rows: 8rem;
+  grid-gap: .5rem;
+  margin-bottom: 2rem; }
+
+.captcha-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ededed;
+  font-size: 3rem;
+  font-weight: 500;
+  position: relative; }
+
+.marked::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f058";
+  position: absolute;
+  top: .5rem;
+  right: .5rem;
+  font-size: 2rem; }
+
+label[for="captchaInput"] {
+  font-size: 1.6rem;
+  font-weight: 500; }
+
+#captchaInput {
   display: block;
-  margin: 40px auto 0; }
+  width: 100%;
+  padding: .8rem 1rem;
+  margin-top: 1rem;
+  border: 0.1rem solid rgba(0, 0, 0, 0.3);
+  border-radius: .5rem; }
 
-.path {
-  stroke-dasharray: 1000;
-  stroke-dashoffset: 0; }
-  .path.circle {
-    -webkit-animation: dash .9s ease-in-out;
-    animation: dash .9s ease-in-out; }
-  .path.line {
-    stroke-dashoffset: 1000;
-    -webkit-animation: dash .9s .35s ease-in-out forwards;
-    animation: dash .9s .35s ease-in-out forwards; }
-  .path.check {
-    stroke-dashoffset: -100;
-    -webkit-animation: dash-check .9s .35s ease-in-out forwards;
-    animation: dash-check .9s .35s ease-in-out forwards; }
+.submit-btn {
+  margin-top: 2rem;
+  padding: .8rem 2rem;
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: .5rem;
+  outline: none;
+  font-size: 1.6rem;
+  cursor: pointer; }
 
-p {
-  text-align: center;
-  margin: 20px 0 60px;
-  font-size: 1.25em; }
-  p.success {
-    color: #73AF55; }
-  p.error {
-    color: #D06079; }
-
-@-webkit-keyframes dash {
-  0% {
-    stroke-dashoffset: 1000; }
-  100% {
-    stroke-dashoffset: 0; } }
-
-@keyframes dash {
-  0% {
-    stroke-dashoffset: 1000; }
-  100% {
-    stroke-dashoffset: 0; } }
-
-@-webkit-keyframes dash-check {
-  0% {
-    stroke-dashoffset: -100; }
-  100% {
-    stroke-dashoffset: 900; } }
-
-@keyframes dash-check {
-  0% {
-    stroke-dashoffset: -100; }
-  100% {
-    stroke-dashoffset: 900; } }
-
-.incorrecto {
-  display: none; }
+.submit-btn:hover {
+  background-color: rgba(0, 0, 0, 0.8); }
 
 ul,
 ol {
