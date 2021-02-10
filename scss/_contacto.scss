@@ -1,26 +1,102 @@
 .map-responsive {
-    overflow: hidden;
-    padding-bottom: 52.8%;
-    position: relative;
-    height: 0;
+  overflow: hidden;
+  padding-bottom: 52.8%;
+  position: relative;
+  height: 0;
 }
 .map-responsive iframe {
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    border: 2px solid $color3;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  border: 2px solid $color3;
 }
 .area:focus {
-    border: none !important;
-    box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgb(245, 180, 27) !important;
+  border: none !important;
+  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgb(245, 180, 27) !important;
 }
 .opaco{
-    opacity: 75%;
-    border: 1px solid $color3 !important;
+  opacity: 75%;
+  border: 1px solid $color3 !important;
 }
+
 .centrado{
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
+
+
+.captcha {
+  width: 100px;
+  display: block;
+  margin: 40px auto 0;
+}
+
+.path {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 0;
+  &.circle {
+    -webkit-animation: dash .9s ease-in-out;
+    animation: dash .9s ease-in-out;
+  }
+  &.line {
+    stroke-dashoffset: 1000;
+    -webkit-animation: dash .9s .35s ease-in-out forwards;
+    animation: dash .9s .35s ease-in-out forwards;
+  }
+  &.check {
+    stroke-dashoffset: -100;
+    -webkit-animation: dash-check .9s .35s ease-in-out forwards;
+    animation: dash-check .9s .35s ease-in-out forwards;
+  }
+}
+
+@-webkit-keyframes dash {
+  0% {
+    stroke-dashoffset: 1000;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes dash {
+  0% {
+    stroke-dashoffset: 1000;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@-webkit-keyframes dash-check {
+  0% {
+    stroke-dashoffset: -100;
+  }
+  100% {
+    stroke-dashoffset: 900;
+  }
+}
+
+@keyframes dash-check {
+  0% {
+    stroke-dashoffset: -100;
+  }
+  100% {
+    stroke-dashoffset: 900;
+  }
+}
+
+.captchaColor{
+  text-align: center;
+  margin: 20px 0 60px;
+  font-size: 1.25em;
+  &.success {
+    color: #73AF55;
+  }
+  &.error {
+    color: #D06079;
+  }
+}
+
