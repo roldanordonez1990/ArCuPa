@@ -203,7 +203,7 @@
                                         <div class="modal-footer">
                                         <div class="row ">
                                             <input type="text" style="width: 300px;" name="captchaclient"></div>
-                                            <input type="submit" class="btn btn-login" name="enviar" value="Enviar" id="submitButton" >
+                                            <input type="submit" class="btn btn-login" name="enviar" value="enviar" id="submitButton" >
                                         </div>
                                         </div>
                                         </div>
