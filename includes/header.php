@@ -7,9 +7,12 @@
 
         <!--Búsqueda-->
         <div class="ml-auto">
-            <form class="form-inline" action="">
-                <input class="form-control m-2" type="text" placeholder="Buscar">
-                <button class="btn btn-login py-2 px-3 mr-2" type="submit"><i class="fas fa-search"></i></button>
+       
+            <form class="form-inline" action="tiempoCiudad.php" method="post">
+          
+                <input class="form-control m-2" name="buscarCiudad" type="text" placeholder="Buscar">
+                <button class="btn btn-login py-2 px-3 mr-2" type="submit" name="buscar"><i
+                        class="fas fa-search"></i></button>
                 <?php
                 if(!isset($_SESSION['user_email_address']))
                 {
