@@ -1,3 +1,23 @@
+<div class="modal" id="cerrarSesion" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-center">Cerrar Sesión</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>¿Quiere usted cerrar session en la página web?</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secundary" data-dismiss="modal">Cancelar</button>
+        <a href="./logout.php"><button type="button" class="btn btn-danger" >Cerrar Sesión</button></a>
+      </div>
+    </div>
+  </div>
+</div>
+
 <nav class="navbar navbar-expand-md navbar-dark ">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample06"
         aria-controls="navbarsExample06" aria-expanded="false" aria-label="Toggle navigation"> <span
@@ -6,13 +26,18 @@
             src="../media/images/logoFinal.png" alt="Logo"></a>
 
     <?php
-        if(!isset($_SESSION['access_token']))
+        if(!isset($_SESSION['access_token']) && !isset($_SESSION['imagenUsu']))
         {
         echo '<a class="btn btn-login py-2 px-3 d-md-none" href="login.php"><i class="fa fa-user"></i></a>';
         }else{
             if  ($login_button == '')
             {
-                echo '<a href="logout.php"><img src="'.$_SESSION["user_image"].'" class="image-circle d-md-none"/></a>';
+                if(isset($_SESSION["user_image"])){
+                    echo '<a href="#" data-toggle="modal" data-target="#cerrarSesion"><img src="'.$_SESSION["user_image"].'" class="image-circle d-md-none"/></a>';
+                }else{
+                    echo '<a href="#" data-toggle="modal" data-target="#cerrarSesion"><img src="'.$_SESSION["imagenUsu"].'" class="image-circle d-md-none"/></a>';
+                }
+                
             }
         }
     ?>
@@ -81,8 +106,19 @@
             <li class="nav-item dropdown pr-3"> <a class="nav-link colorLetra"
                     href="../contacto.php"><label>CONTÁCTANOS</label></a>
             </li>
-            </li>
-            <li class="d-none d-md-block nav-item dropdown pr-3"> <a class="nav-link colorLetra"
+            <?php
+            if(isset($_SESSION["user_email_address"])){
+            ?>
+
+                <li class="d-sm-block d-lg-none d-md-none nav-item dropdown pr-3"> <a class="nav-link colorLetra"
+                        href="../registro.php"><label>ADMINISTRAR USUARIOS</label></a>
+                </li>
+            
+            <?php
+            }
+            ?>
+
+            <li class="d-none d-lg-block  nav-item dropdown pr-3"> <a class="nav-link colorLetra"
                     href="../juegos.php"><label>JUEGOS</label></a>
             </li>
             <li class="nav-item dropdown d-md-none">

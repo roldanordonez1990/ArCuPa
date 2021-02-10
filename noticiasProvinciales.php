@@ -1,4 +1,18 @@
-<?php include("includes/a_config.php");?>
+<?php include("includes/a_config.php");
+  require_once 'controller/controladorNoticias.php';
+  require_once 'controller/controladorUsuarios.php';
+  $tipos = "Provinciales";
+  $n = ControladorNoticias::getNoticias($tipos);
+
+  $numero = 0;
+
+if(isset($_POST['delete'])){
+    ControladorNoticias::deleteNoticias($_POST['delete']);
+    header('location:noticiasProvinciales.php');
+}
+
+?>
+
 <!DOCTYPE html>
 <html>
 
@@ -7,221 +21,165 @@
 </head>
 
 <body class="fondoPrincipal">
-    <div class="container-fluid p-0">
+    <main>
+        <div class="container-fluid p-0">
 
-        <?php include("includes/header.php");?>
-        <?php include("includes/navbar.php");?>
+            <?php include("includes/header.php");?>
+            <?php include("includes/navbar.php");
+            
+            if($n != null){
+            
+            
+            ?>
+
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-sm-8">
+
+                        <?php
+                       
+                        foreach($n as $values){
+
+                        ?>
+
+                        <div class="card anchoCar mt-5 mb-3">
+
+                            <div class="card-body fondoCard shadow-lg">
+                                <img id="<?php echo $numero++; ?>" class="card-img-top"
+                                    src="<?php echo $values->imagen;?>" style="width:100%">
+                                <h4 class="card-title titulosPrincipal font-weight-bold text-center mt-2">
+                                    <?php echo $values->titulo;?></h4>
+                                <?php 
+                                
+                                if(isset($_SESSION['user_email_address'])){
+                                    $u1 = ControladorUsuarios::buscarUsuario($_SESSION['user_email_address']);
+                                    $idUsuario = $u1->id;
+                                    $u = ControladorUsuarios::getNombreYapellido($idUsuario);
+                                
+                    
+                                                        if($u->rowCount()){
+
+                                                        while($row = $u->fetchObject()){
+                                                            ?>
+                                <p class="card-text mt-2" id="autorYfecha">Por
+                                    <?php echo $row->nombre; echo " "; echo $row->apellido; ?> |
+                                    <?php echo $values->fecha;?></p>
+                                <?php
+                                                        }
+                                                        }
+                                                    }else{
+                                                       
+
+                                                        $p = ControladorNoticias::getAutorNoLogueado($values->id_autor, $values->id);
+                                                        if($p->rowCount()){
+
+                                                            while($row = $p->fetchObject()){
+                                                                ?>
+                                <p class="card-text mt-2" id="autorYfecha">Por
+                                    <?php echo $row->nombre." ".$row->apellido; ?> |
+                                    <?php echo $values->fecha;?></p>
+                                <?php
+                                                            }
+                                                        }
+                                                        ?>
 
 
-        <main>
-            <!-- ##### Blog Area Start ##### -->
-            <div class="blog-area mt-40 section-padding-100">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 col-md-8">
-                            <div class="academy-blog-posts">
+
+                                <?php
+                                                    }
+                                                    ?>
+                                <hr id="noticiaHr">
+                                <p class="card-text" id="descripciones"><?php echo $values->contenido;?></p>
                                 <div class="row">
-
-                                    <!-- Single Blog Start -->
-                                    <div class="col-12">
-                                        <div class="single-blog-post mb-50 wow fadeInUp">
-                                            <!-- Post Thumb -->
-                                            <div class="blog-post-thumb mb-50" id="n1">
-                                                <img class="img" src="../media/images/noticias/NieveRenfe.jpg" alt="">
-                                            </div>
-                                            <!-- Post Title -->
-                                            <h1 class="titulosPrincipal">Renfe suspende el tráfico ferroviario con
-                                                Madrid</h1>
-                                            <!-- Post Meta -->
-                                            <div class="letra1">
-                                                <p>Por Adrian Osuna | Marzo 18, 2020</p>
-                                            </div>
-                                            <!-- Post Excerpt -->
-                                            <p>El tráfico ferroviario en Madrid está interrumpido. Adif, la compañía
-                                                pública propietaria de las infraestructuras ferroviarias, anuncia que
-                                                desde las 05.26 horas de la madrugada del sábado “se ha suspendido
-                                                temporalmente toda la circulación desde y hacia Madrid tanto por ancho
-                                                convencional como ancho estándar o de alta velocidad y para todo tipo de
-                                                servicios de viajeros (cercanías y media y larga distancia) y
-                                                mercancías” debido al avance del temporal.</p>
-
-                                            <p>“Durante toda la noche se han estado realizando labores de limpieza en
-                                                determinadas estaciones y agujas pero el temporal, con ventisca añadida,
-                                                es de tal intensidad que los trabajos resultan infructuosos al poco
-                                                tiempo”, explica Adif en una nota.</p>
-                                            <!-- Read More btn -->
-                                            <!--<a href="" class="btn btn-login mt-15">Leer Mas</a>-->
-                                        </div>
+                                    <div class="col-10">
+                                        <?php if(isset($_SESSION['user_email_address'])){
+                                            ?>
+                                        <a href="noticiasNueva.php"><button class="btn"><i
+                                                    class="far fa-plus-square"></i></button></a>
                                     </div>
+                                    <div class="col-1 p-1">
 
-                                    <!-- Single Blog Start -->
-                                    <div class="col-12">
-                                        <div class="single-blog-post mb-50 wow fadeInUp">
-                                            <!-- Post Thumb -->
-                                            <div class="blog-post-thumb mb-50" id="n2">
-                                                <img class="img" src="../media/images/noticias/ViaVerdeLucena.jpg"
-                                                    alt="">
-                                            </div>
-                                            <!-- Post Title -->
-                                            <h1 class="titulosPrincipal">La Red de Senderos de Lucena fomentará el uso
-                                                turístico y deportivo del patrimonio natural del municipio</h1>
-                                            <!-- Post Meta -->
-                                            <div class="letra1">
-                                                <p>Por Arturo Vicente | Marzo 18, 2020</p>
-                                            </div>
-                                            <!-- Post Excerpt -->
-                                            <p>Así, en Lucena los itinerarios elegidos son los Senderos de la
-                                                Sierrezuela (circular, de 10,3 kilómetros), Sierra de Araceli (circular,
-                                                11 kilómetros) y Cerro Malabrigo (lineal, con 6,7 kilómetros). En Jauja,
-                                                el proyecto comenzaría por el Sendero de Malpasillo (lineal, 2,4
-                                                kilómetros) y en las Navas por el Sendero Cerro de las Puertas (circular
-                                                de 5 kilómetros). A esta oferta inicial, se incorporan otros dos
-                                                senderos –el de la Encina Milenaria y el Puente Povedano— ya ejecutados
-                                                por la Mancomunidad de la Subbética y homologados para la práctica del
-                                                cicloturismo.</p>
-
-                                            <p>El Ayuntamiento de Lucena, con esta iniciativa, pretende fomentar el
-                                                patrimonio natural del municipio para su uso tanto turístico como
-                                                deportivo, aprovechando la amplia red de caminos públicos municipales y
-                                                vías pecuarias que componen las vías de comunicación de dominio público
-                                                de su término municipal.</p>
-                                            <!-- Read More btn -->
-                                            <!--<a href="" class="btn btn-login mt-15">Leer Mas</a>-->
-                                        </div>
+                                        <form action="noticiasEdit.php" class="form-inline" method="post">
+                                            <button type="submit" name="edit" value="<?php echo $values->id;?>"
+                                                class="btn">
+                                                <i class="far fa-edit"></i></button>
+                                        </form>
                                     </div>
-
-                                    <!-- Single Blog Start -->
-                                    <div class="col-12">
-                                        <div class="single-blog-post mb-50 wow fadeInUp">
-                                            <!-- Post Thumb -->
-                                            <div class="blog-post-thumb mb-50" id="n3">
-                                                <img class="img" src="../media/images/noticias/Lince.jpg" alt="">
-                                            </div>
-                                            <!-- Post Title -->
-                                            <h1 class="titulosPrincipal">La Junta libera cinco linces en 2020 para
-                                                facilitar el intercambio genético y reforzar la población</h1>
-                                            <!-- Post Meta -->
-                                            <div class="letra1">
-                                                <p>Por Francisco Roldán | Marzo 18, 2020</p>
-                                            </div>
-                                            <!-- Post Excerpt -->
-                                            <p>La Junta de Andalucía ha liberado, a lo largo del año pasado, cinco
-                                                ejemplares de lince ibérico en distintas zonas de expansión y
-                                                reintroducción de la especie de la comunidad. En concreto, se han
-                                                soltado cuatro machos y una hembra en varios puntos de Sierra Morena,
-                                                como la comarca del Guadalmellato y el valle del río Guarrizas, pese a
-                                                las limitaciones obligadas por la crisis sanitaria del covid-19.</p>
-                                            <p>Su liberación se produjo el pasado 22 de diciembre en Montoro (Córdoba),
-                                                con el objetivo de prevenir la endogamia y reforzar la población en el
-                                                área de expansión de Sierra Morena.</p>
-                                            <!-- Read More btn -->
-                                            <!--<a href="" class="btn btn-login mt-15">Leer Mas</a>-->
-                                        </div>
+                                    <div class="col-1 p-1">
+                                        <form action="" class="form-inline" method="post">
+                                            <button name="delete" value="<?php echo $values->id;?>" class="btn">
+                                                <i class="fas fa-trash-alt"></i></button>
+                                        </form>
+                                        <?php
+                                        
+                                    }
+                                        ?>
                                     </div>
-
-                                    <!-- Single Blog Start -->
-                                    <div class="col-12">
-                                        <div class="single-blog-post mb-50 wow fadeInUp">
-                                            <!-- Post Thumb -->
-                                            <div class="blog-post-thumb mb-50" id="n4">
-                                                <img class="img" src="../media/images/noticias/DesarrolloRural.jpg" alt="">
-                                            </div>
-                                            <!-- Post Title -->
-                                            <h1 class="titulosPrincipal">La comarca de Sierra Morena de Córdoba recibe
-                                                346.000 euros para fomentar el desarrollo rural</h1>
-                                            <!-- Post Meta -->
-                                            <div class="letra1">
-                                                <p>Por Adrián Osuna | Marzo 18, 2020</p>
-                                            </div>
-                                            <!-- Post Excerpt -->
-                                            <p>La Junta de Andalucía ha concedido una ayuda de 346.699 euros destinada a
-                                                fomentar el desarrollo rural en la comarca de Sierra Morena, según ha
-                                                señalado la delegada de Agricultura, Ganadería y Pesca, Araceli Cabello.
-                                            </p>
-                                            <p>Los proyectos aprobados tienen como objetivo la mejora de la caseta
-                                                municipal de Espiel, mejoras en la casa de la cultura de Hornachuelos,
-                                                la mejora ambiental de espacios públicos en Montoro y la mejora en la
-                                                instalación del alumbrado público para ahorro y eficiencia energética en
-                                                Villaviciosa de Córdoba.</p>
-                                            <!-- Read More btn -->
-                                            <!--<a href="" class="btn btn-login mt-15">Leer Mas</a>-->
-                                        </div>
-                                    </div>
-
                                 </div>
                             </div>
                         </div>
+                        <?php
+                        }
+                        ?>
+                    </div>
 
-                        <div class="col-12 col-md-4 d-none d-lg-block">
-                            <div class="academy-blog-sidebar">
+                    <div class="col-sm-4">
+                        <div class="d-none d-lg-block academy-blog-sidebar mr-3">
+                            <div class="card mt-5">
+                                <div class="card-body fondoCardMenu shadow-lg">
+                                    <div class="titulosPrincipal font-weight-bold text-center mb-4">Noticias
+                                        Provinciales
+                                    </div>
+                                    <?php
+                                    $numero = 0;
+    
+                                        foreach($n as $values){
+                                        ?>
+                                    <a href="#<?php echo $numero++;?>" class="enlaceCiudades">
+                                        <p class=" enlaceCiudades card-title titulosPrincipal mt-2" id="descripciones">
+                                            <?php echo $values->titulo;?></p>
+                                    </a>
 
-                                <!-- Latest Blog Posts Area -->
-                                <div class="latest-blog-posts mb-30">
-                                    <h5 class="letra">Últimas noticias</h6>
-                                        <!-- Single Latest Blog Post -->
-                                        <div class="single-latest-blog-post d-flex mb-30">
-                                            <div class="latest-blog-post-thumb">
-                                                <img class="img" src="../media/images/noticias/NieveRenfe.jpg" alt="">
-                                            </div>
-                                            <div class="latest-blog-post-content">
-                                                <a href="#n1" class="post-title">
-                                                    <h6 class="">Renfe corta vías</h6>
-                                                </a>
-                                                <p class="letra1">Marzo 18, 2018</p>
-                                            </div>
-                                        </div>
-                                        <div class="single-latest-blog-post d-flex mb-30">
-                                            <div class="latest-blog-post-thumb">
-                                                <img class="img" src="../media/images/noticias/ViaVerdeLucena.jpg"
-                                                    alt="">
-                                            </div>
-                                            <div class="latest-blog-post-content">
-                                                <a href="#n2" class="post-title">
-                                                    <h6 class="">Red de Senderos</h6>
-                                                </a>
-                                                <p class="letra1">Marzo 18, 2018</p>
-                                            </div>
-                                        </div>
-                                        <div class="single-latest-blog-post d-flex mb-30">
-                                            <div class="latest-blog-post-thumb">
-                                                <img class="img" src="../media/images/noticias/Lince.jpg" alt="">
-                                            </div>
-                                            <div class="latest-blog-post-content">
-                                                <a href="#n3" class="post-title">
-                                                    <h6 class="">Sueltas de Lince Iberico</h6>
-                                                </a>
-                                                <p class="letra1">Marzo 18, 2018</p>
-                                            </div>
-                                        </div>
-                                        <div class="single-latest-blog-post d-flex mb-30">
-                                            <div class="latest-blog-post-thumb">
-                                                <img class="img" src="../media/images/noticias/DesarrolloRural.jpg" alt="">
-                                            </div>
-                                            <div class="latest-blog-post-content">
-                                                <a href="#n4" class="post-title">
-                                                    <h6 class="">Desarrollo Rural</h6>
-                                                </a>
-                                                <p class="letra1">Marzo 18, 2018</p>
-                                            </div>
-                                        </div>
+                                    <hr>
+                                    <?php
+                                        }
+                                    ?>
                                 </div>
-
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <?php
+            }else{
+                ?>
+            <div class="alert alert-danger text-center">
+                <strong>No hay noticias disponibles en este momento</strong>
+            </div>
+            <?php
+                if(isset($_SESSION['user_email_address'])){
+                    ?>
+            <div class="text-center">
+                <label class="letraPrincipal">
+                    Añade una nueva noticia
+                </label>
+                <a href="noticiasNueva.php"><button class="btn"><i class="far fa-plus-square"></i></button></a>
+            </div>
+            <?php
+                }
+                }
+                ?>
 
-        </main>
+    </main>
 
-        <?php include("includes/footer.php");?>
+    <?php include("includes/footer.php");?>
     </div>
-
     <script>
     $(window).scroll(function() {
         var scrollTop = $(window).scrollTop();
-        if (scrollTop <= 337)
-            $('.academy-blog-sidebar').css('top', 337 - scrollTop);
+        if (scrollTop <= 238)
+            $('.academy-blog-sidebar').css('top', 238 - scrollTop);
         else
             $('.academy-blog-sidebar').css('top', 0);
     });

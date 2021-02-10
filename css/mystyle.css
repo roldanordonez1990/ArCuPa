@@ -1,3 +1,7 @@
+html, body {
+  max-width: 100% !important;
+  overflow-x: hidden !important; }
+
 .bg-dark {
   background-color: #AFE6FA !important; }
 
@@ -199,6 +203,18 @@ a.icono {
 #input_login:focus {
   border: none !important;
   box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem #f5b41b !important; }
+
+.btn-google {
+  color: #0054A5;
+  background-color: #efefef !important;
+  transition: all 300ms ease 0ms;
+  text-decoration: none !important; }
+  .btn-google:hover {
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+    transform: translateY(-1px); }
+
+.bt-google:hover {
+  text-decoration: none !important; }
 
 .contenedorImagen {
   width: 100%; }
@@ -764,10 +780,27 @@ ol li {
   color: #0054A5;
   width: 44%; }
 
+.inputTitulo::placeholder {
+  font-family: "Gotu", sans-serif; }
+
+.inputText::placeholder {
+  font-family: "Gotu", sans-serif; }
+
+.tiposNoticia {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Gotu", sans-serif; }
+
 .marcoNoticia:focus {
   outline: none !important; }
 
 .noticiaNueva {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center; }
 
 .border-primary {
@@ -789,11 +822,27 @@ ol li {
   color: #fff;
   background: #F5B41B; }
 
-textarea {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+#autorYfecha {
+  font-size: 14px;
+  color: #0054A5;
+  text-align: justify;
+  font-family: "Gotu", sans-serif; }
+
+hr#noticiaHr {
+  border: 0;
+  border-top: 4px double #AFE6FA;
+  width: 100%; }
+
+.fondoCardMenu {
+  background-color: #f5f5f5;
+  width: 100%; }
+
+#cojones {
   width: 60%; }
+
+#editor {
+  height: 289px;
+  width: auto; }
 
 .fondoPrincipal {
   background-image: url("../media/images/fondo.jpg") !important; }

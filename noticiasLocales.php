@@ -1,4 +1,18 @@
-<?php include("includes/a_config.php");?>
+<?php include("includes/a_config.php");
+  require_once 'controller/controladorNoticias.php';
+  require_once 'controller/controladorUsuarios.php';
+  $tipos = "Locales";
+  $n = ControladorNoticias::getNoticias($tipos);
+
+  $numero = 0;
+
+if(isset($_POST['delete'])){
+    ControladorNoticias::deleteNoticias($_POST['delete']);
+    header('location:noticiasLocales.php');
+}
+
+?>
+
 <!DOCTYPE html>
 <html>
 
@@ -7,217 +21,166 @@
 </head>
 
 <body class="fondoPrincipal">
-    <div class="container-fluid p-0">
+    <main>
+        <div class="container-fluid p-0">
 
-        <?php include("includes/header.php");?>
-        <?php include("includes/navbar.php");?>
+            <?php include("includes/header.php");?>
+            <?php include("includes/navbar.php");
+            
+            if($n != null){
+            
+            
+            ?>
+
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-sm-8">
+
+                        <?php
+                       
+                        foreach($n as $values){
+
+                        ?>
+
+                        <div class="card anchoCar mt-5 mb-3">
+
+                            <div class="card-body fondoCard shadow-lg">
+                                <img id="<?php echo $numero++; ?>" class="card-img-top"
+                                    src="<?php echo $values->imagen;?>" style="width:100%">
+                                <h4 class="card-title titulosPrincipal font-weight-bold text-center mt-2">
+                                    <?php echo $values->titulo;?></h4>
+                                <?php 
+                                
+                                if(isset($_SESSION['user_email_address'])){
+                                    $u1 = ControladorUsuarios::buscarUsuario($_SESSION['user_email_address']);
+                                    $idUsuario = $u1->id;
+                                    $u = ControladorUsuarios::getNombreYapellido($idUsuario);
+                                
+                    
+                                                        if($u->rowCount()){
+
+                                                        while($row = $u->fetchObject()){
+                                                            ?>
+                                <p class="card-text mt-2" id="autorYfecha">Por
+                                    <?php echo $row->nombre; echo " "; echo $row->apellido; ?> |
+                                    <?php echo $values->fecha;?></p>
+                                <?php
+                                                        }
+                                                        }
+                                                    }else{
+                                                       
+
+                                                        $p = ControladorNoticias::getAutorNoLogueado($values->id_autor, $values->id);
+                                                        if($p->rowCount()){
+
+                                                            while($row = $p->fetchObject()){
+                                                                ?>
+                                <p class="card-text mt-2" id="autorYfecha">Por
+                                    <?php echo $row->nombre." ".$row->apellido; ?> |
+                                    <?php echo $values->fecha;?></p>
+                                <?php
+                                                            }
+                                                        }
+                                                        ?>
 
 
-        <main>
-            <!-- ##### Blog Area Start ##### -->
-            <div class="blog-area mt-40 section-padding-100">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 col-md-8">
-                            <div class="academy-blog-posts">
+
+                                <?php
+                                                    }
+                                                    ?>
+                                <hr id="noticiaHr">
+                                <p class="card-text" id="descripciones"><?php echo $values->contenido;?></p>
                                 <div class="row">
-
-                                    <!-- Single Blog Start -->
-                                    <div class="col-12">
-                                        <div class="single-blog-post mb-50 wow fadeInUp">
-                                            <!-- Post Thumb -->
-                                            <div class="blog-post-thumb mb-50" id="n1">
-                                                <img class="img" src="../media/images/noticias/NieveCabra.jpg" alt="">
-                                            </div>
-                                            <!-- Post Title -->
-                                            <h1 class="titulosPrincipal">Los últimos coletazos de Filomena tiñen de
-                                                blanco la sierra de Cabra</h1>
-                                            <!-- Post Meta -->
-                                            <div class="letra1">
-                                                <p>Por Adrian Osuna | Marzo 18, 2020</p>
-                                            </div>
-                                            <!-- Post Excerpt -->
-                                            <p>La zona de la Sierra de Cabra, a unos 1.200 metros de altitud, ha vuelto
-                                                a recibir la visita de la nieve por tercera vez en pocas semanas. Los
-                                                alrededores del Santuario de la Virgen de la Sierra han mantenido
-                                                durante la jornada una delicada capa blanca, que se ha mantenido estable
-                                                gracias a las bajas temperaturas, de entre uno y dos grados centígrados,
-                                                e incluso de la caída de nieve granulada en algunos momentos de la
-                                                mañana.</p>
-
-                                            <p>A medida que han ido pasando las horas las zonas como el Picacho de
-                                                Cabra se han ido llenando de gente, desde los fotógrafos dispuestos a
-                                                recoger las mejores instantáneas de unos campos bañados de blanco por la
-                                                nevada hasta familias completas, dispuestas a disfrutar de tan poco
-                                                habitual paisaje, tirar unas bolas de nieve, construir un muñeco o
-                                                lanzarse pendiente abajo con un tríneo, como puede verse en nuestra
-                                                galería de fotos.</p>
-                                            <!-- Read More btn -->
-                                            <!--<a href="" class="btn btn-login mt-15">Leer Mas</a>-->
-                                        </div>
+                                    <div class="col-10">
+                                        <?php if(isset($_SESSION['user_email_address'])){
+                                            ?>
+                                        <a href="noticiasNueva.php"><button class="btn"><i
+                                                    class="far fa-plus-square"></i></button></a>
                                     </div>
+                                    <div class="col-1 p-1">
 
-                                    <!-- Single Blog Start -->
-                                    <div class="col-12">
-                                        <div class="single-blog-post mb-50 wow fadeInUp">
-                                            <!-- Post Thumb -->
-                                            <div class="blog-post-thumb mb-50" id="n2">
-                                                <img class="img" src="../media/images/noticias/LluviaSemanaSanta.jpg"
-                                                    alt="">
-                                            </div>
-                                            <!-- Post Title -->
-                                            <h1 class="titulosPrincipal">Posibles lluvias en Semana Santa</h1>
-                                            <!-- Post Meta -->
-                                            <div class="letra1">
-                                                <p>Por Arturo Vicente | Marzo 18, 2020</p>
-                                            </div>
-                                            <!-- Post Excerpt -->
-                                            <p>Aunque aún es pronto para contar con previsiones certeras sobre el tiempo
-                                                que nos espera de cara a los próximos días, los datos de los que se
-                                                dispone hasta el momento apuntan a una Semana Santa con tiempo revuelto
-                                                e intermitentemente pasada por agua.</p>
-
-                                            <p>Aunque en los próximos días, a medida que se acerque la fecha, se
-                                                afinarán las predicciones, la Agencia Estatal de Meteorología (AEMET)
-                                                anuncia una alta probabilidad de lluvia durante el primer fin de semana,
-                                                del 18 al 20 de marzo "aunque serían débiles en general".</p>
-                                            <!-- Read More btn -->
-                                            <!--<a href="" class="btn btn-login mt-15">Leer Mas</a>-->
-                                        </div>
+                                        <form action="noticiasEdit.php" class="form-inline" method="post">
+                                            <button type="submit" name="edit" value="<?php echo $values->id;?>"
+                                                class="btn">
+                                                <i class="far fa-edit"></i></button>
+                                        </form>
                                     </div>
-
-                                    <!-- Single Blog Start -->
-                                    <div class="col-12">
-                                        <div class="single-blog-post mb-50 wow fadeInUp">
-                                            <!-- Post Thumb -->
-                                            <div class="blog-post-thumb mb-50" id="n3">
-                                                <img class="img" src="../media/images/noticias/EncinaRute.jpg" alt="">
-                                            </div>
-                                            <!-- Post Title -->
-                                            <h1 class="titulosPrincipal">Quinto lugar para la encina milenaria de Rute
-                                                en el concurso de árbol del año de España</h1>
-                                            <!-- Post Meta -->
-                                            <div class="letra1">
-                                                <p>Por Francisco Roldán | Marzo 18, 2020</p>
-                                            </div>
-                                            <!-- Post Excerpt -->
-                                            <p>Finalmente ha sido otra encina, la carrasca milenaria de Lecina, la
-                                                elegida árbol del año de España y pasará a la selección del Árbol
-                                                Europeo de 2021. Selección en la que participaba la encina milenaria de
-                                                Rute que se ha quedado en quinto lugar, entro los doce árboles
-                                                monumentales seleccionados para esta edición. Los resultados de la
-                                                votación de Árbol del Año en España han colocado como ganadora, con
-                                                9.920 votos, a la carrasca de Lecina, de la Sierra de Guara de Huesca.
-                                                Mientras que la encina milenaria de Rute, en la comarca de la Subbética
-                                                cordobesa ha conseguido 2.242 votos.</p>
-                                            <!-- Read More btn -->
-                                            <!--<a href="" class="btn btn-login mt-15">Leer Mas</a>-->
-                                        </div>
+                                    <div class="col-1 p-1">
+                                        <form action="" class="form-inline" method="post">
+                                            <button name="delete" value="<?php echo $values->id;?>" class="btn">
+                                                <i class="fas fa-trash-alt"></i></button>
+                                        </form>
+                                        <?php
+                                        
+                                    }
+                                        ?>
                                     </div>
-
-                                    <!-- Single Blog Start -->
-                                    <div class="col-12">
-                                        <div class="single-blog-post mb-50 wow fadeInUp">
-                                            <!-- Post Thumb -->
-                                            <div class="blog-post-thumb mb-50" id="n4">
-                                                <img class="img" src="../media/images/noticias/NieveOlivos.jpg" alt="">
-                                            </div>
-                                            <!-- Post Title -->
-                                            <h1 class="titulosPrincipal">Las heladas de Filomena destrozan parte de la
-                                                cosecha.</h1>
-                                            <!-- Post Meta -->
-                                            <div class="letra1">
-                                                <p>Por Adrián Osuna | Marzo 18, 2020</p>
-                                            </div>
-                                            <!-- Post Excerpt -->
-                                            <p>El paso de Filomena no ha sido del todo agradable para el sector agrario.
-                                                Depende de las zonas donde ha actuado la borrasca ha causado graves
-                                                daños en la cosecha de la aceiutuna que algunos agricultores han llegado
-                                                a perder el 40% de la cosecha por las nevadas y las heladas en sus
-                                                terrenos.</p>
-                                            <p>Todo este daño causado por la borrasca puede influir en el precio del
-                                                aceite del proximo año. Los agricultores trabajan sin para para intentar
-                                                salvar el año, pero es verdad que el paso de Filomena ha complicado un
-                                                poco dicha tarea.</p>
-                                            <!-- Read More btn -->
-                                            <!--<a href="" class="btn btn-login mt-15">Leer Mas</a>-->
-                                        </div>
-                                    </div>
-
                                 </div>
                             </div>
                         </div>
+                        <?php
+                        }
+                        ?>
+                    </div>
 
-                        <div class="col-12 col-md-4 d-none d-lg-block">
-                            <div class="academy-blog-sidebar">
+                    <div class="col-sm-4">
+                        <div class="d-none d-lg-block academy-blog-sidebar mr-3">
+                            <div class="card mt-5">
+                                <div class="card-body fondoCardMenu shadow-lg">
+                                    <div class="titulosPrincipal font-weight-bold text-center mb-4">Noticias
+                                        Locales
+                                    </div>
+                                    <?php
+                                    $numero = 0;
+    
+                                        foreach($n as $values){
+                                        ?>
+                                    <a href="#<?php echo $numero++;?>" class="enlaceCiudades">
+                                        <p class=" enlaceCiudades card-title titulosPrincipal mt-2" id="descripciones">
+                                            <?php echo $values->titulo;?></p>
+                                    </a>
 
-                                <!-- Latest Blog Posts Area -->
-                                <div class="latest-blog-posts mb-30">
-                                    <h5 class="letra">Últimas noticias</h6>
-                                        <!-- Single Latest Blog Post -->
-                                        <div class="single-latest-blog-post d-flex mb-30">
-                                            <div class="latest-blog-post-thumb">
-                                                <img class="img" src="../media/images/noticias/NieveCabra.jpg" alt="">
-                                            </div>
-                                            <div class="latest-blog-post-content">
-                                                <a href="#n1" class="post-title">
-                                                    <h6 class="">Filomena por Cabra</h6>
-                                                </a>
-                                                <p class="letra1">Marzo 18, 2018</p>
-                                            </div>
-                                        </div>
-                                        <div class="single-latest-blog-post d-flex mb-30">
-                                            <div class="latest-blog-post-thumb">
-                                                <img class="img" src="../media/images/noticias/LluviaSemanaSanta.jpg"
-                                                    alt="">
-                                            </div>
-                                            <div class="latest-blog-post-content">
-                                                <a href="#n2" class="post-title">
-                                                    <h6 class="">Lluvias en Semana Santa</h6>
-                                                </a>
-                                                <p class="letra1">Marzo 18, 2018</p>
-                                            </div>
-                                        </div>
-                                        <div class="single-latest-blog-post d-flex mb-30">
-                                            <div class="latest-blog-post-thumb">
-                                                <img class="img" src="../media/images/noticias/EncinaRute.jpg" alt="">
-                                            </div>
-                                            <div class="latest-blog-post-content">
-                                                <a href="#n3" class="post-title">
-                                                    <h6 class="">Quinto lugar para Rute</h6>
-                                                </a>
-                                                <p class="letra1">Marzo 18, 2018</p>
-                                            </div>
-                                        </div>
-                                        <div class="single-latest-blog-post d-flex mb-30">
-                                            <div class="latest-blog-post-thumb">
-                                                <img class="img" src="../media/images/noticias/NieveOlivos.jpg" alt="">
-                                            </div>
-                                            <div class="latest-blog-post-content">
-                                                <a href="#n4" class="post-title">
-                                                    <h6 class="">Perdida de Cosechas</h6>
-                                                </a>
-                                                <p class="letra1">Marzo 18, 2018</p>
-                                            </div>
-                                        </div>
+                                    <hr>
+                                    <?php
+                                        }
+                                    ?>
                                 </div>
-
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <?php
+            }else{
+                ?>
+            <div class="alert alert-danger text-center">
+                <strong>No hay noticias disponibles en este momento</strong>
+            </div>
+            <?php
+            if(isset($_SESSION['user_email_address'])){
+                ?>
+            <div class="text-center">
+                <label class="letraPrincipal">
+                    Añade una nueva noticia
+                </label>
+                <a href="noticiasNueva.php"><button class="btn"><i class="far fa-plus-square"></i></button></a>
+            </div>
+            <?php
+            }
+            
+            }
+            ?>
 
-        </main>
+    </main>
 
-        <?php include("includes/footer.php");?>
+    <?php include("includes/footer.php");?>
     </div>
-
     <script>
     $(window).scroll(function() {
         var scrollTop = $(window).scrollTop();
-        if (scrollTop <= 337)
-            $('.academy-blog-sidebar').css('top', 337 - scrollTop);
+        if (scrollTop <= 238)
+            $('.academy-blog-sidebar').css('top', 238 - scrollTop);
         else
             $('.academy-blog-sidebar').css('top', 0);
     });
