@@ -8,7 +8,7 @@
         </button>
       </div>
       <div class="modal-body">
-        <p>¿Quiere usted cerrar session en la página web?</p>
+        <p>¿Quiere usted cerrar sesión en la página web?</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secundary" data-dismiss="modal">Cancelar</button>
