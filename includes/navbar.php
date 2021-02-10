@@ -122,11 +122,11 @@
                     href="../juegos.php"><label>JUEGOS</label></a>
             </li>
             <li class="nav-item dropdown d-md-none">
-                <form class="form-inline">
+                <form class="form-inline" action="tiempoCiudad.php" method="post">
                     <div class="input-group mb-3">
-                        <input class="form-control m-6" type="text" placeholder="Buscar">
+                        <input class="form-control m-6" type="text" placeholder="Buscar" name="buscarCiudad">
                         <div class="input-group-append">
-                            <button class="btn btn-login" type="submit"><i class="fas fa-search"></i></button>
+                            <button class="btn btn-login" type="submit" name="buscar"><i class="fas fa-search"></i></button>
                         </div>
                     </div>
                 </form>
