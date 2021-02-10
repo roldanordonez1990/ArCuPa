@@ -225,6 +225,12 @@ a.icono {
   color: #0054A5;
   text-shadow: 0.1em 0.1em 0.3em #AFE6FA; }
 
+.titulosPrincipalCiudad {
+  font-family: 'Gotu', sans-serif;
+  font-size: 32px;
+  color: #0054A5;
+  text-shadow: 0.1em 0.1em 0.3em #AFE6FA; }
+
 a.enlaceCiudades {
   color: #0054A5;
   font-family: 'Gotu', sans-serif;
@@ -234,6 +240,12 @@ a.enlaceCiudades {
     text-decoration: none; }
 
 p#descripciones {
+  font-family: 'Gotu', sans-serif;
+  font-size: 14px;
+  color: #0054A5;
+  text-align: justify; }
+
+div#descripciones {
   font-family: 'Gotu', sans-serif;
   font-size: 14px;
   color: #0054A5;
@@ -256,7 +268,8 @@ a.noNeeded {
 
 th.thColor {
   color: #0054A5;
-  font-family: 'Gotu', sans-serif; }
+  font-family: 'Gotu', sans-serif;
+  font-size: medium; }
 
 td.tdColor {
   color: #0054A5;
@@ -295,6 +308,9 @@ td.tdColor {
 .tooltip-inner {
   background-color: #F5B41B !important;
   color: #0054A5 !important; }
+
+.meteoIcono {
+  width: 55%; }
 
 img {
   max-height: 100%; }
