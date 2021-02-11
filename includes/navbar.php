@@ -170,11 +170,6 @@
     </div>
 </nav>
 
-</div>
-</nav>
-</div>
-</nav>
-
 <script>
 $('.dropdown-menu a.dropdown-toggle').on('click', function(e) {
     if (!$(this).next().hasClass('show')) {
