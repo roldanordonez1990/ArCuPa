@@ -1,3 +1,6 @@
+<script src="../cookiealert.js"></script>
+
+
 <div class="alert text-center cookiealert" role="alert">
     <div class="row">
         <div class="col-sm-12 col-lg-10 ">
@@ -25,7 +28,6 @@
 </div>
 
 
-<script src="../cookiealert.js"></script>
 
 
 <div class="modal" id="cerrarSesion" role="dialog">
