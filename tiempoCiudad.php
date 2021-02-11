@@ -1,5 +1,5 @@
 <?php include("includes/a_config.php");
-
+error_reporting(0);
 if (isset($_POST['buscarCiudad'])) {
     $server = file_get_contents("http://api.openweathermap.org/data/2.5/weather?q=" . $_POST['buscarCiudad'] . ",es&APPID=91b90d9bd7b7844589eab360246949f3&lang=es&units=metric");
 } else {
@@ -90,7 +90,8 @@ $varDaily = $prevision->daily;
                             <div class="text-center mr-3"><img
                                     src="http://openweathermap.org/img/wn/<?php echo $values->weather[0]->icon; ?>@2x.png"
                                     class="ml-2" alt="alt" /></div>
-                            <div id="datos" class="text-center"><?php echo $values->pop."%"; ?></div>
+                            <div id="datos" class="text-center"><?php $p = $values->pop; echo $v = $p*100; ?>%</div>
+
                         </th>
                         <?php
                     }
@@ -119,10 +120,21 @@ $varDaily = $prevision->daily;
                                     src="http://openweathermap.org/img/wn/<?php echo $values->weather[0]->icon; ?>@2x.png"
                                     class="ml-2" alt="alt" /></div>
                             <div id="datos" class="text-center"><i
-                                    class="fas fa-cloud-rain mr-1"></i><?php echo $values->pop."%";?></div>
-
-                            <div id="max" class="text-center form-control mt-1"><?php echo $values->temp->max." ºC";?></div>
-                            <div id="min" class="text-center form-control"><?php echo $values->temp->min." ºC";; ?>
+                                    class="fas fa-cloud-rain mr-1"></i><?php $p = $values->pop; echo $v = $p*100; ?>%
+                            </div>
+                            <div id="datos" class="text-center"><?php 
+                           
+                               if($values->rain == null){
+                                echo '0 mm';
+                               }else{
+                                echo $values->rain." mm";
+                               }
+                        
+                            ?>
+                            </div>
+                            <div id="max" class="text-center form-control mt-1"><?php echo $values->temp->max." ºC";?>
+                            </div>
+                            <div id="min" class="text-center form-control"><?php echo $values->temp->min." ºC"; ?>
                             </div>
 
                         </th>
