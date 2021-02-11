@@ -904,20 +904,20 @@ hr#noticiaHr {
   width: 100%;
   margin: 0 !important;
   z-index: 999;
-  opacity: 0;
+  opacity: 0.8 !important;
   border-radius: 0;
   transform: translateY(100%);
   transition: all 500ms ease-out;
   color: #ecf0f1;
-  background: #212327; }
+  background: #000; }
 
 .cookiealert.show {
-  opacity: 1;
+  opacity: 0;
   transform: translateY(0%);
   transition-delay: 1000ms; }
 
 .cookiealert a {
-  text-decoration: underline; }
+  text-decoration: none; }
 
 .cookiealert .acceptcookies {
   margin-left: 10px;
