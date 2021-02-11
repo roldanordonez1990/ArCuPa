@@ -36,4 +36,5 @@ $tiempoValencia= json_decode($valencia);
 //
 $bilbao=file_get_contents("http://api.openweathermap.org/data/2.5/weather?q=Bilbao,es&APPID=91b90d9bd7b7844589eab360246949f3&lang=es&units=metric");
 $tiempoBilbao= json_decode($bilbao);
+
 ?>

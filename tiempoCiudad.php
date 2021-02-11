@@ -11,7 +11,10 @@ if ($server != null) {
 } else {
     header('location:index.php');
 }
-
+$new =file_get_contents("https://api.openweathermap.org/data/2.5/onecall?lat=".$tiempo->coord->lat."&lon=".$tiempo->coord->lon."&units=metric&appid=91b90d9bd7b7844589eab360246949f3");
+$prevision = json_decode($new);
+$varHourly = $prevision->hourly;
+$varDaily = $prevision->daily;
 ?>
 <!DOCTYPE html>
 <html>
@@ -30,59 +33,106 @@ if ($server != null) {
 
 
         <div class="container">
-            <?php if ($tiempo == null) {
-
-            ?>
-                <div class="alert alert-danger text-center">
-                    <strong>Ha ocurrido un error. Debes añadir contenido a todos los campos</strong>
-                </div>
-            <?php
-            } else {
-
-            ?>
-                <div class="titulosPrincipal font-weight-bold mt-3 text-center">El tiempo en tu ciudad</div>
-                <div class="card mt-2 mb-3 text-center">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <p class="ml-2 mt-2 text-center" id="descripciones">El tiempo en</p>
-                            <p>
-                            <h2 class="card-title ml-1 text-center titulosPrincipalCiudad font-weight-bold">
-                                <?php if (isset($a)) {
+            <div class="titulosPrincipal font-weight-bold mt-3 text-center">El tiempo en tu ciudad</div>
+            <div class="card mt-2 mb-3 text-center">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <p class="ml-2 mt-2 text-center" id="descripciones">El tiempo en</p>
+                        <p>
+                        <h2 class="card-title ml-1 text-center titulosPrincipalCiudad font-weight-bold">
+                            <?php if (isset($a)) {
                                     echo $a = $_GET['a'];
                                 } else {
                                     echo $_POST['buscarCiudad'];
                                 }
                                 ?>
-                            </h2>
-                            <div class="ml-2 mt-1 text-center" id="descripciones">
-                                <?php echo $fechaActual = date('Y-m-d'); ?>
-                            </div>
-                            <img src="http://openweathermap.org/img/wn/<?php echo $tiempo->weather[0]->icon; ?>@4x.png" class="meteoIcono ml-2" alt="alt" />
-                            </p>
+                        </h2>
+                        <div class="ml-2 mt-1 text-center" id="descripciones">
+                            <?php echo $fechaActual = date('d-m-Y'); ?>
                         </div>
-                        <div class="d-none d-lg-block vl col-sm-1"></div>
-                        <div class="col-sm-5 mt-4">
-                            <p id="descripciones"><i class="fas fa-temperature-low p-2"></i>
-                                <?php echo " Temperatura Actual-> " . $tiempo->main->temp . " ºC  "; ?></p>
-                            <p id="descripciones"><i class="fas fa-temperature-high p-2"></i>
-                                <?php echo "Sensación Térmica-> " . $tiempo->main->feels_like . " ºC  "; ?></p>
-                            <p id="descripciones"><i class="fas fa-tint p-2"></i>
-                                <?php echo "Humedad Actual-> " . $tiempo->main->humidity . " %  "; ?></p>
-                            <p id="descripciones"><i class="fas fa-thermometer p-2"></i>
-                                <?php echo "Presión Atomosférica-> " . $tiempo->main->pressure . " mb  "; ?></p>
-                            <p id="descripciones"><i class="fas fa-cloud p-2"></i>
-                                <?php echo "Nubosidad Actual-> " . $tiempo->clouds->all . " %  "; ?></p>
-                            <p id="descripciones"><i class="fas fa-wind p-2"></i>
-                                <?php echo "Velocidad del Viento-> " . $tiempo->wind->speed . " m/h  "; ?></p>
-
-                        </div>
+                        <img src="http://openweathermap.org/img/wn/<?php echo $tiempo->weather[0]->icon; ?>@4x.png"
+                            class="meteoIcono ml-2" alt="alt" />
+                        </p>
+                    </div>
+                    <div class="d-none d-lg-block vl col-sm-1"></div>
+                    <div class="col-sm-5 mt-4">
+                        <p id="descripciones"><i class="fas fa-temperature-low p-2"></i>
+                            <?php echo " Temperatura Actual-> " . $tiempo->main->temp . " ºC  "; ?></p>
+                        <p id="descripciones"><i class="fas fa-temperature-high p-2"></i>
+                            <?php echo "Sensación Térmica-> " . $tiempo->main->feels_like . " ºC  "; ?></p>
+                        <p id="descripciones"><i class="fas fa-tint p-2"></i>
+                            <?php echo "Humedad Actual-> " . $tiempo->main->humidity . " %  "; ?></p>
+                        <p id="descripciones"><i class="fas fa-thermometer p-2"></i>
+                            <?php echo "Presión Atomosférica-> " . $tiempo->main->pressure . " mb  "; ?></p>
+                        <p id="descripciones"><i class="fas fa-cloud p-2"></i>
+                            <?php echo "Nubosidad Actual-> " . $tiempo->clouds->all . " %  "; ?></p>
+                        <p id="descripciones"><i class="fas fa-wind p-2"></i>
+                            <?php echo "Velocidad del Viento-> " . $tiempo->wind->speed . " m/h  "; ?></p>
 
                     </div>
                 </div>
+            </div>
+            <div class="titulosPrincipal font-weight-bold mt-4 text-center">Probabilidad de precipitación por horas <i
+                    class="fas fa-cloud-sun-rain"></i></div>
+            <div class="card mt-2 mb-3 text-center" style="overflow-x:auto;">
 
-            <?php
-            }
-            ?>
+                <table>
+                    <tr>
+                        <?php 
+                    foreach($varHourly as $values){
+                    $fecha = new DateTime();
+                   
+                    $fecha->setTimestamp($values->dt);
+                   
+                    ?>
+                        <th>
+                            <div id="datos" class="text-center mt-1 mr-2"><?php echo $fecha->format('H:i:s'); ?></div>
+                            <div class="text-center mr-3"><img
+                                    src="http://openweathermap.org/img/wn/<?php echo $values->weather[0]->icon; ?>@2x.png"
+                                    class="ml-2" alt="alt" /></div>
+                            <div id="datos" class="text-center"><?php echo $values->pop."%"; ?></div>
+                        </th>
+                        <?php
+                    }
+                    ?>
+                    </tr>
+
+                </table>
+            </div>
+
+            <div class="titulosPrincipal font-weight-bold mt-4 text-center">Previsión para los próximos 7 días <i
+                    class="fas fa-chart-line"></i></div>
+            <div class="card mt-2 mb-5 text-center" style="overflow-x:auto;">
+
+                <table>
+                    <tr>
+                        <?php 
+                    foreach($varDaily as $values){
+                    $fecha = new DateTime();
+                   
+                    $fecha->setTimestamp($values->dt);
+                   
+                    ?>
+                        <th>
+                            <div id="datos" class="text-center mt-2"><?php echo $fecha->format('d-m'); ?></div>
+                            <div id="datos" class="text-center mr-3"><img
+                                    src="http://openweathermap.org/img/wn/<?php echo $values->weather[0]->icon; ?>@2x.png"
+                                    class="ml-2" alt="alt" /></div>
+                            <div id="datos" class="text-center"><i
+                                    class="fas fa-cloud-rain mr-1"></i><?php echo $values->pop."%";?></div>
+
+                            <div id="max" class="text-center form-control mt-1"><?php echo $values->temp->max." ºC";?></div>
+                            <div id="min" class="text-center form-control"><?php echo $values->temp->min." ºC";; ?>
+                            </div>
+
+                        </th>
+                        <?php
+                    }
+                    ?>
+                    </tr>
+
+                </table>
+            </div>
     </main>
     <?php include("includes/footer.php"); ?>
 
