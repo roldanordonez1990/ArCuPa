@@ -316,6 +316,28 @@ td.tdColor {
   border-left: 1px solid #0054A5;
   height: 320px; }
 
+#datos {
+  font-family: 'Gotu', sans-serif;
+  font-size: 15px;
+  color: #0054A5;
+  text-align: justify; }
+
+#max {
+  font-family: 'Gotu', sans-serif;
+  font-size: 16px;
+  color: #0054A5;
+  text-align: justify; }
+
+#min {
+  font-family: 'Gotu', sans-serif;
+  font-size: 16px;
+  color: red;
+  text-align: justify; }
+
+td.tdColor2 {
+  color: red;
+  font-family: 'Gotu', sans-serif; }
+
 img {
   max-height: 100%; }
 
