@@ -41,7 +41,7 @@
 
     
     <!--Agregamos el widget-->
-    <a class="weatherwidget-io" href="https://forecast7.com/es/37d44n4d61/moriles/" data-label_1="MORILES"
+    <a class="weatherwidget-io" href="https://forecast7.com/es/37d41n4d50/lucena/" data-label_1="LUCENA"
         data-font="Open Sans" data-icons="Climacons Animated" data-theme="original" data-basecolor="#25A1D1"
         data-highcolor="#F5B41B" data-suncolor="#F5B41B" data-cloudfill="" data-raincolor="#0054A5">LUCENA</a>
 
