@@ -15,22 +15,17 @@
     if (!getCookie("directlyGoToLoginCookie")) {
         cookieAlert.classList.add("show");
     }
-    // Si se encuentra la cookie en el cliente y además su valor es "true" decidimos pasar directamente a la página de login
-    else if (getCookie("directlyGoToLoginCookie") == "true") {
-        location.href = "login.html";
-    }
+ 
 
     // Evento al botón de "aceptar el comportamiento". Cuando se pulse se crea una cookie con una validez de 365 días y valor "true"
     // Además, ya que el usuario ha decidido que siempre quiere ir directamente a la página de "login", le redirijimos
     acceptCookies.addEventListener("click", function () {
         setCookie("directlyGoToLoginCookie", true, 365);
         cookieAlert.classList.remove("show");
-        location.href = "login.html";
     });
 
     // Evento al botón de "rechazar el comportamiento". Guardamos la cookie con validez de 365 días y valor "false"
     rejectCookie.addEventListener("click", function () {
-        setCookie("directlyGoToLoginCookie", false, 365);
         cookieAlert.classList.remove("show");
     });
 

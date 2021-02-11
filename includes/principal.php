@@ -238,17 +238,7 @@ include("includes/datosMeteorologicos.php");?>
 </div>
 
 
-<div class="alert text-center cookiealert" role="alert">
-            <p>Utilizamos cookies propias y de terceros con finalidades analíticas y para mostrarte publicidad relacionada con tus preferencias a partir de tus hábitos de navegación y tu perfil. Puedes configurar o rechazar las cookies haciendo click en “Configuración de cookies”. También puedes aceptar todas las cookies pulsando el botón “Aceptar todas las cookies”. Para más información puedes visitar nuestra Política de cookies</p>
-            <button type="button" class="btn btn-primary btn-sm acceptcookies" aria-label="Close">
-                Deseo ir directamente a la pantalla de login
-            </button>
-            <button id="rejectcookie" type="button" class="btn btn-danger btn-sm" aria-label="Close">
-                NO Deseo ir directamente a la pantalla de login
-            </button>
-</div>
 
-<script src="../cookiealert.js"></script>
 
 
 <script>
