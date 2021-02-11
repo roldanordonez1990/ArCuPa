@@ -81,6 +81,15 @@ a.colorLetra {
   left: 100%;
   margin-top: -5px; }
 
+a, li :hover {
+  cursor: pointer; }
+
+ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block; }
+
 footer {
   left: 0;
   bottom: 0;

@@ -1,9 +1,9 @@
 <div class="alert text-center cookiealert" role="alert">
     <div class="row">
-        <div class="col-sm-12 col-lg-10 ">
+        <div class="col-sm-12 col-lg-9 ">
             <p>Utilizamos cookies propias y de terceros con finalidades analíticas y para mostrarte publicidad relacionada con tus preferencias a partir de tus hábitos de navegación y tu perfil. Puedes configurar o rechazar las cookies haciendo click en “Configuración de cookies”. También puedes aceptar todas las cookies pulsando el botón “Aceptar todas las cookies”. Para más información puedes visitar nuestra <a class="noNeeded" href="../terminosLegales.php">Política de cookies</a></p>
         </div>
-        <div class=" col-sm-12 col-lg-2 mt-3">
+        <div class=" col-sm-12 col-lg-3 mt-3">
 
             <div class="row m-2 float-left">
 
@@ -78,8 +78,8 @@
 
     <div class="collapse navbar-collapse" id="navbarsExample06">
         <ul class="navbar-nav navbar-center">
-            <li class="nav-item dropdown pr-3"> <a class="colorLetra nav-link dropdown-toggle "
-                    href="https://example.com" data-toggle="dropdown">SERVICIOS</a>
+            <li class="nav-item dropdown pr-3">
+                <a class="colorLetra nav-link dropdown-toggle" href="https://example.com" data-toggle="dropdown">SERVICIOS</a>
                 <ul class="dropdown-menu multi-level backgroundcolor">
                     <li class="dropdown-submenu">
                         <a class="dropdown-item test colorLetra dropdown-toggle" href="#">OBSERVACIÓN</a>
@@ -104,38 +104,37 @@
                     </li>
                 </ul>
             </li>
-            <li class="nav-item dropdown pr-3"> <a class="nav-link dropdown-toggle colorLetra" id="dropdown06"
-                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><label>MAPAS</label></a>
-                <div class="dropdown-menu backgroundcolor" aria-labelledby="dropdown06">
+            <li class="nav-item dropdown pr-3"> 
+                <a class="nav-link dropdown-toggle colorLetra" id="dropdown06" data-toggle="dropdown">MAPAS</a>
+                <ul class="dropdown-menu backgroundcolor" aria-labelledby="dropdown06">
                     <a href="../frentes.php" class="dropdown-item">FRENTES</a>
                     <a href="../temperaturas.php" class="dropdown-item">TEMPERATURAS</a>
                     <a href="../precipitacion.php" class="dropdown-item">PRECIPITACIÓN</a>
-                </div>
+                </ul>
             </li>
-            <li class="nav-item dropdown pr-3"> <a class="nav-link dropdown-toggle colorLetra" id="dropdown06"
-                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><label>MULTIMEDIA</label></a>
-                <div class="dropdown-menu backgroundcolor" aria-labelledby="dropdown06">
+            <li class="nav-item dropdown pr-3"> 
+                <a class="nav-link dropdown-toggle colorLetra" id="dropdown06" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><label>MULTIMEDIA</label></a>
+                <ul class="dropdown-menu backgroundcolor" aria-labelledby="dropdown06">
                     <a href="../nubes.php" class="dropdown-item">NUBES Y CIELOS</a>
                     <a href="../paisajes.php" class="dropdown-item">PAISAJES</a>
                     <a href="../videos.php" class="dropdown-item">VIDEOS</a>
-
-                </div>
+                </ul>
             </li>
-            <li class="nav-item dropdown pr-3"> <a class="nav-link dropdown-toggle colorLetra" id="dropdown06"
-                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><label>AVISOS</label></a>
-                <div class="dropdown-menu backgroundcolor" aria-labelledby="dropdown06">
+            <li class="nav-item dropdown pr-3"> 
+                <a class="nav-link dropdown-toggle colorLetra" id="dropdown06" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><label>AVISOS</label></a>
+                <ul class="dropdown-menu backgroundcolor" aria-labelledby="dropdown06">
                     <a href="../avisosNacionales.php" class="dropdown-item">NACIONALES</a>
                     <a href="../avisosccaa.php" class="dropdown-item">CCAA</a>
                     <a href="../avisosPrecipitacion.php" class="dropdown-item">PRECIPITACIÓN</a>
-                </div>
+                </ul>
             </li>
-            <li class="nav-item dropdown pr-3"> <a class="nav-link dropdown-toggle colorLetra" id="dropdown06"
-                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><label>NOTICIAS</label></a>
-                <div class="dropdown-menu backgroundcolor" aria-labelledby="dropdown06">
+            <li class="nav-item dropdown pr-3"> 
+                <a class="nav-link dropdown-toggle colorLetra" id="dropdown06" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><label>NOTICIAS</label></a>
+                <ul class="dropdown-menu backgroundcolor" aria-labelledby="dropdown06">
                     <a href="../noticiasNacionales.php" class="dropdown-item">NACIONALES</a>
                     <a href="../noticiasProvinciales.php" class="dropdown-item">PROVINCIALES</a>
                     <a href="../noticiasLocales.php" class="dropdown-item">LOCALES</a>
-                </div>
+                </ul>
             </li>
             <li class="nav-item dropdown pr-3"> <a class="nav-link colorLetra"
                     href="../contacto.php"><label>CONTÁCTANOS</label></a>
