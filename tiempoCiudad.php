@@ -91,7 +91,7 @@ $varDaily = $prevision->daily;
                             <div class="text-center mr-3"><img
                                     src="http://openweathermap.org/img/wn/<?php echo $values->weather[0]->icon; ?>@2x.png"
                                     class="ml-2" alt="alt" /></div>
-                            <div id="datos" class="text-center mr-3"><?php $p = $values->pop; echo $v = $p*100; ?>%</div>
+                            <div id="datos" class="text-center mr-2 mb-2"><?php $p = $values->pop; echo $v = $p*100; ?>%</div>
 
                         </th>
                         <?php
