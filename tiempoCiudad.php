@@ -1,4 +1,5 @@
 <?php include("includes/a_config.php");
+//Este código es para que no aparezcan unos errores de la Api que no se pueden controlar
 error_reporting(0);
 if (isset($_POST['buscarCiudad'])) {
     $server = file_get_contents("http://api.openweathermap.org/data/2.5/weather?q=" . $_POST['buscarCiudad'] . ",es&APPID=91b90d9bd7b7844589eab360246949f3&lang=es&units=metric");
@@ -122,7 +123,7 @@ $varDaily = $prevision->daily;
                             <div id="datos" class="text-center"><i
                                     class="fas fa-cloud-rain mr-1"></i><?php $p = $values->pop; echo $v = $p*100; ?>%
                             </div>
-                            <div id="datos" class="text-center"><?php 
+                            <div id="datos" class="text-center mt-1"><?php 
                            
                                if($values->rain == null){
                                 echo '0 mm';
