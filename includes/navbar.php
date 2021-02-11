@@ -1,3 +1,35 @@
+<script src="../cookiealert.js"></script>
+
+
+<div class="alert text-center cookiealert" role="alert">
+    <div class="row">
+        <div class="col-sm-12 col-lg-10 ">
+            <p>Utilizamos cookies propias y de terceros con finalidades analíticas y para mostrarte publicidad relacionada con tus preferencias a partir de tus hábitos de navegación y tu perfil. Puedes configurar o rechazar las cookies haciendo click en “Configuración de cookies”. También puedes aceptar todas las cookies pulsando el botón “Aceptar todas las cookies”. Para más información puedes visitar nuestra <a class="noNeeded" href="../terminosLegales.php">Política de cookies</a></p>
+        </div>
+        <div class=" col-sm-12 col-lg-2 mt-3">
+
+            <div class="row m-2 float-left">
+
+            <button type="button" class="btn btn-primary btn-sm acceptcookies" aria-label="Close">
+                Aceptar todo
+            </button>
+
+            </div>
+
+            <div class="row m-2 float-right">
+    
+            <button id="rejectcookie" type="button" class="btn btn-danger btn-sm" aria-label="Close">
+                Rechazar
+            </button>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
 <div class="modal" id="cerrarSesion" role="dialog">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
@@ -8,7 +40,7 @@
         </button>
       </div>
       <div class="modal-body">
-        <p>¿Quiere usted cerrar session en la página web?</p>
+        <p>¿Quiere usted cerrar sesión en la página web?</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secundary" data-dismiss="modal">Cancelar</button>
@@ -122,11 +154,11 @@
                     href="../juegos.php"><label>JUEGOS</label></a>
             </li>
             <li class="nav-item dropdown d-md-none">
-                <form class="form-inline">
+                <form class="form-inline" action="tiempoCiudad.php" method="post">
                     <div class="input-group mb-3">
-                        <input class="form-control m-6" type="text" placeholder="Buscar">
+                        <input class="form-control m-6" type="text" placeholder="Buscar" name="buscarCiudad">
                         <div class="input-group-append">
-                            <button class="btn btn-login" type="submit"><i class="fas fa-search"></i></button>
+                            <button class="btn btn-login" type="submit" name="buscar"><i class="fas fa-search"></i></button>
                         </div>
                     </div>
                 </form>
