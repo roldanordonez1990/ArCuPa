@@ -1,33 +1,3 @@
-<div class="alert text-center cookiealert" role="alert">
-    <div class="row">
-        <div class="col-10">
-            <p>Utilizamos cookies propias y de terceros con finalidades analíticas y para mostrarte publicidad relacionada con tus preferencias a partir de tus hábitos de navegación y tu perfil. Puedes configurar o rechazar las cookies haciendo click en “Configuración de cookies”. También puedes aceptar todas las cookies pulsando el botón “Aceptar todas las cookies”. Para más información puedes visitar nuestra <a class="noNeeded" href="../terminosLegales.php">Política de cookies</a></p>
-        </div>
-        <div class="col-2 mt-3">
-
-            <div class="row m-2 float-left">
-
-            <button type="button" class="btn btn-primary btn-sm acceptcookies" aria-label="Close">
-                Aceptar todo
-            </button>
-
-            </div>
-
-            <div class="row m-2 float-right">
-    
-            <button id="rejectcookie" type="button" class="btn btn-danger btn-sm" aria-label="Close">
-                Rechazar
-            </button>
-
-            </div>
-        </div>
-    </div>
-</div>
-
-
-<script src="../cookiealert.js"></script>
-
-
 <div class="modal" id="cerrarSesion" role="dialog">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
