@@ -225,12 +225,6 @@ a.icono {
   color: #0054A5;
   text-shadow: 0.1em 0.1em 0.3em #AFE6FA; }
 
-.titulosPrincipalCiudad {
-  font-family: 'Gotu', sans-serif;
-  font-size: 32px;
-  color: #0054A5;
-  text-shadow: 0.1em 0.1em 0.3em #AFE6FA; }
-
 a.enlaceCiudades {
   color: #0054A5;
   font-family: 'Gotu', sans-serif;
@@ -240,12 +234,6 @@ a.enlaceCiudades {
     text-decoration: none; }
 
 p#descripciones {
-  font-family: 'Gotu', sans-serif;
-  font-size: 14px;
-  color: #0054A5;
-  text-align: justify; }
-
-div#descripciones {
   font-family: 'Gotu', sans-serif;
   font-size: 14px;
   color: #0054A5;
@@ -268,8 +256,7 @@ a.noNeeded {
 
 th.thColor {
   color: #0054A5;
-  font-family: 'Gotu', sans-serif;
-  font-size: medium; }
+  font-family: 'Gotu', sans-serif; }
 
 td.tdColor {
   color: #0054A5;
@@ -308,13 +295,6 @@ td.tdColor {
 .tooltip-inner {
   background-color: #F5B41B !important;
   color: #0054A5 !important; }
-
-.meteoIcono {
-  width: 35%; }
-
-.vl {
-  border-left: 1px solid #0054A5;
-  height: 320px; }
 
 img {
   max-height: 100%; }
@@ -399,7 +379,7 @@ button:hover {
   display: flex;
   align-items: center; }
 
-.captcha {
+svg {
   width: 100px;
   display: block;
   margin: 40px auto 0; }
@@ -418,6 +398,15 @@ button:hover {
     stroke-dashoffset: -100;
     -webkit-animation: dash-check .9s .35s ease-in-out forwards;
     animation: dash-check .9s .35s ease-in-out forwards; }
+
+p {
+  text-align: center;
+  margin: 20px 0 60px;
+  font-size: 1.25em; }
+  p.success {
+    color: #73AF55; }
+  p.error {
+    color: #D06079; }
 
 @-webkit-keyframes dash {
   0% {
@@ -443,14 +432,8 @@ button:hover {
   100% {
     stroke-dashoffset: 900; } }
 
-.captchaColor {
-  text-align: center;
-  margin: 20px 0 60px;
-  font-size: 1.25em; }
-  .captchaColor.success {
-    color: #73AF55; }
-  .captchaColor.error {
-    color: #D06079; }
+.incorrecto {
+  display: none; }
 
 ul,
 ol {
@@ -916,32 +899,6 @@ hr#noticiaHr {
 #editor {
   height: 289px;
   width: auto; }
-
-.cookiealert {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  margin: 0 !important;
-  z-index: 999;
-  opacity: 0.8 !important;
-  border-radius: 0;
-  transform: translateY(100%);
-  transition: all 500ms ease-out;
-  color: #ecf0f1;
-  background: #000; }
-
-.cookiealert.show {
-  opacity: 0;
-  transform: translateY(0%);
-  transition-delay: 1000ms; }
-
-.cookiealert a {
-  text-decoration: none; }
-
-.cookiealert .acceptcookies {
-  margin-left: 10px;
-  vertical-align: baseline; }
 
 .fondoPrincipal {
   background-image: url("../media/images/fondo.jpg") !important; }

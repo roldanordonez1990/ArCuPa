@@ -12,8 +12,6 @@
 <meta name="viewport" content="width=device-width">
 <link rel="shortcut icon" href="../media/images/logoFinal.png">
 
-
-
 <!--Tipografía-->
 <link href="https://fonts.googleapis.com/css2?family=Gotu&family=Laila:wght@300&display=swap" rel="stylesheet">
 <!-- CSS -->
@@ -45,5 +43,3 @@
 
    <!-- Include the Quill library -->
 	<script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
-
-    

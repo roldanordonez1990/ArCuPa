@@ -1,33 +1,31 @@
 .map-responsive {
-  overflow: hidden;
-  padding-bottom: 52.8%;
-  position: relative;
-  height: 0;
+    overflow: hidden;
+    padding-bottom: 52.8%;
+    position: relative;
+    height: 0;
 }
 .map-responsive iframe {
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  border: 2px solid $color3;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border: 2px solid $color3;
 }
 .area:focus {
-  border: none !important;
-  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgb(245, 180, 27) !important;
+    border: none !important;
+    box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgb(245, 180, 27) !important;
 }
 .opaco{
-  opacity: 75%;
-  border: 1px solid $color3 !important;
+    opacity: 75%;
+    border: 1px solid $color3 !important;
 }
-
 .centrado{
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
-
-.captcha {
+svg {
   width: 100px;
   display: block;
   margin: 40px auto 0;
@@ -51,6 +49,19 @@
     animation: dash-check .9s .35s ease-in-out forwards;
   }
 }
+
+p {
+  text-align: center;
+  margin: 20px 0 60px;
+  font-size: 1.25em;
+  &.success {
+    color: #73AF55;
+  }
+  &.error {
+    color: #D06079;
+  }
+}
+
 
 @-webkit-keyframes dash {
   0% {
@@ -88,15 +99,8 @@
   }
 }
 
-.captchaColor{
-  text-align: center;
-  margin: 20px 0 60px;
-  font-size: 1.25em;
-  &.success {
-    color: #73AF55;
-  }
-  &.error {
-    color: #D06079;
-  }
-}
 
+
+.incorrecto{
+  display: none;
+}

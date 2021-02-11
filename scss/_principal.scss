@@ -9,13 +9,6 @@
     text-shadow: 0.1em 0.1em 0.3em $color1
 }
 
-.titulosPrincipalCiudad{
-  font-family:  'Gotu', sans-serif;
-  font-size: 32px;
-  color: $color3;
-  text-shadow: 0.1em 0.1em 0.3em $color1
-}
-
 a.enlaceCiudades{
     color: $color3;
     font-family:  'Gotu', sans-serif;
@@ -27,13 +20,6 @@ a.enlaceCiudades{
   }
 
   p#descripciones{
-    font-family:  'Gotu', sans-serif;
-    font-size: 14px;
-    color: $color3;
-    text-align: justify;
-  }
-
-  div#descripciones{
     font-family:  'Gotu', sans-serif;
     font-size: 14px;
     color: $color3;
@@ -64,7 +50,6 @@ a.noNeeded {
 th.thColor{
   color: $color3;
   font-family:  'Gotu', sans-serif;
-  font-size: medium;
 }
 
 td.tdColor{
@@ -110,12 +95,4 @@ td.tdColor{
   .tooltip-inner {
     background-color: $color4 !important;
     color: $color3 !important;
-  }
-
-  .meteoIcono{
-    width: 35%;
-  }
-  .vl {
-    border-left: 1px solid $color3;
-    height: 320px;
   }
