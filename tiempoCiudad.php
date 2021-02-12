@@ -15,6 +15,7 @@ if ($server != null) {
 $new =file_get_contents("https://api.openweathermap.org/data/2.5/onecall?lat=".$tiempo->coord->lat."&lon=".$tiempo->coord->lon."&units=metric&appid=91b90d9bd7b7844589eab360246949f3");
 $prevision = json_decode($new);
 $varHourly = $prevision->hourly;
+$diasSemana = array("","Lunes","Martes","Miércoles","Jueves","Viernes","Sábado","Domingo");
 $varDaily = $prevision->daily;
 ?>
 <!DOCTYPE html>
@@ -87,15 +88,31 @@ $varDaily = $prevision->daily;
                    
                     ?>
                         <th>
-                            <div id="datos" class="text-center mt-1 mr-2"><?php echo $fecha->format('H:i:s'); ?></div>
+                            <?php
+                        if($fecha->format('H:i') == "00:00"){
+                            ?>
+                            <hr>
+                            <div id="datos" class="text-center mt-2"><?php echo $diasSemana[$fecha->format('N')]; ?>
+                            </div>
+                            <hr>
+                        </th>
+
+                        <?php
+                        }
+                       
+                        ?>
+                        <th>
+                            <div id="datos" class="text-center mt-1 mr-2"><?php echo $fecha->format('H:i'); ?></div>
                             <div class="text-center mr-3"><img
                                     src="http://openweathermap.org/img/wn/<?php echo $values->weather[0]->icon; ?>@2x.png"
                                     class="ml-2" alt="alt" /></div>
-                            <div id="datos" class="text-center mr-2 mb-2"><?php $p = $values->pop; echo $v = $p*100; ?>%</div>
+                            <div id="datos" class="text-center mr-2 mb-2"><?php $p = $values->pop; echo $v = $p*100; ?>%
+                            </div>
 
                         </th>
                         <?php
-                    }
+                    
+                }
                     ?>
                     </tr>
 
@@ -116,7 +133,8 @@ $varDaily = $prevision->daily;
                    
                     ?>
                         <th>
-                            <div id="datos" class="text-center mt-2"><?php echo $fecha->format('d-m'); ?></div>
+                            <div id="datos" class="text-center mt-2"><?php echo $diasSemana[$fecha->format('N')]; ?>
+                            </div>
                             <div id="datos" class="text-center mr-3"><img
                                     src="http://openweathermap.org/img/wn/<?php echo $values->weather[0]->icon; ?>@2x.png"
                                     class="ml-2" alt="alt" /></div>
@@ -133,9 +151,9 @@ $varDaily = $prevision->daily;
                         
                             ?>
                             </div>
-                            <div id="max" class="text-center form-control mt-1"><?php echo $values->temp->max." ºC";?>
+                            <div id="min" class="text-center form-control mt-1"><?php echo $values->temp->max." ºC";?>
                             </div>
-                            <div id="min" class="text-center form-control"><?php echo $values->temp->min." ºC"; ?>
+                            <div id="max" class="text-center form-control"><?php echo $values->temp->min." ºC"; ?>
                             </div>
 
                         </th>
