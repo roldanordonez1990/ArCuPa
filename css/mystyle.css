@@ -325,6 +325,10 @@ td.tdColor {
   border-left: 1px solid #0054A5;
   height: 320px; }
 
+.vl2 {
+  border-left: 1px solid #0054A5;
+  height: 100px; }
+
 #datos {
   font-family: 'Gotu', sans-serif;
   font-size: 15px;
