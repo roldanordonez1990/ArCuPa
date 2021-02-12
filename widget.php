@@ -32,7 +32,8 @@ bloc.innerHTML = "Latitud: " + position.coords.latitude +
 "<br>Longitud: " + position.coords.longitude;}
 </script> 
 
-<div id='ubicacion'></div>
+<div id='latitud'></div>
+<div id="longitud"></div>
 <script type="text/javascript">
 	if (navigator.geolocation) {
 		navigator.geolocation.getCurrentPosition(mostrarUbicacion);
@@ -43,9 +44,13 @@ function mostrarUbicacion(position) {
 	var longitud = position.coords.longitude;
     var altitud = position.coords.altitude;	
 	var exactitud = position.coords.accuracy;	
-	var div = document.getElementById("ubicacion");
-	div.innerHTML = "<br>Latitud: " + latitud + "<br>Longitud: " + longitud;}	
+	var div = document.getElementById("latitud");
+    div.innerHTML = latitud;
+    var div = document.getElementById("longitud");
+	div.innerHTML = longitud;}	
 </script>
+
+
 <div id="demo"></div>
 <div id="mapholder"></div>
 <script type="text/javascript">
