@@ -25,22 +25,51 @@ $varDaily = $prevision->daily;
     <?php include("includes/MetaTags.php"); ?>
 
     <script type="text/javascript">
-			if (navigator.geolocation) { //Validar si hay acceso web a la ubicación
-				navigator.geolocation.getCurrentPosition(mostrarUbicacion); //Obtiene la posición
-				} else {
-				alert("¡Error! Este navegador no soporta la Geolocalización.");
-			}
-			
-			//Funcion para obtener latitud y longitud
-			function mostrarUbicacion(position) {
-				var latitud = position.coords.latitude; //Obtener latitud
-				var longitud = position.coords.longitude; //Obtener longitud
-				var div = document.getElementById("latitud");
-				div.innerHTML = latitud; //Imprime latitud y longitud
-				var div = document.getElementById("longitud");
-				div.innerHTML = longitud; //Imprime latitud y longitud
-			}		
+var bloc = document.getElementById("bloque");
+navigator.geolocation.getCurrentPosition(showPosition); 
+function showPosition(position) {
+bloc.innerHTML = "Latitud: " + position.coords.latitude + 
+"<br>Longitud: " + position.coords.longitude;}
+</script> 
+
+<div id='ubicacion'></div>
+<script type="text/javascript">
+	if (navigator.geolocation) {
+		navigator.geolocation.getCurrentPosition(mostrarUbicacion);
+	} else {alert("¡Error! Este navegador no soporta la Geolocalización.");}
+function mostrarUbicacion(position) {
+    var times = position.timestamp;
+	var latitud = position.coords.latitude;
+	var longitud = position.coords.longitude;
+    var altitud = position.coords.altitude;	
+	var exactitud = position.coords.accuracy;	
+	var div = document.getElementById("ubicacion");
+	div.innerHTML = "<br>Latitud: " + latitud + "<br>Longitud: " + longitud;}	
 </script>
+<div id="demo"></div>
+<div id="mapholder"></div>
+<script type="text/javascript">
+var x=document.getElementById("demo");
+
+function showError(error)
+  {
+  switch(error.code) 
+    {
+    case error.PERMISSION_DENIED:
+      x.innerHTML="Denegada la peticion de Geolocalización en el navegador."
+      break;
+    case error.POSITION_UNAVAILABLE:
+      x.innerHTML="La información de la localización no esta disponible."
+      break;
+    case error.TIMEOUT:
+      x.innerHTML="El tiempo de petición ha expirado."
+      break;
+    case error.UNKNOWN_ERROR:
+      x.innerHTML="Ha ocurrido un error desconocido."
+      break;
+    }
+  }}
+</script>    
 
 </head>
 
@@ -59,7 +88,8 @@ $varDaily = $prevision->daily;
             <div class="card mt-2 mb-5 text-center" style="overflow-x:auto;">
 
 
-           
+                <div id="latitud"></div>
+                <div id="longitud"></div>
 
                     
                 <table>
