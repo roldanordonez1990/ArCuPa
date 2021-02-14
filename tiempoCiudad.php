@@ -86,11 +86,11 @@ $varDaily = $prevision->daily;
                    
                     $fecha->setTimestamp($values->dt);
                    
-                   
+                    ?>
+                        <th>
+                            <?php
                         if($fecha->format('H:i') == "00:00"){
                             ?>
-                        <th>
-
                             <hr>
                             <div id="datos" class="text-center mt-2"><?php echo $diasSemana[$fecha->format('N')]; ?>
                             </div>

@@ -37,7 +37,7 @@ Class ControladorNoticias {
     public static function getNoticias($tipo) {
         try {
             $conex = new Conexion();
-            $result = $conex->query("SELECT * FROM noticias WHERE tipo='$tipo' ORDER BY fecha desc");
+            $result = $conex->query("SELECT * FROM noticias WHERE tipo='$tipo'");
             if ($result->rowCount()) {
                 //creo un producto
 
