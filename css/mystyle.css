@@ -351,6 +351,31 @@ td.tdColor2 {
   color: red;
   font-family: 'Gotu', sans-serif; }
 
+.iconotiempo {
+  max-width: 10% !important;
+  max-height: 10% !important; }
+
+a.mapa {
+  display: flex;
+  color: #0054A5;
+  font-size: 10px;
+  font-family: 'Gotu', sans-serif; }
+  a.mapa:hover {
+    color: #F5B41B;
+    text-decoration: none; }
+
+.img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1; }
+
+.img2 {
+  position: absolute;
+  left: 300px;
+  top: 300px;
+  z-index: -3; }
+
 img {
   max-height: 100%; }
 
@@ -1009,6 +1034,11 @@ hr#noticiaHr {
   align-items: center;
   color: white  !important;
   height: 150px  !important; }
+
+.iconotiempo {
+  max-width: 50% !important;
+  max-height: 50% !important;
+  margin-left: 500px; }
 
 .fondoPrincipal {
   background-image: url("../media/images/fondo.jpg") !important; }

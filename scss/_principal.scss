@@ -154,3 +154,38 @@ td.tdColor{
     color: red;
     font-family:  'Gotu', sans-serif;
   }
+
+.iconotiempo{
+  max-width: 10% !important;
+  max-height: 10% !important;
+}
+
+a.mapa { 
+  display: flex;
+  color: $color3;
+  font-size: 10px;
+  font-family:  'Gotu', sans-serif;
+
+ &:hover{
+  color: $color4;
+  text-decoration: none;
+  }
+ 
+}
+
+.img
+{
+position:absolute;
+left:0px;
+top:0px;
+z-index:-1;
+}
+ 
+.img2
+{
+position:absolute;
+left:300px;
+top:300px;
+z-index:-3;
+}
+ 
