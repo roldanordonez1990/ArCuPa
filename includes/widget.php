@@ -12,11 +12,22 @@ if ($server != null) {
 } else {
     header('location:index.php');
 }
+
+?>
+<?php
+if(($_POST['lat'] != null) && ($_POST['lon'] != null)){
 $new =file_get_contents("https://api.openweathermap.org/data/2.5/onecall?lat=".$_POST['lat']."&lon=".$_POST['lon']."&units=metric&appid=91b90d9bd7b7844589eab360246949f3");
 $prevision = json_decode($new);
 $varHourly = $prevision->hourly;
 $diasSemana = array("","Lunes","Martes","Miércoles","Jueves","Viernes","Sábado","Domingo");
 $varDaily = $prevision->daily;
+}else{
+$new =file_get_contents("https://api.openweathermap.org/data/2.5/onecall?lat=37.39&lon=-122.08&units=metric&appid=91b90d9bd7b7844589eab360246949f3");
+$prevision = json_decode($new);
+$varHourly = $prevision->hourly;
+$diasSemana = array("","Lunes","Martes","Miércoles","Jueves","Viernes","Sábado","Domingo");
+$varDaily = $prevision->daily;
+}
 ?>
 <!DOCTYPE html>
 <html>
@@ -28,7 +39,6 @@ $varDaily = $prevision->daily;
 
 
 <div id="demo"></div>
-<div id="mapholder"></div>
 <script type="text/javascript">
 
 
@@ -67,8 +77,7 @@ function showError(error)
   
 
     <main>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    
+
 
     <!-- Script para mostrar las coordenadas-->
     <script type="text/javascript">
