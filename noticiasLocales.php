@@ -25,7 +25,6 @@ if(isset($_POST['delete'])){
         <div class="container-fluid p-0">
 
             <?php include("includes/header.php");?>
-            <?php include("includes/widget.php");?>
             <?php include("includes/navbar.php");
             
             if($n != null){

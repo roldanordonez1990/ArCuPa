@@ -978,34 +978,5 @@ hr#noticiaHr {
   margin-left: 10px;
   vertical-align: baseline; }
 
-.fondoWidget {
-  height: 180px;
-  width: 50px imp !important;
-  background-color: #25A1D1; }
-
-.maximas {
-  color: orange;
-  font-style: "Gotu", sans-serif; }
-
-.minimas {
-  color: #AFE6FA;
-  font-style: "Gotu", sans-serif; }
-
-#changed {
-  -webkit-filter: grayscale(100%) brightness(120%) sepia(90%) hue-rotate(5deg) saturate(500%) contrast(0.7); }
-
-.actual {
-  color: yellow; }
-
-#city {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center; }
-
-.ciudad {
-  color: white  !important;
-  height: 180px; }
-
 .fondoPrincipal {
   background-image: url("../media/images/fondo.jpg") !important; }

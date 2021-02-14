@@ -9,7 +9,6 @@
 <body class="fondoPrincipal">
 
     <?php include("includes/header.php");?>
-    <?php include("includes/widget.php");?>
     <?php include("includes/navbar.php");?>
 
     <main class="container-fluid">
