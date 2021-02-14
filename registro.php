@@ -14,6 +14,7 @@ if(!isset($_SESSION['user_email_address'])){
 
 <body class="fondoPrincipal">
     <?php include("includes/header.php");?>
+    <?php include("includes/widget.php");?>
     <?php include("includes/navbar.php");?>
     <?php 
         require_once 'controller/controladorUsuarios.php';
