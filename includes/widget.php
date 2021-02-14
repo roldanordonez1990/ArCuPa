@@ -94,7 +94,14 @@ function showError(error)
 
 			}		
 
+      $.get("https://api.ipdata.co?api-key=test", function(response) {
+  $("#city").html(response.city);
+}, "jsonp");
+
+
 		</script>
+
+
 
 
 
@@ -146,7 +153,9 @@ function showError(error)
         <div class="col-1 fondoWidget">
 
      
-       
+          <div class="ciudad" id="city"></div>
+
+      
 
         </div>
 
