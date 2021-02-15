@@ -1,5 +1,5 @@
 <?php
-include("includes/datosMeteorologicos.php");?>
+include("datosMeteorologicos.php");?>
 <!DOCTYPE html>
 
 <html lang="en"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -128,8 +128,8 @@ include("includes/datosMeteorologicos.php");?>
                 <span class="temp">13°</span>
                                     <span>Granada</span>
                             </li>
-                    <li class="symbols PPLA2 cordoba d000 M " >
-                    <span class="temp"><img class="iconotiempo" src="http://openweathermap.org/img/wn/<?php echo $tiempoCordoba->weather[0]->icon; ?>@2x.png"/></span>
+                    <li class="symbols PPLA2 cordoba grayscale d000 M " >
+                    <span class="temp"><img class="iconotiempo " src="http://openweathermap.org/img/wn/<?php echo $tiempoCordoba->weather[0]->icon; ?>@2x.png"/></span>
                                     <span>Cordoba</span>
                             </li>
                     <li class="symbols PPLA2 ciudad-real d000 M">

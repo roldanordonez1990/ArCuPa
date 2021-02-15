@@ -9,12 +9,7 @@ include("includes/datosMeteorologicos.php");?>
                     meteorológica en España</div>
                 <div>
 
-               
-
-                <?php include("includes/mapa.php"); ?>
-                    
-                    
-            
+                <img src="../media/images/espana.png" />
 
                 
                 </div>

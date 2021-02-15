@@ -66,6 +66,8 @@ if (isset($_GET["code"])) {
 
         <?php include("includes/header.php"); ?>
        
+        <?php include("includes/widget.php"); ?>
+
         <?php include("includes/navbar.php"); ?>
 
         
