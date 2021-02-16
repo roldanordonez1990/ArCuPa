@@ -154,3 +154,17 @@ td.tdColor{
     color: red;
     font-family:  'Gotu', sans-serif;
   }
+
+.presionImgDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.presionImg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
