@@ -22,7 +22,7 @@ $varHourly = $prevision->hourly;
 $diasSemana = array("","Lunes","Martes","Miércoles","Jueves","Viernes","Sábado","Domingo");
 $varDaily = $prevision->daily;
 }else{
-$new =file_get_contents("https://api.openweathermap.org/data/2.5/onecall?lat=37.39&lon=-122.08&units=metric&appid=91b90d9bd7b7844589eab360246949f3");
+$new =file_get_contents("https://api.openweathermap.org/data/2.5/onecall?lat=37.4087&lon=-4.4856&units=metric&appid=91b90d9bd7b7844589eab360246949f3");
 $prevision = json_decode($new);
 $varHourly = $prevision->hourly;
 $diasSemana = array("","Lunes","Martes","Miércoles","Jueves","Viernes","Sábado","Domingo");
@@ -35,8 +35,7 @@ $varDaily = $prevision->daily;
 <head>
     <?php include("includes/MetaTags.php"); ?>
 
-    
-
+  
 
 <div id="demo"></div>
 <script type="text/javascript">
@@ -121,19 +120,21 @@ function showError(error)
     <script>
 
     function myFunction(){
-
-
-      if(localStorage.getItem('widget') == null){
-        localStorage.setItem('widget','1');
-      }
       
-      
-      if(localStorage.getItem('widget') == '1'){
-       document.getElementById("someid").submit()
+
+       var x = 0;
+        var intervalID = setInterval(function () {
+
+        
+
+          if (++x === 2) {
+              console.log("tamos");
+              window.clearInterval(intervalID);
+              document.getElementById("someid").submit();
+          }
+        }, 1000);
 
 
-       localStorage.setItem('widget','2');    
-      }
     }
     </script>
 

@@ -6,8 +6,18 @@ include("includes/datosMeteorologicos.php");?>
         <div class="col-sm-8">
             <div class="row mt-4">
                 <div class="titulosPrincipal font-weight-bold col-sm-12 text-left">Mapa actual de la situación
+<<<<<<< Updated upstream
                     meteorológica en España</div>
                 <div><img class="contenedorImagen img-fluid d-block pr-5 mt-1 ml-3" src="../media/images/mapa.jpg">
+=======
+                    meteorológica en España
+                </div>
+                <div>
+                <!--<img src="../media/images/espana.png" />-->
+                <?php include('mapa.php');?>
+
+                
+>>>>>>> Stashed changes
                 </div>
             </div>
 
