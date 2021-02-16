@@ -20,7 +20,7 @@
     </style>
 </head>
 
-<body class="fondoPrincipal" >
+<body class="fondoPrincipal">
 
     <?php include("includes/header.php");?>
     <?php include("includes/navbar.php");?>
@@ -28,19 +28,25 @@
     <main>
         <div class="container">
             <div class="row">
-                <div class="col-sm-12">
-            <div class="mt-5 mb-5" id="right">
-            <div class="titulosPrincipal font-weight-bold mt-3 mb-2 text-center">Mapa de Precipitación Interactivo</div>
+                <div class="col-sm-12 mb-5">
+                    <div class="mt-5 mb-5" id="right">
+                        <div class="titulosPrincipal font-weight-bold mt-3 mb-3 text-center">Mapa de Presión Interactivo
+                        </div>
+                        
+                            <div class="presionImgDiv text-center">
+                                <img class="presionImg" src="../media/images/presion.png">
+                            </div>
+                            <div id="map" class="map pb-5">
 
-                <div id="map" class="map">
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="clear" />
 
                 </div>
-               
-                </div>
-            </div>
-            <div class="clear" />
-            <script src="weather2.js"></script>
-           
+                <script src="weather2.js"></script>
+
             </div>
         </div>
 

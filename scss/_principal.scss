@@ -155,6 +155,7 @@ td.tdColor{
     font-family:  'Gotu', sans-serif;
   }
 
+
 .iconotiempo{
   max-width: 10% !important;
   max-height: 10% !important;
@@ -189,3 +190,17 @@ top:300px;
 z-index:-3;
 }
  
+.presionImgDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.presionImg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+

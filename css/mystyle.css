@@ -351,6 +351,7 @@ td.tdColor2 {
   color: red;
   font-family: 'Gotu', sans-serif; }
 
+
 .iconotiempo {
   max-width: 10% !important;
   max-height: 10% !important; }
@@ -375,6 +376,7 @@ a.mapa {
   left: 300px;
   top: 300px;
   z-index: -3; }
+
 
 img {
   max-height: 100%; }
@@ -4730,6 +4732,45 @@ hr#noticiaHr {
   left: -27px;
   top: 0; }
 
+
+#left > h1.locality {
+  float: left;
+  display: inline;
+  font-size: 150%;
+  font-weight: 400;
+  padding: .5em 0 .3em 1em; }
+
+#left form.localities-search {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 2px 2px 2px 0 #d7d7d7;
+  clear: left;
+  background-color: #e7e8e9; }
+
+#left form.localities-search-map {
+  margin: 0 auto 20px;
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 2px 2px 2px 0 #d7d7d7;
+  clear: left;
+  background-color: #e7e8e9;
+  width: 50%; }
+
+#left form.localities-search > fieldset,
+#left form.localities-search-map > fieldset {
+  display: inline; }
+
+#left form.localities-search > fieldset input[type=search] {
+  height: 20px;
+  width: 580px;
+  border-radius: 0;
+  border: 1px solid #e4e4e4;
+  padding-left: 4px;
+  float: left;
+  line-height: 20px; }
+
+
 #left form.localities-search-map > fieldset input[type=search] {
   height: 20px;
   width: 260px;
@@ -4813,6 +4854,7 @@ ul.weather_map_links li {
 
 #left ul.forecast_symbols > li.symbols.M > span.temp {
   top: 16px; }
+
 
 #left ul.forecast_symbols > li.symbols.S > span.temp {
   top: 6px;

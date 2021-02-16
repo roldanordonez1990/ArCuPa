@@ -1,10 +1,23 @@
+<?php include("includes/a_config.php");
 
-<?php include("includes/a_config.php");?>
+?>
 <!DOCTYPE html>
 <html>
 
 <head>
     <?php include("includes/MetaTags.php");?>
+    <style>
+      body, html { margin: 0; padding: 0; }
+      #left, #right {  height: 100vh }
+      #left { float: left; width: 200px; overflow-y: auto; }
+      #right { margin: auto }
+      #map { width: 100%; height: 100%; }
+      #controls, #summary { padding: 5px; }
+      input.text { margin-bottom: 5px; }
+      div.clear { clear: both; }
+      div.popup>img { border: 1px solid gray; vertical-align: middle; }
+      div.popup>h3 { display: inline; vertical-align: middle; margin-left: 5px; }
+    </style>
 </head>
 
 <body class="fondoPrincipal">
@@ -13,112 +26,29 @@
     <?php include("includes/navbar.php");?>
 
     <main>
-        
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 mb-5">
+                    <div class="mt-5 mb-5" id="right">
+                        <div class="titulosPrincipal font-weight-bold mt-3 mb-3 text-center">Mapa de Temperatura Interactivo
+                        </div>
+                        
+                            <div class="presionImgDiv text-center">
+                                <img class="presionImg" src="../media/images/temperatura.png">
+                            </div>
+                            <div id="map" class="map pb-5">
 
-<div class="container">
-    <div class="row">
+                            </div>
 
-        <div class="col-sm-8">
-            <div class="row mt-4">
-                <div class="titulosPrincipal font-weight-bold col-sm-12 text-left">Mapa actual de temperatura
-                     en España</div>
-                <div class=""><img class="contenedorImagen img-fluid d-block pr-5 mt-1 ml-3 mb-5 mt-1" src="../media/images/temperatura.jpg">
+                        </div>
+                    </div>
+                    <div class="clear" />
+
                 </div>
-            </div>
+                <script src="weather2.js"></script>
 
-        </div>
-        <div class="col-sm-4">
-            <div class="row mt-4">
-                <div class="d-none d-lg-block titulosPrincipal font-weight-bold col-sm-12 text-center">Descripción</div>
-                <div
-                    class="d-none d-lg-block contenedorImagen col-sm-12 border visi rounded text-center border-primary mt-1 shadow-lg p-3 mb-5 rounded">
-                    <p id="descripciones">Pequeña introducción explicativa del contenido de los mapas mostrados a la
-                        izquierda y enlaces hacia la información meteorológica detallada de las principales ciudades
-                        andaluzas y españolas</p>
-                    <table class="medidasTabla">
-                        <tr>
-                            <td>
-                                <div class="iconos"><i class="col-sm-4 fas fa-globe"></i></div>
-                            </td>
-                            <td>
-                                <div class="iconos"><i class="col-sm-4 fas fa-temperature-high"></i></div>
-                            </td>
-                            <td>
-                                <div class="iconos"><i class="col-sm-4 fas fa-cloud-rain"></i></div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th class="thColor">Ciudad</th>
-                            <th class="thColor">Temperatura</th>
-                            <th class="thColor">Probabilidad</th>
-                        </tr>
-                        <tr>
-                            <td><a class="noNeeded" href="">Córdona</a></td>
-                            <td class="tdColor">30ºC</td>
-                            <td class="tdColor">1%</td>
-                        </tr>
-                        <tr>
-                            <td><a class="noNeeded" href="">Málaga</a></td>
-                            <td class="tdColor">30ºC</td>
-                            <td class="tdColor">1%</td>
-                        </tr>
-                        <tr>
-                            <td><a class="noNeeded" href="">Sevilla</a></td>
-                            <td class="tdColor">30ºC</td>
-                            <td class="tdColor">1%</td>
-                        </tr>
-                        <tr>
-                            <td><a class="noNeeded" href="">Granada</a></td>
-                            <td class="tdColor">30ºC</td>
-                            <td class="tdColor">1%</td>
-                        </tr>
-                        <tr>
-                            <td><a class="noNeeded" href="">Almería</a></td>
-                            <td class="tdColor">30ºC</td>
-                            <td class="tdColor">1%</td>
-                        </tr>
-                        <tr>
-                            <td><a class="noNeeded" href="">Huelva</a></td>
-                            <td class="tdColor">30ºC</td>
-                            <td class="tdColor">1%</td>
-                        </tr>
-                        <tr>
-                            <td><a class="noNeeded" href="">Cádiz</a></td>
-                            <td class="tdColor">30ºC</td>
-                            <td class="tdColor">1%</td>
-                        </tr>
-                        <tr>
-                            <td><a class="noNeeded" href="">Jaén</a></td>
-                            <td class="tdColor">30ºC</td>
-                            <td class="tdColor">1%</td>
-                        </tr>
-                        <tr>
-                            <td><a class="noNeeded" href="">Madrid</a></td>
-                            <td class="tdColor">30ºC</td>
-                            <td class="tdColor">1%</td>
-                        </tr>
-                        <tr>
-                            <td><a class="noNeeded" href="">Barcelona</a></td>
-                            <td class="tdColor">30ºC</td>
-                            <td class="tdColor">1%</td>
-                        </tr>
-                        <tr>
-                            <td><a class="noNeeded" href="">Valencia</a></td>
-                            <td class="tdColor">30ºC</td>
-                            <td class="tdColor">1%</td>
-                        </tr>
-                        <tr>
-                            <td><a class="noNeeded" href="">Bilbao</a></td>
-                            <td class="tdColor">30ºC</td>
-                            <td class="tdColor">1%</td>
-                        </tr>
-
-                        </td>
-                    </table>
-                </div>
             </div>
         </div>
-    </div>
 
     </main>
     <?php include("includes/footer.php");?>

@@ -78,7 +78,7 @@
 
     <div class="collapse navbar-collapse" id="navbarsExample06">
         <ul class="navbar-nav navbar-center">
-            <li class="nav-item dropdown pr-3">
+            <!--<li class="nav-item dropdown pr-3">
                 <a class="colorLetra nav-link dropdown-toggle" href="https://example.com" data-toggle="dropdown">SERVICIOS</a>
                 <ul class="dropdown-menu multi-level backgroundcolor">
                     <li class="dropdown-submenu">
@@ -103,13 +103,15 @@
                         </ul>
                     </li>
                 </ul>
-            </li>
+            </li>-->
             <li class="nav-item dropdown pr-3"> 
                 <a class="nav-link dropdown-toggle colorLetra" id="dropdown06" data-toggle="dropdown">MAPAS</a>
                 <ul class="dropdown-menu backgroundcolor" aria-labelledby="dropdown06">
-                    <a href="../frentes.php" class="dropdown-item">FRENTES</a>
-                    <a href="../temperaturas.php" class="dropdown-item">TEMPERATURAS</a>
-                    <a href="../precipitacion.php" class="dropdown-item">PRECIPITACIÓN</a>
+                    <a href="../precipitacion.php?a=precipitation_new" class="dropdown-item">PRECIPITACIONES</a>
+                    <a href="../temperaturas.php?a=temp_new" class="dropdown-item">TEMPERATURAS</a>
+                    <a href="../presion.php?a=pressure_new" class="dropdown-item">PRESIÓN</a>
+                    <a href="../nubosidad.php?a=clouds_new" class="dropdown-item">NUBOSIDAD</a>
+                    <a href="../viento.php?a=wind_new" class="dropdown-item">VIENTO</a>
                 </ul>
             </li>
             <li class="nav-item dropdown pr-3"> 
