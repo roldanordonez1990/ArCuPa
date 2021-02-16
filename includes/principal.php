@@ -3,20 +3,13 @@ include("includes/datosMeteorologicos.php");?>
 <div class="container">
     <div class="row">
 
-        <div class="col-sm-8 col-xs-12">
+        <div class="col-sm-8">
             <div class="row mt-4">
                 <div class="titulosPrincipal font-weight-bold col-sm-12 text-left">Mapa actual de la situación
+<<<<<<< Updated upstream
                     meteorológica en España</div>
-                <div>
-
-               
-
-                <?php include("includes/mapa.php"); ?>
-                    
-                    
-            
-
-              
+                <div><img class="contenedorImagen img-fluid d-block pr-5 mt-1 ml-3" src="../media/images/mapa.jpg">
+=======
                     meteorológica en España
                 </div>
                 <div>
@@ -24,12 +17,12 @@ include("includes/datosMeteorologicos.php");?>
                 <?php include('mapa.php');?>
 
                 
-
+>>>>>>> Stashed changes
                 </div>
             </div>
 
         </div>
-        <div class="col-sm-4 col-xs-12">
+        <div class="col-sm-4">
             <div class="row mt-4">
                 <div class="d-none d-lg-block titulosPrincipal font-weight-bold col-sm-12 text-center">Descripción</div>
                 <div class="rounded d-none d-lg-block contenedorImagen col-sm-12 border visi rounded text-center border-primary mt-1 shadow-lg p-3 mb-5 rounded">
@@ -263,4 +256,3 @@ include("includes/datosMeteorologicos.php");?>
         $('[data-toggle="tooltip"]').tooltip();
     });
 </script>
-
