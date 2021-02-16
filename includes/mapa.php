@@ -1,20 +1,3 @@
-<?php
-include("includes/datosMeteorologicos.php");?>
-<!DOCTYPE html>
-
-<html lang="en"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-
-
-    <link rel="stylesheet" href="../css/tyt.min.css">
-
-
-
-
-<body class="fondoPrincipal">
-
-    
-</header>
 <section id="main" role="main">
     <section id="left">
 
@@ -89,7 +72,7 @@ include("includes/datosMeteorologicos.php");?>
                                     <span>Toledo</span>
                             </li>
                     <li class="symbols PPLA sevilla d100 M">
-                <span class="temp"><img class="iconotiempo " src="http://openweathermap.org/img/wn/<?php echo $tiempoCordoba->weather[0]->icon; ?>@2x.png"/></span>
+                <span class="temp"><!--<img class="iconotiempo " src="http://openweathermap.org/img/wn/<?php echo $tiempoCordoba->weather[0]->icon; ?>.png"/>--></span>
                                     <span>Sevilla</span>
                             </li>
                     <li class="symbols PPLA santa-cruz-de-tenerife d000 M">
@@ -129,7 +112,7 @@ include("includes/datosMeteorologicos.php");?>
                                     <span>Granada</span>
                             </li>
                     <li class="symbols PPLA2 cordoba d000 M " >
-                    <span class="temp"><img class="iconotiempo" src="http://openweathermap.org/img/wn/<?php echo $tiempoCordoba->weather[0]->icon; ?>@2x.png"/></span>
+                    <span class="temp"><!--<img class="iconotiempo" src="http://openweathermap.org/img/wn/<?php echo $tiempoCordoba->weather[0]->icon; ?>.png"/>--></span>
                                     <span>Cordoba</span>
                             </li>
                     <li class="symbols PPLA2 ciudad-real d000 M">
@@ -293,8 +276,3 @@ include("includes/datosMeteorologicos.php");?>
     </div>
 
     </section>
-   
-  
-
-
-</body></html>
