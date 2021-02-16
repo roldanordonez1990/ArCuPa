@@ -351,16 +351,32 @@ td.tdColor2 {
   color: red;
   font-family: 'Gotu', sans-serif; }
 
-.presionImgDiv {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
 
-.presionImg {
+.iconotiempo {
+  max-width: 10% !important;
+  max-height: 10% !important; }
+
+a.mapa {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 50%; }
+  color: #0054A5;
+  font-size: 10px;
+  font-family: 'Gotu', sans-serif; }
+  a.mapa:hover {
+    color: #F5B41B;
+    text-decoration: none; }
+
+.img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1; }
+
+.img2 {
+  position: absolute;
+  left: 300px;
+  top: 300px;
+  z-index: -3; }
+
 
 img {
   max-height: 100%; }
@@ -1021,21 +1037,10 @@ hr#noticiaHr {
   color: white  !important;
   height: 150px  !important; }
 
-<<<<<<< Updated upstream
-=======
 .iconotiempo {
   max-width: 50% !important;
   max-height: 50% !important;
   margin-left: 500px; }
-
-.grayscale {
-  -webkit-filter: grayscale(100%) brightness(150%) sepia(90%) hue-rotate(5deg) saturate(500%) contrast(0.7); }
-
-@media (max-width: 699px) {
-  .calendar {
-    width: 100%;
-    float: none;
-    margin: 30px 0; } }
 
 .cities.espana li.M.a-coruna {
   left: 123px;
@@ -1107,8 +1112,8 @@ hr#noticiaHr {
   top: 289px; }
 
 .cities.espana li.M.cordoba {
-  left: 255px;
-  top: 320px; }
+  left: 245px;
+  top: 300px; }
 
 .cities.espana li.M.cuenca {
   left: 386px;
@@ -4727,6 +4732,7 @@ hr#noticiaHr {
   left: -27px;
   top: 0; }
 
+
 #left > h1.locality {
   float: left;
   display: inline;
@@ -4763,6 +4769,7 @@ hr#noticiaHr {
   padding-left: 4px;
   float: left;
   line-height: 20px; }
+
 
 #left form.localities-search-map > fieldset input[type=search] {
   height: 20px;
@@ -4848,6 +4855,10 @@ ul.weather_map_links li {
 #left ul.forecast_symbols > li.symbols.M > span.temp {
   top: 16px; }
 
->>>>>>> Stashed changes
+
+#left ul.forecast_symbols > li.symbols.S > span.temp {
+  top: 6px;
+  font-size: 11px; }
+
 .fondoPrincipal {
   background-image: url("../media/images/fondo.jpg") !important; }

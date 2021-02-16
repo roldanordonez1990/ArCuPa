@@ -5,17 +5,6 @@
   }
 
 
-  .grayscale {-webkit-filter: grayscale(100%) brightness(150%) sepia(90%) hue-rotate(5deg) saturate(500%) contrast(0.7);}
-
-  @media (max-width: 699px) {
-    .calendar{
-        width: 100%;
-        float: none;
-        margin: 30px 0;
-    }
-}
-
-
   .cities.espana li.M.a-coruna {
     left: 123px;
     top: 20px
@@ -103,8 +92,9 @@
   }
   
   .cities.espana li.M.cordoba {
-    left: 255px;
-    top: 320px
+    left: 245px;
+    top: 300px
+
   }
   
   .cities.espana li.M.cuenca {
@@ -3668,7 +3658,6 @@
   }
   
   
-  
   .weather_map_links.provinces .a-coruna {
     left: 110px;
     top: 30px
@@ -4671,6 +4660,7 @@
     float: left;
     line-height: 20px
   }
+
   
   #left form.localities-search-map>fieldset input[type=search] {
     height: 20px;
@@ -4768,4 +4758,9 @@
   #left ul.forecast_symbols>li.symbols.M>span.temp {
     top: 16px
   }
-  
+
+  #left ul.forecast_symbols>li.symbols.S>span.temp {
+    top: 6px;
+    font-size: 11px
+  }
+
