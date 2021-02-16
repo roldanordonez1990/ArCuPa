@@ -30,7 +30,7 @@
             <div class="row">
                 <div class="col-sm-12">
             <div class="mt-5 mb-5" id="right">
-            <div class="titulosPrincipal font-weight-bold mt-3 mb-2 text-center">Mapa de Precipitación Interactivo</div>
+            <div class="titulosPrincipal font-weight-bold mt-3 mb-2 text-center">Mapa de Nubosidad Interactivo</div>
 
                 <div id="map" class="map">
 
