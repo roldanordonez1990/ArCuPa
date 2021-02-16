@@ -12,7 +12,7 @@ const application = {
   };
   
   const openWeatherMap = {
-    appid: '574ee79fa8e2ab5b29c4a108d66187c4',
+    appid: 'a19283761f3113b225b7189fb712ca3e',
     tileUrl: 'https://tile.openweathermap.org/map/{layer}/{z}/{x}/{y}.png?appid={appid}',
     layer: '',
     layerName: 'owm_layer',
