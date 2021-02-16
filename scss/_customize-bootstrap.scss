@@ -1,0 +1,16 @@
+html, body{
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+
+.bg-dark {
+    background-color: $color1 !important;
+}
+.btn-warning {
+    background-color: $color4 !important;
+    border-color: black !important;
+}
+#input_login input:focus{
+    border: none !important;
+    box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgb(245, 180, 27) !important;
+}
