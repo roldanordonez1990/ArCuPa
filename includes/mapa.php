@@ -1,3 +1,6 @@
+<?php include("datosMeteorologicos.php");
+
+?>
 <html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -27,16 +30,18 @@
   <script type="text/javascript">
     new SpainMap({
       id: 'map',
-      width: 700,
+      width: 700, 
       height: 500,
       fillColor: "#eeeeee",
       strokeColor: "#cccccc",
       strokeWidth: 0.7,
       selectedColor: "#66bbdd",
       animationDuration: 200,
-      onClick: function(province, event) {
-        alert("Has seleccionado " + province.name);
+      window.onload = function(province, event) {
+        print(province.name);
+      
       }
     });
+    
   </script>
 </body>
