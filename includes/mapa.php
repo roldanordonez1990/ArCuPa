@@ -22,11 +22,18 @@
     a:hover {
       text-decoration: underline;
     }
+
+    
+
+
   </style>
 </head>
-<body onload="myFunction();">
+<body>
 
   <div class="mt-5 w-100" id="map"></div>
+
+  <a class="cordoba">Córdoba</a>
+
   <script type="text/javascript">
     new SpainMap({
       id: 'map',
