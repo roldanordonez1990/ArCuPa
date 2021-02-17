@@ -1021,8 +1021,6 @@ hr#noticiaHr {
   color: white  !important;
   height: 150px  !important; }
 
-<<<<<<< Updated upstream
-=======
 .iconotiempo {
   max-width: 50% !important;
   max-height: 50% !important;
@@ -4848,6 +4846,5 @@ ul.weather_map_links li {
 #left ul.forecast_symbols > li.symbols.M > span.temp {
   top: 16px; }
 
->>>>>>> Stashed changes
 .fondoPrincipal {
   background-image: url("../media/images/fondo.jpg") !important; }
