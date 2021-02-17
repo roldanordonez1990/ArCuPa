@@ -37,10 +37,7 @@
       strokeWidth: 0.7,
       selectedColor: "#66bbdd",
       animationDuration: 200,
-      window.onload = function(province, event) {
-        print(province.name);
-      
-      }
+ 
     });
     
   </script>
