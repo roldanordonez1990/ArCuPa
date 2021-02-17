@@ -36,10 +36,6 @@
       strokeColor: "#cccccc",
       strokeWidth: 0.7,
       selectedColor: "#66bbdd",
-      animationDuration: 200,
-      function myFunction(province) {
-        alert(province.name);
-      }
     });
   </script>
 </body>
