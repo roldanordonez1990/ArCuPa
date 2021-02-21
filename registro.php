@@ -42,7 +42,7 @@ if(!isset($_SESSION['user_email_address'])){
                         </a>
                     </nav>
                     <div class="col login-sec">
-                        <h2 class="text-center">Registro</h2>
+                        <h2 class="text-center">Registro de nuevos Usuarios</h2>
                         <form action="" method="post" class="needs-validation login-form" novalidate>
                             <div class="row">
                                 <div class="col-sm-12 col-lg-6  form-group">
@@ -124,7 +124,7 @@ if(!isset($_SESSION['user_email_address'])){
         }, false);
     })();
     </script>
-    </div>
+
 </body>
 
 </html>
