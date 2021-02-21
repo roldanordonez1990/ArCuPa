@@ -238,7 +238,7 @@
     })();
 
 
-    setInterval(function(){ 
+    setInterval({ 
 
 
         var name = $('#name').val()
