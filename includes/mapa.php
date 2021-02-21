@@ -8,7 +8,7 @@ html,body{width:100%;height:100%;padding:0;margin:0}*{position:relative}input{-w
 
 
 /* sm */
-@media (max-width: 768px) {
+@include media-breakpoint-up(sm) {
     .imagenMapa {
         width: 520px;
         height: 470px;
