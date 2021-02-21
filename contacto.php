@@ -239,8 +239,7 @@
 
 
     setInterval(function(){ 
-        
-        
+    
         var name = $('#name').val()
         var email = $('#email').val()
         var subject = $('#subject').val();
@@ -251,8 +250,7 @@
         } else {
             $('#modal').addClass('isDisabled');
         }
-        
-
+    
     
     },);
     
