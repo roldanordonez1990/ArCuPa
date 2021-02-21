@@ -142,8 +142,8 @@
                                 </div>
                             </div>
 
-                            <a class="isDisabled" href="#" id="modal" data-toggle="modal" data-target="#captcha">
-                                <button class="float-right btn btn-login">Verificar</button>
+                            <a href="#" data-toggle="modal" data-target="#captcha">
+                                <button id="boton" class="float-right btn btn-login">Verificar</button>
 
 
 
@@ -254,15 +254,11 @@
         var subject = $('#subject').val();
         var message = $('#message').val();
 
-        console.log(name.length);
-
 
         if ((name.length > 0) && (email.length > 0) && (subject.length > 0) && (message.length > 0)) {
-            $('#modal').removeClass('isDisabled');
-
-
+            $("#boton").prop("disabled", false);
         } else {
-            $('#modal').addClass('isDisabled');
+            $("#boton").prop("disabled", true);
         }
 
     },100);
