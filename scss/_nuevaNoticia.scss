@@ -1,7 +1,7 @@
 
 .inputTitulo{
 color: $color3;
-width: 44%;
+width: 60%;
 
 }
 .inputTitulo::placeholder{
@@ -83,3 +83,6 @@ hr#noticiaHr {border: 0 ; border-top: 4px double $color1; width: 100%;}
     width: auto;
 }
 
+.imagenEditarTamaño{
+    width: 20%;
+}

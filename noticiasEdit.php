@@ -12,7 +12,7 @@ $n = ControladorNoticias::buscarNoticia($_POST['edit']);
  if (isset($_POST['modificar'])) {
            
     if ($_FILES['imagen']['size'] > 0) {
-
+       
         if (is_uploaded_file($_FILES['imagen']['tmp_name'])) {
             $noticia = new Noticias();
             $fich_unic = time() . "-" . $_FILES['imagen']['name'];
@@ -77,34 +77,62 @@ $n = ControladorNoticias::buscarNoticia($_POST['edit']);
             <div class="row">
                 <div class="col-12">
                     <form action="" class="form-group" method="post" enctype="multipart/form-data">
-                    <input type="hidden" name="imagenActual" value="<?php echo $n->imagen;?>">
+                        <input type="hidden" name="imagenActual" value="<?php echo $n->imagen;?>">
                         <div class="row">
                             <div class="col-12 noticiaNueva ">
-                                <input class="inputTitulo marcoNoticia mb-2 area border border-primary rounded-pill" required
-                                    type="text" name="tituloNoticia" value="<?php echo $n->titulo?>" placeholder="Título de la noticia...">
+                                <input class="inputTitulo marcoNoticia mb-2 area border border-primary rounded-pill"
+                                    required type="text" name="tituloNoticia" value="<?php echo $n->titulo?>"
+                                    placeholder="Título de la noticia...">
 
-                                <label for="file-upload" class="subir ml-1 rounded-pill">
-                                    <i class="fas fa-cloud-upload-alt"></i> Seleccionar Imagen
-                                </label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 text-center">
+                                <img class="imagenEditarTamaño" src="<?php echo $n->imagen;?>" alt="Mi imagen"
+                                    id="miImagen">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 noticiaNueva mt-2 mb-2">
 
-                                <input id="file-upload" onchange='cambiar()' type="file" name="imagen"
-                                    style='display: none;'  value="<?php echo $n->imagen?>">
+                                <input type="file" id="file-upload" name="imagen" value="<?php echo $n->imagen;?>">
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-12 mb-2 noticiaNueva tiposNoticia ">
-                                <select name="tipos" class="tiposNoticia form-control marcoNoticia area"  value="<?php echo $n->tipo?>">
-                                    
+                                <select name="tipos" class="tiposNoticia form-control marcoNoticia area"
+                                    value="<?php echo $n->tipo?> selected">
+
+                                    <?php if($n->tipo == "Locales"){
+                                        ?>
                                     <option><?php echo $n->tipo;?></option>
+                                    <option>Provinciales</option>
+                                    <option>Nacionales</option>
+                                    <?php
+                                    }if($n->tipo == "Nacionales"){
+                                        ?>
+                                    <option><?php echo $n->tipo;?></option>
+                                    <option>Locales</option>
+                                    <option>Provinciales</option>
+                                    <?php
+                                    }if($n->tipo == "Provinciales"){
+                                        ?>
+                                    <option><?php echo $n->tipo;?></option>
+                                    <option>Locales</option>
+                                    <option>Nacionales</option>
+                                    <?php
+                                    }
+                                    ?>
                                 </select>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-sm-12 mt-1 noticiaNueva area">
-                            <div id="cojones">
+                                <div id="cojones">
                                     <div class="visi letraPrincipal" id="editor"><?php echo $n->contenido;?></div>
                                 </div>
-                                <input type="hidden"  value="<?php echo $n->contenido;?>" name="contenido" id="quill-html">
+                                <input type="hidden" value="<?php echo $n->contenido;?>" name="contenido"
+                                    id="quill-html">
                             </div>
                         </div>
                         <div class="row">
@@ -118,10 +146,12 @@ $n = ControladorNoticias::buscarNoticia($_POST['edit']);
             </div>
 
             <script>
+            /*
             function cambiar() {
                 var pdrs = document.getElementById('file-upload').files[0].name;
                 document.getElementById('info').innerHTML = pdrs;
             }
+           */
 
             var quill = new Quill('#editor', {
                 theme: 'snow'
@@ -129,7 +159,9 @@ $n = ControladorNoticias::buscarNoticia($_POST['edit']);
                 $('#quill-html').val($('#editor .ql-editor').html());
             });
             </script>
-
+            <script>
+            $("#miImagen").attr('src', '<?php echo $n->imagen;?>/' + td[1].innerText)
+            </script>
         </div>
         <?php include("includes/footer.php");?>
     </div>
