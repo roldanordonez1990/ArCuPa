@@ -65,7 +65,6 @@ if (isset($_GET["code"])) {
     <div class="container-fluid p-0">
 
         <?php include("includes/header.php"); ?>
-       
         <?php include("includes/navbar.php"); ?>
       
 
