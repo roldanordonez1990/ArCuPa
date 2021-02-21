@@ -8,7 +8,7 @@ html,body{width:100%;height:100%;padding:0;margin:0}*{position:relative}input{-w
 
 
 /* sm */
-@media (max-width: 576px) {
+@media (max-width: 768px) {
     .imagenMapa {
         width: 400px;
         height: 330px;
@@ -28,19 +28,19 @@ html,body{width:100%;height:100%;padding:0;margin:0}*{position:relative}input{-w
 
     .espana-cadiz-provincia{left:160px;top:390px}
 
-    .espana-jaen-provincia{left:230px;top:325px}
+    .espana-jaen-provincia{left:180px;top:230px}
 
-    .espana-cordoba-provincia{left:190px;top:320px}
+    .espana-cordoba-provincia{left:150px;top:230px}
 
-    .espana-barcelona-provincia{left:420px;top:145px}
+    .espana-barcelona-provincia{left:320px;top:120px}
 
-    .espana-valencia-provincia{left:330px;top:250px}
+    .espana-valencia-provincia{left:260px;top:180px}
 
-    .espana-vizcaya{left:255px;top:64px}
+    .espana-vizcaya{left:200px;top:50px}
 
-    .espana-badajoz-provincia{left:147px;top:290px}
+    .espana-badajoz-provincia{left:115px;top:200px}
 
-    .espana-caceres-provincia{left:150px;top:240px}
+    .espana-caceres-provincia{left:115px;top:165px}
 }
 @media (min-width: 768px) {
 
