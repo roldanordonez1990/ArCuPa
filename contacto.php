@@ -239,7 +239,8 @@
 
 
     setInterval(function(){ 
-    
+
+
         var name = $('#name').val()
         var email = $('#email').val()
         var subject = $('#subject').val();
@@ -247,6 +248,9 @@
 
         if ((name.length > 0) && (email.length > 0) && (subject.length > 0) && (message.length > 0)) {
             $('#modal').removeClass('isDisabled');
+
+            console.log("hola");
+
         } else {
             $('#modal').addClass('isDisabled');
         }
