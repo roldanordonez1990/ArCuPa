@@ -236,30 +236,34 @@
             });
         }, false);
     })();
- 
+
+
+    setInterval({ 
+        var name = $('#name').val()
+        var email = $('#email').val()
+        var subject = $('#subject').val();
+        var message = $('#message').val();
+
+        if ((name.length > 0) && (email.length > 0) && (subject.length > 0) && (message.length > 0)) {
+            $('#modal').removeClass('isDisabled');
+
+            console.log("hola");
+
+        } else {
+            $('#modal').addClass('isDisabled');
+        }
+    },100);
+
+    setInterval(function(){ 
+        'use strict';
+        console.log("hola");
+    },100);
+    
 
 
     </script>
 
-
-    <script>
-        setInterval(function(){ 
-            var name = $('#name').val()
-            var email = $('#email').val()
-            var subject = $('#subject').val();
-            var message = $('#message').val();
-
-            if ((name.length > 0) && (email.length > 0) && (subject.length > 0) && (message.length > 0)) {
-                $('#modal').removeClass('isDisabled');
-
-                console.log("hola");
-
-            } else {
-                $('#modal').addClass('isDisabled');
-            }
-        },100);
-
-    </script>
+    <script src="contact.js"></script>
 
     <?php include("includes/footer.php");?>
 

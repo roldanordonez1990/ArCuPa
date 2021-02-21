@@ -123,6 +123,7 @@ if(!isset($_SESSION['user_email_address'])){
             });
         }, false);
     })();
+
     </script>
 
 </body>
