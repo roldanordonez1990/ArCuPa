@@ -10,8 +10,8 @@ html,body{width:100%;height:100%;padding:0;margin:0}*{position:relative}input{-w
 /* sm */
 @media (max-width: 576px) {
     .imagenMapa {
-        width: 500px;
-        height: 450px;
+        width: 400px;
+        height: 330px;
     }
 
     .espana-madrid-provincia{left:225px;top:200px}
