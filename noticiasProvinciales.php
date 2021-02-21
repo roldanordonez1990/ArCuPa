@@ -5,6 +5,7 @@
   $n = ControladorNoticias::getNoticias($tipos);
 
   $numero = 0;
+  $numeroModal = 1;
 
 if(isset($_POST['delete'])){
     ControladorNoticias::deleteNoticias($_POST['delete']);
@@ -40,7 +41,7 @@ if(isset($_POST['delete'])){
                         <?php
                        
                         foreach($n as $values){
-
+                        $numeroModal++;
                         ?>
 
                         <div class="card anchoCar mt-5 mb-3">
@@ -95,25 +96,51 @@ if(isset($_POST['delete'])){
                                     <div class="col-10">
                                         <?php if(isset($_SESSION['user_email_address'])){
                                             ?>
-                                        <a href="noticiasNueva.php"><button class="btn"><i
-                                                    class="far fa-plus-square"></i></button></a>
+                                        <!--<a href="noticiasNueva.php"><button class="btn"><i
+                                                    class="far fa-plus-square"></i></button></a>-->
                                     </div>
                                     <div class="col-1 p-1">
 
                                         <form action="noticiasEdit.php" class="form-inline" method="post">
-                                            <button type="submit" name="edit" value="<?php echo $values->id;?>"
-                                                class="btn">
+                                            <button type="submit" data-toggle="tooltip" title="Editar" name="edit"
+                                                value="<?php echo $values->id;?>" class="btn">
                                                 <i class="far fa-edit"></i></button>
                                         </form>
                                     </div>
                                     <div class="col-1 p-1">
-                                        <form action="" class="form-inline" method="post">
-                                            <button name="delete" value="<?php echo $values->id;?>" class="btn">
-                                                <i class="fas fa-trash-alt"></i></button>
-                                        </form>
+
+                                        <a href="#a<?php echo $numeroModal;?>" data-toggle="modal"
+                                            data-target="#noticia_<?php echo $numeroModal;?>"><button
+                                                data-toggle="tooltip" title="Eliminar" class="btn">
+                                                <i class="fas fa-trash-alt"></i>
+                                            </button></a>
+                                        <div class="modal" id="noticia_<?php echo $numeroModal;?>" role="dialog">
+                                            <div class="modal-dialog" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title text-center">Borrar noticia</h5>
+                                                        <button type="button" class="close" data-dismiss="modal"
+                                                            aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <p>¿Seguro que quiere eliminar la noticia?</p>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secundary"
+                                                            data-dismiss="modal">Cancelar</button>
+                                                        <form action="" class="form-inline" method="post">
+                                                            <button type="submit" class="btn btn-danger" name="delete"
+                                                                value="<?php echo $values->id;?>">Eliminar</button>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                         <?php
                                         
-                                    }
+                                        }
                                         ?>
                                     </div>
                                 </div>
@@ -128,8 +155,31 @@ if(isset($_POST['delete'])){
                         <div class="d-none d-lg-block academy-blog-sidebar mr-3">
                             <div class="card mt-5">
                                 <div class="card-body fondoCardMenu shadow-lg">
-                                    <div class="titulosPrincipal font-weight-bold text-center mb-4">Noticias
-                                        Provinciales
+                                    <div class="row">
+                                        <?php if(isset($_SESSION['user_email_address'])){
+                                            ?>
+                                        <div class="col-sm-6">
+                                            <div class="titulosPrincipal font-weight-bold text-center mb-3 mt-1">
+                                                Noticias
+                                                Provinciales
+                                            </div>
+                                        </div>
+
+                                        <div class="col-sm-6">
+                                            <div class="titulosPrincipal font-weight-bold text-center">Añadir noticia
+                                                <a href="noticiasNueva.php"><button class="btn" data-toggle="tooltip" title="Añadir"><i
+                                                            class="far fa-plus-square"></i></button></a>
+                                            </div>
+                                        </div>
+                                        <?php 
+                                        }else{
+                                            ?>
+                                        <div class="col-sm-12 titulosPrincipal font-weight-bold text-center mb-4">
+                                            Noticias Provinciales</div>
+
+                                        <?php
+                                            }
+                                            ?>
                                     </div>
                                     <?php
                                     $numero = 0;
@@ -158,18 +208,19 @@ if(isset($_POST['delete'])){
                 <strong>No hay noticias disponibles en este momento</strong>
             </div>
             <?php
-                if(isset($_SESSION['user_email_address'])){
-                    ?>
+            if(isset($_SESSION['user_email_address'])){
+                ?>
             <div class="text-center">
                 <label class="letraPrincipal">
                     Añade una nueva noticia
                 </label>
-                <a href="noticiasNueva.php"><button class="btn"><i class="far fa-plus-square"></i></button></a>
+                <a href="noticiasNueva.php"><button class="btn"><i class="far fa-plus-square" data-toggle="tooltip" title="Añadir"></i></button></a>
             </div>
             <?php
-                }
-                }
-                ?>
+            }
+            
+            }
+            ?>
 
     </main>
 
@@ -182,6 +233,9 @@ if(isset($_POST['delete'])){
             $('.academy-blog-sidebar').css('top', 238 - scrollTop);
         else
             $('.academy-blog-sidebar').css('top', 0);
+    });
+    $(document).ready(function() {
+        $('[data-toggle="tooltip"]').tooltip();
     });
     </script>
 </body>

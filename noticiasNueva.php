@@ -38,7 +38,8 @@ if(!isset($_SESSION['user_email_address'])){
 
                 ?>
         <div class="alert alert-success text-center">
-            <strong>Tu noticia ha sido publicada correctamente</strong>
+            <strong>Tu noticia ha sido publicada correctamente <a href="noticias<?php echo $_POST['tipos'];?>.php">Ver
+                    noticia</a></strong>
         </div>
         <?php
            } else {
@@ -69,15 +70,25 @@ if(!isset($_SESSION['user_email_address'])){
                     <form action="" id="identifier" class="form-group" method="post" enctype="multipart/form-data">
                         <div class="row">
                             <div class="col-12 noticiaNueva ">
-                                <input class="inputTitulo marcoNoticia mb-2 area border border-primary rounded-pill" required
-                                    type="text" name="tituloNoticia" value="" placeholder="Título de la noticia...">
+                                <input class="inputTitulo marcoNoticia mb-2 area border border-primary rounded-pill"
+                                    required type="text" name="tituloNoticia" value=""
+                                    placeholder="Título de la noticia...">
 
+                                <!--
                                 <label for="file-upload" class="subir rounded-pill ml-1">
                                     <i class="fas fa-cloud-upload-alt"></i> Seleccionar Imagen
                                 </label>
+                                -->
 
+                                <!--
                                 <input id="file-upload" onchange='cambiar()' type="file" name="imagen"
                                     style='display: none;' />
+                                -->
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 noticiaNueva mb-2">
+                                <input type="file" id="file-upload" name="imagen">
                             </div>
                         </div>
                         <div class="row">
@@ -108,12 +119,13 @@ if(!isset($_SESSION['user_email_address'])){
             </div>
 
             <script>
+            /*
             function cambiar() {
                 var pdrs = document.getElementById('file-upload').files[0].name;
                 document.getElementById('info').innerHTML = pdrs;
             }
 
-
+            */
             var quill = new Quill('#editor', {
                 theme: 'snow'
             }).on('text-change', function() {
