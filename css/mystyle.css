@@ -498,6 +498,13 @@ button:hover {
   .captchaColor.error {
     color: #D06079; }
 
+.isDisabled {
+  color: currentColor;
+  cursor: not-allowed;
+  opacity: 0.5;
+  text-decoration: none;
+  pointer-events: none; }
+
 ul,
 ol {
   margin: 0; }

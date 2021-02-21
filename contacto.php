@@ -142,7 +142,7 @@
                                 </div>
                             </div>
 
-                            <a href="#" data-toggle="modal" data-target="#captcha">
+                            <a class="isDisabled" href="#" id="modal" data-toggle="modal" data-target="#captcha">
                                 <button class="float-right btn btn-login">Verificar</button>
 
 
@@ -236,6 +236,28 @@
             });
         }, false);
     })();
+
+
+    setInterval(function(){ 
+        
+        
+        var name = $('#name').val()
+        var email = $('#email').val()
+        var subject = $('#subject').val();
+        var message = $('#message').val();
+
+        if ((name.length > 0) && (email.length > 0) && (subject.length > 0) && (message.length > 0)) {
+            $('#modal').removeClass('isDisabled');
+        } else {
+            $('#modal').addClass('isDisabled');
+        }
+        
+
+    
+    },);
+    
+     
+
     </script>
 
     <?php include("includes/footer.php");?>
