@@ -10,6 +10,7 @@ if (isset($_POST['buscarCiudad'])) {
 if ($server != null) {
     $tiempo = json_decode($server);
 } else {
+    $_SESSION["busquedaCiudad"] = "Ciudad no Encontrada";
     header('location:index.php');
 }
 $new =file_get_contents("https://api.openweathermap.org/data/2.5/onecall?lat=".$tiempo->coord->lat."&lon=".$tiempo->coord->lon."&units=metric&appid=a19283761f3113b225b7189fb712ca3e");
