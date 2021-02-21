@@ -32,6 +32,9 @@ header nav a img {
   .colorLogin:hover {
     text-decoration: none; }
 
+.avisoCiudad {
+  color: #0054A5; }
+
 .icono {
   display: flex;
   justify-content: center;

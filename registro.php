@@ -91,7 +91,7 @@ if(!isset($_SESSION['user_email_address'])){
                                     <div class="valid-feedback">Correcto</div>
                                     <div class="invalid-feedback">Por favor introduzca un teléfono</div>
                                 </div>
-                            </div>
+                            </d iv>
                             <div class="form-check">
                                 <button name="enviar" type="submit"
                                     class="btn mt-3 btn-login float-right">Enviar</button>
