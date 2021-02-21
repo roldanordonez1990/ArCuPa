@@ -12,12 +12,12 @@ html,body{width:100%;height:100%;padding:0;margin:0}*{position:relative}input{-w
 <body>
 
 
-                        <div class="MapaTiempoCargado" id="MapaAdmin">
+                        <div class="MapaTiempoCargado" id="MapaAdmin" style="margin-right: 50px !important;">
                            <img alt="Weather map of Spain" src="https://v5i.tutiempo.net/mapas/espana/espana.jpg" width="630" height="490" />
                            <ul>
                               <li class="espana-madrid-provincia">
                                  <h3><a href="/madrid-province.html">Madrid</a></h3>
-                                 <img src="http://openweathermap.org/img/wn/<?php echo $tiempoCordoba->weather[0]->icon; ?>@2x.png" class="meteoIcono" alt="alt" />
+                                 <img src="http://openweathermap.org/img/wn/<?php echo $tiempoCordoba->weather[0]->icon; ?>@2x.png" class="meteoIcono" alt="alt" /></span>
                               </li>
                             </ul>
                         </div>
