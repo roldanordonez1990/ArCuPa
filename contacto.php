@@ -254,7 +254,11 @@
         var subject = $('#subject').val();
         var message = $('#message').val();
 
-        console.log("hola");
+        console.log(name);
+        console.log(email);
+        console.log(subject);
+        console.log(message);
+
 
         if ((name.length > 0) && (email.length > 0) && (subject.length > 0) && (message.length > 0)) {
             $('#modal').removeClass('isDisabled');
