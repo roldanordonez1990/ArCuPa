@@ -238,16 +238,6 @@
     })();
 
 
-    
-
-
-
-    </script>
-
-    <script>
-
-    setInterval(function(){ 
-        'use strict';
         var name = $('#name').val()
         var email = $('#email').val()
         var subject = $('#subject').val();
@@ -261,6 +251,18 @@
         } else {
             $('#modal').addClass('isDisabled');
         }
+
+    
+
+
+
+    </script>
+
+    <script>
+
+    setInterval(function(){ 
+        'use strict';
+        console.log("hola");
     },100);
 
 
