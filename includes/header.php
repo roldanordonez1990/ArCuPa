@@ -9,11 +9,11 @@
         <div class="ml-auto">
 
             <form class="form-inline" action="tiempoCiudad.php" method="post">
-                <p>
+                <p class="m-2 avisoCiudad">
                     <?php 
-                    if(isset($_SESSION["busquedaCiudad"])){
-                    echo $_SESSION["busquedaCiudad"];
-                    $_SESSION["busquedaCiudad"] = "";
+                    if(isset($_COOKIE["busquedaCiudad"])){
+                    echo $_COOKIE["busquedaCiudad"];
+                    setcookie("busquedaCiudad", "", time() - 3600);
                 }
                 
                 ?></p>
@@ -36,8 +36,8 @@
                     }if  ($login_button == '')
                     {
                         echo '<a class="colorLogin pr-3">'.$_SESSION['user_first_name'].' '.$_SESSION['user_last_name'].'<a>';
-                        echo '<a href="registro.php"><button type="button" class="btn btn-secondary mr-3"><i class="fas fa-users-cog"></i></button></a>';
-                        echo '<a href="#" data-toggle="modal" data-target="#cerrarSesion"><button type="button" class="btn btn-danger">Salir</i></button></a>';
+                        echo '<a href="registro.php"><button type="button" class="btn btn-secondary mr-3" data-toggle="tooltip" data-placement="bottom" title="Registro de nuevos usuarios"><i class="fas fa-users-cog"></i></button></a>';
+                        echo '<a href="#" data-toggle="modal" data-target="#cerrarSesion"><button type="button" class="btn btn-danger" data-toggle="tooltip" data-placement="bottom" title="Cerrar Sesión">Salir</i></button></a>';
                     } 
                 }	
                     
@@ -64,5 +64,9 @@
             fjs.parentNode.insertBefore(js, fjs);
         }
     }(document, 'script', 'weatherwidget-io-js');
+
+    $(document).ready(function() {
+        $('[data-toggle="tooltip"]').tooltip();
+    });
     </script>
 </header>
