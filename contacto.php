@@ -239,8 +239,6 @@
 
 
     setInterval({ 
-
-
         var name = $('#name').val()
         var email = $('#email').val()
         var subject = $('#subject').val();
@@ -254,10 +252,13 @@
         } else {
             $('#modal').addClass('isDisabled');
         }
-    
-    
     },100);
     
+
+    var intervalID = setInterval(function () {
+    
+    console.log("hola");
+    }, 300);
      
 
     </script>
