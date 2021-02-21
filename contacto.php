@@ -254,10 +254,7 @@
         var subject = $('#subject').val();
         var message = $('#message').val();
 
-        console.log(name);
-        console.log(email);
-        console.log(subject);
-        console.log(message);
+        console.log(name.length);
 
 
         if ((name.length > 0) && (email.length > 0) && (subject.length > 0) && (message.length > 0)) {
