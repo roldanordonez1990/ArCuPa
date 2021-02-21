@@ -254,16 +254,21 @@
         }
     },100);
 
-    setInterval(function(){ 
-        'use strict';
-        console.log("hola");
-    },100);
     
 
 
     </script>
 
-    <script src="contact.js"></script>
+    <script>
+
+    setInterval(function(){ 
+        'use strict';
+        console.log("hola");
+    },100);
+
+
+    </script>
+
 
     <?php include("includes/footer.php");?>
 
