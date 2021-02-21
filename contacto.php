@@ -95,12 +95,12 @@
                         </script>
 
                         <?php }}?>
-                        <form id="contact-form" name="contact-form" action="" method="POST" class="needs-validation">
+                        <form id="contact-form" name="contact-form" action="" method="POST" class="needs-validation" novalidate>
                             <div class="row">
                                 <div class="col-md-12 mb-4">
                                     <div class="md-form mb-0" id="input_login">
                                         <label for="name" class="titulosPrincipal">Nombre</label>
-                                        <input type="text" id="name" name="name" class="form-control opaco" require>
+                                        <input type="text" id="name" name="name" class="form-control opaco" required>
                                         <div class="valid-feedback">Correcto</div>
                                         <div class="invalid-feedback">Por favor introduzca un nombre</div>
                                     </div>
@@ -110,9 +110,9 @@
                                 <div class="col-md-12  mb-4">
                                     <div class="md-form mb-0" id="input_login">
                                         <label for="email" class="titulosPrincipal">Correo Electrónico</label>
-                                        <input type="text" id="email" name="email" class="form-control opaco" require>
+                                        <input type="text" id="email" name="email" class="form-control opaco" required>
                                         <div class="valid-feedback">Correcto</div>
-                                        <div class="invalid-feedback">Por favor introduzca un usuario de tipo _@_.com
+                                        <div class="invalid-feedback">Por favor introduzca un correo electrónico de tipo _@_.com
                                         </div>
                                     </div>
                                 </div>
@@ -123,7 +123,7 @@
                                 <div class="col-md-12  mb-4">
                                     <div class="md-form mb-0" id="input_login">
                                         <label for="subject" class="titulosPrincipal">Asunto</label>
-                                        <input type="text" id="subject" name="subject" class="form-control opaco" require>
+                                        <input type="text" id="subject" name="subject" class="form-control opaco" required>
                                         <div class="valid-feedback">Correcto</div>
                                         <div class="invalid-feedback">Por favor introduzca un asunto</div>
                                     </div>
@@ -135,7 +135,7 @@
                                     <div class="md-form">
                                         <label for="message" class="titulosPrincipal">Mensaje</label>
                                         <textarea type="text" id="message" name="message" rows="5"
-                                            class="form-control area opaco"></textarea>
+                                            class="form-control area opaco" required></textarea>
                                         <div class="valid-feedback">Correcto</div>
                                         <div class="invalid-feedback">Por favor introduzca un mensaje</div>
                                     </div>

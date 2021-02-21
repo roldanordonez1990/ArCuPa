@@ -71,18 +71,19 @@ if (isset($_POST["enviar"])) {
                         }
                         ?>
 
-                        <form class="login-form" action="" method="post">
+                        <form class="login-form needs-validation" action="" method="post" novalidate>
                             <div class="form-group" id="input_login">
                                 <label for="exampleInputEmail1" class="text-uppercase">Correo Electrónico</label>
-                                <input type="text" class="form-control" placeholder="" name="email">
-
+                                <input type="email" class="form-control" placeholder="" name="email" required>
+                                <div class="valid-feedback">Correcto</div>
+                                <div class="invalid-feedback">Por favor introduzca un usuario de tipo _@_.com</div>
                             </div>
                             <div class="form-group" id="input_login">
                                 <label for="exampleInputPassword1" class="text-uppercase">Contraseña</label>
-                                <input type="password" class="form-control" placeholder="" name="contraseña">
+                                <input type="password" class="form-control" placeholder="" name="contraseña" required>
+                                <div class="valid-feedback">Correcto</div>
+                                    <div class="invalid-feedback">Por favor introduzca una contraseña</div>
                             </div>
-
-
                             <div class="form-check">
                                 <button type="submit" class="btn btn-login float-right" name="enviar">Enviar</button>
                                 <br>
@@ -134,6 +135,23 @@ if (isset($_POST["enviar"])) {
             </div>
         </section>
     </main>
+    <script>
+    (function() {
+        'use strict';
+        window.addEventListener('load', function() {
+            var forms = document.getElementsByClassName('needs-validation');
+            var validation = Array.prototype.filter.call(forms, function(form) {
+                form.addEventListener('submit', function(event) {
+                    if (form.checkValidity() === false) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                    }
+                    form.classList.add('was-validated');
+                }, false);
+            });
+        }, false);
+    })();
+    </script>
 </body>
 
 </html>
