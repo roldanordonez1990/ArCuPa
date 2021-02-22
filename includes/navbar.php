@@ -27,11 +27,6 @@
 
 <script src="../cookiealert.js"></script>
 
-
-
-
-
-
 <div class="modal" id="cerrarSesion" role="dialog">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
@@ -57,7 +52,7 @@
         aria-controls="navbarsExample06" aria-expanded="false" aria-label="Toggle navigation"> <span
             class="navbar-toggler-icon"></span> </button>
     <a class="nav-link text-center d-md-none" href="./index.php"> <img class="imagen"
-            src="../media/images/logoFinal.png" alt="Logo"></a>
+            src="../media/images/logoFinalBlanco.png" alt="Logo"></a>
 
     <?php
         if(!isset($_SESSION['access_token']) && !isset($_SESSION['imagenUsu']))
