@@ -110,7 +110,7 @@
                                 <div class="col-md-12  mb-4">
                                     <div class="md-form mb-0" id="input_login">
                                         <label for="email" class="titulosPrincipal">Correo Electrónico</label>
-                                        <input type="text" id="email" name="email" class="form-control opaco" required>
+                                        <input type="email" id="email" name="email" class="form-control opaco" required>
                                         <div class="valid-feedback">Correcto</div>
                                         <div class="invalid-feedback">Por favor introduzca un correo electrónico de tipo _@_.com
                                         </div>
@@ -263,6 +263,8 @@
 
     },100);
 
+
+   
 
     </script>
 
