@@ -9,8 +9,6 @@ include("includes/datosMeteorologicos.php");?>
                     meteorológica en España</div>
                     <?php include("mapa.php"); ?>
             </div>
-
-
         </div>
        
         <div class="col-sm-4">
