@@ -1,0 +1,20 @@
+.iconotiempo{
+    max-width: 50% !important;
+    max-height: 50% !important;  
+    margin-left: 500px;  
+  }
+
+
+  .grayscale {-webkit-filter: grayscale(100%) brightness(150%) sepia(90%) hue-rotate(5deg) saturate(500%) contrast(0.7);}
+
+  @media (max-width: 699px) {
+    .calendar{
+        width: 100%;
+        float: none;
+        margin: 30px 0;
+    }
+}
+
+.cordoba{
+  margin-top: 500pxs;
+}

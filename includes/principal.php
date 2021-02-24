@@ -7,11 +7,12 @@ include("includes/datosMeteorologicos.php");?>
             <div class="row mt-4">
                 <div class="titulosPrincipal font-weight-bold col-sm-12 text-left">Mapa actual de la situación
                     meteorológica en España</div>
-                <div><img class="contenedorImagen img-fluid d-block pr-5 mt-1 ml-3" src="../media/images/mapa.jpg">
-                </div>
+                    <?php include("mapa.php"); ?>
             </div>
 
+
         </div>
+       
         <div class="col-sm-4">
             <div class="row mt-4">
                 <div class="d-none d-lg-block titulosPrincipal font-weight-bold col-sm-12 text-center">Descripción</div>

@@ -33,6 +33,9 @@ header nav a img {
   .colorLogin:hover {
     text-decoration: none; }
 
+.avisoCiudad {
+  color: #0054A5; }
+
 .icono {
   display: flex;
   justify-content: center;
@@ -498,6 +501,13 @@ button:hover {
     color: #73AF55; }
   .captchaColor.error {
     color: #D06079; }
+
+.isDisabled {
+  color: currentColor;
+  cursor: not-allowed;
+  opacity: 0.5;
+  text-decoration: none;
+  pointer-events: none; }
 
 ul,
 ol {
@@ -992,6 +1002,38 @@ hr#noticiaHr {
 .cookiealert .acceptcookies {
   margin-left: 10px;
   vertical-align: baseline; }
+
+.fondoWidget {
+  height: 180px;
+  width: 50px imp !important;
+  background-color: #25A1D1; }
+
+.maximas {
+  color: orange;
+  font-style: "Gotu", sans-serif; }
+
+.minimas {
+  color: #AFE6FA;
+  font-style: "Gotu", sans-serif; }
+
+#changed {
+  -webkit-filter: grayscale(100%) brightness(120%) sepia(90%) hue-rotate(5deg) saturate(500%) contrast(0.7); }
+
+.actual {
+  color: yellow; }
+
+#city {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+
+.ciudad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white  !important;
+  height: 150px  !important; }
 
 .fondoPrincipal {
   background-image: url("../media/images/fondo.jpg") !important; }

@@ -13,6 +13,12 @@ if ($server != null) {
 } else {
     header('location:index.php');
 }
+if($_POST['lat'] == null && $_POST['lon'] == null){
+$new =file_get_contents("https://api.openweathermap.org/data/2.5/onecall?lat=".'<div id="latitud"></div>'."&lon=".'<div id="longitud"></div>'."&units=metric&appid=91b90d9bd7b7844589eab360246949f3");
+$prevision = json_decode($new);
+$varHourly = $prevision->hourly;
+$varDaily = $prevision->daily;
+}
 $new =file_get_contents("https://api.openweathermap.org/data/2.5/onecall?lat=".'<div id="latitud"></div>'."&lon=".'<div id="longitud"></div>'."&units=metric&appid=91b90d9bd7b7844589eab360246949f3");
 $prevision = json_decode($new);
 $varHourly = $prevision->hourly;

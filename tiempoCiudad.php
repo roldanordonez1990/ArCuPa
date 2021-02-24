@@ -2,17 +2,19 @@
 //Este código es para que no aparezcan unos errores de la Api que no se pueden controlar
 error_reporting(0);
 if (isset($_POST['buscarCiudad'])) {
-    $server = file_get_contents("http://api.openweathermap.org/data/2.5/weather?q=" . $_POST['buscarCiudad'] . ",es&APPID=91b90d9bd7b7844589eab360246949f3&lang=es&units=metric");
+    $server = file_get_contents("http://api.openweathermap.org/data/2.5/weather?q=" . $_POST['buscarCiudad'] . ",es&APPID=a19283761f3113b225b7189fb712ca3e&lang=es&units=metric");
 } else {
     $a = $_GET['a'];
-    $server = file_get_contents("http://api.openweathermap.org/data/2.5/weather?q=" . $a = $_GET['a'] . ",es&APPID=91b90d9bd7b7844589eab360246949f3&lang=es&units=metric");
+    $server = file_get_contents("http://api.openweathermap.org/data/2.5/weather?q=" . $a = $_GET['a'] . ",es&APPID=a19283761f3113b225b7189fb712ca3e&lang=es&units=metric");
 }
 if ($server != null) {
     $tiempo = json_decode($server);
 } else {
+    setcookie("busquedaCiudad", "Ciudad no Encontrada", time() + 3600, "/");
+    echo $_COOKIE["busquedaCiudad"];
     header('location:index.php');
 }
-$new =file_get_contents("https://api.openweathermap.org/data/2.5/onecall?lat=".$tiempo->coord->lat."&lon=".$tiempo->coord->lon."&units=metric&appid=91b90d9bd7b7844589eab360246949f3");
+$new =file_get_contents("https://api.openweathermap.org/data/2.5/onecall?lat=".$tiempo->coord->lat."&lon=".$tiempo->coord->lon."&units=metric&appid=a19283761f3113b225b7189fb712ca3e");
 $prevision = json_decode($new);
 $varHourly = $prevision->hourly;
 $diasSemana = array("","Lunes","Martes","Miércoles","Jueves","Viernes","Sábado","Domingo");
@@ -28,7 +30,6 @@ $varDaily = $prevision->daily;
 <body class="fondoPrincipal">
 
     <?php include("includes/header.php"); ?>
-
     <?php include("includes/navbar.php"); ?>
 
     <main>
