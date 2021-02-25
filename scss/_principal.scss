@@ -62,7 +62,7 @@ a.noNeeded {
 }
 
 th.thColor{
-  color: $color3;
+  color: #0011a6;
   font-family:  'Gotu', sans-serif;
   font-size: medium;
 }
@@ -145,7 +145,7 @@ td.tdColor{
   #min{
     font-family:  'Gotu', sans-serif;
     font-size: 16px;
-    color: red;
+    color: #b50c00;
     text-align: justify;
   
   }
@@ -167,4 +167,8 @@ td.tdColor{
   justify-content: center;
   align-items: center;
   width: 50%;
+}
+
+.hola{
+  position:absolute;
 }

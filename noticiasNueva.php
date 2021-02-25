@@ -70,7 +70,8 @@ if(!isset($_SESSION['user_email_address'])){
                     <form action="" id="identifier" class="form-group" method="post" enctype="multipart/form-data">
                         <div class="row">
                             <div class="col-12 noticiaNueva ">
-                                <input class="inputTitulo marcoNoticia mb-2 area border border-primary rounded-pill"
+                            <label for="title"><spam class="sr-only">titulo</spam></label>
+                                <input id="title" class="inputTitulo marcoNoticia mb-2 area border border-primary"
                                     required type="text" name="tituloNoticia" value=""
                                     placeholder="Título de la noticia...">
 
@@ -88,7 +89,8 @@ if(!isset($_SESSION['user_email_address'])){
                         </div>
                         <div class="row">
                             <div class="col-12 noticiaNueva mb-2">
-                                <input type="file" id="file-upload" name="imagen">
+                            <label for="fil"><spam class="sr-only">titulo</spam></label>
+                                <input id="fil" type="file" id="file-upload" name="imagen">
                             </div>
                         </div>
                         <div class="row">
