@@ -36,5 +36,32 @@ $tiempoValencia= json_decode($valencia);
 //
 $bilbao=file_get_contents("http://api.openweathermap.org/data/2.5/weather?q=Bilbao,es&APPID=a19283761f3113b225b7189fb712ca3e&lang=es&units=metric");
 $tiempoBilbao= json_decode($bilbao);
+//
+$badajoz=file_get_contents("http://api.openweathermap.org/data/2.5/weather?q=Badajoz,es&APPID=5662461fc68d8c3c7a41a31b21f1bdd4&lang=es&units=metric");
+$tiempoBadajoz= json_decode($badajoz);
+//
+$caceres=file_get_contents("http://api.openweathermap.org/data/2.5/weather?q=Cáceres,es&APPID=5662461fc68d8c3c7a41a31b21f1bdd4&lang=es&units=metric");
+$tiempoCaceres= json_decode($caceres);
+//
+$ciudadReal=file_get_contents("http://api.openweathermap.org/data/2.5/weather?q=Ciudad Real,es&APPID=5662461fc68d8c3c7a41a31b21f1bdd4&lang=es&units=metric");
+$tiempociudadReal= json_decode($ciudadReal);
+//
+$albacete=file_get_contents("http://api.openweathermap.org/data/2.5/weather?q=Albacete,es&APPID=5662461fc68d8c3c7a41a31b21f1bdd4&lang=es&units=metric");
+$tiempoAlbacete= json_decode($albacete);
+//
+$murcia=file_get_contents("http://api.openweathermap.org/data/2.5/weather?q=Murcia,es&APPID=5662461fc68d8c3c7a41a31b21f1bdd4&lang=es&units=metric");
+$tiempoMurcia= json_decode($murcia);
+//
+$alicante=file_get_contents("http://api.openweathermap.org/data/2.5/weather?q=Alicante,es&APPID=5662461fc68d8c3c7a41a31b21f1bdd4&lang=es&units=metric");
+$tiempoAlicante= json_decode($alicante);
+//
+$toledo=file_get_contents("http://api.openweathermap.org/data/2.5/weather?q=Toledo,es&APPID=5662461fc68d8c3c7a41a31b21f1bdd4&lang=es&units=metric");
+$tiempoToledo= json_decode($toledo);
+//
+$cuenca=file_get_contents("http://api.openweathermap.org/data/2.5/weather?q=Cuenca,es&APPID=5662461fc68d8c3c7a41a31b21f1bdd4&lang=es&units=metric");
+$tiempoCuenca = json_decode($cuenca);
+
+
+
 
 ?>

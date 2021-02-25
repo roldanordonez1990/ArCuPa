@@ -12,7 +12,7 @@
                 <p class="m-2 avisoCiudad">
                     <?php 
                     if(isset($_COOKIE["busquedaCiudad"])){
-                    echo $_COOKIE["busquedaCiudad"];
+                    echo "¡".$_COOKIE["busquedaCiudad"]."!";
                     setcookie("busquedaCiudad", "", time() - 3600);
                 }
                 

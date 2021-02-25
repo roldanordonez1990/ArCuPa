@@ -110,7 +110,7 @@
                                 <div class="col-md-12  mb-4">
                                     <div class="md-form mb-0" id="input_login">
                                         <label for="email" class="titulosPrincipal">Correo Electrónico</label>
-                                        <input type="text" id="email" name="email" class="form-control opaco" required>
+                                        <input type="email" id="email" name="email" class="form-control opaco" required>
                                         <div class="valid-feedback">Correcto</div>
                                         <div class="invalid-feedback">Por favor introduzca un correo electrónico de tipo _@_.com
                                         </div>
@@ -142,8 +142,8 @@
                                 </div>
                             </div>
 
-                            <a class="isDisabled" href="#" id="modal" data-toggle="modal" data-target="#captcha">
-                                <button class="float-right btn btn-login">Verificar</button>
+                            <a href="#" data-toggle="modal" data-target="#captcha">
+                                <button id="boton" class="float-right btn btn-login">Verificar</button>
 
 
 
@@ -238,27 +238,36 @@
     })();
 
 
+      
+    
+
+
+
+    </script>
+
+    <script>
+
     setInterval(function(){ 
-        
-        
+        'use strict';
         var name = $('#name').val()
         var email = $('#email').val()
         var subject = $('#subject').val();
         var message = $('#message').val();
 
-        if ((name.length > 0) && (email.length > 0) && (subject.length > 0) && (message.length > 0)) {
-            $('#modal').removeClass('isDisabled');
-        } else {
-            $('#modal').addClass('isDisabled');
-        }
-        
 
-    
-    },);
-    
-     
+        if ((name.length > 0) && (email.length > 0) && (subject.length > 0) && (message.length > 0)) {
+            $("#boton").prop("disabled", false);
+        } else {
+            $("#boton").prop("disabled", true);
+        }
+
+    },100);
+
+
+   
 
     </script>
+
 
     <?php include("includes/footer.php");?>
 
