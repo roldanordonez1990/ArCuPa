@@ -80,10 +80,10 @@ $n = ControladorNoticias::buscarNoticia($_POST['edit']);
                         <input type="hidden" name="imagenActual" value="<?php echo $n->imagen;?>">
                         <div class="row">
                             <div class="col-12 noticiaNueva ">
-                                <input class="inputTitulo marcoNoticia mb-2 area border border-primary rounded-pill"
+                            <label for="title"><spam class="sr-only">titulo</spam></label>
+                                <input id="title" class="inputTitulo marcoNoticia mb-2 area border border-primary rounded-pill"
                                     required type="text" name="tituloNoticia" value="<?php echo $n->titulo?>"
                                     placeholder="Título de la noticia...">
-
                             </div>
                         </div>
                         <div class="row">
@@ -94,8 +94,8 @@ $n = ControladorNoticias::buscarNoticia($_POST['edit']);
                         </div>
                         <div class="row">
                             <div class="col-12 noticiaNueva mt-2 mb-2">
-
-                                <input type="file" id="file-upload" name="imagen" value="<?php echo $n->imagen;?>">
+                            <label for="fil"><spam class="sr-only">titulo</spam></label>
+                                <input id="fil" type="file" id="file-upload" name="imagen" value="<?php echo $n->imagen;?>">
                             </div>
                         </div>
                         <div class="row">

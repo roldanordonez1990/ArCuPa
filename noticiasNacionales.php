@@ -47,7 +47,7 @@ if(isset($_POST['delete'])){
                         <div class="card anchoCar mt-5 mb-3">
 
                             <div class="card-body fondoCard shadow-lg">
-                                <img id="<?php echo $numero++; ?>" class="card-img-top"
+                                <img alt="imagen" id="<?php echo $numero++; ?>" class="card-img-top"
                                     src="<?php echo $values->imagen;?>" style="width:100%">
                                 <h4 class="card-title titulosPrincipal font-weight-bold text-center mt-2">
                                     <?php echo $values->titulo;?></h4>
@@ -104,14 +104,14 @@ if(isset($_POST['delete'])){
                                         <form action="noticiasEdit.php" class="form-inline" method="post">
                                             <button type="submit" data-toggle="tooltip" title="Editar" name="edit"
                                                 value="<?php echo $values->id;?>" class="btn">
-                                                <i class="far fa-edit"></i></button>
+                                                <i class="far fa-edit"></i><spam class="sr-only">edit</spam></button>
                                         </form>
                                     </div>
                                     <div class="col-1 p-1">
 
                                         <a href="#a<?php echo $numeroModal;?>" data-toggle="modal"
                                             data-target="#noticia_<?php echo $numeroModal;?>"><button
-                                                data-toggle="tooltip" title="Eliminar" class="btn">
+                                                data-toggle="tooltip" title="Eliminar" class="btn"><spam class="sr-only">del</spam>
                                                 <i class="fas fa-trash-alt"></i>
                                             </button></a>
                                         <div class="modal" id="noticia_<?php echo $numeroModal;?>" role="dialog">
@@ -168,7 +168,7 @@ if(isset($_POST['delete'])){
                                         <div class="col-sm-6">
                                             <div class="titulosPrincipal font-weight-bold text-center">Añadir noticia
                                                 <a href="noticiasNueva.php"><button class="btn" data-toggle="tooltip" title="Añadir"><i
-                                                            class="far fa-plus-square"></i></button></a>
+                                                            class="far fa-plus-square"></i><spam class="sr-only">add</spam></button></a>
                                             </div>
                                         </div>
                                         <?php 
