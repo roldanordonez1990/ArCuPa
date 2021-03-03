@@ -193,7 +193,7 @@ a.icono {
   margin-bottom: 30px;
   font-weight: 800;
   font-size: 30px;
-  color: #25A1D1; }
+  color: #0054A5; }
 
 .login-sec h2:after {
   content: " ";
@@ -209,12 +209,13 @@ a.icono {
 .btn-login {
   background: #F5B41B;
   color: #1a1a1a;
-  font-weight: 600;
-  box-shadow: none !important; }
+  font-weight: 600; }
+
+.btn-login:focus {
+  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem black !important; }
 
 #input_login:focus {
-  border: none !important;
-  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem #f5b41b !important; }
+  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem black !important; }
 
 .btn-google {
   color: #0054A5;
