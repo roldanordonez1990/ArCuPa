@@ -51,7 +51,7 @@ $n = ControladorNoticias::buscarNoticia($_POST['edit']);
 }
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
     <?php include("includes/MetaTags.php");?>

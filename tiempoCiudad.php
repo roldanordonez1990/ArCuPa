@@ -21,7 +21,7 @@ $diasSemana = array("","Lunes","Martes","Miércoles","Jueves","Viernes","Sábado
 $varDaily = $prevision->daily;
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
     <?php include("includes/MetaTags.php"); ?>

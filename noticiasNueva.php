@@ -5,7 +5,7 @@ if(!isset($_SESSION['user_email_address'])){
 }
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
     <?php include("includes/MetaTags.php");?>

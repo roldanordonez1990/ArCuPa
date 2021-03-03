@@ -28,8 +28,8 @@ if (isset($_POST["enviar"])) {
 }
 
 ?>
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html >
+<html lang="es">
 
 <head>
     <?php include("includes/MetaTags.php");?>
@@ -73,14 +73,14 @@ if (isset($_POST["enviar"])) {
 
                         <form class="login-form needs-validation" action="" method="post" novalidate>
                             <div class="form-group" id="input_login">
-                                <label for="exampleInputEmail1" class="text-uppercase">Correo Electrónico</label>
-                                <input type="email" class="form-control" placeholder="" name="email" required>
+                                <label for="email" class="text-uppercase">Correo Electrónico</label>
+                                <input type="email" class="form-control" placeholder="Correo Electrónico" id="email" name="email" required>
                                 <div class="valid-feedback">Correcto</div>
                                 <div class="invalid-feedback">Por favor introduzca un usuario de tipo _@_.com</div>
                             </div>
                             <div class="form-group" id="input_login">
-                                <label for="exampleInputPassword1" class="text-uppercase">Contraseña</label>
-                                <input type="password" class="form-control" placeholder="" name="contraseña" required>
+                                <label for="contraseña" class="text-uppercase">Contraseña</label>
+                                <input type="password" class="form-control" placeholder="Contraseña" id="contraseña" name="contraseña" required>
                                 <div class="valid-feedback">Correcto</div>
                                     <div class="invalid-feedback">Por favor introduzca una contraseña</div>
                             </div>

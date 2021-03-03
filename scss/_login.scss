@@ -65,7 +65,7 @@
     margin-bottom: 30px;
     font-weight: 800;
     font-size: 30px;
-    color: $color2;
+    color: $color3;
 }
 .login-sec h2:after {
     content: " ";
@@ -82,11 +82,14 @@
     background: $color4;
     color:lighten($color: #000000, $amount: 10%) ;
     font-weight: 600;
-    box-shadow: none !important;
+    
+}
+.btn-login:focus{
+    box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgb(0, 0, 0) !important;
 }
 #input_login:focus {
-    border: none !important;
-    box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgb(245, 180, 27) !important;
+    //border: none !important;
+    box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgb(0, 0, 0) !important;
 }
 .btn-google {
     color: $color3;
