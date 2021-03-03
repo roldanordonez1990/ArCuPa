@@ -100,7 +100,7 @@
                 </ul>
             </li>-->
             <li class="nav-item dropdown pr-3"> 
-                <a class="nav-link dropdown-toggle colorLetra" id="dropdown06" data-toggle="dropdown">MAPAS</a>
+                <a href=""  class="nav-link dropdown-toggle colorLetra" id="dropdown06" data-toggle="dropdown">MAPAS</a>
                 <ul class="dropdown-menu backgroundcolor" aria-labelledby="dropdown06">
                     <a href="../precipitacion.php?a=precipitation_new" class="dropdown-item">PRECIPITACIONES</a>
                     <a href="../temperaturas.php?a=temp_new" class="dropdown-item">TEMPERATURAS</a>
@@ -110,7 +110,7 @@
                 </ul>
             </li>
             <li class="nav-item dropdown pr-3"> 
-                <a class="nav-link dropdown-toggle colorLetra" id="dropdown06" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><label>MULTIMEDIA</label></a>
+                <a href=""  class="nav-link dropdown-toggle colorLetra" id="dropdown06" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><label>MULTIMEDIA</label></a>
                 <ul class="dropdown-menu backgroundcolor" aria-labelledby="dropdown06">
                     <a href="../nubes.php" class="dropdown-item">NUBES Y CIELOS</a>
                     <a href="../paisajes.php" class="dropdown-item">PAISAJES</a>
@@ -118,7 +118,7 @@
                 </ul>
             </li>
             <li class="nav-item dropdown pr-3"> 
-                <a class="nav-link dropdown-toggle colorLetra" id="dropdown06" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><label>AVISOS</label></a>
+                <a href=""  class="nav-link dropdown-toggle colorLetra" id="dropdown06" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><label>AVISOS</label></a>
                 <ul class="dropdown-menu backgroundcolor" aria-labelledby="dropdown06">
                     <a href="../avisosNacionales.php" class="dropdown-item">NACIONALES</a>
                     <a href="../avisosccaa.php" class="dropdown-item">CCAA</a>
@@ -126,7 +126,7 @@
                 </ul>
             </li>
             <li class="nav-item dropdown pr-3"> 
-                <a class="nav-link dropdown-toggle colorLetra" id="dropdown06" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><label>NOTICIAS</label></a>
+                <a href="" class="nav-link dropdown-toggle colorLetra"><label>NOTICIAS</label></a>
                 <ul class="dropdown-menu backgroundcolor" aria-labelledby="dropdown06">
                     <a href="../noticiasNacionales.php" class="dropdown-item">NACIONALES</a>
                     <a href="../noticiasProvinciales.php" class="dropdown-item">PROVINCIALES</a>

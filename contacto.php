@@ -142,7 +142,7 @@
                                 </div>
                             </div>
 
-                            <a href="#" data-toggle="modal" data-target="#captcha">
+                            <a data-toggle="modal" data-target="#captcha">
                                 <button id="boton" class="float-right btn btn-login">Verificar</button>
 
 
@@ -194,7 +194,7 @@
                                                     <p class="error captchaColor">Incorrecto!</p>
                                                 </div>
                                                 <div class="row lg-6 d-flex justify-content-center">
-                                                    <img width="200px" height="80" src="captcha-img.php">
+                                                    <img width="200px" height="80" src="captcha-img.php" alt="captcha">
                                                 </div>
 
                                                 <input type="hidden" value="<?php echo $_SESSION['captchacode']; ?>"
@@ -202,7 +202,8 @@
                                             </div>
                                             <div class="modal-footer">
                                                 <div class="row ">
-                                                    <input type="text" style="width: 300px;" name="captchaclient">
+                                                    <label hidden for="captchaclient" class="visuallyhidden">Introduzca captcha</label>
+                                                    <input type="text" id="captchaclient" style="width: 300px;" name="captchaclient">
                                                 </div>
                                                 <input type="submit" class="btn btn-login" name="enviar" value="Enviar"
                                                     id="submitButton">

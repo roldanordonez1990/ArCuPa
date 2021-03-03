@@ -21,11 +21,11 @@
             <!-- Swiper -->
             <div class="swiper-container ">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide"><img src="../media/images/paisajes.jpg" /></div>
-                    <div class="swiper-slide"><img src="../media/images/ireland.jpg" /></div>
-                    <div class="swiper-slide"><img src="../media/images/sunset.jpg" /></div>
-                    <div class="swiper-slide"><img src="../media/images/clouds-2.jpg" /></div>
-                    <div class="swiper-slide"><img src="../media/images/sunset.jpg" /></div>
+                    <div class="swiper-slide"><img src="../media/images/paisajes.jpg" alt="bonito paisaje en pradera"/></div>
+                    <div class="swiper-slide"><img src="../media/images/ireland.jpg" alt="bonito sendero por la naturaleza" /></div>
+                    <div class="swiper-slide"><img src="../media/images/sunset.jpg" alt="atardecer"/></div>
+                    <div class="swiper-slide"><img src="../media/images/clouds-2.jpg" alt="por las alturas"/></div>
+                    <div class="swiper-slide"><img src="../media/images/sunset.jpg" alt="atardecer"/></div>
                 </div>
                 <!-- Add Pagination -->
                 <div class="swiper-pagination"></div>

@@ -1,68 +1,66 @@
-img { max-height: 100% }
+img {
+    max-height: 100%
+}
+
 .swiper-container {
-        width: 100%;
-        height: 400px;
-        padding-bottom: 3%;
+    width: 100%;
+    height: 400px;
+    padding-bottom: 3%;
+}
 
-    }
-    .swiper-slide {
-        text-align: center;
-        font-size: 18px;
-        background: #fff;
-        /* Center slide text vertically */
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: -webkit-flex;
-        display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        -webkit-justify-content: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        -webkit-align-items: center;
-        align-items: center;
-      /*width:90%;*/ 
-    }
-   
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    /*width:90%;*/
+}
 
-.carousel-indicators{
-  margin-left: 6%;
+.carousel-indicators {
+    margin-left: 6%;
 }
 
 #video-controls {
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	padding: 5px;
-	opacity: 0;
-	transition: opacity .3s;
-	background-color: #0054A5;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 5px;
+    opacity: 0;
+    transition: opacity .3s;
+    background-color: #013a70;
 }
 
 #video-container:hover #video-controls {
-	opacity: .9;
+    opacity: .9;
 }
 
-
-
 button {
-  color: #F5B41B;
-  background-color: #0054A5;
-  border: 0;
-
+    color: #F5B41B;
+    background-color: #013a70;
+    border: 0;
 }
 
 button:hover {
-	cursor: pointer;
+    cursor: pointer;
 }
 
 #seek-bar {
-  width: 400px;
+    width: 400px;
 }
 
 #volume-bar {
-	width: 100px;
+    width: 100px;
 }
-

@@ -407,14 +407,14 @@ img {
   padding: 5px;
   opacity: 0;
   transition: opacity .3s;
-  background-color: #0054A5; }
+  background-color: #013a70; }
 
 #video-container:hover #video-controls {
   opacity: .9; }
 
 button {
   color: #F5B41B;
-  background-color: #0054A5;
+  background-color: #013a70;
   border: 0; }
 
 button:hover {

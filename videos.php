@@ -28,11 +28,14 @@
 					</p>
 					</video>
 					<div id="video-controls" class="embed-resposive-item container">
-						<button type="button"id="play-pause" onclick="myFunction(this)"  class="fas fa-play" class="play"></button>
-						<input type="range" id="seek-bar" value="0">
-						<button type="button"onclick="sound(this)" class="fas fa-volume-up" id="mute"></button>
+						<label hidden for="play-pause" class="visuallyhidden">Play</label>
+						<button type="button" id="play-pause" onclick="myFunction(this)" class="fas fa-play" class="play"><span hidden class=”sr-only”>Play</span></button>
+						<label hidden for="seek-bar" class="visuallyhidden">Play</label>
+						<input type="range" id="seek-bar" value="0" for="seek-bar">
+						<button type="button"onclick="sound(this)" for="mute" class="fas fa-volume-up" id="mute" alt="volumen"><span hidden class=”sr-only”>Volumen</span></button>
+						<label hidden for="volume-bar" class="visuallyhidden">Volumen-bar</label>
 						<input type="range" id="volume-bar" min="0" max="1" step="0.1" value="1">
-						<button type="button" id="full-screen" class="fas fa-expand"></button>
+						<button type="button" id="full-screen" class="fas fa-expand"><span hidden class=”sr-only”>Pantalla completa</span></button>
 					</div>
 				</div>
 		
