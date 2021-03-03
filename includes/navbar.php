@@ -1,23 +1,27 @@
 <div class="alert text-center cookiealert" role="alert">
     <div class="row">
         <div class="col-sm-12 col-sm-10 ">
-            <p>Utilizamos cookies propias y de terceros con finalidades analíticas y para mostrarte publicidad relacionada con tus preferencias a partir de tus hábitos de navegación y tu perfil. Puedes configurar o rechazar las cookies haciendo click en “Configuración de cookies”. También puedes aceptar todas las cookies pulsando el botón “Aceptar todas las cookies”. Para más información puedes visitar nuestra <a class="noNeeded" href="../terminosLegales.php">Política de cookies</a></p>
+            <p>Utilizamos cookies propias y de terceros con finalidades analíticas y para mostrarte publicidad
+                relacionada con tus preferencias a partir de tus hábitos de navegación y tu perfil. Puedes configurar o
+                rechazar las cookies haciendo click en “Configuración de cookies”. También puedes aceptar todas las
+                cookies pulsando el botón “Aceptar todas las cookies”. Para más información puedes visitar nuestra <a
+                    class="noNeeded" href="../terminosLegales.php">Política de cookies</a></p>
         </div>
         <div class=" col-sm-12 col-sm-2 mt-3">
 
             <div class="row m-2 float-left">
 
-            <button type="button" class="btn btn-primary btn-sm acceptcookies" aria-label="Close">
-                Aceptar todo
-            </button>
+                <button type="button" class="btn btn-primary btn-sm acceptcookies" aria-label="Close">
+                    Aceptar todo
+                </button>
 
             </div>
 
             <div class="row m-2 float-right">
-    
-            <button id="rejectcookie" type="button" class="btn btn-danger btn-sm" aria-label="Close">
-                Rechazar
-            </button>
+
+                <button id="rejectcookie" type="button" class="btn btn-danger btn-sm" aria-label="Close">
+                    Rechazar
+                </button>
 
             </div>
         </div>
@@ -28,23 +32,23 @@
 <script src="../cookiealert.js"></script>
 
 <div class="modal" id="cerrarSesion" role="dialog">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title text-center">Cerrar Sesión</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <p>¿Quiere usted cerrar sesión en la página web?</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secundary" data-dismiss="modal">Cancelar</button>
-        <a href="./logout.php"><button type="button" class="btn btn-danger" >Cerrar Sesión</button></a>
-      </div>
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title text-center">Cerrar Sesión</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>¿Quiere usted cerrar sesión en la página web?</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secundary" data-dismiss="modal">Cancelar</button>
+                <a href="./logout.php"><button type="button" class="btn btn-danger">Cerrar Sesión</button></a>
+            </div>
+        </div>
     </div>
-  </div>
 </div>
 
 <nav class="navbar navbar-expand-md navbar-dark ">
@@ -62,9 +66,9 @@
             if  ($login_button == '')
             {
                 if(isset($_SESSION["user_image"])){
-                    echo '<a href="#" data-toggle="modal" data-target="#cerrarSesion"><img src="'.$_SESSION["user_image"].'" class="image-circle d-md-none"/></a>';
+                    echo '<a href="#" data-toggle="modal" data-target="#cerrarSesion"><img src="'.$_SESSION["user_image"].'" class="image-circle d-md-none" alt="ImagenUsuario"/></a>';
                 }else{
-                    echo '<a href="#" data-toggle="modal" data-target="#cerrarSesion"><img src="'.$_SESSION["imagenUsu"].'" class="image-circle d-md-none"/></a>';
+                    echo '<a href="#" data-toggle="modal" data-target="#cerrarSesion"><img src="'.$_SESSION["imagenUsu"].'" class="image-circle d-md-none" alt="ImagenUsuario"/></a>';
                 }
                 
             }
@@ -140,10 +144,10 @@
             if(isset($_SESSION["user_email_address"])){
             ?>
 
-                <li class="d-sm-block d-lg-none d-md-none nav-item dropdown pr-3"> <a class="nav-link colorLetra"
-                        href="../registro.php"><label>ADMINISTRAR USUARIOS</label></a>
-                </li>
-            
+            <li class="d-sm-block d-lg-none d-md-none nav-item dropdown pr-3"> <a class="nav-link colorLetra"
+                    href="../registro.php"><label>ADMINISTRAR USUARIOS</label></a>
+            </li>
+
             <?php
             }
             ?>
@@ -154,9 +158,11 @@
             <li class="nav-item dropdown d-md-none">
                 <form class="form-inline" action="tiempoCiudad.php" method="post">
                     <div class="input-group mb-3">
-                        <input class="form-control m-6" type="text" placeholder="Buscar" name="buscarCiudad">
+                        <label for="buscarCiudad2"><span hidden class=”sr-only”>Buscar Ciudad</span></label>
+                        <input class="form-control m-6" type="text" placeholder="Buscar" id="buscarCiudad2" name="buscarCiudad">
                         <div class="input-group-append">
-                            <button class="btn btn-login" type="submit" name="buscar"><i class="fas fa-search"></i></button>
+                            <button class="btn btn-login" type="submit" name="buscar"><i
+                                    class="fas fa-search"></i><span hidden class=”sr-only”>Buscar</span></button>
                         </div>
                     </div>
                 </form>
