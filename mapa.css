@@ -1,3028 +1,3028 @@
     body {
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    margin: 0
-}
-
-* {
-    position: relative
-}
-
-input {
-    -webkit-appearance: none;
-    -webkit-border-radius: 0;
-    border-radius: 0
-}
-
-select {
-    -webkit-border-radius: 0;
-    border-radius: 0
-}
-
-body {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif, Arial, Helvetica;
-    font-size: 14px;
-    color: #000;
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #136EAB), color-stop(1, #4A9DD4));
-    background-image: -o-linear-gradient(bottom, #136EAB 0%, #4A9DD4 100%);
-    background-image: -moz-linear-gradient(bottom, #136EAB 0%, #4A9DD4 100%);
-    background-image: -webkit-linear-gradient(bottom, #136EAB 0%, #4A9DD4 100%);
-    background-image: -ms-linear-gradient(bottom, #136EAB 0%, #4A9DD4 100%);
-    background-image: linear-gradient(to bottom, #136EAB 0%, #4A9DD4 100%)
-}
-
-h1,
-h2,
-h3,
-h4 {
-    padding: 0;
-    margin: 0
-}
-
-h1 {
-    font-size: 21px
-}
-
-input,
-select {
-    border: 1px solid #2c2c2c
-}
-
-input[type="button"],
-input[type="submit"],
-input[type="reset"] {
-    background: #47a7e7;
-    border: 1px solid #47a7e7;
-    color: #fff
-}
-
-input[type="button"]:hover,
-input[type="submit"]:hover,
-input[type="reset"]:hover {
-    background-color: #2c2c2c;
-    border-color: #2c2c2c
-}
-
-textarea {
-    resize: none
-}
-
-td.Left {
-    text-align: left
-}
-
-td.Center {
-    text-align: center
-}
-
-td.Right {
-    text-align: right
-}
-
-.u7012 {
-    background-position: 0 -630px
-}
-
-.u709n,
-.u703n,
-.u708n,
-.u7010n,
-.u7012n {
-    background-position: 0 -700px
-}
-
-.u7011,
-.u7026 {
-    background-position: 0 -770px
-}
-
-.u7018 {
-    background-position: 0 -840px
-}
-
-.u7019,
-.u7020,
-.u7027 {
-    background-position: 0 -910px
-}
-
-.u7021 {
-    background-position: 0 -980px
-}
-
-.u7021n {
-    background-position: 0 -1050px
-}
-
-.u7022,
-.u7023 {
-    background-position: 0 -1120px
-}
-
-.u7024 {
-    background-position: 0 -1190px
-}
-
-.u7025 {
-    background-position: 0 -1260px
-}
-
-.u7028 {
-    background-position: 0 -1330px
-}
-
-.u7029 {
-    background-position: 0 -1400px
-}
-
-.u7030,
-.u7031 {
-    background-position: 0 -1470px
-}
-
-.u7033 {
-    background-position: 0 -1540px
-}
-
-.u7033n {
-    background-position: 0 -1610px
-}
-
-.u7051 {
-    background-position: 0 -1680px
-}
-
-.u7051n {
-    background-position: 0 -1750px
-}
-
-.u7054 {
-    background-position: 0 -1820px
-}
-
-.u70nd {
-    background-position: 0 -1890px
-}
-
-.v-C,
-.v-N,
-.v-S,
-.v-E,
-.v-O,
-.v-W,
-.v-NE,
-.v-NNE,
-.v-ENE,
-.v-NO,
-.v-NW,
-.v-NNE,
-.v-WNW,
-.v-SE,
-.v-ESE,
-.v-SSE,
-.v-SO,
-.v-SSW,
-.v-SW,
-.v-WSW,
-.v-VRB {
-    display: block;
-    width: 20px;
-    height: 20px;
-    background: url(https://www.tutiempo.net/V5/i/wd/swd.png) left top no-repeat
-}
-
-.v-C {
-    background-position: 0 0
-}
-
-.v-N {
-    background-position: 0 -20px
-}
-
-.v-S {
-    background-position: 0 -40px
-}
-
-.v-E {
-    background-position: 0 -60px
-}
-
-.v-O,
-.v-W {
-    background-position: 0 -80px
-}
-
-.v-NE,
-.v-NNE,
-.v-ENE {
-    background-position: 0 -100px
-}
-
-.v-NO,
-.v-NW,
-.v-NNE,
-.v-WNW {
-    background-position: 0 -120px
-}
-
-.v-SE,
-.v-ESE,
-.v-SSE {
-    background-position: 0 -140px
-}
-
-.v-SO,
-.v-SSW,
-.v-SW,
-.v-WSW {
-    background-position: 0 -160px
-}
-
-.v-VRB {
-    background-position: 0 -180px
-}
-
-.ContBannerTop {
-    position: relative;
-    z-index: 10;
-    width: 100%;
-    min-height: 20px;
-    max-height: 300px;
-    max-width: 1069px;
-    margin: 0 auto;
-    display: block;
-    clear: both;
-    padding-bottom: 20px;
-    overflow: hidden;
-    background: #4095cd;
-}
-
-.MargenSuperior {
-    height: 55px
-}
-
-#Contenido {
-    background: #fff;
-    z-index: 10;
-    width: 100%;
-    min-width: 250px;
-    max-width: 1069px;
-    overflow: hidden;
-    margin: 0 auto;
-    display: block;
-    clear: both
-}
-
-#Contenido .Columnas {
-    background-color: #fff;
-    width: 100%;
-    padding-bottom: 20px
-}
-
-#ColumnaIzquierda {
-    margin-right: 330px;
-    overflow: hidden;
-    min-height: 700px
-}
-
-#ColumnaIzquierda .Bloque728 {
-    padding-left: 10px;
-    padding-top: 10px;
-    width: auto;
-    max-width: 728px;
-    clear: both
-}
-
-#ColumnaDerecha {
-    width: 320px;
-    background-color: #eef7fc;
-    border-left: 1px solid #cae6f8;
-    position: absolute;
-    right: 0;
-    top: 0;
-    padding-top: 10px
-}
-
-#ColumnaDerecha .Bloque300 {
-    width: 300px;
-    padding-left: 10px;
-    padding-right: 10px;
-    clear: both
-}
-
-#ColumnaDerecha .Bloque300.publi {
-    background-color: #fff
-}
-
-#ColumnaDerecha .Bloque300.bt1 {
-    border-top: 1px solid #cae6f8;
-    padding-top: 10px
-}
-
-#ColumnaDerecha .Bloque300.bb1 {
-    border-bottom: 1px solid #cae6f8;
-    padding-bottom: 10px
-}
-
-#Contenido .Columnas .LineColumnas {
-    position: absolute;
-    right: 320px;
-    width: 1px;
-    top: 0;
-    bottom: 0;
-    background: #cae6f8
-}
-
-#SearchTop {
-    background-color: #4095cd;
-    width: 100%;
-    max-width: 1069px;
-    margin: 0 auto;
-    display: block;
-    clear: both;
-    position: relative;
-    height: 58px;
-    z-index: 11
-}
-
-#SearchTop .FormularioBusqueda {
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
-    padding: 5px;
-    width: 362px;
-    height: 47px;
-    background: #e5f3fb;
-    border-bottom: 1px solid #cae6f8
-}
-
-#SearchTop ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    float: right
-}
-
-#SearchTop ul li {
-    float: left;
-    margin-right: 5px;
-    position: relative;
-    display: block;
-    width: 58px;
-    height: 58px;
-    margin-top: 5px;
-    cursor: pointer;
-    background-color: rgba(64, 64, 64, 0.4);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: auto 20px
-}
-
-#SearchTop ul li:hover,
-#SearchTop ul li.abierto {
-    margin-top: 0;
-    background-color: #404040;
-    background-size: 30px 30px
-}
-
-#SearchTop ul li.right {
-    width: 310px;
-    background: transparent;
-    cursor: auto
-}
-
-#SearchTop .SearchSocial {
-    height: 58px;
-    overflow: hidden
-}
-
-#ColumnaDerecha .BloqueTopBannerRight {
-    clear: both;
-    min-height: 60px
-}
-
-#ColumnaDerecha .freebanner {
-    display: block;
-    width: 150px;
-    height: 60px;
-    float: left;
-    overflow: hidden
-}
-
-#ColumnaDerecha .fasesbanner {
-    display: block;
-    width: 140px;
-    height: 60px;
-    float: left;
-    margin-left: 10px;
-    overflow: hidden
-}
-
-@media screen and (max-width: 800px) and (min-width: 701px) {
-    #ColumnaDerecha .freebanner {
-        display: block;
-        width: 120px;
-        height: 48px
-    }
-    #ColumnaDerecha .freebanner img {
-        width: 120px;
-        height: 48px
-    }
-    #ColumnaDerecha .fasesbanner {
-        width: 120px;
-        margin-left: 0;
-        margin-top: 5px
-    }
-    #ColumnaDerecha .BloqueTopBannerRight {
-        clear: both;
-        min-height: 108px
-    }
-}
-
-@media screen and (min-width:1500px) {
-    #ColumnaDerecha .fasesbanner {
-        width: 176px
-    }
-}
-
-@media screen and (min-width:801px) and (max-width:900px) {
-    #ColumnaDerecha .fasesbanner {
-        width: 95px;
-        margin-left: 5px
-    }
-    #ColumnaIzquierda {
-        margin-right: 270px
-    }
-    #ColumnaDerecha {
-        width: 260px
-    }
-    #ColumnaDerecha .Bloque300 {
-        padding-left: 5px;
-        padding-right: 5px;
-        width: 250px
-    }
-    #ColumnaDerecha .Bloque300.bt1 {
-        padding-top: 5px
-    }
-    #ColumnaDerecha .Bloque300.bb1 {
-        padding-bottom: 5px
-    }
-    #Contenido .Columnas .LineColumnas {
-        right: 260px
-    }
-}
-
-@media screen and (min-width:701px) and (max-width:800px) {
-    #ColumnaIzquierda {
-        margin-right: 140px
-    }
-    #ColumnaDerecha {
-        width: 130px;
-        padding-top: 5px
-    }
-    #ColumnaDerecha .Bloque300 {
-        padding-left: 5px;
-        padding-right: 5px;
-        width: 120px
-    }
-    #ColumnaDerecha .Bloque300.bt1 {
-        padding-top: 5px
-    }
-    #ColumnaDerecha .Bloque300.bb1 {
-        padding-bottom: 5px
-    }
-    #Contenido .Columnas .LineColumnas {
-        right: 130px
-    }
-}
-
-@media screen and (min-width:200px) and (max-width:700px) {
-    #ColumnaIzquierda .Bloque728 {
-        padding: 5px
-    }
-    #ColumnaIzquierda {
-        margin: 0;
-        min-height: auto
-    }
-    #ColumnaDerecha {
-        position: relative;
         width: 100%;
-        margin-top: 7px;
-        border-top: 5px solid #47a7e7;
-        padding-top: 5px
+        height: 100%;
+        padding: 0;
+        margin: 0
     }
-    #ColumnaDerecha .Bloque300 {
+    
+    * {
+        position: relative
+    }
+    
+    input {
+        -webkit-appearance: none;
+        -webkit-border-radius: 0;
+        border-radius: 0
+    }
+    
+    select {
+        -webkit-border-radius: 0;
+        border-radius: 0
+    }
+    
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif, Arial, Helvetica;
+        font-size: 14px;
+        color: #000;
+        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #136EAB), color-stop(1, #4A9DD4));
+        background-image: -o-linear-gradient(bottom, #136EAB 0%, #4A9DD4 100%);
+        background-image: -moz-linear-gradient(bottom, #136EAB 0%, #4A9DD4 100%);
+        background-image: -webkit-linear-gradient(bottom, #136EAB 0%, #4A9DD4 100%);
+        background-image: -ms-linear-gradient(bottom, #136EAB 0%, #4A9DD4 100%);
+        background-image: linear-gradient(to bottom, #136EAB 0%, #4A9DD4 100%)
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4 {
+        padding: 0;
+        margin: 0
+    }
+    
+    h1 {
+        font-size: 21px
+    }
+    
+    input,
+    select {
+        border: 1px solid #2c2c2c
+    }
+    
+    input[type="button"],
+    input[type="submit"],
+    input[type="reset"] {
+        background: #47a7e7;
+        border: 1px solid #47a7e7;
+        color: #fff
+    }
+    
+    input[type="button"]:hover,
+    input[type="submit"]:hover,
+    input[type="reset"]:hover {
+        background-color: #2c2c2c;
+        border-color: #2c2c2c
+    }
+    
+    textarea {
+        resize: none
+    }
+    
+    td.Left {
+        text-align: left
+    }
+    
+    td.Center {
+        text-align: center
+    }
+    
+    td.Right {
+        text-align: right
+    }
+    
+    .u7012 {
+        background-position: 0 -630px
+    }
+    
+    .u709n,
+    .u703n,
+    .u708n,
+    .u7010n,
+    .u7012n {
+        background-position: 0 -700px
+    }
+    
+    .u7011,
+    .u7026 {
+        background-position: 0 -770px
+    }
+    
+    .u7018 {
+        background-position: 0 -840px
+    }
+    
+    .u7019,
+    .u7020,
+    .u7027 {
+        background-position: 0 -910px
+    }
+    
+    .u7021 {
+        background-position: 0 -980px
+    }
+    
+    .u7021n {
+        background-position: 0 -1050px
+    }
+    
+    .u7022,
+    .u7023 {
+        background-position: 0 -1120px
+    }
+    
+    .u7024 {
+        background-position: 0 -1190px
+    }
+    
+    .u7025 {
+        background-position: 0 -1260px
+    }
+    
+    .u7028 {
+        background-position: 0 -1330px
+    }
+    
+    .u7029 {
+        background-position: 0 -1400px
+    }
+    
+    .u7030,
+    .u7031 {
+        background-position: 0 -1470px
+    }
+    
+    .u7033 {
+        background-position: 0 -1540px
+    }
+    
+    .u7033n {
+        background-position: 0 -1610px
+    }
+    
+    .u7051 {
+        background-position: 0 -1680px
+    }
+    
+    .u7051n {
+        background-position: 0 -1750px
+    }
+    
+    .u7054 {
+        background-position: 0 -1820px
+    }
+    
+    .u70nd {
+        background-position: 0 -1890px
+    }
+    
+    .v-C,
+    .v-N,
+    .v-S,
+    .v-E,
+    .v-O,
+    .v-W,
+    .v-NE,
+    .v-NNE,
+    .v-ENE,
+    .v-NO,
+    .v-NW,
+    .v-NNE,
+    .v-WNW,
+    .v-SE,
+    .v-ESE,
+    .v-SSE,
+    .v-SO,
+    .v-SSW,
+    .v-SW,
+    .v-WSW,
+    .v-VRB {
+        display: block;
+        width: 20px;
+        height: 20px;
+        background: url(https://www.tutiempo.net/V5/i/wd/swd.png) left top no-repeat
+    }
+    
+    .v-C {
+        background-position: 0 0
+    }
+    
+    .v-N {
+        background-position: 0 -20px
+    }
+    
+    .v-S {
+        background-position: 0 -40px
+    }
+    
+    .v-E {
+        background-position: 0 -60px
+    }
+    
+    .v-O,
+    .v-W {
+        background-position: 0 -80px
+    }
+    
+    .v-NE,
+    .v-NNE,
+    .v-ENE {
+        background-position: 0 -100px
+    }
+    
+    .v-NO,
+    .v-NW,
+    .v-NNE,
+    .v-WNW {
+        background-position: 0 -120px
+    }
+    
+    .v-SE,
+    .v-ESE,
+    .v-SSE {
+        background-position: 0 -140px
+    }
+    
+    .v-SO,
+    .v-SSW,
+    .v-SW,
+    .v-WSW {
+        background-position: 0 -160px
+    }
+    
+    .v-VRB {
+        background-position: 0 -180px
+    }
+    
+    .ContBannerTop {
+        position: relative;
+        z-index: 10;
+        width: 100%;
+        min-height: 20px;
+        max-height: 300px;
+        max-width: 1069px;
+        margin: 0 auto;
+        display: block;
+        clear: both;
+        padding-bottom: 20px;
+        overflow: hidden;
+        background: #4095cd;
+    }
+    
+    .MargenSuperior {
+        height: 55px
+    }
+    
+    #Contenido {
+        background: #fff;
+        z-index: 10;
+        width: 100%;
+        min-width: 250px;
+        max-width: 1069px;
+        overflow: hidden;
+        margin: 0 auto;
+        display: block;
+        clear: both
+    }
+    
+    #Contenido .Columnas {
+        background-color: #fff;
+        width: 100%;
+        padding-bottom: 20px
+    }
+    
+    #ColumnaIzquierda {
+        margin-right: 330px;
+        overflow: hidden;
+        min-height: 700px
+    }
+    
+    #ColumnaIzquierda .Bloque728 {
+        padding-left: 10px;
+        padding-top: 10px;
         width: auto;
-        padding-left: 5px;
-        padding-right: 5px
+        max-width: 728px;
+        clear: both
     }
+    
+    #ColumnaDerecha {
+        width: 320px;
+        background-color: #eef7fc;
+        border-left: 1px solid #cae6f8;
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding-top: 10px
+    }
+    
+    #ColumnaDerecha .Bloque300 {
+        width: 300px;
+        padding-left: 10px;
+        padding-right: 10px;
+        clear: both
+    }
+    
+    #ColumnaDerecha .Bloque300.publi {
+        background-color: #fff
+    }
+    
     #ColumnaDerecha .Bloque300.bt1 {
-        padding-top: 5px
+        border-top: 1px solid #cae6f8;
+        padding-top: 10px
     }
+    
     #ColumnaDerecha .Bloque300.bb1 {
-        padding-bottom: 5px
+        border-bottom: 1px solid #cae6f8;
+        padding-bottom: 10px
     }
+    
     #Contenido .Columnas .LineColumnas {
-        display: none
+        position: absolute;
+        right: 320px;
+        width: 1px;
+        top: 0;
+        bottom: 0;
+        background: #cae6f8
     }
-}
-
-#VentanaAlert {
-    position: fixed;
-    padding: 8px;
-    top: 0;
-    left: 50%;
-    z-index: 60000;
-    width: 300px;
-    margin-left: -150px;
-    background: red;
-    color: #fff;
-    font-weight: 700;
-    display: none;
-    -webkit-border-bottom-right-radius: 8px;
-    -webkit-border-bottom-left-radius: 8px;
-    -moz-border-radius-bottomright: 8px;
-    -moz-border-radius-bottomleft: 8px;
-    border-bottom-right-radius: 8px;
-    border-bottom-left-radius: 8px
-}
-
-#ResultadosBusquedaPrincipal {
-    display: none;
-    position: absolute;
-    left: 10px;
-    top: 46px;
-    z-index: 100;
-    min-width: 310px;
-    min-height: 50px;
-    background: #fff;
-    border: 1px solid #6cb9eb
-}
-
-#ResultadosBusquedaPrincipal #ResultadosBusquedaPrincipal #TopRightBar .ConfigTop.abierto {
-    background-color: #44a6e6
-}
-
-#TopRightBar .LangTop {
-    display: block;
-    -webkit-filter: grayscale(100%);
-    filter: gray;
-    float: right;
-    width: 45px;
-    height: 45px;
-    border-left: 1px solid #6a6a6a;
-    cursor: pointer;
-    background-repeat: no-repeat;
-    background-position: 50% 50%
-}
-
-#TopRightBar .LangTop:hover,
-#TopRightBar .LangTop.abierto {
-    background-color: #44a6e6;
-    filter: none;
-    opacity: 1;
-    filter: alpha(opacity=100)
-}
-
-#TopRightBar .ShareCall {
-    display: block;
-    float: right;
-    width: 45px;
-    height: 45px;
-    border-left: 1px solid #6a6a6a;
-    background-color: #c03e33;
-    background-size: 24px 24px;
-    cursor: pointer;
-    background-repeat: no-repeat;
-    background-position: 50% 50%
-}
-
-#TopRightBar .ShareCall:hover,
-#TopRightBar .ShareCall.abierto {
-    background-color: #44a6e6
-}
-
-#TopRightBar .GeoPosicionar {
-    display: none;
-    float: right;
-    width: 45px;
-    height: 45px;
-    border-left: 1px solid #6a6a6a;
-    background-size: 24px 24px;
-    cursor: pointer;
-    background-repeat: no-repeat;
-    background-position: 50% 50%
-}
-
-#TopRightBar .GeoPosicionar:hover {
-    background-color: #44a6e6
-}
-
-#SearchPanel {
-    position: fixed;
-    z-index: 1113;
-    background: rgba(0, 0, 0, 0.9);
-    display: none;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    width: 90%;
-    min-width: 250px;
-    max-width: 350px
-}
-
-#SearchPanel.abierto {
-    display: block
-}
-
-#SearchPanel .closepanel {
-    color: #fff;
-    position: absolute;
-    z-index: 3;
-    left: 10px;
-    cursor: pointer;
-    top: 5px;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    font-size: 48px;
-    text-decoration: none
-}
-
-#SearchPanel .resultadosbusqueda {
-    color: #fff;
-    overflow-y: auto;
-    position: absolute;
-    left: 0;
-    top: 46px;
-    right: 0;
-    bottom: 0
-}
-
-#SearchPanel span.titulo {
-    position: absolute;
-    left: 55px;
-    top: 5px;
-    height: 40px;
-    line-height: 40px;
-    color: #9a9da0;
-    font-size: 25px
-}
-
-.resultadosbusqueda {
-    padding-top: 1px;
-    font-size: 16px
-}
-
-.resultadosbusqueda .CajaBusquedaLateral .enviar {
-    display: none
-}
-
-.CajaBusquedaLateral .cleartext {
-    position: absolute;
-    right: 0;
-    top: 1px;
-    width: 40px;
-    height: 35px;
-    cursor: pointer;
-    color: #999;
-    line-height: 40px;
-    font-size: 30px;
-    text-align: center;
-    opacity: .6
-}
-
-.CajaBusquedaLateral .cleartext:hover {
-    opacity: 1
-}
-
-#RightPanelMulti {
-    position: fixed;
-    z-index: 1115;
-    background: rgba(0, 0, 0, 0.9);
-    display: none;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    width: 90%;
-    min-width: 250px;
-    max-width: 450px
-}
-
-#RightPanelMulti.abierto {
-    display: block
-}
-
-#RightPanelMulti .closepanel {
-    color: #fff;
-    position: absolute;
-    z-index: 3;
-    left: 10px;
-    cursor: pointer;
-    top: 5px;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    font-size: 48px;
-    text-decoration: none
-}
-
-#RightPanelMulti .contenidoPanel {
-    color: #fff;
-    overflow-y: auto;
-    position: absolute;
-    left: 0;
-    top: 46px;
-    right: 0;
-    bottom: 0;
-    padding: 5px
-}
-
-#RightPanelMulti span.titulo {
-    position: absolute;
-    left: 55px;
-    top: 5px;
-    height: 40px;
-    line-height: 40px;
-    color: #9a9da0;
-    font-size: 25px
-}
-
-#RightPanelMulti ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    width: 100%
-}
-
-#RightPanelMulti ul li {
-    display: block;
-    width: 100%;
-    cursor: pointer;
-    border-bottom: 1px solid #ccc
-}
-
-#RightPanelMulti ul li:first-child {
-    border-top: 1px solid #ccc
-}
-
-#RightPanelMulti ul li a {
-    display: block;
-    color: #fff;
-    font-size: 17px;
-    padding: 5px 0
-}
-
-#RightPanelMulti ul li a:hover {
-    background: #000
-}
-
-#RightPanelMulti ul li a span {
-    display: block;
-    color: #ccc
-}
-
-.bandera.es {
-    background-image: url(https://oc.tutiempo.net/i/css/bandera-es.png)
-}
-
-.bandera.en {
-    background-image: url(https://oc.tutiempo.net/i/css/bandera-en.png)
-}
-
-.bandera.fr {
-    background-image: url(https://oc.tutiempo.net/i/css/bandera-fr.png)
-}
-
-.bandera.pt {
-    background-image: url(https://oc.tutiempo.net/i/css/bandera-pt.png)
-}
-
-.bandera.de {
-    background-image: url(https://oc.tutiempo.net/i/css/bandera-de.png)
-}
-
-.bandera.it {
-    background-image: url(https://oc.tutiempo.net/i/css/bandera-it.png)
-}
-
-#SelectorIdioma {
-    position: fixed;
-    right: 0;
-    top: 45px;
-    background: rgba(0, 0, 0, 0.8);
-    border-top: 3px solid #44a6e6;
-    display: none;
-    z-index: 12;
-    color: #fff;
-    padding: 0
-}
-
-#SelectorIdioma.abierto {
-    display: block
-}
-
-#SelectorIdioma ul {
-    margin: 0;
-    padding: 0;
-    margin: 0;
-    list-style: none
-}
-
-#SelectorIdioma ul li {
-    margin: 0;
-    padding: 0;
-    border-right: 1px dotted #fff;
-    float: left
-}
-
-#SelectorIdioma ul li:last-child {
-    border: 0
-}
-
-#SelectorIdioma a {
-    display: block;
-    text-align: center;
-    padding-top: 35px;
-    line-height: 25px;
-    width: 50px;
-    color: #fff;
-    background-repeat: no-repeat;
-    background-position: 50% 10px
-}
-
-#SelectorIdioma a:hover {
-    background-color: #000
-}
-
-#ShareBox {
-    position: fixed;
-    z-index: 12;
-    display: none;
-    right: 0;
-    top: 45px;
-    background: #44a6e6;
-    overflow: hidden;
-    border-radius: 0 0 0 5px;
-    -moz-border-radius: 0 0 0 5px;
-    -webkit-border-radius: 0 0 0 5px
-}
-
-#ShareBox.abierto {
-    display: block
-}
-
-#ShareBox ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    float: right
-}
-
-#ShareBox ul li {
-    margin: 0;
-    padding: 0;
-    position: relative;
-    display: block
-}
-
-#ShareBox a {
-    display: block;
-    background-repeat: no-repeat;
-    background-position: 10px 50%;
-    line-height: 45px;
-    padding-left: 50px;
-    background-size: 25px 25px;
-    padding-right: 40px;
-    color: #fff;
-    font-size: 18px;
-    font-weight: 700
-}
-
-#ShareBox a:hover {
-    background-color: #2d9be3
-}
-
-#Opciones {
-    position: fixed;
-    right: 0;
-    top: 45px;
-    background: #000;
-    border-top: 3px solid #44a6e6;
-    display: none;
-    z-index: 12;
-    color: #fff;
-    padding: 10px;
-    border-radius: 0 0 0 5px;
-    -moz-border-radius: 0 0 0 5px;
-    -webkit-border-radius: 0 0 0 5px
-}
-
-#Opciones.abierto {
-    display: block
-}
-
-#Opciones div {
-    white-space: nowrap;
-    clear: both;
-    height: 36px;
-    line-height: 36px;
-    margin-top: 5px
-}
-
-#Opciones div:first-child {
-    margin-top: 0
-}
-
-#Opciones input {
-    float: left
-}
-
-#Opciones label {
-    float: left;
-    margin-left: 10px
-}
-
-#Opciones input[type=checkbox] {
-    cursor: pointer;
-    display: block;
-    width: 30px;
-    height: 30px;
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    border-radius: 2px;
-    background-color: #44a6e6;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: 0 0
-}
-
-#Opciones input[type=checkbox]:checked {
-    background-size: auto 20px
-}
-
-#Opciones input[type=radio] {
-    cursor: pointer;
-    display: block;
-    width: 30px;
-    height: 30px;
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    border-radius: 2px;
-    background-color: #44a6e6;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: 0 0
-}
-
-#Opciones input[type=radio]:checked {
-    background-size: auto 20px
-}
-
-#Opciones label.bigg {
-    font-size: 24px;
-    font-weight: 700
-}
-
-#Opciones label.mr20 {
-    margin-right: 20px
-}
-
-.Busqueda {
-    width: 350px;
-    padding: 1px;
-    margin: 5px;
-    background: #6cb9eb
-}
-
-.Busqueda input {
-    width: 300px;
-    height: 25px;
-    padding: 5px;
-    float: left;
-    font-size: 15px;
-    font-weight: 700;
-    border: 0;
-    background: #fff
-}
-
-.Busqueda input:focus {
-    outline: 0;
-    background: #fff
-}
-
-.Busqueda input::-webkit-input-placeholder {
-    color: #999;
-    font-weight: 400
-}
-
-.Busqueda input:-moz-placeholder {
-    color: #999
-}
-
-.Busqueda input:-ms-input-placeholder {
-    color: #999;
-    font-weight: 400
-}
-
-.Busqueda button {
-    overflow: visible;
-    float: right;
-    border: 0;
-    padding: 0;
-    cursor: pointer;
-    height: 35px;
-    width: 40px;
-    font-size: 18px;
-    color: #fff;
-    background: #1b86cd url(https://oc.tutiempo.net/i/css/lupa-min.png) no-repeat 50% 50%;
-    text-indent: -10000px
-}
-
-.Busqueda button:hover {
-    background-color: #1772ae
-}
-
-.Busqueda button:active,
-.Busqueda button:focus {
-    background-color: #000;
-    outline: 0
-}
-
-.Busqueda button:before {
-    content: '';
-    position: absolute;
-    border-width: 8px 8px 8px 0;
-    border-style: solid solid solid none;
-    border-color: transparent #1b86cd;
-    top: 10px;
-    left: -6px
-}
-
-.Busqueda button:hover:before {
-    border-right-color: #1772ae
-}
-
-.Busqueda button:focus:before {
-    border-right-color: #000
-}
-
-.Busqueda button::-moz-focus-inner {
-    border: 0;
-    padding: 0
-}
-
-.cf:before,
-.cf:after {
-    content: "";
-    display: table
-}
-
-.cf:after {
-    clear: both
-}
-
-.cf {
-    zoom: 1
-}
-
-.NavMenuBG {
-    position: fixed;
-    left: 0;
-    top: 0;
-    right: 0;
-    z-index: 199;
-    height: 45px;
-    background: rgba(0, 0, 0, 0.8)
-}
-
-.NavMenufijo {
-    display: block;
-    width: 100%;
-    max-width: 1069px;
-    margin: 0 auto;
-    height: 45px;
-    z-index: 1000
-}
-
-.NavMenufijo ul {
-    margin: 0;
-    padding: 0;
-    list-style: none
-}
-
-.NavMenufijo ul li {
-    float: left
-}
-
-.NavMenufijo li.GeoPosicionar {
-    width: 55px;
-    height: 45px;
-    background-color: #1b86cd;
-    border: 0;
-    cursor: pointer;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: 24px 24px
-}
-
-.NavMenufijo li.GeoPosicionar:hover {
-    background-color: #9cd22b
-}
-
-.NavMenufijo li.SearcIconTop {
-    display: none;
-    width: 55px;
-    height: 45px;
-    background-color: #1b86cd;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    border: 0;
-    cursor: pointer;
-    background-size: 24px 24px
-}
-
-.NavMenufijo li.SearcIconTop:hover {
-    background-color: #9cd22b
-}
-
-#UrlTop {
-    background: #fff;
-    border-bottom: 1px solid #cae6f8;
-    width: 100%;
-    position: relative;
-    clear: both;
-    white-space: nowrap;
-    overflow: hidden
-}
-
-#UrlTop .topurl {
-    white-space: nowrap;
-    line-height: 30px;
-    height: 30px;
-    overflow: hidden
-}
-
-#UrlTop ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    width: 100%
-}
-
-#UrlTop td {
-    height: 30px;
-    line-height: 30px;
-    color: gray
-}
-
-#UrlTop td:before {
-    margin: 5px;
-    content: "\00bb"
-}
-
-#UrlTop td.home a {
-    display: block;
-    background: url(https://oc.tutiempo.net/i/css/home.png) no-repeat left 50%;
-    text-indent: -10000px;
-    width: 15px;
-    margin-left: 10px
-}
-
-#UrlTop td.home:before {
-    margin: 0;
-    content: ""
-}
-
-#UrlTop td a {
-    display: inline-block;
-    height: 30px;
-    line-height: 30px
-}
-
-#UrlTop td h1,
-#UrlTop td h2,
-#UrlTop td span {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    font-size: 14px;
-    font-weight: 400
-}
-
-#UrlTop td:last-child {
-    padding-right: 10px
-}
-
-#UrlTop .topurl .indscleft {
-    background-color: rgba(71, 167, 231, 0.4);
-    width: 23px;
-    height: 30px
-}
-
-#UrlTop .topurl .indscright {
-    background-color: rgba(71, 167, 231, 0.4);
-    width: 23px;
-    height: 30px
-}
-
-@media screen and (max-width:991px) {
-    #UrlTop .topurl {
-        line-height: 36px;
-        height: 36px;
+    
+    #SearchTop {
+        background-color: #4095cd;
+        width: 100%;
+        max-width: 1069px;
+        margin: 0 auto;
+        display: block;
+        clear: both;
+        position: relative;
+        height: 58px;
+        z-index: 11
+    }
+    
+    #SearchTop .FormularioBusqueda {
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        padding: 5px;
+        width: 362px;
+        height: 47px;
+        background: #e5f3fb;
+        border-bottom: 1px solid #cae6f8
+    }
+    
+    #SearchTop ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        float: right
+    }
+    
+    #SearchTop ul li {
+        float: left;
+        margin-right: 5px;
+        position: relative;
+        display: block;
+        width: 58px;
+        height: 58px;
+        margin-top: 5px;
+        cursor: pointer;
+        background-color: rgba(64, 64, 64, 0.4);
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: auto 20px
+    }
+    
+    #SearchTop ul li:hover,
+    #SearchTop ul li.abierto {
+        margin-top: 0;
+        background-color: #404040;
+        background-size: 30px 30px
+    }
+    
+    #SearchTop ul li.right {
+        width: 310px;
+        background: transparent;
+        cursor: auto
+    }
+    
+    #SearchTop .SearchSocial {
+        height: 58px;
         overflow: hidden
     }
-    #UrlTop td {
-        margin-left: 5px;
-        border-left: 1px solid #cae6f8;
-        height: 36px;
-        line-height: 36px
+    
+    #ColumnaDerecha .BloqueTopBannerRight {
+        clear: both;
+        min-height: 60px
     }
+    
+    #ColumnaDerecha .freebanner {
+        display: block;
+        width: 150px;
+        height: 60px;
+        float: left;
+        overflow: hidden
+    }
+    
+    #ColumnaDerecha .fasesbanner {
+        display: block;
+        width: 140px;
+        height: 60px;
+        float: left;
+        margin-left: 10px;
+        overflow: hidden
+    }
+    
+    @media screen and (max-width: 800px) and (min-width: 701px) {
+        #ColumnaDerecha .freebanner {
+            display: block;
+            width: 120px;
+            height: 48px
+        }
+        #ColumnaDerecha .freebanner img {
+            width: 120px;
+            height: 48px
+        }
+        #ColumnaDerecha .fasesbanner {
+            width: 120px;
+            margin-left: 0;
+            margin-top: 5px
+        }
+        #ColumnaDerecha .BloqueTopBannerRight {
+            clear: both;
+            min-height: 108px
+        }
+    }
+    
+    @media screen and (min-width:1500px) {
+        #ColumnaDerecha .fasesbanner {
+            width: 176px
+        }
+    }
+    
+    @media screen and (min-width:801px) and (max-width:900px) {
+        #ColumnaDerecha .fasesbanner {
+            width: 95px;
+            margin-left: 5px
+        }
+        #ColumnaIzquierda {
+            margin-right: 270px
+        }
+        #ColumnaDerecha {
+            width: 260px
+        }
+        #ColumnaDerecha .Bloque300 {
+            padding-left: 5px;
+            padding-right: 5px;
+            width: 250px
+        }
+        #ColumnaDerecha .Bloque300.bt1 {
+            padding-top: 5px
+        }
+        #ColumnaDerecha .Bloque300.bb1 {
+            padding-bottom: 5px
+        }
+        #Contenido .Columnas .LineColumnas {
+            right: 260px
+        }
+    }
+    
+    @media screen and (min-width:701px) and (max-width:800px) {
+        #ColumnaIzquierda {
+            margin-right: 140px
+        }
+        #ColumnaDerecha {
+            width: 130px;
+            padding-top: 5px
+        }
+        #ColumnaDerecha .Bloque300 {
+            padding-left: 5px;
+            padding-right: 5px;
+            width: 120px
+        }
+        #ColumnaDerecha .Bloque300.bt1 {
+            padding-top: 5px
+        }
+        #ColumnaDerecha .Bloque300.bb1 {
+            padding-bottom: 5px
+        }
+        #Contenido .Columnas .LineColumnas {
+            right: 130px
+        }
+    }
+    
+    @media screen and (min-width:200px) and (max-width:700px) {
+        #ColumnaIzquierda .Bloque728 {
+            padding: 5px
+        }
+        #ColumnaIzquierda {
+            margin: 0;
+            min-height: auto
+        }
+        #ColumnaDerecha {
+            position: relative;
+            width: 100%;
+            margin-top: 7px;
+            border-top: 5px solid #47a7e7;
+            padding-top: 5px
+        }
+        #ColumnaDerecha .Bloque300 {
+            width: auto;
+            padding-left: 5px;
+            padding-right: 5px
+        }
+        #ColumnaDerecha .Bloque300.bt1 {
+            padding-top: 5px
+        }
+        #ColumnaDerecha .Bloque300.bb1 {
+            padding-bottom: 5px
+        }
+        #Contenido .Columnas .LineColumnas {
+            display: none
+        }
+    }
+    
+    #VentanaAlert {
+        position: fixed;
+        padding: 8px;
+        top: 0;
+        left: 50%;
+        z-index: 60000;
+        width: 300px;
+        margin-left: -150px;
+        background: red;
+        color: #fff;
+        font-weight: 700;
+        display: none;
+        -webkit-border-bottom-right-radius: 8px;
+        -webkit-border-bottom-left-radius: 8px;
+        -moz-border-radius-bottomright: 8px;
+        -moz-border-radius-bottomleft: 8px;
+        border-bottom-right-radius: 8px;
+        border-bottom-left-radius: 8px
+    }
+    
+    #ResultadosBusquedaPrincipal {
+        display: none;
+        position: absolute;
+        left: 10px;
+        top: 46px;
+        z-index: 100;
+        min-width: 310px;
+        min-height: 50px;
+        background: #fff;
+        border: 1px solid #6cb9eb
+    }
+    
+    #ResultadosBusquedaPrincipal #ResultadosBusquedaPrincipal #TopRightBar .ConfigTop.abierto {
+        background-color: #44a6e6
+    }
+    
+    #TopRightBar .LangTop {
+        display: block;
+        -webkit-filter: grayscale(100%);
+        filter: gray;
+        float: right;
+        width: 45px;
+        height: 45px;
+        border-left: 1px solid #6a6a6a;
+        cursor: pointer;
+        background-repeat: no-repeat;
+        background-position: 50% 50%
+    }
+    
+    #TopRightBar .LangTop:hover,
+    #TopRightBar .LangTop.abierto {
+        background-color: #44a6e6;
+        filter: none;
+        opacity: 1;
+        filter: alpha(opacity=100)
+    }
+    
+    #TopRightBar .ShareCall {
+        display: block;
+        float: right;
+        width: 45px;
+        height: 45px;
+        border-left: 1px solid #6a6a6a;
+        background-color: #c03e33;
+        background-size: 24px 24px;
+        cursor: pointer;
+        background-repeat: no-repeat;
+        background-position: 50% 50%
+    }
+    
+    #TopRightBar .ShareCall:hover,
+    #TopRightBar .ShareCall.abierto {
+        background-color: #44a6e6
+    }
+    
+    #TopRightBar .GeoPosicionar {
+        display: none;
+        float: right;
+        width: 45px;
+        height: 45px;
+        border-left: 1px solid #6a6a6a;
+        background-size: 24px 24px;
+        cursor: pointer;
+        background-repeat: no-repeat;
+        background-position: 50% 50%
+    }
+    
+    #TopRightBar .GeoPosicionar:hover {
+        background-color: #44a6e6
+    }
+    
+    #SearchPanel {
+        position: fixed;
+        z-index: 1113;
+        background: rgba(0, 0, 0, 0.9);
+        display: none;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 90%;
+        min-width: 250px;
+        max-width: 350px
+    }
+    
+    #SearchPanel.abierto {
+        display: block
+    }
+    
+    #SearchPanel .closepanel {
+        color: #fff;
+        position: absolute;
+        z-index: 3;
+        left: 10px;
+        cursor: pointer;
+        top: 5px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 48px;
+        text-decoration: none
+    }
+    
+    #SearchPanel .resultadosbusqueda {
+        color: #fff;
+        overflow-y: auto;
+        position: absolute;
+        left: 0;
+        top: 46px;
+        right: 0;
+        bottom: 0
+    }
+    
+    #SearchPanel span.titulo {
+        position: absolute;
+        left: 55px;
+        top: 5px;
+        height: 40px;
+        line-height: 40px;
+        color: #9a9da0;
+        font-size: 25px
+    }
+    
+    .resultadosbusqueda {
+        padding-top: 1px;
+        font-size: 16px
+    }
+    
+    .resultadosbusqueda .CajaBusquedaLateral .enviar {
+        display: none
+    }
+    
+    .CajaBusquedaLateral .cleartext {
+        position: absolute;
+        right: 0;
+        top: 1px;
+        width: 40px;
+        height: 35px;
+        cursor: pointer;
+        color: #999;
+        line-height: 40px;
+        font-size: 30px;
+        text-align: center;
+        opacity: .6
+    }
+    
+    .CajaBusquedaLateral .cleartext:hover {
+        opacity: 1
+    }
+    
+    #RightPanelMulti {
+        position: fixed;
+        z-index: 1115;
+        background: rgba(0, 0, 0, 0.9);
+        display: none;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 90%;
+        min-width: 250px;
+        max-width: 450px
+    }
+    
+    #RightPanelMulti.abierto {
+        display: block
+    }
+    
+    #RightPanelMulti .closepanel {
+        color: #fff;
+        position: absolute;
+        z-index: 3;
+        left: 10px;
+        cursor: pointer;
+        top: 5px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 48px;
+        text-decoration: none
+    }
+    
+    #RightPanelMulti .contenidoPanel {
+        color: #fff;
+        overflow-y: auto;
+        position: absolute;
+        left: 0;
+        top: 46px;
+        right: 0;
+        bottom: 0;
+        padding: 5px
+    }
+    
+    #RightPanelMulti span.titulo {
+        position: absolute;
+        left: 55px;
+        top: 5px;
+        height: 40px;
+        line-height: 40px;
+        color: #9a9da0;
+        font-size: 25px
+    }
+    
+    #RightPanelMulti ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        width: 100%
+    }
+    
+    #RightPanelMulti ul li {
+        display: block;
+        width: 100%;
+        cursor: pointer;
+        border-bottom: 1px solid #ccc
+    }
+    
+    #RightPanelMulti ul li:first-child {
+        border-top: 1px solid #ccc
+    }
+    
+    #RightPanelMulti ul li a {
+        display: block;
+        color: #fff;
+        font-size: 17px;
+        padding: 5px 0
+    }
+    
+    #RightPanelMulti ul li a:hover {
+        background: #000
+    }
+    
+    #RightPanelMulti ul li a span {
+        display: block;
+        color: #ccc
+    }
+    
+    .bandera.es {
+        background-image: url(https://oc.tutiempo.net/i/css/bandera-es.png)
+    }
+    
+    .bandera.en {
+        background-image: url(https://oc.tutiempo.net/i/css/bandera-en.png)
+    }
+    
+    .bandera.fr {
+        background-image: url(https://oc.tutiempo.net/i/css/bandera-fr.png)
+    }
+    
+    .bandera.pt {
+        background-image: url(https://oc.tutiempo.net/i/css/bandera-pt.png)
+    }
+    
+    .bandera.de {
+        background-image: url(https://oc.tutiempo.net/i/css/bandera-de.png)
+    }
+    
+    .bandera.it {
+        background-image: url(https://oc.tutiempo.net/i/css/bandera-it.png)
+    }
+    
+    #SelectorIdioma {
+        position: fixed;
+        right: 0;
+        top: 45px;
+        background: rgba(0, 0, 0, 0.8);
+        border-top: 3px solid #44a6e6;
+        display: none;
+        z-index: 12;
+        color: #fff;
+        padding: 0
+    }
+    
+    #SelectorIdioma.abierto {
+        display: block
+    }
+    
+    #SelectorIdioma ul {
+        margin: 0;
+        padding: 0;
+        margin: 0;
+        list-style: none
+    }
+    
+    #SelectorIdioma ul li {
+        margin: 0;
+        padding: 0;
+        border-right: 1px dotted #fff;
+        float: left
+    }
+    
+    #SelectorIdioma ul li:last-child {
+        border: 0
+    }
+    
+    #SelectorIdioma a {
+        display: block;
+        text-align: center;
+        padding-top: 35px;
+        line-height: 25px;
+        width: 50px;
+        color: #fff;
+        background-repeat: no-repeat;
+        background-position: 50% 10px
+    }
+    
+    #SelectorIdioma a:hover {
+        background-color: #000
+    }
+    
+    #ShareBox {
+        position: fixed;
+        z-index: 12;
+        display: none;
+        right: 0;
+        top: 45px;
+        background: #44a6e6;
+        overflow: hidden;
+        border-radius: 0 0 0 5px;
+        -moz-border-radius: 0 0 0 5px;
+        -webkit-border-radius: 0 0 0 5px
+    }
+    
+    #ShareBox.abierto {
+        display: block
+    }
+    
+    #ShareBox ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        float: right
+    }
+    
+    #ShareBox ul li {
+        margin: 0;
+        padding: 0;
+        position: relative;
+        display: block
+    }
+    
+    #ShareBox a {
+        display: block;
+        background-repeat: no-repeat;
+        background-position: 10px 50%;
+        line-height: 45px;
+        padding-left: 50px;
+        background-size: 25px 25px;
+        padding-right: 40px;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 700
+    }
+    
+    #ShareBox a:hover {
+        background-color: #2d9be3
+    }
+    
+    #Opciones {
+        position: fixed;
+        right: 0;
+        top: 45px;
+        background: #000;
+        border-top: 3px solid #44a6e6;
+        display: none;
+        z-index: 12;
+        color: #fff;
+        padding: 10px;
+        border-radius: 0 0 0 5px;
+        -moz-border-radius: 0 0 0 5px;
+        -webkit-border-radius: 0 0 0 5px
+    }
+    
+    #Opciones.abierto {
+        display: block
+    }
+    
+    #Opciones div {
+        white-space: nowrap;
+        clear: both;
+        height: 36px;
+        line-height: 36px;
+        margin-top: 5px
+    }
+    
+    #Opciones div:first-child {
+        margin-top: 0
+    }
+    
+    #Opciones input {
+        float: left
+    }
+    
+    #Opciones label {
+        float: left;
+        margin-left: 10px
+    }
+    
+    #Opciones input[type=checkbox] {
+        cursor: pointer;
+        display: block;
+        width: 30px;
+        height: 30px;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        border-radius: 2px;
+        background-color: #44a6e6;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: 0 0
+    }
+    
+    #Opciones input[type=checkbox]:checked {
+        background-size: auto 20px
+    }
+    
+    #Opciones input[type=radio] {
+        cursor: pointer;
+        display: block;
+        width: 30px;
+        height: 30px;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        border-radius: 2px;
+        background-color: #44a6e6;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: 0 0
+    }
+    
+    #Opciones input[type=radio]:checked {
+        background-size: auto 20px
+    }
+    
+    #Opciones label.bigg {
+        font-size: 24px;
+        font-weight: 700
+    }
+    
+    #Opciones label.mr20 {
+        margin-right: 20px
+    }
+    
+    .Busqueda {
+        width: 350px;
+        padding: 1px;
+        margin: 5px;
+        background: #6cb9eb
+    }
+    
+    .Busqueda input {
+        width: 300px;
+        height: 25px;
+        padding: 5px;
+        float: left;
+        font-size: 15px;
+        font-weight: 700;
+        border: 0;
+        background: #fff
+    }
+    
+    .Busqueda input:focus {
+        outline: 0;
+        background: #fff
+    }
+    
+    .Busqueda input::-webkit-input-placeholder {
+        color: #999;
+        font-weight: 400
+    }
+    
+    .Busqueda input:-moz-placeholder {
+        color: #999
+    }
+    
+    .Busqueda input:-ms-input-placeholder {
+        color: #999;
+        font-weight: 400
+    }
+    
+    .Busqueda button {
+        overflow: visible;
+        float: right;
+        border: 0;
+        padding: 0;
+        cursor: pointer;
+        height: 35px;
+        width: 40px;
+        font-size: 18px;
+        color: #fff;
+        background: #1b86cd url(https://oc.tutiempo.net/i/css/lupa-min.png) no-repeat 50% 50%;
+        text-indent: -10000px
+    }
+    
+    .Busqueda button:hover {
+        background-color: #1772ae
+    }
+    
+    .Busqueda button:active,
+    .Busqueda button:focus {
+        background-color: #000;
+        outline: 0
+    }
+    
+    .Busqueda button:before {
+        content: '';
+        position: absolute;
+        border-width: 8px 8px 8px 0;
+        border-style: solid solid solid none;
+        border-color: transparent #1b86cd;
+        top: 10px;
+        left: -6px
+    }
+    
+    .Busqueda button:hover:before {
+        border-right-color: #1772ae
+    }
+    
+    .Busqueda button:focus:before {
+        border-right-color: #000
+    }
+    
+    .Busqueda button::-moz-focus-inner {
+        border: 0;
+        padding: 0
+    }
+    
+    .cf:before,
+    .cf:after {
+        content: "";
+        display: table
+    }
+    
+    .cf:after {
+        clear: both
+    }
+    
+    .cf {
+        zoom: 1
+    }
+    
+    .NavMenuBG {
+        position: fixed;
+        left: 0;
+        top: 0;
+        right: 0;
+        z-index: 199;
+        height: 45px;
+        background: rgba(0, 0, 0, 0.8)
+    }
+    
+    .NavMenufijo {
+        display: block;
+        width: 100%;
+        max-width: 1069px;
+        margin: 0 auto;
+        height: 45px;
+        z-index: 1000
+    }
+    
+    .NavMenufijo ul {
+        margin: 0;
+        padding: 0;
+        list-style: none
+    }
+    
+    .NavMenufijo ul li {
+        float: left
+    }
+    
+    .NavMenufijo li.GeoPosicionar {
+        width: 55px;
+        height: 45px;
+        background-color: #1b86cd;
+        border: 0;
+        cursor: pointer;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: 24px 24px
+    }
+    
+    .NavMenufijo li.GeoPosicionar:hover {
+        background-color: #9cd22b
+    }
+    
+    .NavMenufijo li.SearcIconTop {
+        display: none;
+        width: 55px;
+        height: 45px;
+        background-color: #1b86cd;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        border: 0;
+        cursor: pointer;
+        background-size: 24px 24px
+    }
+    
+    .NavMenufijo li.SearcIconTop:hover {
+        background-color: #9cd22b
+    }
+    
+    #UrlTop {
+        background: #fff;
+        border-bottom: 1px solid #cae6f8;
+        width: 100%;
+        position: relative;
+        clear: both;
+        white-space: nowrap;
+        overflow: hidden
+    }
+    
+    #UrlTop .topurl {
+        white-space: nowrap;
+        line-height: 30px;
+        height: 30px;
+        overflow: hidden
+    }
+    
+    #UrlTop ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        width: 100%
+    }
+    
+    #UrlTop td {
+        height: 30px;
+        line-height: 30px;
+        color: gray
+    }
+    
     #UrlTop td:before {
+        margin: 5px;
+        content: "\00bb"
+    }
+    
+    #UrlTop td.home a {
+        display: block;
+        background: url(https://oc.tutiempo.net/i/css/home.png) no-repeat left 50%;
+        text-indent: -10000px;
+        width: 15px;
+        margin-left: 10px
+    }
+    
+    #UrlTop td.home:before {
         margin: 0;
         content: ""
     }
-    #UrlTop td.home {
-        border: 0
-    }
-    #UrlTop td.home a {
-        width: 40px;
-        padding: 0;
-        margin-left: 0;
-        background-position: 50% 50%
-    }
+    
     #UrlTop td a {
-        background-color: #fff;
-        padding: 0 10px;
-        height: 36px;
-        line-height: 36px
+        display: inline-block;
+        height: 30px;
+        line-height: 30px
     }
-    #UrlTop
-}
-
-.eltiempo .tiledias td.first {
-    border: 0;
-    width: 104px
-}
-
-.eltiempo .tiledias td.first.cb {
-    border-left: 1px solid #98cef2
-}
-
-.eltiempo .tiledias td.sel {
-    cursor: auto;
-    background: url(https://oc.tutiempo.net/i/css/dias-sel.png) no-repeat 50% bottom
-}
-
-.eltiempo .tiledias td h3 {
-    color: #47a7e7;
-    margin: 0;
-    padding: 0;
-    font-size: 17px;
-    padding-left: 10px;
-    line-height: 21px;
-    margin-top: 4px
-}
-
-.eltiempo .tiledias td span.day {
-    display: block;
-    color: #47a7e7;
-    margin-bottom: 5px;
-    margin-left: 10px;
-    line-height: 14px;
-    font-size: 11px;
-    color: grey
-}
-
-.eltiempo .tiledias td img {
-    width: 40px;
-    height: 40px;
-    margin-left: 10px
-}
-
-.WarningInline {
-    display: inline-block;
-    padding: 5px;
-    border: 1px solid #e48000;
-    background: #ffae45;
-    color: #fff;
-    font-weight: 700;
-    margin-top: 5px;
-    margin-bottom: 5px
-}
-
-.WarningInline:hover {
-    background: #e48000;
-    color: #fff
-}
-
-.eltiempo .tiledias td span.ico {
-    display: block;
-    position: absolute;
-    left: 10px;
-    top: 40px;
-    width: 40px;
-    height: 40px
-}
-
-.eltiempo .tiledias td span.Temp {
-    display: block;
-    position: absolute;
-    left: 52px;
-    top: 40px;
-    width: 53px;
-    height: 40px;
-    font-size: 15px
-}
-
-.eltiempo .tiledias td span.Temp span.max {
-    display: block;
-    overflow: hidden;
-    line-height: 16px;
-    padding-top: 3px;
-    text-align: right;
-    padding-right: 10px;
-    font-weight: 700
-}
-
-.eltiempo .tiledias td span.Temp span.min {
-    display: block;
-    overflow: hidden;
-    line-height: 16px;
-    text-align: right;
-    padding-right: 10px;
-    font-weight: 700
-}
-
-.eltiempo .tiledias td:hover h3 {
-    margin-top: 0
-}
-
-.eltiempo .tiledias td:hover span.ico {
-    top: 36px
-}
-
-.eltiempo .tiledias td:hover span.Temp {
-    top: 36px
-}
-
-.eltiempo .tiledias td.sel h3 {
-    text-decoration: none;
-    background: #47a7e7;
-    color: #fff;
-    margin-top: 0;
-    line-height: 25px
-}
-
-.eltiempo .tiledias td span.next {
-    position: absolute;
-    right: 0;
-    bottom: -20px
-}
-
-body.lang-EN .eltiempo .tiledias td h3 {
-    font-size: 15px
-}
-
-body.lang-DE .eltiempo .tiledias td h3 {
-    font-size: 15px
-}
-
-body.lang-FR .eltiempo .tiledias td h3 {
-    font-size: 15px
-}
-
-.eltiempo .datadias {
-    margin-top: 5px;
-    padding-bottom: 4px;
-    min-height: 260px
-}
-
-.eltiempo .datadias.porhora {
-    overflow-y: hidden;
-    overflow-x: scroll
-}
-
-.eltiempo .datadias.porhora tr.datos td.tdia {
-    background: #47a7e7;
-    width: 30px;
-    border: 0;
-    vertical-align: bottom;
-    line-height: 30px;
-    font-size: 15px;
-    font-weight: 700;
-    color: #fff;
-    cursor: default;
-    white-space: nowrap
-}
-
-.eltiempo .datadias.porhora tr.datos td.tdia div.rdia {
-    margin-bottom: 50px;
-    line-height: 30px;
-    white-space: nowrap;
-    height: 30px;
-    width: 30px;
-    -moz-transform: rotate(-90.0deg);
-    -o-transform: rotate(-90.0deg);
-    -webkit-transform: rotate(-90.0deg);
-    filter: progid: DXImageTransform.Microsoft.BasicImage(rotation=0.083);
-    -ms-filter: progid: DXImageTransform.Microsoft.BasicImage(rotation=0.083);
-    -ms-transform: rotate(-90deg)
-}
-
-.eltiempo .datadias.finsemana td {
-    cursor: auto
-}
-
-.eltiempo .datadias td {
-    width: 77px;
-    border-left: 1px solid #fff;
-    vertical-align: top;
-    height: 260px;
-    border-color: #d2d2d2;
-    color: #000;
-    cursor: pointer
-}
-
-.eltiempo .datadias td.first {
-    border: 0;
-    width: 78px
-}
-
-.eltiempo .datadias td.nb {
-    border: 0
-}
-
-.eltiempo .datadias span.h {
-    display: block;
-    height: 30px;
-    text-align: center;
-    line-height: 30px;
-    font-size: 15px;
-    font-weight: 700;
-    color: #47a7e7
-}
-
-.eltiempo .datadias img {
-    margin-left: 19px
-}
-
-.eltiempo .datadias span.ico {
-    margin-left: 19px
-}
-
-.eltiempo .datadias span.temp {
-    display: block;
-    width: 100%;
-    text-align: center;
-    line-height: 20px;
-    font-size: 16px;
-    font-weight: 700
-}
-
-.eltiempo .datadias span.rain {
-    display: block;
-    position: absolute;
-    bottom: 40px;
-    width: 100%;
-    height: 20px;
-    line-height: 20px;
-    font-size: 11px;
-    padding-left: 30px;
-    background: url(https://oc.tutiempo.net/i/css/dias-rain.png) no-repeat 7px top
-}
-
-.eltiempo .datadias span.wind {
-    display: block;
-    position: absolute;
-    bottom: 15px;
-    width: 100%;
-    height: 20px;
-    line-height: 20px;
-    font-size: 11px
-}
-
-.eltiempo .datadias span.wind span.icow {
-    float: left;
-    margin-left: 5px
-}
-
-.eltiempo .datadias span.wind span.vv {
-    float: left;
-    margin-lefline-height: 20px;
-    display: block;
-    padding: 5px 10px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-    color: #fff;
-    font-weight: 700;
-    font-size: 15px;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden
-}
-
-.BotonVerdeMore:hover {
-    background-color: #000;
-    color: #fff
-}
-
-.eltiempo .fulltiledias.mapa {
-    height: 94px;
-    margin-top: 10px
-}
-
-.eltiempo .fulltiledias.mapa .tiledias {
-    height: 50px
-}
-
-.eltiempo .fulltiledias.mapa .tiledias td {
-    height: 50px;
-    width: 100px
-}
-
-.eltiempo .fulltiledias.mapa .tiledias td a {
-    color: #47a7e7;
-    margin: 0;
-    display: block;
-    padding: 0;
-    font-size: 17px;
-    padding-left: 10px;
-    line-height: 21px;
-    margin-top: 4px
-}
-
-.eltiempo .fulltiledias.mapa .tiledias td.sel .indscright {
-    background-color: rgba(0, 0, 0, 0.6);
-    width: 23px;
-    height: 83px
-}
-
-.cc .ccscroll .indscleft {
-    background-color: rgba(0, 0, 0, 0.6);
-    width: 23px;
-    height: 110px
-}
-
-.cc .ccscroll .indscright {
-    background-color: rgba(0, 0, 0, 0.6);
-    width: 23px;
-    height: 110px
-}
-
-.DivContenedorHoras {
-    overflow: hidden;
-    border-top: 4px solid #47a7e7
-}
-
-.DivContenedorHoras .indscleft {
-    background-color: rgba(71, 167, 231, 0.6);
-    width: 23px;
-    height: 34px
-}
-
-.DivContenedorHoras .indscright {
-    background-color: rgba(71, 167, 231, 0.6);
-    width: 23px;
-    height: 34px
-}
-
-.DivContenedorHoras .indscright:hover,
-.DivContenedorHoras .indscleft:hover {
-    background-color: #47a7e7
-}
-
-.DivContenedorHoras.SelHora {
-    height: 34px;
-    line-height: 34px;
-    border-bottom: 5px solid #47a7e7;
-    margin: 0
-}
-
-.SelHora ul {
-    margin: 0;
-    padding: 0;
-    list-style: none
-}
-
-.SelHora ul li {
-    float: left;
-    border-right: 1px solid #47a7e7;
-    width: 46px;
-    overflow: hidden;
-    text-align: center;
-    cursor: pointer
-}
-
-.SelHora ul li:hover,
-.SelHora ul li.sel {
-    background: #cae6f8
-}
-
-.eltiempo .fulltiledias.mapa .indscleft {
-    background-color: rgba(71, 167, 231, 0.6);
-    width: 23px;
-    height: 50px
-}
-
-.eltiempo .fulltiledias.mapa .indscright {
-    background-color: rgba(71, 167, 231, 0.6);
-    width: 23px;
-    height: 50px
-}
-
-.eltiempo .fulltiledias.mapa .DivContenedorHoras .indscleft {
-    background-color: rgba(71, 167, 231, 0.6);
-    width: 23px;
-    height: 34px
-}
-
-.eltiempo .fulltiledias.mapa .DivContenedorHoras .indscright {
-    background-color: rgba(71, 167, 231, 0.6);
-    width: 23px;
-    height: 34px
-}
-
-#ContenidoPie .copy .indscleft {
-    z-index: 8;
-    width: 23px;
-    height: 50px;
-    background-color: rgba(71, 167, 231, 0.4)
-}
-
-#ContenidoPie .copy .indscright {
-    z-index: 8;
-    width: 23px;
-    height: 50px;
-    background-color: rgba(71, 167, 231, 0.4)
-}
-
-.mlistados ul {
-    width: 100%;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: inline-block;
-    left: 0;
-    right: 0;
-    border-left: 1px solid #dcdcdc
-}
-
-.mlistados ul li {
-    padding: 0;
-    margin: 0;
-    float: left;
-    display: block;
-    width: 100%
-}
-
-.mlistados ul li.tablagenerica tr.center td,
-.tablagenerica td.center {
-    text-align: center
-}
-
-.tablagenerica td.bold {
-    font-weight: 700
-}
-
-.clima table.medias {
-    border-collapse: collapse
-}
-
-.clima table.medias,
-.clima table.medias td,
-.clima table.medias th {
-    border: 1px solid #dbe1e1
-}
-
-.clima table.medias td,
-.clima table.medias th {
-    padding: 5px;
-    text-align: center
-}
-
-.clima table.medias td {
-    white-space: nowrap
-}
-
-.clima table.medias tr:hover td {
-    background: #f5f5f5
-}
-
-.clima table.medias td.Left {
-    text-align: left
-}
-
-.clima table.medias.mensuales td span {
-    color: red
-}
-
-.clima table.medias.nowrap td,
-.clima table.medias.nowrap th {
-    white-space: nowrap
-}
-
-.clima table.medias tr td:nth-child(1) {
-    padding-left: 10px;
-    padding-right: 10px
-}
-
-.clima table.medias tr td:nth-child(1) a {
-    display: block;
-    padding: 10px;
-    font-weight: 700;
-    margin: -5px;
-    margin-left: -10px;
-    margin-right: -10px
-}
-
-.clima table.info {
-    border-collapse: collapse
-}
-
-.clima table.info,
-.clima table.info td {
-    border: 1px solid #dbe1e1
-}
-
-.clima table.info td {
-    padding: 5px;
-    text-align: left
-}
-
-.clima table.info tr td:nth-child(1) {
-    padding-left: 10px;
-    padding-right: 10px;
-    font-weight: 700;
-    text-align: center
-}
-
-@media screen and (max-width:600px) {
-    .clima table.medias tr td:nth-child(1) {
-        padding-left: 5px;
-        padding-right: 5px
+    
+    #UrlTop td h1,
+    #UrlTop td h2,
+    #UrlTop td span {
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        font-size: 14px;
+        font-weight: 400
     }
-    .clima table.medias tr td:nth-child(1) a {
-        margin: -5px
+    
+    #UrlTop td:last-child {
+        padding-right: 10px
     }
-}
-
-.minoverflow {
-    width: 100%
-}
-
-@media screen and (max-width:800px) {
-    .minoverflow {
-        overflow-x: scroll
+    
+    #UrlTop .topurl .indscleft {
+        background-color: rgba(71, 167, 231, 0.4);
+        width: 23px;
+        height: 30px
     }
-}
-
-@media screen and (min-width:1500px) {
-    .NavMenufijo {
-        max-width: 1105px;
-        width: 1105px;
+    
+    #UrlTop .topurl .indscright {
+        background-color: rgba(71, 167, 231, 0.4);
+        width: 23px;
+        height: 30px
     }
-    .ContBannerTop {
-        max-width: 1105px;
-        width: 1105px
+    
+    @media screen and (max-width:991px) {
+        #UrlTop .topurl {
+            line-height: 36px;
+            height: 36px;
+            overflow: hidden
+        }
+        #UrlTop td {
+            margin-left: 5px;
+            border-left: 1px solid #cae6f8;
+            height: 36px;
+            line-height: 36px
+        }
+        #UrlTop td:before {
+            margin: 0;
+            content: ""
+        }
+        #UrlTop td.home {
+            border: 0
+        }
+        #UrlTop td.home a {
+            width: 40px;
+            padding: 0;
+            margin-left: 0;
+            background-position: 50% 50%
+        }
+        #UrlTop td a {
+            background-color: #fff;
+            padding: 0 10px;
+            height: 36px;
+            line-height: 36px
+        }
+        #UrlTop
     }
-    #Contenido,
-    #SearchTop {
-        max-width: 1105px
+    
+    .eltiempo .tiledias td.first {
+        border: 0;
+        width: 104px
     }
-    #ColumnaIzquierda {
-        margin-right: 366px
+    
+    .eltiempo .tiledias td.first.cb {
+        border-left: 1px solid #98cef2
     }
-    #ColumnaDerecha {
-        width: 356px
+    
+    .eltiempo .tiledias td.sel {
+        cursor: auto;
+        background: url(https://oc.tutiempo.net/i/css/dias-sel.png) no-repeat 50% bottom
     }
-    #ColumnaDerecha .Bloque300 {
-        width: 336px
+    
+    .eltiempo .tiledias td h3 {
+        color: #47a7e7;
+        margin: 0;
+        padding: 0;
+        font-size: 17px;
+        padding-left: 10px;
+        line-height: 21px;
+        margin-top: 4px
     }
-    #Contenido .Columnas .LineColumnas {
-        right: 356px
+    
+    .eltiempo .tiledias td span.day {
+        display: block;
+        color: #47a7e7;
+        margin-bottom: 5px;
+        margin-left: 10px;
+        line-height: 14px;
+        font-size: 11px;
+        color: grey
     }
-    #ContenidoPie {
-        max-width: 1105px
+    
+    .eltiempo .tiledias td img {
+        width: 40px;
+        height: 40px;
+        margin-left: 10px
     }
-    .MegaMenu {
-        width: 1105px
+    
+    .WarningInline {
+        display: inline-block;
+        padding: 5px;
+        border: 1px solid #e48000;
+        background: #ffae45;
+        color: #fff;
+        font-weight: 700;
+        margin-top: 5px;
+        margin-bottom: 5px
     }
-}
-
-.PaddingBanCab {
-    padding: 10px;
-    background-color: #4095cd;
-    display: inline-block
-}
-
-.BanCab {
-    width: 970px;
-    display: inline-block;
-    overflow: hidden
-}
-
-@media screen and (max-width:990px) {
-    .BanCab {
-        width: 728px;
+    
+    .WarningInline:hover {
+        background: #e48000;
+        color: #fff
     }
-}
-
-@media screen and (max-width:738px) {
-    .BanCab {
-        width: 468px;
-    }
-    .PaddingBanCab {
-        padding: 5px
-    }
-}
-
-@media screen and (max-width:478px) {
-    .BanCab {
-        width: 320px;
-    }
-    .PaddingBanCab {
-        padding: 5px
-    }
-}
-
-@media screen and (max-width:329px) {
-    .BanCab {
-        width: 234px;
-    }
-    .PaddingBanCab {
-        padding: 5px
-    }
-}
-
-.BanCDer1 {
-    width: 300px;
-    height: 250px;
-    display: block;
-    overflow: hidden
-}
-
-@media screen and (min-width:1500px) {
-    .BanCDer1 {
-        width: 336px;
-        height: 280px
-    }
-}
-
-@media screen and (min-width:801px) and (max-width:900px) {
-    .BanCDer1 {
-        width: 250px;
-        height: 250px
-    }
-}
-
-@media screen and (min-width:701px) and (max-width:800px) {
-    .BanCDer1 {
-        width: 120px;
-        height: 240px
-    }
-}
-
-@media screen and (min-width:346px) and (max-width:600px) {
-    .BanCDer1 {
-        width: 336px;
-        height: 280px
-    }
-}
-
-@media screen and (min-width:310px) and (max-width:345px) {
-    .BanCDer1 {
-        width: 300px;
-        height: 250px
-    }
-}
-
-@media screen and (max-width:309px) {
-    .BanCDer1 {
-        width: 250px;
-        height: 250px
-    }
-}
-
-.BanCDer2 {
-    width: 300px;
-    height: 250px;
-    display: block;
-    overflow: hidden
-}
-
-@media screen and (min-width:1500px) {
-    .BanCDer2 {
-        width: 336px;
-        height: 280px
-    }
-}
-
-@media screen and (min-width:801px) and (max-width:900px) {
-    .BanCDer2 {
-        width: 250px;
-        height: 250px
-    }
-}
-
-@media screen and (min-width:701px) and (max-width:800px) {
-    .BanCDer2 {
-        width: 120px;
-        height: 240px
-    }
-}
-
-@media screen and (max-width:700px) {
-    .BanCDer2 {
-        display: none
-    }
-}
-
-.BanVLDer2 {
-    width: 300px;
-    height: 600px;
-    display: block;
-    overflow: hidden
-}
-
-@media screen and (min-width:1500px) {
-    .BanVLDer2 {
-        padding-left: 15px;
-        width: 300px;
-        height: 600px
-    }
-}
-
-@media screen and (min-width:801px) and (max-width:900px) {
-    .BanVLDer2 {
-        width: 160px;
-        height: 600px
-    }
-}
-
-@media screen and (min-width:701px) and (max-width:800px) {
-    .BanVLDer2 {
-        width: 120px;
-        height: 600px
-    }
-}
-
-@media screen and (max-width:700px) {
-    .BanVLDer2 {
-        display: none
-    }
-}
-
-.BanInnerPage {
-    width: 336px;
-    height: 280px;
-    display: block;
-    overflow: hidden;
-    margin: 0 auto
-}
-
-@media(min-width:478px) {
-    .BanInnerPage {
-        width: 468px;
-        height: 60px
-    }
-}
-
-@media(min-width:1074px) {
-    .BanInnerPage {
-        width: 728px;
-        height: 90px
-    }
-}
-
-#GeoPosicionarResult {
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 80%;
-    max-width: 400px;
-    z-index: 60000;
-    background-color: rgba(0, 0, 0, 0.6);
-    color: #fff
-}
-
-.DivShare span {
-    display: inline-block;
-    margin-left: 5px;
-    width: 40px;
-    height: 40px;
-    overflow: hidden;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: auto 24px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-    cursor: pointer;
-}
-
-.DivShare span:first-child {
-    margin-left: 0;
-}
-
-.DivShare span a {
-    display: block;
-    width: 40px;
-    height: 40px;
-}
-
-.DivShare .fb {
-    background-color: #5d82d1;
-}
-
-.DivShare .tw {
-    background-color: #40bff5;
-}
-
-.DivShare .wh {
-    background-color: #95e04a;
-}
-
-.DivShare .pi {
-    background-color: #bd081c;
-}
-
-.DivShare .sh {
-    filter: invert(100%);
-    cursor: default;
-    -webkit-filter: invert(100%);
-}
-
-#MapaAdmin {
-    max-width: 630px;
-    height: auto;
-    margin-right: 96px
-}
-
-#MapaAdmin ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%
-}
-
-#MapaAdmin ul li {
-    position: absolute;
-    margin-top: -15px;
-    margin-left: -15px;
-    height: 30px;
-    display: block;
-    z-index: 1
-}
-
-#MapaAdmin ul li:hover {
-    height: auto;
-    z-index: 10
-}
-
-#MapaAdmin ul li h3 {
-    display: none;
-    position: absolute;
-    left: -50%;
-    top: -5px;
-    margin: 0;
-    z-index: 2;
-    white-space: nowrap;
-    background: rgba(255, 255, 255, 0.8)
-}
-
-#MapaAdmin ul li h3.left {
-    left: -70px
-}
-
-#MapaAdmin ul li:hover h3 {
-    display: block
-}
-
-#MapaAdmin ul li a {
-    font-size: 14px;
-    line-height: 32px;
-    color: #000;
-    font-weight: 700;
-    z-index: 2;
-    padding: 8px
-}
-
-#MapaAdmin dl {
-    position: absolute;
-    left: 0;
-    top: 0;
-    margin: 0;
-    padding: 0
-}
-
-#MapaAdmin dt {
-    position: absolute;
-    left: -10000px;
-    top: -10000px
-}
-
-#MapaAdmin dd {
-    position: absolute;
-    left: 0;
-    top: 0;
-    margin: 0;
-    padding: 0;
-    z-index: 1
-}
-
-#MapaAdmin dd.tmp {
-    position: absolute;
-    left: -10000px;
-    top: -10000px
-}
-
-#MapaAdmin dd.tmpr {
-    position: absolute;
-    left: 31px;
-    top: 6px;
-    font-size: 14px;
-    color: #000;
-    font-weight: 700;
-    letter-spacing: .04em;
-    white-space: nowrap
-}
-
-#MapaAdmin span {
-    position: absolute;
-    left: -10000px;
-    top: -10000px
-}
-
-img.Map630 {
-    width: 100%;
-    max-width: 630px;
-    height: auto
-}
-
-.TitleMapa {
-    position: absolute;
-    z-index: 10;
-    left: 0;
-    top: 0;
-    background: rgba(0, 0, 0, 0.4);
-    text-indent: 5px;
-    width: 100%;
-    max-width: 630px;
-    height: 25px;
-    color: #fff;
-    line-height: 25px;
-    font-size: 15px
-}
-
-#MapaAdmin ul li:hover h3 span {
-    display: block;
-    position: relative;
-    left: 0;
-    top: -5px;
-    text-align: center;
-    padding-left: 5px;
-    padding-right: 5px;
-    white-space: nowrap;
-    margin-top: -5px;
-    font-weight: 700;
-    color: #F60
-}
-
-#MapaAdmin div.VinSP {
-    margin: 0;
-    position: absolute;
-    left: 0;
-    top: 0
-}
-
-#MapaAdmin div.VinSP div {
-    float: left;
-    cursor: pointer;
-    margin: 0;
-    margin-left: 10px;
-    height: 25px;
-    display: block;
-    z-index: 1;
-    background: transparent url(https://i7.tutiempo.net/css/VinRayosMapLeft.png) no-repeat left top
-}
-
-#MapaAdmin div.VinSP div h4 {
-    display: block;
-    white-space: nowrap;
-    height: 25px;
-    font-size: 13px;
-    line-height: 25px;
-    color: #000;
-    font-weight: 400;
-    z-index: 2;
-    padding: 0;
-    padding-right: 9px;
-    margin-left: 9px;
-    background: transparent url(https://i7.tutiempo.net/css/VinRayosMapRight.png) no-repeat right top
-}
-
-#MapaAdmin div.VinSP div h4 span.rayo {
-    padding-left: 16px;
-    display: block;
-    height: 25px;
-    left: 0;
-    top: 0;
-    background: transparent url(https://i7.tutiempo.net/css/VinRayoIco.png) no-repeat left 50%
-}
-
-#MapaAdmin div.VinSP div h4 span.obser {
-    padding-left: 29px;
-    left: 0;
-    top: 0;
-    background: transparent url(https://i7.tutiempo.net/css/VinObserIco.png) no-repeat left 50%
-}
-
-#MapaAdmin div.VinSP div h4 span.radar {
-    padding-left: 33px;
-    left: 0;
-    top: 0;
-    background: transparent url(https://i7.tutiempo.net/css/VinRadarIco.png) no-repeat left 50%
-}
-
-#MapaAdmin div.VinSP div h4 span.playas {
-    padding-left: 25px;
-    left: 0;
-    top: 0;
-    background: transparent url(https://i7.tutiempo.net/css/VinPlayas.png) no-repeat left 50%
-}
-
-#MapaAdmin div.VinSP div h4 span.golf {
-    padding-left: 20px;
-    left: 0;
-    top: 0;
-    background: transparent url(https://i7.tutiempo.net/css/VinGolf.png) no-repeat left 50%
-}
-
-#Mapa {
-    max-width: 630px;
-    height: auto;
-    margin-right: 96px
-}
-
-#Mapa ul {
-    margin: 0;
-    list-style: none;
-    position: absolute;
-    left: 0;
-    top: 0;
-    z-index: 1
-}
-
-#Mapa ul li {
-    position: absolute;
-    margin-top: -15px;
-    margin-left: -15px;
-    height: 30px;
-    display: block;
-    z-index: 1
-}
-
-#Mapa h3 {
-    position: absolute;
-    left: 0;
-    top: 0;
-    margin: 0;
-    padding: 0;
-    font-size: 11px;
-    font-weight: 700;
-    line-height: 12px;
-    z-index: 2
-}
-
-#Mapa a {
-    font-size: 11px;
-    font-weight: 700;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 85px;
-    display: block;
-    padding-top: 30px;
-    z-index: 2;
-    color: #000;
-    text-decoration: none
-}
-
-#Mapa a:hover {
-    color: #000;
-    text-decoration: underline;
-    z-index: 2
-}
-
-#Mapa dl {
-    position: absolute;
-    left: 0;
-    top: 0;
-    margin: 0;
-    padding: 0
-}
-
-#Mapa dt {
-    position: absolute;
-    left: -10000px;
-    top: -10000px
-}
-
-#Mapa dd {
-    position: absolute;
-    left: 0;
-    top: 0;
-    margin: 0;
-    padding: 0
-}
-
-#Mapa dd span {
-    display: none
-}
-
-#Mapa .tmp {
-    left: 35px;
-    top: 4px;
-    font-size: 18px;
-    color: #06C;
-    font-weight: 700;
-    letter-spacing: .04em;
-    position: absolute;
-    white-space: nowrap
-}
-
-#Mapa div.VinSP {
-    margin: 0;
-    position: absolute;
-    left: 0;
-    top: 0
-}
-
-#Mapa div.VinSP div {
-    float: left;
-    cursor: pointer;
-    margin: 0;
-    margin-left: 10px;
-    height: 25px;
-    display: block;
-    z-index: 1;
-    t: 3px
-}
-
-.eltiempo .datadias span.mash {
-    display: block;
-    position: absolute;
-    bottom: 0;
-    height: 9px;
-    width: 100%;
-    max-width: 78px;
-    background: #fff url(https://oc.tutiempo.net/i/css/mash.png) no-repeat 50% 50%;
-    cursor: pointer
-}
-
-.eltiempo .datadias span.mash div {
-    display: none
-}
-
-.eltiempo .datadias td.showh span.mash {
-    background-color: #47a7e7
-}
-
-.eltiempo .datadias td:hover span.mash {
-    background-color: #47a7e7
-}
-
-.eltiempo .datadias td.showh span.mash.n {
-    background-color: #125886
-}
-
-.eltiempo .datadias td:hover span.mash.n {
-    background-color: #125886
-}
-
-.eltiempo .tiledias.detallado td {
-    cursor: default
-}
-
-.eltiempo .tiledias.detallado td.sel {
-    cursor: default;
-    background: #fff
-}
-
-.eltiempo .tiledias.detallado td h3 {
-    color: #47a7e7;
-    margin: 0
-}
-
-.eltiempo .tiledias.detallado td:hover h3 {
-    margin-top: 0
-}
-
-.eltiempo .tiledias.detallado td.sel h3 {
-    text-decoration: none;
-    background: #fff;
-    color: #47a7e7;
-    margin-top: 0;
-    line-height: 25px
-}
-
-.eltiempo .datadias.detallado {
-    width: 1600px
-}
-
-.eltiempo .datadias.detallado td {
-    cursor: default;
-    width: 103px
-}
-
-.eltiempo .datadias.detallado td.first {
-    width: 104px
-}
-
-.eltiempo .datadias.detallado span {
-    display: block;
-    text-align: center;
-    border-bottom: 1px solid #d2d2d2;
-    line-height: 26px;
-    font-size: 12px
-}
-
-.eltiempo .datadias.detallado span.hr {
-    font-size: 13px;
-    border-top: 1px solid #d2d2d2
-}
-
-.eltiempo .datadias.detallado span.hrd {
-    line-height: 36px;
-    font-size: 17px;
-    font-weight: 700
-}
-
-.eltiempo .datadias.detallado span.c1,
-.eltiempo .datadias.detallado span.c2,
-.eltiempo .datadias.detallado span.c3,
-.eltiempo .datadias.detallado span.c4,
-.eltiempo .datadias.detallado span.c5 {
-    line-height: 19px;
-    border: 0;
-    padding-left: 10px;
-    display: inline-block;
-    font-size: 17px
-}
-
-.eltiempo .datadias.detallado span.c1 {
-    border-left: 13px solid #289500
-}
-
-.eltiempo .datadias.detallado span.c2 {
-    border-left: 13px solid #F7E400;
-    padding-left: 10px
-}
-
-.eltiempo .datadias.detallado span.c3 {
-    border-left: 13px solid #F85900;
-    padding-left: 10px
-}
-
-.eltiempo .datadias.detallado span.c4 {
-    border-left: 13px solid #D8001D;
-    padding-left: 10px
-}
-
-.eltiempo .datadias.detallado span.c5 {
-    border-left: 13px solid #6B49C8;
-    padding-left: 10px
-}
-
-.thh table {
-    border: 0;
-    padding: 0;
-    border-spacing: 0
-}
-
-.thh table tr {
-    border: 0;
-    padding: 0;
-    border-spacing: 0
-}
-
-.thh table tr:hover td,
-.thh table tr:focus td {
-    color: #47a7e7
-}
-
-.thh th {
-    text-align: left;
-    color: #47a7e7;
-    line-height: 24px
-}
-
-.thh table tr th:nth-child(1),
-.thh table tr th:nth-child(2) {
-    text-align: left
-}
-
-.thh th.ndia {
-    text-align: left;
-    color: #fff;
-    background: #47a7e7;
-    border-top: 5px solid #fff;
-    line-height: 30px;
-    padding-left: 10px
-}
-
-.thh table tr td:nth-child(1) {
-    color: #47a7e7;
-    font-weight: 700;
-    min-width: 40px
-}
-
-.thh table tr td:nth-child(3) {
-    padding-right: 10px;
-    font-weight: 700
-}
-
-.thh td.wind {
-    line-height: 20px;
-    text-indent: 10px
-}
-
-.thh td.wind img {
-    float: left
-}
-
-.thh .InfoLast {
-    line-height: 35px;
-    padding-bottom: 10px;
-    padding-top: 10px
-}
-
-.thh .InfoLast a {
-    background: #69af25;
-    white-space: nowrap;
-    overflow: hidden;
-    color: #fff;
-    padding: 10px 20px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-    margin-left: 10px;
-    font-weight: 700
-}
-
-.thh .InfoLast a:hover {
-    background-color: #2c2c2c
-}
-
-.thhip {
-    padding-left: 40px;
-    padding-right: 15px;
-    width: auto;
-    line-height: 30px;
-    white-space: nowrap
-}
-
-.thhiv {
-    padding-left: 30px;
-    width: auto;
-    max-width: 60px;
-    line-height: 20px;
-    white-space: nowrap
-}
-
-.thh th.thhtp .plit {
-    display: none
-}
-
-@media screen and (max-width:1000px) {
-    .thhip {
-        width: 30px;
-        padding-right: 10px;
-        padding-left: 0;
-        text-indent: -10000px;
-        overflow: hidden
-    }
-    .thh th.thhtp .plit {
-        display: block
-    }
-    .thh th.thhtp .pbig {
-        display: none
-    }
-}
-
-@media screen and (max-width:400px) {
-    .thh table tr td:nth-child(5) {
-        display: none
-    }
-    .thh table tr th:nth-child(5) {
-        display: none
-    }
-}
-
-@media screen and (max-width:340px) {
-    .thh table tr td:nth-child(6) {
-        display: none
-    }
-    .thh table tr th:nth-child(6) {
-        display: none
-    }
-}
-
-@media screen and (max-width:280px) {
-    .thh table tr td:nth-child(7) {
-        display: none
-    }
-    .thh table tr th:nth-child(7) {
-        display: none
-    }
-}
-
-.vr {
-    border-top: 5px solid #47a7e7;
-    border-bottom: 4px solid #47a7e7
-}
-
-.vr td {
-    width: 78px;
-    height: 80px;
-    vertical-align: top;
-    border: 1px solid #98cef2;
-    border-left: 0;
-    border-top: 0
-}
-
-.vr .d {
-    width: 99px;
-    border: 0;
-    border-right: 5px solid #47a7e7;
-    border-bottom: 1px solid #47a7e7;
-    font-size: 12px
-}
-
-.vr .d h3 {
-    background: #47a7e7;
-    color: #fff;
-    margin: 0;
-    padding: 0;
-    padding-left: 5px;
-    line-height: 25px
-}
-
-.vr .d span.nd {
-    margin: 5px;
-    font-size: 11px;
-    color: grey;
-    display: block;
-    margin-bottom: 5px;
-    margin-top: 1px
-}
-
-.vr .d span.ico {
-    margin: 0;
-    float: left
-}
-
-.vr .d span.max,
-.vr .d span.min {
-    margin: 0;
-    float: right;
-    display: block;
-    width: 45px;
-    padding-right: 10px;
-    line-height: 17px;
-    font-size: 15px;
-    text-align: right;
-    font-weight: 700
-}
-
-.vr .d span.max {
-    padding-top: 3px
-}
-
-.vr span.ico {
-    margin-left: 20px;
-    margin-top: 10px
-}
-
-.vr span.temp {
-    display: block;
-    text-align: center;
-    margin-top: 4px;
-    line-height: 20px;
-    font-weight: 700;
-    font-size: 17px
-}
-
-.vr tr.head td {
-    height: 20px;
-    line-height: 20px;
-    text-align: center;
-    font-weight: 700;
-    color: #47a7e7
-}
-
-.eltiempo .datadias td.od {
-    cursor: default
-}
-
-.eltiempo .datadias td.od img {
-    opacity: .5;
-    filter: alpha(opacity=50)
-}
-
-.eltiempo .datadias td.od {
-    cursor: default
-}
-
-.eltiempo .datadias span.weathertooltip {
-    display: block
-}
-
-.eltiempo .datadias td.mas {
-    border: 0;
-    width: 103px;
-    cursor: default
-}
-
-.eltiempo .datadias td.mas div {
-    background: #47a7e7;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    display: block;
-    margin-left: 7px;
-    padding-bottom: 5px;
-    color: #fff;
-    font-size: 15px
-}
-
-.eltiempo .datadias td.mas span.vinhh {
-    cursor: pointer;
-    display: block;
-    margin-bottom: 9px;
-    background: #f04936;
-    border-radius: 5px;
-    font-size: 13px;
-    color: #fff;
-    font-weight: 400;
-    margin-left: 7px;
-    text-align: center;
-    line-height: 30px
-}
-
-.eltiempo .datadias td.mas span.vinhh:hover {
-    background: #47a7e7
-}
-
-.md .pr {
-    display: block;
-    text-align: right;
-    padding-left: 30px;
-    background: url(https://oc.tutiempo.net/i/css/pr.png) no-repeat 3px 50%;
-    line-height: 27px
-}
-
-.eltiempo #Dia2,
-.eltiempo #Dia3,
-.eltiempo #Dia4,
-.eltiempo #Dia5,
-.eltiempo #Dia6,
-.eltiempo #Dia7,
-.eltiempo #Dia8,
-.eltiempo #Dia9,
-.eltiempo #Dia10,
-.eltiempo #Dia11,
-.eltiempo #Dia12,
-.eltiempo #Dia13,
-.eltiempo #Dia14,
-.eltiempo #Dia15,
-.eltiempo #Dia16 {
-    display: none
-}
-
-.eltiempo .cc {
-    color: #fff;
-    white-space: nowrap
-}
-
-.eltiempo .cc .title {
-    color: #000;
-    margin-top: 20px;
-    margin-bottom: 5px
-}
-
-.eltiempo .cc .title h3 {
-    white-space: normal;
-    margin: 0;
-    padding: 0
-}
-
-.eltiempo .cc .ccscroll {
-    overflow: hidden;
-    clear: both;
-    height: 110px
-}
-
-.eltiempo .cc .contcc {
-    width: 100%;
-    height: 140px;
-    overflow-x: scroll
-}
-
-.eltiempo .cc td {
-    background: #db7ade;
-    padding: 10px;
-    border-right: 5px solid #fff
-}
-
-.eltiempo .cc td.nb {
-    border: 0
-}
-
-.eltiempo .cc .icon {
-    width: 90px;
-    height: 90px
-}
-
-.eltiempo .cc .temp {
-    line-height: 90px;
-    font-size: 60px;
-    padding: 0 30px
-}
-
-.eltiempo .cc .winddir {
-    height: 56px;
-    padding: 17px 5px
-}
-
-.eltiempo .cc .vel {
-    height: 56px;
-    line-height: 56px;
-    font-size: 25px
-}
-
-.eltiempo .cc .oth {
-    height: 90px
-}
-
-.eltiempo .cc .oth span.ht {
-    display: block;
-    font-size: 12px;
-    font-weight: 700;
-    line-height: 23px;
-    text-align: center
-}
-
-.eltiempo .cc .oth span.hr {
-    display: block;
-    font-size: 24px;
-    line-height: 60px;
-    text-align: center
-}
-
-.eltiempo .cc .currentinfo {
-    color: #000;
-    margin: 0;
-    padding: 0;
-    padding-top: 5px;
-    white-space: normal
-}
-
-#PruebaScrollDiasAmpliados {
-    padding-bottom: 30px
-}
-
-#ValorarTiempo {
-    background: #47a7e7;
-    padding: 8px;
-    color: #fff;
-    font-size: 15px;
-    margin-top: 10px;
-    clear: both
-}
-
-#ValorarTiempo .vtxt {
-    float: left;
-    line-height: 25px;
-    padding-right: 10px
-}
-
-#ValorarTiempo .estrellas {
-    float: left
-}
-
-#ValorarTiempo .estrellas img {
-    width: 25px;
-    height: 25px
-}
-
-#ValorarTiempo .total {
-    float: left;
-    line-height: 25px;
-    padding-left: 10px
-}
-
-@media screen and (min-width:200px) and (max-width:700px) {
-    #ValorarTiempo .estrellas {
-        padding: 5px 0;
-        clear: both
-    }
-    #ValorarTiempo .estrellas img {
+    
+    .eltiempo .tiledias td span.ico {
+        display: block;
+        position: absolute;
+        left: 10px;
+        top: 40px;
         width: 40px;
         height: 40px
     }
-    #ValorarTiempo .total {
-        padding-left: 0;
+    
+    .eltiempo .tiledias td span.Temp {
+        display: block;
+        position: absolute;
+        left: 52px;
+        top: 40px;
+        width: 53px;
+        height: 40px;
+        font-size: 15px
+    }
+    
+    .eltiempo .tiledias td span.Temp span.max {
+        display: block;
+        overflow: hidden;
+        line-height: 16px;
+        padding-top: 3px;
+        text-align: right;
+        padding-right: 10px;
+        font-weight: 700
+    }
+    
+    .eltiempo .tiledias td span.Temp span.min {
+        display: block;
+        overflow: hidden;
+        line-height: 16px;
+        text-align: right;
+        padding-right: 10px;
+        font-weight: 700
+    }
+    
+    .eltiempo .tiledias td:hover h3 {
+        margin-top: 0
+    }
+    
+    .eltiempo .tiledias td:hover span.ico {
+        top: 36px
+    }
+    
+    .eltiempo .tiledias td:hover span.Temp {
+        top: 36px
+    }
+    
+    .eltiempo .tiledias td.sel h3 {
+        text-decoration: none;
+        background: #47a7e7;
+        color: #fff;
+        margin-top: 0;
+        line-height: 25px
+    }
+    
+    .eltiempo .tiledias td span.next {
+        position: absolute;
+        right: 0;
+        bottom: -20px
+    }
+    
+    body.lang-EN .eltiempo .tiledias td h3 {
+        font-size: 15px
+    }
+    
+    body.lang-DE .eltiempo .tiledias td h3 {
+        font-size: 15px
+    }
+    
+    body.lang-FR .eltiempo .tiledias td h3 {
+        font-size: 15px
+    }
+    
+    .eltiempo .datadias {
+        margin-top: 5px;
+        padding-bottom: 4px;
+        min-height: 260px
+    }
+    
+    .eltiempo .datadias.porhora {
+        overflow-y: hidden;
+        overflow-x: scroll
+    }
+    
+    .eltiempo .datadias.porhora tr.datos td.tdia {
+        background: #47a7e7;
+        width: 30px;
+        border: 0;
+        vertical-align: bottom;
+        line-height: 30px;
+        font-size: 15px;
+        font-weight: 700;
+        color: #fff;
+        cursor: default;
+        white-space: nowrap
+    }
+    
+    .eltiempo .datadias.porhora tr.datos td.tdia div.rdia {
+        margin-bottom: 50px;
+        line-height: 30px;
+        white-space: nowrap;
+        height: 30px;
+        width: 30px;
+        -moz-transform: rotate(-90.0deg);
+        -o-transform: rotate(-90.0deg);
+        -webkit-transform: rotate(-90.0deg);
+        filter: progid: DXImageTransform.Microsoft.BasicImage(rotation=0.083);
+        -ms-filter: progid: DXImageTransform.Microsoft.BasicImage(rotation=0.083);
+        -ms-transform: rotate(-90deg)
+    }
+    
+    .eltiempo .datadias.finsemana td {
+        cursor: auto
+    }
+    
+    .eltiempo .datadias td {
+        width: 77px;
+        border-left: 1px solid #fff;
+        vertical-align: top;
+        height: 260px;
+        border-color: #d2d2d2;
+        color: #000;
+        cursor: pointer
+    }
+    
+    .eltiempo .datadias td.first {
+        border: 0;
+        width: 78px
+    }
+    
+    .eltiempo .datadias td.nb {
+        border: 0
+    }
+    
+    .eltiempo .datadias span.h {
+        display: block;
+        height: 30px;
+        text-align: center;
+        line-height: 30px;
+        font-size: 15px;
+        font-weight: 700;
+        color: #47a7e7
+    }
+    
+    .eltiempo .datadias img {
+        margin-left: 19px
+    }
+    
+    .eltiempo .datadias span.ico {
+        margin-left: 19px
+    }
+    
+    .eltiempo .datadias span.temp {
+        display: block;
+        width: 100%;
+        text-align: center;
+        line-height: 20px;
+        font-size: 16px;
+        font-weight: 700
+    }
+    
+    .eltiempo .datadias span.rain {
+        display: block;
+        position: absolute;
+        bottom: 40px;
+        width: 100%;
+        height: 20px;
+        line-height: 20px;
+        font-size: 11px;
+        padding-left: 30px;
+        background: url(https://oc.tutiempo.net/i/css/dias-rain.png) no-repeat 7px top
+    }
+    
+    .eltiempo .datadias span.wind {
+        display: block;
+        position: absolute;
+        bottom: 15px;
+        width: 100%;
+        height: 20px;
+        line-height: 20px;
+        font-size: 11px
+    }
+    
+    .eltiempo .datadias span.wind span.icow {
+        float: left;
+        margin-left: 5px
+    }
+    
+    .eltiempo .datadias span.wind span.vv {
+        float: left;
+        margin-lefline-height: 20px;
+        display: block;
+        padding: 5px 10px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        color: #fff;
+        font-weight: 700;
+        font-size: 15px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden
+    }
+    
+    .BotonVerdeMore:hover {
+        background-color: #000;
+        color: #fff
+    }
+    
+    .eltiempo .fulltiledias.mapa {
+        height: 94px;
+        margin-top: 10px
+    }
+    
+    .eltiempo .fulltiledias.mapa .tiledias {
+        height: 50px
+    }
+    
+    .eltiempo .fulltiledias.mapa .tiledias td {
+        height: 50px;
+        width: 100px
+    }
+    
+    .eltiempo .fulltiledias.mapa .tiledias td a {
+        color: #47a7e7;
+        margin: 0;
+        display: block;
+        padding: 0;
+        font-size: 17px;
+        padding-left: 10px;
+        line-height: 21px;
+        margin-top: 4px
+    }
+    
+    .eltiempo .fulltiledias.mapa .tiledias td.sel .indscright {
+        background-color: rgba(0, 0, 0, 0.6);
+        width: 23px;
+        height: 83px
+    }
+    
+    .cc .ccscroll .indscleft {
+        background-color: rgba(0, 0, 0, 0.6);
+        width: 23px;
+        height: 110px
+    }
+    
+    .cc .ccscroll .indscright {
+        background-color: rgba(0, 0, 0, 0.6);
+        width: 23px;
+        height: 110px
+    }
+    
+    .DivContenedorHoras {
+        overflow: hidden;
+        border-top: 4px solid #47a7e7
+    }
+    
+    .DivContenedorHoras .indscleft {
+        background-color: rgba(71, 167, 231, 0.6);
+        width: 23px;
+        height: 34px
+    }
+    
+    .DivContenedorHoras .indscright {
+        background-color: rgba(71, 167, 231, 0.6);
+        width: 23px;
+        height: 34px
+    }
+    
+    .DivContenedorHoras .indscright:hover,
+    .DivContenedorHoras .indscleft:hover {
+        background-color: #47a7e7
+    }
+    
+    .DivContenedorHoras.SelHora {
+        height: 34px;
+        line-height: 34px;
+        border-bottom: 5px solid #47a7e7;
+        margin: 0
+    }
+    
+    .SelHora ul {
+        margin: 0;
+        padding: 0;
+        list-style: none
+    }
+    
+    .SelHora ul li {
+        float: left;
+        border-right: 1px solid #47a7e7;
+        width: 46px;
+        overflow: hidden;
+        text-align: center;
+        cursor: pointer
+    }
+    
+    .SelHora ul li:hover,
+    .SelHora ul li.sel {
+        background: #cae6f8
+    }
+    
+    .eltiempo .fulltiledias.mapa .indscleft {
+        background-color: rgba(71, 167, 231, 0.6);
+        width: 23px;
+        height: 50px
+    }
+    
+    .eltiempo .fulltiledias.mapa .indscright {
+        background-color: rgba(71, 167, 231, 0.6);
+        width: 23px;
+        height: 50px
+    }
+    
+    .eltiempo .fulltiledias.mapa .DivContenedorHoras .indscleft {
+        background-color: rgba(71, 167, 231, 0.6);
+        width: 23px;
+        height: 34px
+    }
+    
+    .eltiempo .fulltiledias.mapa .DivContenedorHoras .indscright {
+        background-color: rgba(71, 167, 231, 0.6);
+        width: 23px;
+        height: 34px
+    }
+    
+    #ContenidoPie .copy .indscleft {
+        z-index: 8;
+        width: 23px;
+        height: 50px;
+        background-color: rgba(71, 167, 231, 0.4)
+    }
+    
+    #ContenidoPie .copy .indscright {
+        z-index: 8;
+        width: 23px;
+        height: 50px;
+        background-color: rgba(71, 167, 231, 0.4)
+    }
+    
+    .mlistados ul {
+        width: 100%;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: inline-block;
+        left: 0;
+        right: 0;
+        border-left: 1px solid #dcdcdc
+    }
+    
+    .mlistados ul li {
+        padding: 0;
+        margin: 0;
+        float: left;
+        display: block;
+        width: 100%
+    }
+    
+    .mlistados ul li.tablagenerica tr.center td,
+    .tablagenerica td.center {
+        text-align: center
+    }
+    
+    .tablagenerica td.bold {
+        font-weight: 700
+    }
+    
+    .clima table.medias {
+        border-collapse: collapse
+    }
+    
+    .clima table.medias,
+    .clima table.medias td,
+    .clima table.medias th {
+        border: 1px solid #dbe1e1
+    }
+    
+    .clima table.medias td,
+    .clima table.medias th {
+        padding: 5px;
+        text-align: center
+    }
+    
+    .clima table.medias td {
+        white-space: nowrap
+    }
+    
+    .clima table.medias tr:hover td {
+        background: #f5f5f5
+    }
+    
+    .clima table.medias td.Left {
+        text-align: left
+    }
+    
+    .clima table.medias.mensuales td span {
+        color: red
+    }
+    
+    .clima table.medias.nowrap td,
+    .clima table.medias.nowrap th {
+        white-space: nowrap
+    }
+    
+    .clima table.medias tr td:nth-child(1) {
+        padding-left: 10px;
+        padding-right: 10px
+    }
+    
+    .clima table.medias tr td:nth-child(1) a {
+        display: block;
+        padding: 10px;
+        font-weight: 700;
+        margin: -5px;
+        margin-left: -10px;
+        margin-right: -10px
+    }
+    
+    .clima table.info {
+        border-collapse: collapse
+    }
+    
+    .clima table.info,
+    .clima table.info td {
+        border: 1px solid #dbe1e1
+    }
+    
+    .clima table.info td {
+        padding: 5px;
+        text-align: left
+    }
+    
+    .clima table.info tr td:nth-child(1) {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-weight: 700;
+        text-align: center
+    }
+    
+    @media screen and (max-width:600px) {
+        .clima table.medias tr td:nth-child(1) {
+            padding-left: 5px;
+            padding-right: 5px
+        }
+        .clima table.medias tr td:nth-child(1) a {
+            margin: -5px
+        }
+    }
+    
+    .minoverflow {
+        width: 100%
+    }
+    
+    @media screen and (max-width:800px) {
+        .minoverflow {
+            overflow-x: scroll
+        }
+    }
+    
+    @media screen and (min-width:1500px) {
+        .NavMenufijo {
+            max-width: 1105px;
+            width: 1105px;
+        }
+        .ContBannerTop {
+            max-width: 1105px;
+            width: 1105px
+        }
+        #Contenido,
+        #SearchTop {
+            max-width: 1105px
+        }
+        #ColumnaIzquierda {
+            margin-right: 366px
+        }
+        #ColumnaDerecha {
+            width: 356px
+        }
+        #ColumnaDerecha .Bloque300 {
+            width: 336px
+        }
+        #Contenido .Columnas .LineColumnas {
+            right: 356px
+        }
+        #ContenidoPie {
+            max-width: 1105px
+        }
+        .MegaMenu {
+            width: 1105px
+        }
+    }
+    
+    .PaddingBanCab {
+        padding: 10px;
+        background-color: #4095cd;
+        display: inline-block
+    }
+    
+    .BanCab {
+        width: 970px;
+        display: inline-block;
+        overflow: hidden
+    }
+    
+    @media screen and (max-width:990px) {
+        .BanCab {
+            width: 728px;
+        }
+    }
+    
+    @media screen and (max-width:738px) {
+        .BanCab {
+            width: 468px;
+        }
+        .PaddingBanCab {
+            padding: 5px
+        }
+    }
+    
+    @media screen and (max-width:478px) {
+        .BanCab {
+            width: 320px;
+        }
+        .PaddingBanCab {
+            padding: 5px
+        }
+    }
+    
+    @media screen and (max-width:329px) {
+        .BanCab {
+            width: 234px;
+        }
+        .PaddingBanCab {
+            padding: 5px
+        }
+    }
+    
+    .BanCDer1 {
+        width: 300px;
+        height: 250px;
+        display: block;
+        overflow: hidden
+    }
+    
+    @media screen and (min-width:1500px) {
+        .BanCDer1 {
+            width: 336px;
+            height: 280px
+        }
+    }
+    
+    @media screen and (min-width:801px) and (max-width:900px) {
+        .BanCDer1 {
+            width: 250px;
+            height: 250px
+        }
+    }
+    
+    @media screen and (min-width:701px) and (max-width:800px) {
+        .BanCDer1 {
+            width: 120px;
+            height: 240px
+        }
+    }
+    
+    @media screen and (min-width:346px) and (max-width:600px) {
+        .BanCDer1 {
+            width: 336px;
+            height: 280px
+        }
+    }
+    
+    @media screen and (min-width:310px) and (max-width:345px) {
+        .BanCDer1 {
+            width: 300px;
+            height: 250px
+        }
+    }
+    
+    @media screen and (max-width:309px) {
+        .BanCDer1 {
+            width: 250px;
+            height: 250px
+        }
+    }
+    
+    .BanCDer2 {
+        width: 300px;
+        height: 250px;
+        display: block;
+        overflow: hidden
+    }
+    
+    @media screen and (min-width:1500px) {
+        .BanCDer2 {
+            width: 336px;
+            height: 280px
+        }
+    }
+    
+    @media screen and (min-width:801px) and (max-width:900px) {
+        .BanCDer2 {
+            width: 250px;
+            height: 250px
+        }
+    }
+    
+    @media screen and (min-width:701px) and (max-width:800px) {
+        .BanCDer2 {
+            width: 120px;
+            height: 240px
+        }
+    }
+    
+    @media screen and (max-width:700px) {
+        .BanCDer2 {
+            display: none
+        }
+    }
+    
+    .BanVLDer2 {
+        width: 300px;
+        height: 600px;
+        display: block;
+        overflow: hidden
+    }
+    
+    @media screen and (min-width:1500px) {
+        .BanVLDer2 {
+            padding-left: 15px;
+            width: 300px;
+            height: 600px
+        }
+    }
+    
+    @media screen and (min-width:801px) and (max-width:900px) {
+        .BanVLDer2 {
+            width: 160px;
+            height: 600px
+        }
+    }
+    
+    @media screen and (min-width:701px) and (max-width:800px) {
+        .BanVLDer2 {
+            width: 120px;
+            height: 600px
+        }
+    }
+    
+    @media screen and (max-width:700px) {
+        .BanVLDer2 {
+            display: none
+        }
+    }
+    
+    .BanInnerPage {
+        width: 336px;
+        height: 280px;
+        display: block;
+        overflow: hidden;
+        margin: 0 auto
+    }
+    
+    @media(min-width:478px) {
+        .BanInnerPage {
+            width: 468px;
+            height: 60px
+        }
+    }
+    
+    @media(min-width:1074px) {
+        .BanInnerPage {
+            width: 728px;
+            height: 90px
+        }
+    }
+    
+    #GeoPosicionarResult {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 80%;
+        max-width: 400px;
+        z-index: 60000;
+        background-color: rgba(0, 0, 0, 0.6);
+        color: #fff
+    }
+    
+    .DivShare span {
+        display: inline-block;
+        margin-left: 5px;
+        width: 40px;
+        height: 40px;
+        overflow: hidden;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: auto 24px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+    
+    .DivShare span:first-child {
+        margin-left: 0;
+    }
+    
+    .DivShare span a {
+        display: block;
+        width: 40px;
+        height: 40px;
+    }
+    
+    .DivShare .fb {
+        background-color: #5d82d1;
+    }
+    
+    .DivShare .tw {
+        background-color: #40bff5;
+    }
+    
+    .DivShare .wh {
+        background-color: #95e04a;
+    }
+    
+    .DivShare .pi {
+        background-color: #bd081c;
+    }
+    
+    .DivShare .sh {
+        filter: invert(100%);
+        cursor: default;
+        -webkit-filter: invert(100%);
+    }
+    
+    #MapaAdmin {
+        max-width: 630px;
+        height: auto;
+        margin-right: 96px
+    }
+    
+    #MapaAdmin ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%
+    }
+    
+    #MapaAdmin ul li {
+        position: absolute;
+        margin-top: -15px;
+        margin-left: -15px;
+        height: 30px;
+        display: block;
+        z-index: 1
+    }
+    
+    #MapaAdmin ul li:hover {
+        height: auto;
+        z-index: 10
+    }
+    
+    #MapaAdmin ul li h3 {
+        display: none;
+        position: absolute;
+        left: -50%;
+        top: -5px;
+        margin: 0;
+        z-index: 2;
+        white-space: nowrap;
+        background: rgba(255, 255, 255, 0.8)
+    }
+    
+    #MapaAdmin ul li h3.left {
+        left: -70px
+    }
+    
+    #MapaAdmin ul li:hover h3 {
+        display: block
+    }
+    
+    #MapaAdmin ul li a {
+        font-size: 14px;
+        line-height: 32px;
+        color: #000;
+        font-weight: 700;
+        z-index: 2;
+        padding: 8px
+    }
+    
+    #MapaAdmin dl {
+        position: absolute;
+        left: 0;
+        top: 0;
+        margin: 0;
+        padding: 0
+    }
+    
+    #MapaAdmin dt {
+        position: absolute;
+        left: -10000px;
+        top: -10000px
+    }
+    
+    #MapaAdmin dd {
+        position: absolute;
+        left: 0;
+        top: 0;
+        margin: 0;
+        padding: 0;
+        z-index: 1
+    }
+    
+    #MapaAdmin dd.tmp {
+        position: absolute;
+        left: -10000px;
+        top: -10000px
+    }
+    
+    #MapaAdmin dd.tmpr {
+        position: absolute;
+        left: 31px;
+        top: 6px;
+        font-size: 14px;
+        color: #000;
+        font-weight: 700;
+        letter-spacing: .04em;
+        white-space: nowrap
+    }
+    
+    #MapaAdmin span {
+        position: absolute;
+        left: -10000px;
+        top: -10000px
+    }
+    
+    img.Map630 {
+        width: 100%;
+        max-width: 630px;
+        height: auto
+    }
+    
+    .TitleMapa {
+        position: absolute;
+        z-index: 10;
+        left: 0;
+        top: 0;
+        background: rgba(0, 0, 0, 0.4);
+        text-indent: 5px;
+        width: 100%;
+        max-width: 630px;
+        height: 25px;
+        color: #fff;
+        line-height: 25px;
+        font-size: 15px
+    }
+    
+    #MapaAdmin ul li:hover h3 span {
+        display: block;
+        position: relative;
+        left: 0;
+        top: -5px;
+        text-align: center;
+        padding-left: 5px;
+        padding-right: 5px;
+        white-space: nowrap;
+        margin-top: -5px;
+        font-weight: 700;
+        color: #F60
+    }
+    
+    #MapaAdmin div.VinSP {
+        margin: 0;
+        position: absolute;
+        left: 0;
+        top: 0
+    }
+    
+    #MapaAdmin div.VinSP div {
+        float: left;
+        cursor: pointer;
+        margin: 0;
+        margin-left: 10px;
+        height: 25px;
+        display: block;
+        z-index: 1;
+        background: transparent url(https://i7.tutiempo.net/css/VinRayosMapLeft.png) no-repeat left top
+    }
+    
+    #MapaAdmin div.VinSP div h4 {
+        display: block;
+        white-space: nowrap;
+        height: 25px;
+        font-size: 13px;
+        line-height: 25px;
+        color: #000;
+        font-weight: 400;
+        z-index: 2;
+        padding: 0;
+        padding-right: 9px;
+        margin-left: 9px;
+        background: transparent url(https://i7.tutiempo.net/css/VinRayosMapRight.png) no-repeat right top
+    }
+    
+    #MapaAdmin div.VinSP div h4 span.rayo {
+        padding-left: 16px;
+        display: block;
+        height: 25px;
+        left: 0;
+        top: 0;
+        background: transparent url(https://i7.tutiempo.net/css/VinRayoIco.png) no-repeat left 50%
+    }
+    
+    #MapaAdmin div.VinSP div h4 span.obser {
+        padding-left: 29px;
+        left: 0;
+        top: 0;
+        background: transparent url(https://i7.tutiempo.net/css/VinObserIco.png) no-repeat left 50%
+    }
+    
+    #MapaAdmin div.VinSP div h4 span.radar {
+        padding-left: 33px;
+        left: 0;
+        top: 0;
+        background: transparent url(https://i7.tutiempo.net/css/VinRadarIco.png) no-repeat left 50%
+    }
+    
+    #MapaAdmin div.VinSP div h4 span.playas {
+        padding-left: 25px;
+        left: 0;
+        top: 0;
+        background: transparent url(https://i7.tutiempo.net/css/VinPlayas.png) no-repeat left 50%
+    }
+    
+    #MapaAdmin div.VinSP div h4 span.golf {
+        padding-left: 20px;
+        left: 0;
+        top: 0;
+        background: transparent url(https://i7.tutiempo.net/css/VinGolf.png) no-repeat left 50%
+    }
+    
+    #Mapa {
+        max-width: 630px;
+        height: auto;
+        margin-right: 96px
+    }
+    
+    #Mapa ul {
+        margin: 0;
+        list-style: none;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 1
+    }
+    
+    #Mapa ul li {
+        position: absolute;
+        margin-top: -15px;
+        margin-left: -15px;
+        height: 30px;
+        display: block;
+        z-index: 1
+    }
+    
+    #Mapa h3 {
+        position: absolute;
+        left: 0;
+        top: 0;
+        margin: 0;
+        padding: 0;
+        font-size: 11px;
+        font-weight: 700;
+        line-height: 12px;
+        z-index: 2
+    }
+    
+    #Mapa a {
+        font-size: 11px;
+        font-weight: 700;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 85px;
+        display: block;
+        padding-top: 30px;
+        z-index: 2;
+        color: #000;
+        text-decoration: none
+    }
+    
+    #Mapa a:hover {
+        color: #000;
+        text-decoration: underline;
+        z-index: 2
+    }
+    
+    #Mapa dl {
+        position: absolute;
+        left: 0;
+        top: 0;
+        margin: 0;
+        padding: 0
+    }
+    
+    #Mapa dt {
+        position: absolute;
+        left: -10000px;
+        top: -10000px
+    }
+    
+    #Mapa dd {
+        position: absolute;
+        left: 0;
+        top: 0;
+        margin: 0;
+        padding: 0
+    }
+    
+    #Mapa dd span {
+        display: none
+    }
+    
+    #Mapa .tmp {
+        left: 35px;
+        top: 4px;
+        font-size: 18px;
+        color: #06C;
+        font-weight: 700;
+        letter-spacing: .04em;
+        position: absolute;
+        white-space: nowrap
+    }
+    
+    #Mapa div.VinSP {
+        margin: 0;
+        position: absolute;
+        left: 0;
+        top: 0
+    }
+    
+    #Mapa div.VinSP div {
+        float: left;
+        cursor: pointer;
+        margin: 0;
+        margin-left: 10px;
+        height: 25px;
+        display: block;
+        z-index: 1;
+        t: 3px
+    }
+    
+    .eltiempo .datadias span.mash {
+        display: block;
+        position: absolute;
+        bottom: 0;
+        height: 9px;
+        width: 100%;
+        max-width: 78px;
+        background: #fff url(https://oc.tutiempo.net/i/css/mash.png) no-repeat 50% 50%;
+        cursor: pointer
+    }
+    
+    .eltiempo .datadias span.mash div {
+        display: none
+    }
+    
+    .eltiempo .datadias td.showh span.mash {
+        background-color: #47a7e7
+    }
+    
+    .eltiempo .datadias td:hover span.mash {
+        background-color: #47a7e7
+    }
+    
+    .eltiempo .datadias td.showh span.mash.n {
+        background-color: #125886
+    }
+    
+    .eltiempo .datadias td:hover span.mash.n {
+        background-color: #125886
+    }
+    
+    .eltiempo .tiledias.detallado td {
+        cursor: default
+    }
+    
+    .eltiempo .tiledias.detallado td.sel {
+        cursor: default;
+        background: #fff
+    }
+    
+    .eltiempo .tiledias.detallado td h3 {
+        color: #47a7e7;
+        margin: 0
+    }
+    
+    .eltiempo .tiledias.detallado td:hover h3 {
+        margin-top: 0
+    }
+    
+    .eltiempo .tiledias.detallado td.sel h3 {
+        text-decoration: none;
+        background: #fff;
+        color: #47a7e7;
+        margin-top: 0;
+        line-height: 25px
+    }
+    
+    .eltiempo .datadias.detallado {
+        width: 1600px
+    }
+    
+    .eltiempo .datadias.detallado td {
+        cursor: default;
+        width: 103px
+    }
+    
+    .eltiempo .datadias.detallado td.first {
+        width: 104px
+    }
+    
+    .eltiempo .datadias.detallado span {
+        display: block;
+        text-align: center;
+        border-bottom: 1px solid #d2d2d2;
+        line-height: 26px;
+        font-size: 12px
+    }
+    
+    .eltiempo .datadias.detallado span.hr {
+        font-size: 13px;
+        border-top: 1px solid #d2d2d2
+    }
+    
+    .eltiempo .datadias.detallado span.hrd {
+        line-height: 36px;
+        font-size: 17px;
+        font-weight: 700
+    }
+    
+    .eltiempo .datadias.detallado span.c1,
+    .eltiempo .datadias.detallado span.c2,
+    .eltiempo .datadias.detallado span.c3,
+    .eltiempo .datadias.detallado span.c4,
+    .eltiempo .datadias.detallado span.c5 {
+        line-height: 19px;
+        border: 0;
+        padding-left: 10px;
+        display: inline-block;
+        font-size: 17px
+    }
+    
+    .eltiempo .datadias.detallado span.c1 {
+        border-left: 13px solid #289500
+    }
+    
+    .eltiempo .datadias.detallado span.c2 {
+        border-left: 13px solid #F7E400;
+        padding-left: 10px
+    }
+    
+    .eltiempo .datadias.detallado span.c3 {
+        border-left: 13px solid #F85900;
+        padding-left: 10px
+    }
+    
+    .eltiempo .datadias.detallado span.c4 {
+        border-left: 13px solid #D8001D;
+        padding-left: 10px
+    }
+    
+    .eltiempo .datadias.detallado span.c5 {
+        border-left: 13px solid #6B49C8;
+        padding-left: 10px
+    }
+    
+    .thh table {
+        border: 0;
+        padding: 0;
+        border-spacing: 0
+    }
+    
+    .thh table tr {
+        border: 0;
+        padding: 0;
+        border-spacing: 0
+    }
+    
+    .thh table tr:hover td,
+    .thh table tr:focus td {
+        color: #47a7e7
+    }
+    
+    .thh th {
+        text-align: left;
+        color: #47a7e7;
+        line-height: 24px
+    }
+    
+    .thh table tr th:nth-child(1),
+    .thh table tr th:nth-child(2) {
+        text-align: left
+    }
+    
+    .thh th.ndia {
+        text-align: left;
+        color: #fff;
+        background: #47a7e7;
+        border-top: 5px solid #fff;
+        line-height: 30px;
+        padding-left: 10px
+    }
+    
+    .thh table tr td:nth-child(1) {
+        color: #47a7e7;
+        font-weight: 700;
+        min-width: 40px
+    }
+    
+    .thh table tr td:nth-child(3) {
+        padding-right: 10px;
+        font-weight: 700
+    }
+    
+    .thh td.wind {
+        line-height: 20px;
+        text-indent: 10px
+    }
+    
+    .thh td.wind img {
+        float: left
+    }
+    
+    .thh .InfoLast {
+        line-height: 35px;
+        padding-bottom: 10px;
+        padding-top: 10px
+    }
+    
+    .thh .InfoLast a {
+        background: #69af25;
+        white-space: nowrap;
+        overflow: hidden;
+        color: #fff;
+        padding: 10px 20px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        margin-left: 10px;
+        font-weight: 700
+    }
+    
+    .thh .InfoLast a:hover {
+        background-color: #2c2c2c
+    }
+    
+    .thhip {
+        padding-left: 40px;
+        padding-right: 15px;
+        width: auto;
+        line-height: 30px;
+        white-space: nowrap
+    }
+    
+    .thhiv {
+        padding-left: 30px;
+        width: auto;
+        max-width: 60px;
+        line-height: 20px;
+        white-space: nowrap
+    }
+    
+    .thh th.thhtp .plit {
+        display: none
+    }
+    
+    @media screen and (max-width:1000px) {
+        .thhip {
+            width: 30px;
+            padding-right: 10px;
+            padding-left: 0;
+            text-indent: -10000px;
+            overflow: hidden
+        }
+        .thh th.thhtp .plit {
+            display: block
+        }
+        .thh th.thhtp .pbig {
+            display: none
+        }
+    }
+    
+    @media screen and (max-width:400px) {
+        .thh table tr td:nth-child(5) {
+            display: none
+        }
+        .thh table tr th:nth-child(5) {
+            display: none
+        }
+    }
+    
+    @media screen and (max-width:340px) {
+        .thh table tr td:nth-child(6) {
+            display: none
+        }
+        .thh table tr th:nth-child(6) {
+            display: none
+        }
+    }
+    
+    @media screen and (max-width:280px) {
+        .thh table tr td:nth-child(7) {
+            display: none
+        }
+        .thh table tr th:nth-child(7) {
+            display: none
+        }
+    }
+    
+    .vr {
+        border-top: 5px solid #47a7e7;
+        border-bottom: 4px solid #47a7e7
+    }
+    
+    .vr td {
+        width: 78px;
+        height: 80px;
+        vertical-align: top;
+        border: 1px solid #98cef2;
+        border-left: 0;
+        border-top: 0
+    }
+    
+    .vr .d {
+        width: 99px;
+        border: 0;
+        border-right: 5px solid #47a7e7;
+        border-bottom: 1px solid #47a7e7;
+        font-size: 12px
+    }
+    
+    .vr .d h3 {
+        background: #47a7e7;
+        color: #fff;
+        margin: 0;
+        padding: 0;
+        padding-left: 5px;
+        line-height: 25px
+    }
+    
+    .vr .d span.nd {
+        margin: 5px;
+        font-size: 11px;
+        color: grey;
+        display: block;
+        margin-bottom: 5px;
+        margin-top: 1px
+    }
+    
+    .vr .d span.ico {
+        margin: 0;
+        float: left
+    }
+    
+    .vr .d span.max,
+    .vr .d span.min {
+        margin: 0;
+        float: right;
+        display: block;
+        width: 45px;
+        padding-right: 10px;
+        line-height: 17px;
+        font-size: 15px;
+        text-align: right;
+        font-weight: 700
+    }
+    
+    .vr .d span.max {
+        padding-top: 3px
+    }
+    
+    .vr span.ico {
+        margin-left: 20px;
+        margin-top: 10px
+    }
+    
+    .vr span.temp {
+        display: block;
+        text-align: center;
+        margin-top: 4px;
+        line-height: 20px;
+        font-weight: 700;
+        font-size: 17px
+    }
+    
+    .vr tr.head td {
+        height: 20px;
+        line-height: 20px;
+        text-align: center;
+        font-weight: 700;
+        color: #47a7e7
+    }
+    
+    .eltiempo .datadias td.od {
+        cursor: default
+    }
+    
+    .eltiempo .datadias td.od img {
+        opacity: .5;
+        filter: alpha(opacity=50)
+    }
+    
+    .eltiempo .datadias td.od {
+        cursor: default
+    }
+    
+    .eltiempo .datadias span.weathertooltip {
+        display: block
+    }
+    
+    .eltiempo .datadias td.mas {
+        border: 0;
+        width: 103px;
+        cursor: default
+    }
+    
+    .eltiempo .datadias td.mas div {
+        background: #47a7e7;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        display: block;
+        margin-left: 7px;
+        padding-bottom: 5px;
+        color: #fff;
+        font-size: 15px
+    }
+    
+    .eltiempo .datadias td.mas span.vinhh {
+        cursor: pointer;
+        display: block;
+        margin-bottom: 9px;
+        background: #f04936;
+        border-radius: 5px;
+        font-size: 13px;
+        color: #fff;
+        font-weight: 400;
+        margin-left: 7px;
+        text-align: center;
+        line-height: 30px
+    }
+    
+    .eltiempo .datadias td.mas span.vinhh:hover {
+        background: #47a7e7
+    }
+    
+    .md .pr {
+        display: block;
+        text-align: right;
+        padding-left: 30px;
+        background: url(https://oc.tutiempo.net/i/css/pr.png) no-repeat 3px 50%;
+        line-height: 27px
+    }
+    
+    .eltiempo #Dia2,
+    .eltiempo #Dia3,
+    .eltiempo #Dia4,
+    .eltiempo #Dia5,
+    .eltiempo #Dia6,
+    .eltiempo #Dia7,
+    .eltiempo #Dia8,
+    .eltiempo #Dia9,
+    .eltiempo #Dia10,
+    .eltiempo #Dia11,
+    .eltiempo #Dia12,
+    .eltiempo #Dia13,
+    .eltiempo #Dia14,
+    .eltiempo #Dia15,
+    .eltiempo #Dia16 {
+        display: none
+    }
+    
+    .eltiempo .cc {
+        color: #fff;
+        white-space: nowrap
+    }
+    
+    .eltiempo .cc .title {
+        color: #000;
+        margin-top: 20px;
+        margin-bottom: 5px
+    }
+    
+    .eltiempo .cc .title h3 {
+        white-space: normal;
+        margin: 0;
+        padding: 0
+    }
+    
+    .eltiempo .cc .ccscroll {
+        overflow: hidden;
+        clear: both;
+        height: 110px
+    }
+    
+    .eltiempo .cc .contcc {
+        width: 100%;
+        height: 140px;
+        overflow-x: scroll
+    }
+    
+    .eltiempo .cc td {
+        background: #db7ade;
+        padding: 10px;
+        border-right: 5px solid #fff
+    }
+    
+    .eltiempo .cc td.nb {
+        border: 0
+    }
+    
+    .eltiempo .cc .icon {
+        width: 90px;
+        height: 90px
+    }
+    
+    .eltiempo .cc .temp {
+        line-height: 90px;
+        font-size: 60px;
+        padding: 0 30px
+    }
+    
+    .eltiempo .cc .winddir {
+        height: 56px;
+        padding: 17px 5px
+    }
+    
+    .eltiempo .cc .vel {
+        height: 56px;
+        line-height: 56px;
+        font-size: 25px
+    }
+    
+    .eltiempo .cc .oth {
+        height: 90px
+    }
+    
+    .eltiempo .cc .oth span.ht {
+        display: block;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 23px;
+        text-align: center
+    }
+    
+    .eltiempo .cc .oth span.hr {
+        display: block;
+        font-size: 24px;
+        line-height: 60px;
+        text-align: center
+    }
+    
+    .eltiempo .cc .currentinfo {
+        color: #000;
+        margin: 0;
+        padding: 0;
+        padding-top: 5px;
+        white-space: normal
+    }
+    
+    #PruebaScrollDiasAmpliados {
+        padding-bottom: 30px
+    }
+    
+    #ValorarTiempo {
+        background: #47a7e7;
+        padding: 8px;
+        color: #fff;
+        font-size: 15px;
+        margin-top: 10px;
         clear: both
     }
-}
-
-@media screen and (min-width:330px) and (max-width:700px) {
+    
+    #ValorarTiempo .vtxt {
+        float: left;
+        line-height: 25px;
+        padding-right: 10px
+    }
+    
+    #ValorarTiempo .estrellas {
+        float: left
+    }
+    
     #ValorarTiempo .estrellas img {
-        margin-left: 10px
+        width: 25px;
+        height: 25px
     }
-    #ValorarTiempo .estrellas img:first-child {
-        margin-left: 0
+    
+    #ValorarTiempo .total {
+        float: left;
+        line-height: 25px;
+        padding-left: 10px
     }
-}
-
-#VistaGrafica ::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.3);
-    background-color: #d7d7d7
-}
-
-#VistaGrafica ::-webkit-scrollbar {
-    width: 6px;
-    height: 10px;
-    background-color: #d7d7d7
-}
-
-#VistaGrafica ::-webkit-scrollbar-thumb {
-    background-color: #000;
-    min-width: 40px
-}
-
-.cabcera {
-    margin-top: 10px;
-    clear: both
-}
-
-.metcontainer {
-    height: 46px;
-    border: 0;
-    overflow: hidden;
-    border-bottom: 2px solid #515151;
-    margin-bottom: 1px
-}
-
-.metcontainer .indscleft {
-    width: 23px;
-    height: 46px
-}
-
-.metcontainer .indscright {
-    width: 23px;
-    height: 46px
-}
-
-.met {
-    width: 100%
-}
-
-.met table {
-    margin: 0;
-    padding: 0;
-    height: 46px
-}
-
-.met td {
-    height: 46px;
-    padding-right: 10px;
-    white-space: nowrap
-}
-
-.met td:last-child {
-    padding-right: 0
-}
-
-.met -webkit-border-radius:0;
--moz-border-radius:0;
-border-radius:0;
-background:#47a7e7;
-line-height:20px;
-padding:5px 10px;
-color:#fff;
-cursor:pointer
+    
+    @media screen and (min-width:200px) and (max-width:700px) {
+        #ValorarTiempo .estrellas {
+            padding: 5px 0;
+            clear: both
+        }
+        #ValorarTiempo .estrellas img {
+            width: 40px;
+            height: 40px
+        }
+        #ValorarTiempo .total {
+            padding-left: 0;
+            clear: both
+        }
+    }
+    
+    @media screen and (min-width:330px) and (max-width:700px) {
+        #ValorarTiempo .estrellas img {
+            margin-left: 10px
+        }
+        #ValorarTiempo .estrellas img:first-child {
+            margin-left: 0
+        }
+    }
+    
+    #VistaGrafica ::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.3);
+        background-color: #d7d7d7
+    }
+    
+    #VistaGrafica ::-webkit-scrollbar {
+        width: 6px;
+        height: 10px;
+        background-color: #d7d7d7
+    }
+    
+    #VistaGrafica ::-webkit-scrollbar-thumb {
+        background-color: #000;
+        min-width: 40px
+    }
+    
+    .cabcera {
+        margin-top: 10px;
+        clear: both
+    }
+    
+    .metcontainer {
+        height: 46px;
+        border: 0;
+        overflow: hidden;
+        border-bottom: 2px solid #515151;
+        margin-bottom: 1px
+    }
+    
+    .metcontainer .indscleft {
+        width: 23px;
+        height: 46px
+    }
+    
+    .metcontainer .indscright {
+        width: 23px;
+        height: 46px
+    }
+    
+    .met {
+        width: 100%
+    }
+    
+    .met table {
+        margin: 0;
+        padding: 0;
+        height: 46px
+    }
+    
+    .met td {
+        height: 46px;
+        padding-right: 10px;
+        white-space: nowrap
+    }
+    
+    .met td:last-child {
+        padding-right: 0
+    }
+    
+    .met -webkit-border-radius:0;
+    -moz-border-radius:0;
+    border-radius:0;
+    background:#47a7e7;
+    line-height:20px;
+    padding:5px 10px;
+    color:#fff;
+    cursor:pointer
 }
 .eltiempo .fulltiledias span.anterior:hover,
 .eltiempo .fulltiledias span.siguiente:hover {
@@ -3323,14 +3323,6 @@ cursor:pointer
 #ListadosMapasV4 ul li {
     margin: 0 20px 5px
 }
-.espana-a-coruna-provincia {
-    left: 96px;
-    top: 64px
-}
-.espana-alava-provincia {
-    left: 316px;
-    top: 89px
-}
 .espana-asturias {
     left: 184px;
     top: 57px
@@ -3452,7 +3444,6 @@ cursor:pointer
     top: 471px
 }
 @media screen and (max-width:550px) {
-    .espana-alava-provincia,
     .espana-guipuzcoa,
     .espana-guadalajara-provincia,
     .espana-segovia-provincia,
@@ -6472,7 +6463,7 @@ cursor:pointer
     
     .espana-vizcaya {
         left: 200px;
-        top: 50px
+        top: 40px
     }
     
     .espana-badajoz-provincia {
@@ -6513,6 +6504,16 @@ cursor:pointer
     .espana-cuenca-provincia {
         left: 210px;
         top: 160px
+    }
+    
+    .espana-a-coruna-provincia {
+        left: 60px;
+        top: 40px
+    }
+    
+    .espana-alava-provincia {
+        left: 200px;
+        top: 60px;
     }
 }
 @media (min-width: 768px) {
@@ -6614,4 +6615,14 @@ cursor:pointer
     .espana-cuenca-provincia {
         left: 334px;
         top: 231px
+    }
+    
+    .espana-a-coruna-provincia {
+        left: 96px;
+        top: 60px
+    }
+    
+    .espana-alava-provincia {
+        left: 316px;
+        top: 89px
     }

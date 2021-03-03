@@ -60,6 +60,16 @@ $tiempoToledo= json_decode($toledo);
 //
 $cuenca=file_get_contents("http://api.openweathermap.org/data/2.5/weather?q=Cuenca,es&APPID=5662461fc68d8c3c7a41a31b21f1bdd4&lang=es&units=metric");
 $tiempoCuenca = json_decode($cuenca);
+//
+$coruna=file_get_contents("http://api.openweathermap.org/data/2.5/weather?q=Coruña,es&APPID=5662461fc68d8c3c7a41a31b21f1bdd4&lang=es&units=metric");
+$tiempoCoruna = json_decode($coruna);
+//
+$alava=file_get_contents("http://api.openweathermap.org/data/2.5/weather?q=Alava,es&APPID=5662461fc68d8c3c7a41a31b21f1bdd4&lang=es&units=metric");
+$tiempoAlava = json_decode($alava);
+//
+$oviedo=file_get_contents("http://api.openweathermap.org/data/2.5/weather?q=Oviedo,es&APPID=b949cdfa1f95f6f1efb133b110948d6a&lang=es&units=metric");
+$tiempoOviedo = json_decode($oviedo);
+
 
 
 

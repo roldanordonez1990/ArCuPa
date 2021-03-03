@@ -9,19 +9,19 @@
                                  <img src="http://openweathermap.org/img/wn/<?php echo $tiempoMadrid->weather[0]->icon; ?>@2x.png" class="meteoIcono" alt="alt" /></span>
                               </li>
 
-                              <!--
+                         
                               <li data-temp="tmpr" class="espana-a-coruna-provincia">
                                  <h3><a href="/a-coruna-province.html">A Coruña</a></h3>
-                                 <img src="http://openweathermap.org/img/wn/<?php echo $tiempo->weather[0]->icon; ?>@2x.png" class="meteoIcono" alt="alt" /></span>
+                                 <img src="http://openweathermap.org/img/wn/<?php echo $tiempoCoruna->weather[0]->icon; ?>@2x.png" class="meteoIcono" alt="alt" /></span>
                               </li>
 
                               
                               <li data-temp="tmp" class="espana-alava-provincia">
                                  <h3><a href="/alava-province.html">Álava</a></h3>
-                                 <img src="http://openweathermap.org/img/wn/<?php echo $tiempo->weather[0]->icon; ?>@2x.png" class="meteoIcono" alt="alt" /></span>
+                                 <img src="http://openweathermap.org/img/wn/<?php echo $tiempoAlava->weather[0]->icon; ?>@2x.png" class="meteoIcono" alt="alt" /></span>
                               </li>
 
-                              -->
+                             
                               <li data-temp="tmpr" class="espana-albacete-provincia">
                                  <h3><a >Albacete</a></h3>
                                  <img src="http://openweathermap.org/img/wn/<?php echo $tiempoAlbacete->weather[0]->icon; ?>@2x.png" class="meteoIcono" alt="alt" /></span>
@@ -36,11 +36,13 @@
                               </li>
 
 
-<!--
+
                               <li data-temp="tmpr" class="espana-asturias">
-                                 <h3><a href="/asturias.html">Asturias</a></h3>
-                                 <img src="http://openweathermap.org/img/wn/<?php echo $tiempo->weather[0]->icon; ?>@2x.png" class="meteoIcono" alt="alt" /></span>
+                                 <h3><a href="/asturias.html">Oviedo</a></h3>
+                                 <img src="http://openweathermap.org/img/wn/<?php echo $tiempoOviedo->weather[0]->icon; ?>@2x.png" class="meteoIcono" alt="alt" /></span>
                               </li>
+
+                              <!--
                               <li data-temp="tmp" class="espana-avila-provincia">
                                  <h3><a href="/avila-province.html">Ávila</a></h3>
                                  <img src="http://openweathermap.org/img/wn/<?php echo $tiempo->weather[0]->icon; ?>@2x.png" class="meteoIcono" alt="alt" /></span>
