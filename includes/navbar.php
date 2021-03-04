@@ -61,7 +61,8 @@
     <?php
         if(!isset($_SESSION['access_token']) && !isset($_SESSION['imagenUsu']))
         {
-        echo '<a class="btn btn-login py-2 px-3 d-md-none" href="login.php"><i class="fa fa-user"></i></a>';
+        echo '<a class="btn btn-login py-2 px-3 d-md-none" href="login.php"><i class="fa fa-user"></i><span
+        hidden class=”sr-only”>Login</span></a>';
         }else{
             if  ($login_button == '')
             {
@@ -103,8 +104,8 @@
                     </li>
                 </ul>
             </li>-->
-            <li class="nav-item dropdown pr-3"> 
-                <a href=""  class="nav-link dropdown-toggle colorLetra" id="dropdown06" data-toggle="dropdown">MAPAS</a>
+            <li class="nav-item dropdown pr-3">
+                <a href="" class="nav-link dropdown-toggle colorLetra" id="dropdown06" data-toggle="dropdown">MAPAS</a>
                 <ul class="dropdown-menu backgroundcolor" aria-labelledby="dropdown06">
                     <a href="../precipitacion.php?a=precipitation_new" class="dropdown-item">PRECIPITACIONES</a>
                     <a href="../temperaturas.php?a=temp_new" class="dropdown-item">TEMPERATURAS</a>
@@ -113,23 +114,24 @@
                     <a href="../viento.php?a=wind_new" class="dropdown-item">VIENTO</a>
                 </ul>
             </li>
-            <li class="nav-item dropdown pr-3"> 
-                <a href=""  class="nav-link dropdown-toggle colorLetra" id="dropdown06" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><label>MULTIMEDIA</label></a>
+            <li class="nav-item dropdown pr-3">
+                <a href="" class="nav-link dropdown-toggle colorLetra" id="dropdown06" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false"><label>MULTIMEDIA</label></a>
                 <ul class="dropdown-menu backgroundcolor" aria-labelledby="dropdown06">
                     <a href="../nubes.php" class="dropdown-item">NUBES Y CIELOS</a>
                     <a href="../paisajes.php" class="dropdown-item">PAISAJES</a>
                     <a href="../videos.php" class="dropdown-item">VIDEOS</a>
                 </ul>
             </li>
-            <li class="nav-item dropdown pr-3"> 
+            <!--<li class="nav-item dropdown pr-3"> 
                 <a href=""  class="nav-link dropdown-toggle colorLetra" id="dropdown06" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><label>AVISOS</label></a>
                 <ul class="dropdown-menu backgroundcolor" aria-labelledby="dropdown06">
                     <a href="../avisosNacionales.php" class="dropdown-item">NACIONALES</a>
                     <a href="../avisosccaa.php" class="dropdown-item">CCAA</a>
                     <a href="../avisosPrecipitacion.php" class="dropdown-item">PRECIPITACIÓN</a>
                 </ul>
-            </li>
-            <li class="nav-item dropdown pr-3"> 
+            </li>-->
+            <li class="nav-item dropdown pr-3">
                 <a href="" class="nav-link dropdown-toggle colorLetra"><label>NOTICIAS</label></a>
                 <ul class="dropdown-menu backgroundcolor" aria-labelledby="dropdown06">
                     <a href="../noticiasNacionales.php" class="dropdown-item">NACIONALES</a>
@@ -159,10 +161,11 @@
                 <form class="form-inline" action="tiempoCiudad.php" method="post">
                     <div class="input-group mb-3">
                         <label for="buscarCiudad2"><span hidden class=”sr-only”>Buscar Ciudad</span></label>
-                        <input class="form-control m-6" type="text" placeholder="Buscar" id="buscarCiudad2" name="buscarCiudad">
+                        <input class="form-control m-6" type="text" placeholder="Buscar" id="buscarCiudad2"
+                            name="buscarCiudad">
                         <div class="input-group-append">
-                            <button class="btn btn-login" type="submit" name="buscar"><i
-                                    class="fas fa-search"></i><span hidden class=”sr-only”>Buscar</span></button>
+                            <button class="btn btn-login" type="submit" name="buscar"><i class="fas fa-search"></i><span
+                                    hidden class=”sr-only”>Buscar</span></button>
                         </div>
                     </div>
                 </form>
