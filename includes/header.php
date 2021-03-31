@@ -10,17 +10,21 @@
 
             <form class="form-inline" action="tiempoCiudad.php" method="post">
                 <p class="m-2 avisoCiudad">
-                    <?php 
+                    <?php  
                     if(isset($_COOKIE["busquedaCiudad"])){
                     echo "¡".$_COOKIE["busquedaCiudad"]."!";
                     setcookie("busquedaCiudad", "", time() - 3600);
                 }
                 
                 ?></p>
+                
+                <p id="descripciones" class="mt-2">Introdúzca un municipio</p>
                 <label for="buscarCiudad"><span hidden class=”sr-only”>Buscar Ciudad</span></label>
                 <input class="form-control m-2" id="buscarCiudad" name="buscarCiudad" type="text" placeholder="Buscar">
-                <button class="btn btn-login py-2 px-3 mr-2" type="submit" name="buscar"><i class="fas fa-search"><span
-                            hidden class=”sr-only”>Buscar</span></i></button>
+              
+                    <button class="btn btn-login py-2 px-3 mr-2" type="submit" name="buscar"><i class="fas fa-search"><span
+                                hidden class=”sr-only”>Buscar</span></i></button>
+           
                 <?php
                 if(!isset($_SESSION['user_email_address']))
                 {

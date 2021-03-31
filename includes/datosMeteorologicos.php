@@ -133,7 +133,7 @@ $tiempoSalamanca = json_decode($salamanca);
 $segovia=file_get_contents("http://api.openweathermap.org/data/2.5/weather?q=Segovia,es&APPID=ff76fd52c6543a13b16bcbe02ddb9fe3&lang=es&units=metric");
 $tiempoSegovia = json_decode($segovia);
 //
-$soria=file_get_contents("http://api.openweathermap.org/data/2.5/weather?q=Soria,es&APPID=ff76fd52c6543a13b16bcbe02ddb9fe3&lang=es&units=metric");
+$soria=file_get_contents("http://api.openweathermap.org/data/2.5/weather?q=Provincia%20de%20Soria,es&APPID=ff76fd52c6543a13b16bcbe02ddb9fe3&lang=es&units=metric");
 $timepoSoria = json_decode($soria);
 //
 $tarragona=file_get_contents("http://api.openweathermap.org/data/2.5/weather?q=Tarragona,es&APPID=ff76fd52c6543a13b16bcbe02ddb9fe3&lang=es&units=metric");
