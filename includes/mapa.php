@@ -212,6 +212,7 @@
                                  <h3><a href="/soria-province.html">Soria</a></h3>
                                  <img src="http://openweathermap.org/img/wn/<?php echo $tiempoSoria->weather[0]->icon; ?>@2x.png" class="meteoIcono" alt="alt" /></span>
                               </li>
+                              
                               <li data-temp="tmpr" class="espana-tarragona-provincia">
                                  <h3><a href="/tarragona-province.html">Tarragona</a></h3>
                                  <img src="http://openweathermap.org/img/wn/<?php echo $tiempoTarragona->weather[0]->icon; ?>@2x.png" class="meteoIcono" alt="alt" /></span>
