@@ -3323,18 +3323,6 @@ cursor:pointer
 #ListadosMapasV4 ul li {
     margin: 0 20px 5px
 }
-.espana-asturias {
-    left: 184px;
-    top: 57px
-}
-.espana-girona-provincia {
-    left: 551px;
-    top: 116px
-}
-.espana-valladolid-provincia {
-    left: 231px;
-    top: 153px
-}
 @media screen and (max-width:450px) {
     #MapaAdmin dd.tmp {
         position: absolute;
@@ -3354,10 +3342,6 @@ cursor:pointer
     }
     
     .espana-leon-provincia {
-        visibility: hidden
-    }
-    
-    .espana-vizcaya {
         visibility: hidden
     }
     
@@ -3689,10 +3673,6 @@ cursor:pointer
 .asturias-san-martin-de-oscos {
     left: 71px;
     top: 143px
-}
-.asturias-oviedo {
-    left: 314px;
-    top: 120px
 }
 .asturias-llanes {
     left: 538px;
@@ -6381,26 +6361,31 @@ cursor:pointer
         top: 140px
     }
     
+    .espana-asturias {
+        left: 120px;
+        top: 40px
+    }
+    
     .espana-burgos-provincia {
-        left: 276px;
-        top: 118px
+        left: 175px;
+        top: 80px;
     }
     
     .espana-cantabria {
-        left: 266px;
-        top: 61px
+        left: 160px;
+        top: 40px;
     }
     
     .espana-castellon {
-        left: 428px;
-        top: 230px
+        left: 270px;
+        top: 150px
     }
     
     .espana-girona-provincia {
-        left: 551px;
-        top: 116px
+        left: 350px;
+        top: 90px
     }
-    
+    /**
     .espana-guadalajara-provincia {
         left: 311px;
         top: 192px
@@ -6471,10 +6456,13 @@ cursor:pointer
         top: 435px
     }
     
+    **/
+    
     .espana-salamanca-provincia {
         left: 120px;
         top: 130px
     }
+    /**
     
     .espana-segovia-provincia {
         left: 262px;
@@ -6495,30 +6483,31 @@ cursor:pointer
         left: 380px;
         top: 212px
     }
+    **/
     
     .espana-valladolid-provincia {
-        left: 231px;
-        top: 153px
+        left: 145px;
+        top: 100px;
     }
     
     .espana-zamora-provincia {
-        left: 196px;
-        top: 149px
+        left: 120px;
+        top: 100px;
     }
     
     .espana-zaragoza-provincia {
-        left: 379px;
-        top: 154px
+        left: 240px;
+        top: 100px;
     }
     
     .espana-ceuta {
-        left: 214px;
-        top: 446px
+        left: 130px;
+        top: 305px
     }
     
     .espana-melilla {
-        left: 308px;
-        top: 471px
+        left: 200px;
+        top: 320px
     }
 }
 @media (min-width: 768px) {
@@ -6653,8 +6642,8 @@ cursor:pointer
     }
     
     .espana-girona-provincia {
-        left: 551px;
-        top: 116px
+        left: 540px;
+        top: 130px
     }
     
     .espana-guadalajara-provincia {
@@ -6776,4 +6765,11 @@ cursor:pointer
         left: 308px;
         top: 471px
     }
+    
+    .espana-asturias {
+        left: 184px;
+        top: 57px
+    }
+}
+
 }
