@@ -132,7 +132,7 @@
                 </ul>
             </li>-->
             <li class="nav-item dropdown pr-3">
-                <a href="" class="nav-link dropdown-toggle colorLetra"><label>NOTICIAS</label></a>
+                <a class="nav-link dropdown-toggle colorLetra"><label>NOTICIAS</label></a>
                 <ul class="dropdown-menu backgroundcolor" aria-labelledby="dropdown06">
                     <a href="../noticiasNacionales.php" class="dropdown-item">NACIONALES</a>
                     <a href="../noticiasProvinciales.php" class="dropdown-item">PROVINCIALES</a>
