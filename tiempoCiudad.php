@@ -4,8 +4,9 @@ error_reporting(0);
 if (isset($_POST['buscarCiudad'])) {
     $server = file_get_contents("http://api.openweathermap.org/data/2.5/weather?q=" . $_POST['buscarCiudad'] . ",es&APPID=a19283761f3113b225b7189fb712ca3e&lang=es&units=metric");
 } else {
-    $a = $_GET['a'];
-    $server = file_get_contents("http://api.openweathermap.org/data/2.5/weather?q=" . $a = $_GET['a'] . ",es&APPID=a19283761f3113b225b7189fb712ca3e&lang=es&units=metric");
+    
+    $server = file_get_contents("http://api.openweathermap.org/data/2.5/weather?q=" . $_GET['buscarCiudad'] . ",es&APPID=a19283761f3113b225b7189fb712ca3e&lang=es&units=metric");
+    
 }
 if ($server != null) {
     $tiempo = json_decode($server);
@@ -43,8 +44,8 @@ $varDaily = $prevision->daily;
                         <p class="ml-2 mt-2 text-center" id="descripciones">El tiempo en</p>
                         <p>
                         <h2 class="card-title ml-1 text-center titulosPrincipalCiudad font-weight-bold">
-                            <?php if (isset($a)) {
-                                    echo $a = $_GET['a'];
+                            <?php if (!(isset($_POST['buscarCiudad']))) {
+                                    echo $_GET['buscarCiudad'];
                                 } else {
                                     echo $_POST['buscarCiudad'];
                                 }
