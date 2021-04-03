@@ -3337,14 +3337,6 @@ cursor:pointer
     }
 }
 @media screen and (max-width:400px) {
-    .espana-tenerife {
-        visibility: hidden
-    }
-    
-    .espana-leon-provincia {
-        visibility: hidden
-    }
-    
     .TitleMapa .hlit {
         display: none
     }
@@ -6385,105 +6377,101 @@ cursor:pointer
         left: 350px;
         top: 90px
     }
-    /**
+    
     .espana-guadalajara-provincia {
-        left: 311px;
-        top: 192px
+        left: 200px;
+        top: 130px
     }
     
     .espana-guipuzcoa {
-        left: 344px;
-        top: 66px
+        left: 218px;
+        top: 45px
     }
     
     .espana-huesca-provincia {
-        left: 409px;
-        top: 125px
+        left: 263px;
+        top: 80px;
     }
     
     .espana-islas-baleares {
-        left: 526px;
-        top: 256px
+        left: 340px;
+        top: 170px
     }
     
     .espana-la-rioja {
-        left: 319px;
-        top: 118px
+        left: 205px;
+        top: 80px;
     }
     
     .espana-las-palmas {
-        left: 530px;
-        top: 449px
+        left: 340px;
+        top: 310px
     }
     
     .espana-leon-provincia {
-        left: 189px;
-        top: 100px
+        left: 120px;
+        top: 70px;
     }
     
     .espana-lleida-provincia {
-        left: 450px;
-        top: 149px
+        left: 295px;
+        top: 90px;
     }
     
     .espana-lugo-provincia {
-        left: 120px;
-        top: 85px
+        left: 80px;
+        top: 60px
     }
     
     .espana-navarra {
-        left: 355px;
-        top: 96px
+        left: 230px;
+        top: 65px;
     }
     
     .espana-ourense-provincia {
-        left: 111px;
-        top: 119px
+        left: 80px;
+        top: 80px
     }
     
     .espana-palencia-provincia {
-        left: 239px;
-        top: 121px
+        left: 150px;
+        top: 80px;
     }
     
     .espana-pontevedra-provincia {
-        left: 80px;
-        top: 112px
+        left: 50px;
+        top: 80px;
     }
     
     .espana-tenerife {
-        left: 494px;
-        top: 435px
+        left: 310px;
+        top: 300px
     }
-    
-    **/
     
     .espana-salamanca-provincia {
         left: 120px;
         top: 130px
     }
-    /**
     
     .espana-segovia-provincia {
-        left: 262px;
-        top: 179px
+        left: 165px;
+        top: 120px;
     }
     
     .espana-soria-provincia {
-        left: 322px;
-        top: 156px
+        left: 205px;
+        top: 100px;
     }
     
     .espana-tarragona-provincia {
-        left: 460px;
-        top: 186px
+        left: 295px;
+        top: 120px;
     }
     
     .espana-teruel-provincia {
-        left: 380px;
-        top: 212px
+        left: 245px;
+        top: 135px;
     }
-    **/
     
     .espana-valladolid-provincia {
         left: 145px;
