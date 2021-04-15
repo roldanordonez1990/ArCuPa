@@ -21,7 +21,9 @@
             <!-- Swiper -->
             <div class="swiper-container ">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide"><img src="../media/images/cielo1.jpg" / alt="bonitas vistas desde la sierra"></div>
+
+                    <div class="swiper-slide"><img src="../media/images/borregos.jpg"  alt="bonitas vistas desde la sierra"></div>
+                    <div class="swiper-slide"><img src="../media/images/cielo1.jpg"  alt="bonitas vistas desde la sierra"></div>
                     <div class="swiper-slide"><img src="../media/images/ireland.jpg" alt="sendero por la naturaleza" /></div>
                     <div class="swiper-slide"><img src="../media/images/lightning.jpg" alt="tremendo impacto de trueno" /></div>
                     <div class="swiper-slide"><img src="../media/images/clouds-2.jpg" alt="vistas desde las alturas" /></div>
