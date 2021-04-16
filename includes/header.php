@@ -18,7 +18,7 @@
                 
                 ?></p>
                 
-                <p id="descripciones" class="mt-2">Introdúzca un municipio</p>
+                <p id="descripciones" class="mt-3">Introduzca un municipio</p>
                 <label for="buscarCiudad"><span hidden class=”sr-only”>Buscar Ciudad</span></label>
                 <input class="form-control m-2" id="buscarCiudad" name="buscarCiudad" type="text" placeholder="Buscar">
               
