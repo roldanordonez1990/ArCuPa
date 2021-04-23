@@ -5,7 +5,7 @@ if (isset($_POST['buscarCiudad'])) {
     $server = file_get_contents("http://api.openweathermap.org/data/2.5/weather?q=" . $_POST['buscarCiudad'] . ",es&APPID=a19283761f3113b225b7189fb712ca3e&lang=es&units=metric");
 } else {
     
-    $server = file_get_contents("http://api.openweathermap.org/data/2.5/weather?q=" . $_GET['buscarCiudad'] . ",es&APPID=a19283761f3113b225b7189fb712ca3e&lang=es&units=metric");
+    $server = file_get_contents("http://api.openweathermap.org/data/2.5/weather?q=" . $_GET['a'] . ",es&APPID=a19283761f3113b225b7189fb712ca3e&lang=es&units=metric");
     
 }
 if ($server != null) {
