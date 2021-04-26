@@ -45,7 +45,7 @@ $varDaily = $prevision->daily;
                         <p>
                         <h2 class="card-title ml-1 text-center titulosPrincipalCiudad font-weight-bold">
                             <?php if (!(isset($_POST['buscarCiudad']))) {
-                                    echo $_GET['buscarCiudad'];
+                                    echo $_GET['a'];
                                 } else {
                                     echo $_POST['buscarCiudad'];
                                 }
